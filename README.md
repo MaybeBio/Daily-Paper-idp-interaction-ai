@@ -1,34 +1,39 @@
-# idp-interaction-ai — 无序蛋白互作（AI×模拟）（Intrinsically Disordered Protein Interactions）
+# idp-interaction-ai — 无序蛋白互作 × AI
 
-无序蛋白/无序区（IDP/IDR）介导的蛋白质互作，含相分离/凝聚体；方法限定为深度学习、分子动力学、对接。
+无序蛋白/无序区（IDP/IDR）介导的蛋白质互作，含相分离与凝聚体；方法限定为深度学习、分子动力学与对接。
 
-每周自动从 PubMed / arXiv / bioRxiv / medRxiv / chemRxiv 抓取本课题最新文献**元数据**，commit+push 回本仓库，并开一条 Issue 表格提醒。你在本地用 Zotero 按 `_ids.txt` 批量导入阅读筛选。
+每周从 PubMed / arXiv / bioRxiv / medRxiv / chemRxiv 抓取最新文献元数据，提交并推送回本仓库，同时创建一条 Issue 汇总。本地用 Zotero 按 `_ids.txt` 批量导入筛选。
 
-## 本仓库结构
+## 仓库结构
 
-- `monitor.py` — 独立脚本：读 `config.yaml`，对每个平台跑检索，规范化后落盘 CSV + `_ids.txt`，并生成 Issue 正文。
-- `config.yaml` — 本课题检索配置（课题短名 / 时间窗口 / 每平台一条布尔检索式；PubMed 邮箱和 API key 走环境变量，不写进文件）。
-- `.github/workflows/monitor.yml` — 每周一 09:23 UTC 自动运行 + `workflow_dispatch` 手动触发；`pip install pyPaperFlow` 后跑脚本 → commit+push → 有结果时开 Issue。
-
-> 平台 query 语法与调优历史见母仓 `docs/topics-catalog.md` 与该课题 `topics/idp-interaction-ai/test-notes.md`。
+- `monitor.py` — 读取 `config.yaml`，逐平台检索，规范化后写入 `Discovery/`（合并 CSV + `_ids.txt`）与 `Archive/`（逐篇元数据 JSON），并生成 Issue 正文与标题。
+- `config.yaml` — 检索配置：课题短名、时间窗口、每平台一条布尔检索式。PubMed 邮箱与 API key 通过环境变量注入，不写入文件。
+- `.github/workflows/monitor.yml` — 每周一 09:23 UTC 自动运行，支持 `workflow_dispatch` 手动触发。
 
 ## 产出
 
 ```
-pubmed/{year}/{month}/idp-interaction-ai_{date}.csv      # 固定 10 列元数据
-pubmed/{year}/{month}/idp-interaction-ai_{date}_ids.txt  # 每行一个标识符，供 Zotero「按标识符添加」
-arxiv/  biorxiv/  medrxiv/  chemrxiv/ ...   # 各平台同构
+Archive/                                # 逐篇完整元数据 JSON，只增不删，按发表年月归档
+  {source}/{year}/{month}/{id}/{id}.json
+Discovery/                              # 每次运行一份合并 CSV 与 _ids.txt，按抓取日归档
+  {year}/{month}/idp-interaction-ai_{date}.csv
+  {year}/{month}/idp-interaction-ai_{date}_ids.txt
 ```
 
-- 每平台独立、原样落盘：**不做跨平台去重、不判新增**——重复与否留给 Zotero 处理。
-- 某平台当周无命中 → 仍写仅表头 CSV（快照存在）；arXiv 0 命中由 pre-flight 守卫写空 CSV。
+`source` 取值为 `pubmed`、`arxiv`、`biorxiv`、`medrxiv`、`chemrxiv`。
 
-## 配置密钥（PubMed）
+CSV 共 9 列：`source, id, doi, title, authors, journal, published_date, url, abstract`。`id` 为各平台主键（PubMed 为 PMID，预印本为 DOI），`doi` 为跨平台规范标识，`published_date` 统一为 ISO 日期（PubMed 的 DP 字段归一为 `YYYY-MM-DD`）。
 
-PubMed 需要邮箱和可选的 NCBI API key，**不能写进 git**，改用环境变量注入：
+`_ids.txt` 每行一个标识符，带类型前缀（`pmid:xxx`、`arXiv:xxx`，DOI 裸写），供 Zotero「按标识符添加」批量导入。
 
-- 本地：`export ENTREZ_EMAIL=you@example.com`（可选 `export NCBI_API_KEY=...`）
-- GitHub Actions：仓库 **Settings → Secrets and variables → Actions → New repository secret**，添加 `ENTREZ_EMAIL`（必填）与 `NCBI_API_KEY`（可选）两个 secret。
+不做跨平台去重，也不判定是否已入库；重复与筛选由 Zotero 处理。当周无命中时，CSV 仅含表头。
+
+## 密钥（PubMed）
+
+PubMed 检索需要邮箱（必填）与 NCBI API key（可选），通过环境变量注入，不写入仓库：
+
+- 本地：`export ENTREZ_EMAIL=you@example.com`，可选 `export NCBI_API_KEY=...`
+- GitHub Actions：仓库 Settings → Secrets and variables → Actions → New repository secret，添加 `ENTREZ_EMAIL` 与 `NCBI_API_KEY` 两个 secret。
 
 ## 本地运行
 
@@ -38,4 +43,6 @@ export ENTREZ_EMAIL=you@example.com
 python monitor.py --config config.yaml --out-dir . --issue-body /tmp/issue.md
 ```
 
-改时间窗口：`--window-days 1`（或改 `config.yaml` 的 `window_days`）。
+调整时间窗口：`--window-days 1`，或修改 `config.yaml` 中的 `window_days`。
+
+平台 query 语法与调优记录见母仓 `docs/topics-catalog.md` 与本课题 `topics/idp-interaction-ai/test-notes.md`。
