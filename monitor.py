@@ -34,6 +34,9 @@ from pyPaperFlow.preprint.biorxiv_fetcher import BioRxivFetcher
 from pyPaperFlow.preprint.chemrxiv_fetcher import ChemRxivFetcher
 from pyPaperFlow.pubmed.pubmed_fetcher import PubmedFetcher
 
+import fulltext
+import agent
+
 COLUMNS = ["source", "id", "doi", "title", "authors", "journal", "published_date", "url", "abstract"]
 PLATFORMS = ["pubmed", "biorxiv", "arxiv", "chemrxiv", "medrxiv"]
 
@@ -291,11 +294,96 @@ def _short_authors(authors_str, limit=3):
     return "; ".join(parts[:limit]) + "; et al."
 
 
+def _analysis_for(row, analyses):
+    key = (row["source"], row["id"])
+    a = analyses.get(key) or {}
+    return {
+        "score": a.get("score"),
+        "one_liner_zh": a.get("one_liner_zh", ""),
+        "paper_page_path": a.get("paper_page_path", ""),
+    }
+
+
+def run_agent_pipeline(row, cfg, out_dir):
+    """Fetch full text, run score + card + reviewer, write per-paper artifacts.
+
+    Returns the analysis.json dict, or None if the paper was skipped/failed.
+    Never raises: the caller treats a None as "skip this paper".
+    """
+    try:
+        source = row["source"]
+        rec_id = row["id"]
+        doi = row.get("doi") or ""
+        abstract = row.get("abstract") or ""
+
+        ft = fulltext.get_fulltext(source, rec_id, doi, abstract, cfg)
+        sid = _safe_id(rec_id)
+        year, month = _year_month(row["published_date"])
+        paper_dir = os.path.join(out_dir, "Archive", source, year, month, sid)
+        os.makedirs(paper_dir, exist_ok=True)
+
+        fulltext_path = os.path.join(paper_dir, "fulltext.md")
+        with open(fulltext_path, "w", encoding="utf-8") as f:
+            f.write(ft["text"] or "")
+
+        client = agent.make_client()
+        model = agent.model_name()
+        meta = {
+            "title": row.get("title") or "",
+            "authors": row.get("authors") or "",
+            "journal": row.get("journal") or "",
+            "published_date": row.get("published_date") or "",
+            "doi": doi,
+            "id": rec_id,
+            "url": row.get("url") or "",
+        }
+
+        score = agent.score_paper(client, model, meta["title"], abstract)
+
+        llm_cfg = cfg.get("llm") or {}
+        card_path, review_path = "", ""
+        if llm_cfg.get("enable_card", True):
+            card = agent.build_paper_card(client, model, ft["text"], meta)
+            card_path = os.path.join(paper_dir, "paper-card.md")
+            with open(card_path, "w", encoding="utf-8") as f:
+                f.write(card)
+        if llm_cfg.get("enable_reviewer", True):
+            review = agent.build_review(client, model, ft["text"], meta)
+            review_path = os.path.join(paper_dir, "review.md")
+            with open(review_path, "w", encoding="utf-8") as f:
+                f.write(review)
+
+        analysis = {
+            "source": source,
+            "id": rec_id,
+            "title": meta["title"],
+            "authors": meta["authors"],
+            "published_date": meta["published_date"],
+            "score": score["score"],
+            "one_liner_zh": score["one_liner_zh"],
+            "has_fulltext": ft["has_fulltext"],
+            "fulltext_source": ft["fulltext_source"],
+            "fulltext_path": "fulltext.md",
+            "paper_card_path": "paper-card.md" if card_path else "",
+            "review_path": "review.md" if review_path else "",
+            "url": meta["url"],
+            "source_url": meta["url"],
+            "paper_page_path": f"papers/{source}/{sid}/index.html",
+        }
+        with open(os.path.join(paper_dir, "analysis.json"), "w", encoding="utf-8") as f:
+            json.dump(analysis, f, ensure_ascii=False, indent=2)
+        return analysis
+    except Exception as e:
+        print(f"[agent] {row.get('source')}/{row.get('id')} FAILED: {e}", file=sys.stderr)
+        return None
+
+
 def issue_title(start, end, total):
     return f"📅 {start} ~ {end} 本周文献推送（{total} 篇）"
 
 
-def build_issue(rows_by_platform, start, end):
+def build_issue(rows_by_platform, start, end, analyses=None):
+    analyses = analyses or {}
     total = sum(len(v) for v in rows_by_platform.values())
     if total == 0:
         return ""
@@ -307,13 +395,21 @@ def build_issue(rows_by_platform, start, end):
         rows = sorted(rows, key=lambda r: (r["published_date"] or "")[:10])
         lines.append(f"## {platform}（{len(rows)}）")
         lines.append("")
-        lines.append("| 标题 | 作者 | 日期 |")
-        lines.append("|---|---|---|")
+        lines.append("| 标题 | 作者 | 日期 | 评分 | 一句话 | 链接 |")
+        lines.append("|---|---|---|---|---|---|")
         for r in rows:
             title = (r["title"] or "untitled").replace("|", "\\|").replace("\n", " ")
             url = r["url"] or ""
             cell = f"[{title}]({url})" if url else title
-            lines.append(f"| {cell} | {_short_authors(r['authors'])} | {(r['published_date'] or '')[:10]} |")
+            a = _analysis_for(r, analyses)
+            score = a["score"] if a["score"] is not None else "-"
+            one_liner = (a["one_liner_zh"] or "").replace("|", "\\|").replace("\n", " ")
+            page = a["paper_page_path"]
+            link = f"[解析]({page})" if page else "-"
+            lines.append(
+                f"| {cell} | {_short_authors(r['authors'])} | {(r['published_date'] or '')[:10]} "
+                f"| {score} | {one_liner} | {link} |"
+            )
         lines.append("")
     return "\n".join(lines)
 
@@ -351,13 +447,21 @@ def main():
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 
+    analyses = {}
+    llm_enabled = bool(cfg.get("llm"))
+    if llm_enabled:
+        for row in all_rows:
+            analysis = run_agent_pipeline(row, cfg, args.out_dir)
+            if analysis is not None:
+                analyses[(row["source"], row["id"])] = analysis
+
     csv_path, ids_path, n = write_discovery(args.out_dir, topic, run_date, all_rows)
     print(f"[total] {n} records -> {csv_path} + {ids_path}")
 
     total = sum(len(v) for v in rows_by_platform.values())
     if args.issue_body:
         with open(args.issue_body, "w", encoding="utf-8") as f:
-            f.write(build_issue(rows_by_platform, start, end))
+            f.write(build_issue(rows_by_platform, start, end, analyses))
     if args.issue_title and total > 0:
         with open(args.issue_title, "w", encoding="utf-8") as f:
             f.write(issue_title(start, end, total) + "\n")
