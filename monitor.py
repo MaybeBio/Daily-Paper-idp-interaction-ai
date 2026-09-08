@@ -96,6 +96,11 @@ def _iso_date(value):
     if m:
         return m.group(0)
 
+    # Entrez Date 格式 "2026/09/06 05:40" → 只取日期部分
+    m = re.match(r"^(\d{4})/(\d{2})/(\d{2})", s)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+
     m = re.match(r"^(\d{4})\s+([A-Za-z]{3})(?:\s+(\d{1,2}))?", s)
     if m:
         year, mon, day = m.group(1), m.group(2).title(), m.group(3)
@@ -149,7 +154,7 @@ def normalize_pubmed(paper):
         "title": paper.identity.title or "",
         "authors": "; ".join(_as_list(paper.contributors.medline.get("full_names"))),
         "journal": journal or "",
-        "published_date": _iso_date(paper.source.pub_date),
+        "published_date": _iso_date(paper.metadata.entrez_date),
         "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/" if pmid else "",
         "abstract": paper.content.abstract or "",
     }
@@ -184,7 +189,7 @@ def fetch_platform(platform, cfg, start, end, root_dir):
         if not email:
             raise ValueError("ENTREZ_EMAIL env var is required for the pubmed platform")
         api_key = os.environ.get("NCBI_API_KEY") or ""
-        dated = f'({query}) AND ("{start.replace("-", "/")}"[dp] : "{end.replace("-", "/")}"[dp])'
+        dated = f'({query}) AND ("{start.replace("-", "/")}"[edat] : "{end.replace("-", "/")}"[edat])'
         fetcher = PubmedFetcher(root_dir=root_dir, entrez_email=email, api_key=api_key)
         meta = fetcher.query_search(dated)
         if meta.get("count", 0) == 0 or "webenv" not in meta:
@@ -198,7 +203,7 @@ def fetch_platform(platform, cfg, start, end, root_dir):
             {
                 "source": "pubmed",
                 "id": p.identity.pmid or "",
-                "published_date": _iso_date(p.source.pub_date),
+                "published_date": _iso_date(p.metadata.entrez_date),
                 "data": p.to_dict(),
             }
             for p in papers
@@ -299,6 +304,7 @@ def build_issue(rows_by_platform, start, end):
         rows = rows_by_platform.get(platform)
         if not rows:
             continue
+        rows = sorted(rows, key=lambda r: (r["published_date"] or "")[:10])
         lines.append(f"## {platform}（{len(rows)}）")
         lines.append("")
         lines.append("| 标题 | 作者 | 日期 |")
