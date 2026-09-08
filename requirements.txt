@@ -1,1 +1,7 @@
-pyPaperFlow==0.5.1
+pyPaperFlow @ git+https://github.com/MaybeBio/pyPaperFlow.git@v0.6.0
+pandas
+PyYAML
+httpx
+openai
+jinja2
+markdown

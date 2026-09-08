@@ -2,7 +2,7 @@ name: literature-monitor
 
 on:
   schedule:
-    - cron: "23 9 * * 1"   # 每周一 09:23 UTC（避免整点拥挤）
+    - cron: "23 9 * * 1"
   workflow_dispatch: {}
 
 permissions:
@@ -17,11 +17,17 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.13"
-      - run: pip install pyPaperFlow
-      - run: python monitor.py --config config.yaml --out-dir . --issue-body /tmp/issue.md --issue-title /tmp/issue.title
+      - run: pip install -r requirements.txt
+      - name: monitor + agent + site
+        run: |
+          python monitor.py --config config.yaml --out-dir . --issue-body /tmp/issue.md --issue-title /tmp/issue.title
+          python build_site.py --out-dir .
         env:
           ENTREZ_EMAIL: ${{ secrets.ENTREZ_EMAIL }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
       - name: commit and push
         run: |
           git config user.name "github-actions[bot]"
