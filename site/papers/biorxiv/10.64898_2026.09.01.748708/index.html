@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beyond Equilibrium Ensembles: Time Rescaling in Coarse-Grained Simulations across Single-Molecule and Condensate Regimes · idp-interaction-ai</title>
+  <link rel="stylesheet" href="/Daily-Paper-idp-interaction-ai/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/Daily-Paper-idp-interaction-ai/">idp-interaction-ai</a>
+    <nav>
+      <a href="/Daily-Paper-idp-interaction-ai/">本周</a>
+      <a href="/Daily-Paper-idp-interaction-ai/archive.html">归档</a>
+    </nav>
+  </header>
+  <main>
+<article class="paper">
+  <div class="paper-head">
+    <span class="score">8</span>
+    <div>
+      <h1>Beyond Equilibrium Ensembles: Time Rescaling in Coarse-Grained Simulations across Single-Molecule and Condensate Regimes</h1>
+      <div class="meta">Gopi S; Qin H; Best RB; Schuler B</div>
+      <div class="meta muted">biorxiv · 2026-09-02
+         · 仅摘要
+         · <a href="https://www.biorxiv.org/content/10.64898/2026.09.01.748708">原文</a>
+      </div>
+      <p class="one-liner">该文使用残基层级粗粒化模拟研究无序蛋白prothymosin α与阳离子伴侣形成的凝聚体，结合平衡与非平衡动力学，并引入时间重标因子分析蛋白-蛋白相互作用对摩擦效应的影响，核心涉及无序蛋白、相分离与计算方法，高度相关。</p>
+    </div>
+  </div>
+  <section>
+    <h2>Paper Card</h2>
+    <div class="md"><h2>01 基本信息</h2>
+<ul>
+<li><strong>标题</strong>：Beyond Equilibrium Ensembles: Time Rescaling in Coarse-Grained Simulations across Single-Molecule and Condensate Regimes</li>
+<li><strong>作者与单位</strong>：Gopi S; Qin H; Best RB; Schuler B（单位未提供）</li>
+<li><strong>期刊/预印本平台</strong>：bioRxiv</li>
+<li><strong>年份</strong>：2026-09-02</li>
+<li><strong>论文类型</strong>：预印本（研究论文）</li>
+<li><strong>领域</strong>：计算生物物理学、无序蛋白、相分离、粗粒化模拟</li>
+<li><strong>关键词</strong>：coarse-grained simulations, biomolecular condensates, time rescaling, intrinsically disordered proteins, complex coacervates, prothymosin α</li>
+<li><strong>DOI/arXiv 号</strong>：10.64898/2026.09.01.748708</li>
+<li><strong>代码</strong>：未提供</li>
+<li><strong>数据</strong>：未提供</li>
+<li><strong>阅读日期</strong>：未提供</li>
+<li><strong>在「无序蛋白/相分离 × 蛋白互作 × AI 方法」方向中的位置</strong>：本文聚焦于粗粒化模拟中动力学时间尺度的校准问题，属于「无序蛋白相分离的模拟方法」子方向，与AI方法无直接关联，但为AI驱动的力场或时间尺度预测提供了物理约束和校准需求。</li>
+</ul>
+<h2>02 一句话总结</h2>
+<p>本文通过对比实验与粗粒化模拟，发现残基级粗粒化模型能复现复杂凝聚层的平衡性质，但动力学加速需依赖组成特异性的时间重缩放因子，且该因子在稀相/浓相或不同凝聚层组成间不可转移，其大小与蛋白-蛋白相互作用能强相关，暗示缺失的摩擦效应源于蛋白间相互作用而非仅蛋白-溶剂相互作用。</p>
+<h2>03 研究问题</h2>
+<ul>
+<li><strong>具体问题</strong>：残基级粗粒化模拟能否准确复现生物分子凝聚层中分子动力学的相对时间尺度？时间重缩放因子是否具有普适性？</li>
+<li><strong>为什么重要</strong>：粗粒化模拟广泛用于研究相分离，但动力学加速导致时间尺度失真，影响对链弛豫、扩散和材料性质（如粘度、弹性）的定量解释。若时间重缩放不可转移，则需针对每个体系单独校准，限制了模拟的预测能力。</li>
+<li><strong>现有方法为何不足</strong>：现有研究多关注平衡热力学性质（如相图、浓度）的复现，对动力学时间尺度的系统评估不足，且未检验时间重缩放因子在不同相态和组成间的可转移性。</li>
+<li><strong>精确的「Can ... ?」研究问题</strong>：Can a single time-rescaling factor universally correct the dynamics in residue-level coarse-grained simulations across different condensate compositions and between dense and dilute phases?</li>
+</ul>
+<h2>04 背景与发展脉络</h2>
+<ul>
+<li><strong>阶段一：粗粒化模型用于相分离平衡性质</strong>。代表性方法：残基级CG模型（如HPS、CALVADOS）。优点：能复现实验相图、链尺寸等平衡性质。局限：动力学被加速，时间尺度不真实。</li>
+<li><strong>阶段二：动力学校准尝试</strong>。代表性方法：对单分子或均质体系使用单一时间重缩放因子。优点：简单。局限：未检验因子在不同相态或组成间的可转移性。</li>
+<li><strong>本文主张的位置</strong>：本文系统检验了时间重缩放因子在复杂凝聚层（不同阳离子伴侣、不同离子强度、稀相vs浓相）中的可转移性，发现其不可转移，并揭示了与蛋白-蛋白相互作用能的强相关性，提出需结合热力学验证与动力学校准。</li>
+<li><strong>脉络来源</strong>：仅本文框架（基于作者对文献的引用和讨论，未进行外部系统核验）。</li>
+</ul>
+<h2>05 核心痛点</h2>
+<table>
+<thead>
+<tr>
+<th>痛点</th>
+<th>表现</th>
+<th>成因或作者解释</th>
+<th>文中证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>动力学加速不可预测</td>
+<td>粗粒化模拟中链弛豫时间比实验快数个数量级</td>
+<td>粗粒化模型隐式处理溶剂，缺失溶剂摩擦和内部摩擦</td>
+<td>图2、图3显示模拟与实验弛豫时间差异</td>
+</tr>
+<tr>
+<td>时间重缩放因子不可转移</td>
+<td>同一因子不能同时适用于稀相和浓相，或不同凝聚层组成</td>
+<td>缺失的摩擦效应依赖于蛋白-蛋白相互作用，而非仅蛋白-溶剂相互作用</td>
+<td>图4、图5显示不同组成和相态下所需因子不同</td>
+</tr>
+<tr>
+<td>平衡性质复现不保证动力学正确</td>
+<td>即使相图、链尺寸与实验一致，动力学仍可能严重偏离</td>
+<td>平衡性质对力场参数不敏感，而动力学对摩擦效应敏感</td>
+<td>图1显示平衡性质吻合，但图2显示动力学偏离</td>
+</tr>
+<tr>
+<td>时间重缩放依赖于观测变量</td>
+<td>同一体系下，不同观测变量（如链端距弛豫 vs 扩散系数）可能需要不同因子</td>
+<td>不同观测变量对摩擦效应的敏感性不同</td>
+<td>图S5（补充材料）显示不同观测变量的时间重缩放因子不一致</td>
+</tr>
+</tbody>
+</table>
+<h2>06 核心思想</h2>
+<ol>
+<li>
+<p><strong>表面方法</strong>：使用残基级粗粒化模型（基于HPS力场）模拟prothymosin α（ProTα）与四种阳离子伴侣（H1、protamine、polylysine、polyarginine）形成的复杂凝聚层，比较模拟与实验（单分子FRET、FCS等）的链弛豫时间，并引入组成特异性的时间重缩放因子。</p>
+</li>
+<li>
+<p><strong>核心洞察</strong>：粗粒化模拟中缺失的摩擦效应主要源于蛋白-蛋白相互作用（类似内部摩擦），而非仅蛋白-溶剂相互作用。因此，时间重缩放因子与蛋白-蛋白相互作用能强相关，且在不同组成和相态间不可转移。</p>
+</li>
+<li>
+<p><strong>可能的普适教训</strong>：[Analysis] 在粗粒化或多尺度模拟中，仅验证平衡性质（如相图、结构）不足以确保动力学准确性。动力学校准必须针对具体体系、相态和观测变量进行，且校准因子可能具有物理意义（如反映内部摩擦），而非纯经验参数。</p>
+</li>
+</ol>
+<h2>07 方法总览</h2>
+<ul>
+<li><strong>输入</strong>：ProTα序列及四种阳离子伴侣序列（H1、protamine、polylysine、polyarginine）；力场参数（HPS模型，含静电和疏水相互作用）；模拟条件（温度、离子强度）。</li>
+<li><strong>输出</strong>：链弛豫时间（如端距自相关时间）、扩散系数、相图（浓相/稀相浓度）、链尺寸（回转半径）。</li>
+<li><strong>模块</strong>：
+  1. 粗粒化模拟模块：使用Langevin动力学进行共存模拟（coexistence simulations）和单链模拟。
+  2. 平衡性质分析模块：计算相浓度、链尺寸。
+  3. 动力学分析模块：计算链弛豫时间（如端距自相关函数）、扩散系数。
+  4. 时间重缩放模块：将模拟时间乘以一个因子以匹配实验弛豫时间。</li>
+<li><strong>训练</strong>：无监督学习，力场参数来自文献（HPS模型），未进行参数拟合。</li>
+<li><strong>工具</strong>：未提供具体模拟软件（如GROMACS、LAMMPS等）。</li>
+<li><strong>反馈回路</strong>：无显式反馈回路。通过比较模拟与实验的弛豫时间，确定时间重缩放因子。</li>
+<li><strong>假设</strong>：粗粒化模型能正确描述平衡热力学；Langevin动力学中的摩擦系数是均匀的（与位置无关）；时间重缩放因子是标量常数。</li>
+<li><strong>文字流程</strong>：首先，使用HPS力场进行共存模拟，得到平衡相图、链尺寸等，与实验对比验证热力学准确性。然后，对稀相和浓相中的单链进行模拟，计算链弛豫时间。最后，将模拟弛豫时间与实验值（来自单分子FRET或FCS）比较，确定时间重缩放因子，并检验其在不同组成、离子强度和相态间的可转移性。</li>
+</ul>
+<h2>08 核心模块拆解</h2>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>功能</th>
+<th>为何需要</th>
+<th>输入输出</th>
+<th>支撑证据</th>
+<th>移除后的已知或预期影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>共存模拟模块</td>
+<td>模拟相分离过程，得到平衡的浓相和稀相</td>
+<td>获取相浓度、链尺寸等平衡性质，验证模型热力学准确性</td>
+<td>输入：蛋白序列、力场、初始混合构型；输出：平衡相浓度、链尺寸分布</td>
+<td>图1显示模拟与实验的相浓度和链尺寸一致</td>
+<td>无法验证热力学准确性，动力学校准失去基础</td>
+</tr>
+<tr>
+<td>单链动力学模拟模块</td>
+<td>模拟稀相或浓相中单链的构象动力学</td>
+<td>计算链弛豫时间，与实验比较</td>
+<td>输入：单链初始构型、力场、溶剂环境（稀相或浓相）；输出：链端距自相关函数、弛豫时间</td>
+<td>图2、图3显示模拟弛豫时间与实验的差异</td>
+<td>无法进行动力学校准</td>
+</tr>
+<tr>
+<td>时间重缩放分析模块</td>
+<td>确定使模拟弛豫时间匹配实验的标量因子</td>
+<td>量化模拟动力学加速程度，检验因子可转移性</td>
+<td>输入：模拟弛豫时间、实验弛豫时间；输出：时间重缩放因子</td>
+<td>图4、图5显示因子随组成和相态变化</td>
+<td>无法评估动力学校准的必要性和局限性</td>
+</tr>
+<tr>
+<td>相互作用能分析模块</td>
+<td>计算蛋白-蛋白和蛋白-溶剂相互作用能</td>
+<td>探究时间重缩放因子的物理起源</td>
+<td>输入：模拟轨迹；输出：平均相互作用能</td>
+<td>图6显示时间重缩放因子与蛋白-蛋白相互作用能强相关</td>
+<td>无法解释因子不可转移的物理机制</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>区分</strong>：上述模块均为作者实现的分析流程，无消融实验。移除后的影响为[Analysis]预期。</li>
+</ul>
+<h2>09 关键公式符号</h2>
+<p>不适用。本文未提出新公式，时间重缩放因子通过数值拟合确定，无显式解析表达式。</p>
+<h2>10 实验设计与证据链</h2>
+<ul>
+<li><strong>数据集/群体</strong>：ProTα与四种阳离子伴侣（H1、protamine、polylysine、polyarginine）形成的复杂凝聚层，在不同离子强度（0-500 mM NaCl）下。</li>
+<li><strong>规模</strong>：模拟体系大小未明确给出，但为残基级CG模型，链长：ProTα约110残基，伴侣长度不等。</li>
+<li><strong>指标</strong>：链弛豫时间（端距自相关时间）、浓相/稀相浓度、链回转半径、时间重缩放因子。</li>
+<li><strong>基线</strong>：实验数据来自单分子FRET和FCS（作者所在课题组前期工作）。</li>
+<li><strong>预算</strong>：未提供计算资源信息。</li>
+<li><strong>骨干/仪器</strong>：未提供模拟软件和硬件。</li>
+<li><strong>Oracle 输入</strong>：实验弛豫时间作为校准目标。</li>
+<li><strong>评测协议</strong>：比较模拟与实验的弛豫时间，计算时间重缩放因子；检验因子在不同条件下的可转移性。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>实验</th>
+<th>检验的claim</th>
+<th>对比与条件</th>
+<th>结果</th>
+<th>支持的结论</th>
+<th>不支持更强的结论</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>平衡性质验证</td>
+<td>CG模型能复现实验平衡性质</td>
+<td>模拟 vs 实验：相浓度、链尺寸</td>
+<td>模拟与实验一致（图1）</td>
+<td>模型热力学准确</td>
+<td>不能证明动力学准确</td>
+<td>图1</td>
+</tr>
+<tr>
+<td>动力学比较</td>
+<td>模拟动力学加速，需时间重缩放</td>
+<td>模拟 vs 实验：链弛豫时间</td>
+<td>模拟弛豫时间比实验快10-100倍（图2）</td>
+<td>动力学加速存在</td>
+<td>不能确定因子是否普适</td>
+<td>图2</td>
+</tr>
+<tr>
+<td>时间重缩放可转移性（组成间）</td>
+<td>同一因子适用于不同凝聚层</td>
+<td>不同阳离子伴侣的凝聚层</td>
+<td>因子不同（图4）</td>
+<td>因子不可跨组成转移</td>
+<td>不能排除某些条件下可转移</td>
+<td>图4</td>
+</tr>
+<tr>
+<td>时间重缩放可转移性（相态间）</td>
+<td>同一因子适用于稀相和浓相</td>
+<td>稀相 vs 浓相</td>
+<td>因子不同（图5）</td>
+<td>因子不可跨相态转移</td>
+<td>不能排除某些观测变量下可转移</td>
+<td>图5</td>
+</tr>
+<tr>
+<td>因子与相互作用能相关性</td>
+<td>因子与蛋白-蛋白相互作用能相关</td>
+<td>因子 vs 蛋白-蛋白相互作用能</td>
+<td>强相关（图6）</td>
+<td>缺失摩擦源于蛋白-蛋白相互作用</td>
+<td>不能证明因果关系</td>
+<td>图6</td>
+</tr>
+</tbody>
+</table>
+<h2>11 结论正确解读</h2>
+<ul>
+<li><strong>任务范围</strong>：仅针对ProTα与四种阳离子伴侣的复杂凝聚层，使用HPS力场。结论可能不适用于其他IDP、其他力场或非凝聚层体系。</li>
+<li><strong>Oracle/真值输入</strong>：实验弛豫时间来自单分子FRET和FCS，这些方法本身有误差（如染料标记影响、时间分辨率限制）。</li>
+<li><strong>端到端状态</strong>：本文未提出端到端预测模型，而是诊断性分析。时间重缩放因子是后验校准参数，非先验预测。</li>
+<li><strong>算力成本</strong>：未提供，但CG模拟通常比全原子模拟快2-3个数量级。</li>
+<li><strong>历史数据依赖</strong>：依赖前期实验数据（单分子FRET、FCS），这些数据是本文作者所在课题组产生的。</li>
+<li><strong>模型依赖</strong>：结论强烈依赖于HPS力场。其他CG力场（如CALVADOS、Martini）可能表现不同。</li>
+<li><strong>最难情形</strong>：当蛋白-蛋白相互作用强且多变时（如polyarginine vs polylysine），时间重缩放因子差异最大，校准最困难。</li>
+<li><strong>群体/领域边界</strong>：结论限于残基级CG模拟，不适用于全原子MD或隐式溶剂模型。</li>
+<li><strong>不确定性</strong>：时间重缩放因子与相互作用能的相关性为相关性，非因果性。未排除其他因素（如链拓扑、水合作用）的影响。</li>
+<li><strong>有边界的复述</strong>：在ProTα-阳离子伴侣复杂凝聚层体系中，使用HPS力场的残基级CG模拟能复现平衡性质，但动力学加速需组成特异性时间重缩放因子，该因子不可跨组成或相态转移，且与蛋白-蛋白相互作用能强相关，暗示内部摩擦是主要缺失因素。</li>
+</ul>
+<h2>12 作者自认局限</h2>
+<p>在提供的材料中未发现作者明确承认的局限。但作者提及了相关约束（非正式局限）：
+- 时间重缩放因子依赖于所选观测变量（如链端距弛豫 vs 扩散系数），见补充材料图S5。
+- 结论可能依赖于HPS力场，其他力场可能表现不同（隐含在讨论中）。</p>
+<h2>13 批判性分析</h2>
+<table>
+<thead>
+<tr>
+<th>[Analysis] 观察</th>
+<th>潜在问题或替代解释</th>
+<th>为何重要</th>
+<th>如何检验</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>时间重缩放因子与蛋白-蛋白相互作用能强相关</td>
+<td>相关性不等于因果性。可能两者都受第三个因素（如链密度、水活度）影响</td>
+<td>若为伪相关，则提出的物理机制（内部摩擦）不成立</td>
+<td>控制蛋白-蛋白相互作用能（如通过突变或力场修改），观察因子是否随之变化</td>
+<td>图6</td>
+</tr>
+<tr>
+<td>仅使用一种CG力场（HPS）</td>
+<td>结论可能对力场选择敏感。其他力场（如CALVADOS、Martini）可能具有不同的摩擦特性</td>
+<td>若力场依赖性大，则结论的普适性受限</td>
+<td>使用不同CG力场重复实验，比较时间重缩放因子的可转移性</td>
+<td>Methods节</td>
+</tr>
+<tr>
+<td>实验数据来自单分子FRET和FCS</td>
+<td>这些方法测量的是特定标记位点的动力学，可能不代表全局链动力学</td>
+<td>若观测变量依赖性强，则时间重缩放因子可能仅适用于特定观测</td>
+<td>使用其他实验技术（如NMR弛豫、荧光各向异性）测量不同观测量的动力学</td>
+<td>图2、图3</td>
+</tr>
+<tr>
+<td>仅研究ProTα体系</td>
+<td>结论可能不适用于其他IDP或非IDP相分离体系</td>
+<td>限制了结论的领域范围</td>
+<td>在其他相分离体系（如FUS、DDX4）中重复实验</td>
+<td>标题和摘要</td>
+</tr>
+<tr>
+<td>未进行消融实验</td>
+<td>无法区分各因素（如静电、疏水、链长）对时间重缩放因子的贡献</td>
+<td>缺乏对机制的理解</td>
+<td>设计系统突变（如改变电荷分布、疏水残基数量）进行模拟</td>
+<td>无</td>
+</tr>
+</tbody>
+</table>
+<h2>14 学到什么</h2>
+<p><strong>Agent 提炼的知识候选</strong></p>
+<ol>
+<li><strong>概念</strong>：粗粒化模拟中动力学加速的物理起源可能源于缺失的蛋白-蛋白内部摩擦，而非仅蛋白-溶剂摩擦。这提示在开发更准确的CG力场时，需显式或隐式地引入内部摩擦项。</li>
+<li><strong>方法</strong>：系统检验时间重缩放因子可转移性的实验设计（跨组成、跨相态、跨观测变量）可作为动力学校准的通用框架。</li>
+<li><strong>公式</strong>：无新公式，但时间重缩放因子与相互作用能的强相关性提供了一个经验关系，可用于预测未知体系的时间重缩放因子。</li>
+<li><strong>实验设计</strong>：将平衡性质验证与动力学校准分离，先确保热力学正确，再单独处理动力学，是处理多尺度模拟中不同时间尺度问题的有效策略。</li>
+</ol>
+<h2>15 与已有知识连接</h2>
+<ul>
+<li><strong>相似工作</strong>：与先前使用单一时间重缩放因子校准CG模拟的工作（如Best等人2014年JCTC论文）形成对比，本文揭示了该方法的局限性。</li>
+<li><strong>组合方向</strong>：本文的发现可与「内部摩擦」理论（如Soranno等人2012年PNAS论文）结合，为CG模型引入显式内部摩擦项提供物理依据。</li>
+<li><strong>冲突观点</strong>：与一些认为CG模拟动力学可通过简单标度因子统一校准的观点相冲突。</li>
+<li><strong>可迁移领域</strong>：本文的方法论（检验时间重缩放可转移性）可直接迁移到其他粗粒化模型（如Martini、CALVADOS）或非蛋白体系（如RNA、聚合物）的动力学校准中。</li>
+<li><strong>候选方向</strong>：本文未涉及AI方法，但可启发一个AI方向：使用图神经网络预测不同组成和相态下的时间重缩放因子，输入为序列、力场参数和相态信息。</li>
+</ul>
+<h2>16 研究想法</h2>
+<p><strong>Agent 生成的研究候选</strong></p>
+<ol>
+<li>
+<p><strong>名称</strong>：基于图神经网络的时间重缩放因子预测模型
+   - <strong>来源局限/观察</strong>：本文发现时间重缩放因子不可转移，但与其蛋白-蛋白相互作用能强相关。若能预测该因子，则可避免对每个体系进行实验校准。
+   - <strong>核心假设</strong>：时间重缩放因子可由序列、力场参数和局部环境（如密度、离子强度）通过图神经网络准确预测。
+   - <strong>相对本文的增量</strong>：从后验校准到先验预测，提升CG模拟的预测能力。
+   - <strong>初步方法</strong>：使用本文数据（ProTα-伴侣体系）作为训练集，构建图神经网络，输入为残基级图（节点为残基，边为相互作用），输出为时间重缩放因子。特征包括残基类型、电荷、疏水性、局部密度、相互作用能等。
+   - <strong>验证方式</strong>：在未见过的IDP-伴侣体系（如FUS-核酸）中测试预测准确性，并与实验比较。
+   - <strong>可能的失败模式</strong>：特征选择不足，模型过拟合于ProTα体系；时间重缩放因子可能依赖于更微观的动力学细节（如链拓扑），而非仅相互作用能。
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>名称</strong>：引入显式内部摩擦项的粗粒化力场
+   - <strong>来源局限/观察</strong>：本文提出缺失的摩擦源于蛋白-蛋白相互作用（内部摩擦）。现有CG力场（如HPS）使用均匀的Langevin摩擦系数，无法捕捉这种位置和状态依赖的摩擦。
+   - <strong>核心假设</strong>：在CG力场中引入与蛋白-蛋白接触数或相互作用能成正比的额外摩擦项，可消除或减小时间重缩放因子的不可转移性。
+   - <strong>相对本文的增量</strong>：从诊断到修正，直接改进CG力场的动力学准确性。
+   - <strong>初步方法</strong>：修改Langevin动力学中的摩擦系数，使其与每个残基的局部蛋白-蛋白接触数相关（如γ_i = γ_0 + α * N_contact_i）。参数α通过拟合本文数据确定。
+   - <strong>验证方式</strong>：在新体系（如不同IDP或不同力场）中测试，看时间重缩放因子是否更接近1且更可转移。
+   - <strong>可能的失败模式</strong>：内部摩擦的物理起源可能更复杂（如涉及水合层、链缠结），简单线性模型不够；引入额外摩擦可能破坏平衡性质。
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>名称</strong>：多观测变量动力学校准协议
+   - <strong>来源局限/观察</strong>：本文发现时间重缩放因子依赖于所选观测变量（补充图S5）。现有校准通常只针对单一观测（如链端距弛豫）。
+   - <strong>核心假设</strong>：通过同时校准多个观测变量（如链端距弛豫、扩散系数、旋转弛豫），可得到更鲁棒且物理意义更明确的时间重缩放因子。
+   - <strong>相对本文的增量</strong>：提出一个更严格的校准标准，避免单一观测校准的偏差。
+   - <strong>初步方法</strong>：定义多目标损失函数，同时最小化模拟与实验在多个观测变量上的差异，通过优化时间重缩放因子和可能的摩擦参数实现。
+   - <strong>验证方式</strong>：在本文体系中应用该协议，看得到的因子是否比单一观测因子更可转移，且是否与相互作用能的相关性更强。
+   - <strong>可能的失败模式</strong>：不同观测变量对摩擦的敏感性不同，可能无法通过单一标量因子同时校准；多目标优化可能无唯一解。
+   - <strong>创新状态</strong>：unverified</p>
+</li>
+</ol></div>
+  </section>
+  <section>
+    <h2>审稿人评审</h2>
+    <div class="md"><h2>Review setup</h2>
+<ul>
+<li><strong>Input scope</strong> Abstract only</li>
+<li><strong>Assessment boundary</strong> Claims and evidence presented in the abstract</li>
+<li><strong>Shared manuscript claim summary</strong> The authors argue that residue-level coarse-grained (CG) simulations of biomolecular condensates can reproduce equilibrium observables but not dynamics in a universally transferable way. They propose a composition-specific time-rescaling factor that correlates with protein-protein interaction energy, suggesting internal friction as the missing effect.</li>
+<li><strong>Visible evidence base</strong> Abstract text only; no figures, tables, or methods are provided.</li>
+<li><strong>Missing materials affecting confidence</strong> Full manuscript, including Methods, Results, Figures, Tables, and Supplementary Information. The abstract alone is insufficient to evaluate the robustness of the claims.</li>
+</ul>
+<h2>Reviewer 1</h2>
+<ul>
+<li><strong>Overall assessment</strong> The abstract presents a potentially important finding for the field of biomolecular condensate modeling: that time rescaling in CG simulations is not universally transferable and correlates with interaction energy. However, the abstract lacks sufficient detail to assess the rigor of the analysis, the statistical significance of the correlations, and the generality of the conclusions. The claim about "internal friction" is intriguing but appears speculative without direct evidence.</li>
+<li><strong>Who would be interested in the results, and why</strong> Researchers in computational biophysics, coarse-grained modeling, and biomolecular condensates. The work addresses a critical gap between equilibrium validation and kinetic calibration in CG simulations, which is relevant for interpreting material properties and dynamics of condensates.</li>
+<li><strong>Major strengths</strong> 1. Addresses a timely and important question about the transferability of timescales in CG simulations. 2. Uses a well-defined system (prothymosin α with four cationic partners) to probe composition-specific effects. 3. The correlation between time rescaling and interaction energy provides a physically plausible mechanism.</li>
+<li><strong>Major Concerns</strong><ul>
+<li><strong>Concern ID</strong> R1-M1</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Evidence sufficiency</li>
+<li><strong>Claim pointer</strong> "a composition-specific time-rescaling factor captures the ionic-strength dependence of chain reconfiguration times within a given complex coacervate"</li>
+<li><strong>Evidence pointer</strong> Abstract only; no figure or table specified</li>
+<li><strong>Concern</strong> The abstract states that a time-rescaling factor works within a given coacervate but is not transferable across compositions or phases. However, no quantitative evidence is provided: how many ionic strengths were tested? What is the range of rescaling factors? How was "captures" defined (e.g., R², RMSD)? Without these details, the claim is unverifiable.</li>
+<li><strong>Why it matters</strong> The central claim of the paper hinges on the existence and utility of this rescaling factor. If the evidence is weak or the factor is only marginally effective, the main conclusion is undermined.</li>
+<li><strong>Resolution test</strong> Provide in the full manuscript: (i) a table or figure showing the rescaling factor for each coacervate at multiple ionic strengths, (ii) a goodness-of-fit metric (e.g., R²) for the rescaling, and (iii) a clear definition of "captures" (e.g., within 2-fold error).</li>
+<li><strong>Concern ID</strong> R1-M2</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Claim support</li>
+<li><strong>Claim pointer</strong> "the required time rescaling strongly correlates with the interaction energy of the protein chains, suggesting that the missing frictional effects arise from protein-protein interactions rather than solely from protein-solvent interactions, reminiscent of internal friction"</li>
+<li><strong>Evidence pointer</strong> Abstract only</li>
+<li><strong>Concern</strong> The correlation between time rescaling and interaction energy is presented as a key mechanistic insight, but the abstract provides no statistical measure (e.g., Pearson r, p-value) or error bars. Moreover, the leap from correlation to "internal friction" is speculative: internal friction is a specific molecular mechanism (e.g., dihedral barriers, side-chain packing) that is not directly measured here. The abstract does not rule out other explanations, such as solvent viscosity changes or chain entanglements.</li>
+<li><strong>Why it matters</strong> This claim is the most novel and potentially impactful part of the work. If the correlation is weak or the interpretation is overreaching, the paper's contribution is diminished.</li>
+<li><strong>Resolution test</strong> Provide in the full manuscript: (i) a scatter plot with error bars and a correlation coefficient (with p-value), (ii) a discussion of alternative mechanisms, and (iii) direct evidence or a clear argument for why internal friction is the most plausible explanation.</li>
+</ul>
+</li>
+<li><strong>Minor Comments</strong><ul>
+<li><strong>Concern ID</strong> R1-m1</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity</li>
+<li><strong>Affected element</strong> Abstract text</li>
+<li><strong>Evidence pointer</strong> Abstract, sentence: "Dynamics are accelerated in these simulations, but a composition-specific time-rescaling factor captures the ionic-strength dependence..."</li>
+<li><strong>Issue</strong> The phrase "Dynamics are accelerated" is vague. By how much? Is it a constant factor or does it vary?</li>
+<li><strong>Required correction</strong> Specify the typical acceleration factor (e.g., "by a factor of 10–100") or state that it is composition-dependent.</li>
+<li><strong>Concern ID</strong> R1-m2</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Completeness</li>
+<li><strong>Affected element</strong> Abstract text</li>
+<li><strong>Evidence pointer</strong> Abstract, sentence: "Coexistence simulations using a residue-level coarse-grained model reproduce key equilibrium observables from experiments..."</li>
+<li><strong>Issue</strong> The abstract lists "dense-phase concentrations, ionic-strength-dependent phase behavior, and chain dimensions" as reproduced observables, but does not state the level of agreement (e.g., within experimental error, qualitative match).</li>
+<li><strong>Required correction</strong> Add a brief quantitative statement, e.g., "within 20% of experimental values" or "qualitatively consistent with published data."</li>
+</ul>
+</li>
+<li><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 and R1-M2 are blocking. Without quantitative evidence for the rescaling factor and the correlation with interaction energy, the core claims are not established.</li>
+<li><strong>Assessment against Nature-style criteria</strong> <ul>
+<li><strong>Originality</strong> High. The question of timescale transferability in CG condensate simulations is underexplored, and the correlation with interaction energy is a novel observation.</li>
+<li><strong>Scientific importance</strong> Potentially high. If validated, the work would provide a practical guideline for calibrating CG simulations and a physical understanding of missing friction.</li>
+<li><strong>Interdisciplinary readership</strong> Moderate. The topic is of primary interest to computational biophysicists and soft matter physicists; broader appeal would require clearer implications for experimentalists.</li>
+<li><strong>Technical soundness</strong> Cannot be assessed from the abstract alone. The claims require rigorous statistical and methodological validation.</li>
+<li><strong>Readability for nonspecialists</strong> Good. The abstract is well-structured and uses clear language, though terms like "internal friction" may need definition.</li>
+</ul>
+</li>
+<li><strong>Recommendation posture</strong> Currently not established from the provided evidence. The abstract is promising but lacks the quantitative detail needed to support the central claims. A full manuscript review is necessary, but based on the abstract alone, the case is not yet made.</li>
+</ul></div>
+  </section>
+</article>
+</main>
+</body>
+</html>

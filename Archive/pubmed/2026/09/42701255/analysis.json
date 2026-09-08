@@ -1,0 +1,17 @@
+{
+  "source": "pubmed",
+  "id": "42701255",
+  "title": "Biomolecular Condensates Dictate the Folding Landscape of Protein Alpha-Helices.",
+  "authors": "Hess, Nathaniel; Joseph, Jerelle A",
+  "published_date": "2026-09-06",
+  "score": 9,
+  "one_liner_zh": "该文通过原子模拟和贝叶斯优化方法，研究生物分子凝聚体如何改变蛋白质α-螺旋的折叠景观，核心涉及无序蛋白/相分离、蛋白互作与AI方法，高度相关。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42701255/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42701255/",
+  "paper_page_path": "papers/pubmed/42701255/index.html"
+}

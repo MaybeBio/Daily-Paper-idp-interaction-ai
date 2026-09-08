@@ -1,0 +1,58 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors report the use of crosslinking mass spectrometry (XL-MS) and integrative modeling, including an AlphaFold-enabled approach, to determine structural models of HDAC1/2-containing complexes (NuRD, SIN3A, CoREST). They claim that the intrinsically disordered region (IDR) of HDAC1 folds into alpha helices within these complexes, and present a complete integrative structural model of a NuRD subcomplex containing six IDRs.
+- **Visible evidence base** Abstract text only; no figures, tables, or supplementary materials are provided.
+- **Missing materials affecting confidence** Full manuscript, all figures, tables, supplementary data, and methodological details are absent. The abstract alone is insufficient to assess the validity of the structural models or the claim of IDR folding.
+
+## Reviewer 1
+- **Overall assessment** The abstract presents an ambitious and potentially impactful study that combines experimental crosslinking data with computational modeling to address a challenging problem in structural biology: the conformation of intrinsically disordered regions within large protein complexes. The topic is timely, and the methodological approach is novel. However, the abstract provides only a high-level summary, and the core claims—particularly the folding of the HDAC1 CTD IDR into alpha helices and the completeness of the NuRD subcomplex model—cannot be evaluated without the underlying data. The study's significance hinges on the quality of the crosslinking data, the rigor of the modeling, and the validation of the predicted IDR structures.
+- **Who would be interested in the results, and why** Structural biologists, chromatin researchers, and proteomics scientists would be interested. The work addresses a long-standing gap in understanding how HDAC1/2 assemble into multiple complexes and how their disordered regions behave. The methodological framework (XL-MS + AlphaFold + integrative modeling) is broadly applicable to other IDR-containing complexes, making it of interest to the wider structural and systems biology community.
+- **Major strengths** 1. Addresses a significant and difficult problem: the structure of IDRs within large, multi-protein complexes. 2. Combines multiple state-of-the-art techniques (XL-MS, integrative modeling, AlphaFold) in a novel workflow. 3. The focus on a complete subcomplex model including multiple IDRs is a notable advance over studies that focus only on ordered domains.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** "We show that the CTD IDR of HDAC1 folds into alpha helices in these complexes."
+    - **Evidence pointer** Abstract; location not provided
+    - **Concern** The abstract states that the HDAC1 CTD IDR folds into alpha helices, but provides no evidence for this claim. No crosslinking distance restraints, AlphaFold confidence metrics (e.g., pLDDT, PAE), or validation data (e.g., comparison to known structures, alternative modeling) are mentioned. The claim that an IDR adopts a stable secondary structure in a complex is a strong one that requires robust experimental and computational support.
+    - **Why it matters** If the IDR folding claim is not well-supported, the central novelty of the study is undermined. IDRs are defined by their lack of stable structure, and demonstrating context-dependent folding is a major challenge. The field requires clear evidence that the predicted helices are not artifacts of the modeling pipeline.
+    - **Resolution test** The authors must provide, in the full manuscript, clear evidence for the alpha-helical folding. This should include: (1) XL-MS crosslinks that are consistent with the proposed helical conformation, (2) AlphaFold pLDDT scores showing high confidence for the helical regions, (3) validation through alternative modeling approaches (e.g., molecular dynamics, or comparison with homologous structures), and (4) ideally, orthogonal experimental validation (e.g., circular dichroism, NMR, or hydrogen-deuterium exchange mass spectrometry).
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Completeness of reporting
+    - **Claim pointer** "we built a complete integrative structural model of a NuRD subcomplex including the abundant HDAC1:MBD3:MTA1:GATAD2B:RBBP4 subunits, which included 6 IDRs."
+    - **Evidence pointer** Abstract; location not provided
+    - **Concern** The abstract claims a "complete integrative structural model" of a NuRD subcomplex, but the term "complete" is ambiguous. Does it mean all ordered domains and IDRs are modeled? What is the resolution of the model? How many crosslinks were used to constrain each IDR? The abstract does not specify the number of crosslinks, the coverage of the crosslinking data, or the precision of the model (e.g., RMSD or clustering of solutions).
+    - **Why it matters** The value of an integrative model depends on the density and quality of experimental restraints. A "complete" model built from sparse data would be misleading. The field needs to know the confidence in each region of the model, especially for the IDRs.
+    - **Resolution test** The full manuscript must provide: (1) a table of all identified crosslinks, (2) a map of crosslink coverage on the complex, (3) a description of the model precision (e.g., clustering of top-scoring models), and (4) a clear statement of what "complete" means (e.g., all residues modeled, or all known subunits included). The authors should also discuss the limitations of the model.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract text
+    - **Evidence pointer** Abstract
+    - **Issue** The phrase "AlphaFold-enabled XL-MS constrained modeling approach" is unclear. It is not obvious whether AlphaFold is used to predict initial structures that are then refined with XL-MS restraints, or if XL-MS restraints are used to guide AlphaFold predictions, or if the two are used in a different manner.
+    - **Required correction** Clarify the workflow. For example: "We used an integrative modeling approach where AlphaFold predictions were used as starting models, which were then refined and validated using XL-MS distance restraints."
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Generalizability
+    - **Affected element** Abstract text
+    - **Evidence pointer** Abstract
+    - **Issue** The final sentence states the approaches are "broadly applicable," but the abstract only demonstrates their use on HDAC1/2 complexes. The claim of broad applicability is not supported by the data presented.
+    - **Required correction** Tone down the claim or provide a specific example of another system where the approach has been applied. For example: "The approaches used herein are broadly applicable for the study of protein complexes and protein interaction networks, and we anticipate they will be useful for investigating IDRs in other chromatin remodeling complexes."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (IDR folding claim) and R1-M2 (completeness of the model) are blocking concerns. Without the full data, the core claims of the study cannot be assessed.
+- **Assessment against Nature-style criteria** 
+    - **Originality:** High. The combination of XL-MS, integrative modeling, and AlphaFold to study IDR folding in large complexes is novel.
+    - **Scientific importance:** High. Understanding how HDAC1/2 assemble and how their IDRs function is important for chromatin biology and drug discovery.
+    - **Interdisciplinary readership:** Moderate to high. The work bridges structural biology, proteomics, and computational biology.
+    - **Technical soundness:** Cannot be assessed from the abstract alone. The claims require rigorous validation that is not visible in the provided material.
+    - **Readability for nonspecialists:** The abstract is clear and well-written, but the technical details are sparse.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is promising, but the core claims regarding IDR folding and model completeness cannot be evaluated. A full manuscript with detailed methods, data, and validation is required before a recommendation can be made.
+
+## Risk / unsupported claims
+- The claim that the HDAC1 CTD IDR "folds into alpha helices" is unsupported. No evidence (crosslinks, confidence scores, validation) is provided.
+- The claim of a "complete integrative structural model" of the NuRD subcomplex is unsupported. The resolution, precision, and coverage of the model are not described.
+- The claim that the approaches are "broadly applicable" is not supported by the data presented in the abstract.

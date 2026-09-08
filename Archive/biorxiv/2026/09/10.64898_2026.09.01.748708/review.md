@@ -1,0 +1,53 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors argue that residue-level coarse-grained (CG) simulations of biomolecular condensates can reproduce equilibrium observables but not dynamics in a universally transferable way. They propose a composition-specific time-rescaling factor that correlates with protein-protein interaction energy, suggesting internal friction as the missing effect.
+- **Visible evidence base** Abstract text only; no figures, tables, or methods are provided.
+- **Missing materials affecting confidence** Full manuscript, including Methods, Results, Figures, Tables, and Supplementary Information. The abstract alone is insufficient to evaluate the robustness of the claims.
+
+## Reviewer 1
+- **Overall assessment** The abstract presents a potentially important finding for the field of biomolecular condensate modeling: that time rescaling in CG simulations is not universally transferable and correlates with interaction energy. However, the abstract lacks sufficient detail to assess the rigor of the analysis, the statistical significance of the correlations, and the generality of the conclusions. The claim about "internal friction" is intriguing but appears speculative without direct evidence.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, coarse-grained modeling, and biomolecular condensates. The work addresses a critical gap between equilibrium validation and kinetic calibration in CG simulations, which is relevant for interpreting material properties and dynamics of condensates.
+- **Major strengths** 1. Addresses a timely and important question about the transferability of timescales in CG simulations. 2. Uses a well-defined system (prothymosin α with four cationic partners) to probe composition-specific effects. 3. The correlation between time rescaling and interaction energy provides a physically plausible mechanism.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** "a composition-specific time-rescaling factor captures the ionic-strength dependence of chain reconfiguration times within a given complex coacervate"
+    - **Evidence pointer** Abstract only; no figure or table specified
+    - **Concern** The abstract states that a time-rescaling factor works within a given coacervate but is not transferable across compositions or phases. However, no quantitative evidence is provided: how many ionic strengths were tested? What is the range of rescaling factors? How was "captures" defined (e.g., R², RMSD)? Without these details, the claim is unverifiable.
+    - **Why it matters** The central claim of the paper hinges on the existence and utility of this rescaling factor. If the evidence is weak or the factor is only marginally effective, the main conclusion is undermined.
+    - **Resolution test** Provide in the full manuscript: (i) a table or figure showing the rescaling factor for each coacervate at multiple ionic strengths, (ii) a goodness-of-fit metric (e.g., R²) for the rescaling, and (iii) a clear definition of "captures" (e.g., within 2-fold error).
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Claim support
+    - **Claim pointer** "the required time rescaling strongly correlates with the interaction energy of the protein chains, suggesting that the missing frictional effects arise from protein-protein interactions rather than solely from protein-solvent interactions, reminiscent of internal friction"
+    - **Evidence pointer** Abstract only
+    - **Concern** The correlation between time rescaling and interaction energy is presented as a key mechanistic insight, but the abstract provides no statistical measure (e.g., Pearson r, p-value) or error bars. Moreover, the leap from correlation to "internal friction" is speculative: internal friction is a specific molecular mechanism (e.g., dihedral barriers, side-chain packing) that is not directly measured here. The abstract does not rule out other explanations, such as solvent viscosity changes or chain entanglements.
+    - **Why it matters** This claim is the most novel and potentially impactful part of the work. If the correlation is weak or the interpretation is overreaching, the paper's contribution is diminished.
+    - **Resolution test** Provide in the full manuscript: (i) a scatter plot with error bars and a correlation coefficient (with p-value), (ii) a discussion of alternative mechanisms, and (iii) direct evidence or a clear argument for why internal friction is the most plausible explanation.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract text
+    - **Evidence pointer** Abstract, sentence: "Dynamics are accelerated in these simulations, but a composition-specific time-rescaling factor captures the ionic-strength dependence..."
+    - **Issue** The phrase "Dynamics are accelerated" is vague. By how much? Is it a constant factor or does it vary?
+    - **Required correction** Specify the typical acceleration factor (e.g., "by a factor of 10–100") or state that it is composition-dependent.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Completeness
+    - **Affected element** Abstract text
+    - **Evidence pointer** Abstract, sentence: "Coexistence simulations using a residue-level coarse-grained model reproduce key equilibrium observables from experiments..."
+    - **Issue** The abstract lists "dense-phase concentrations, ionic-strength-dependent phase behavior, and chain dimensions" as reproduced observables, but does not state the level of agreement (e.g., within experimental error, qualitative match).
+    - **Required correction** Add a brief quantitative statement, e.g., "within 20% of experimental values" or "qualitatively consistent with published data."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. Without quantitative evidence for the rescaling factor and the correlation with interaction energy, the core claims are not established.
+- **Assessment against Nature-style criteria** 
+    - **Originality** High. The question of timescale transferability in CG condensate simulations is underexplored, and the correlation with interaction energy is a novel observation.
+    - **Scientific importance** Potentially high. If validated, the work would provide a practical guideline for calibrating CG simulations and a physical understanding of missing friction.
+    - **Interdisciplinary readership** Moderate. The topic is of primary interest to computational biophysicists and soft matter physicists; broader appeal would require clearer implications for experimentalists.
+    - **Technical soundness** Cannot be assessed from the abstract alone. The claims require rigorous statistical and methodological validation.
+    - **Readability for nonspecialists** Good. The abstract is well-structured and uses clear language, though terms like "internal friction" may need definition.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is promising but lacks the quantitative detail needed to support the central claims. A full manuscript review is necessary, but based on the abstract alone, the case is not yet made.

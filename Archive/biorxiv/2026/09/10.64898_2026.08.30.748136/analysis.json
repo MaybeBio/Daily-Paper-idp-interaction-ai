@@ -1,0 +1,17 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.30.748136",
+  "title": "Retrieval of binding sites across the AlphaFold human proteome using protein language model representations",
+  "authors": "Keshav Mohan; Yash Bhargava",
+  "published_date": "2026-09-03",
+  "score": 4,
+  "one_liner_zh": "该文用蛋白质语言模型检索结合位点，但未涉及无序蛋白、相分离或蛋白互作，仅边缘相关。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.30.748136",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.30.748136",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.30.748136/index.html"
+}

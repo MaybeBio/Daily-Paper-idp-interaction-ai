@@ -1,0 +1,17 @@
+{
+  "source": "pubmed",
+  "id": "42687071",
+  "title": "Transnasal Administration of Surfactant Aerosol to the Lungs of Infants Using Direct Interfaces - Lessons Learned from Computational Fluid Dynamics.",
+  "authors": "Jubaer, Hasan; Farkas, Dale; Dalton, Caleb; Momin, Mohammad A M; Hindle, Michael; Longest, Worth",
+  "published_date": "2026-09-03",
+  "score": 0,
+  "one_liner_zh": "该论文使用计算流体动力学优化婴儿经鼻表面活性剂气溶胶递送系统，与无序蛋白、相分离或蛋白互作无关。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42687071/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42687071/",
+  "paper_page_path": "papers/pubmed/42687071/index.html"
+}

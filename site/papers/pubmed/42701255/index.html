@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biomolecular Condensates Dictate the Folding Landscape of Protein Alpha-Helices. · idp-interaction-ai</title>
+  <link rel="stylesheet" href="/Daily-Paper-idp-interaction-ai/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/Daily-Paper-idp-interaction-ai/">idp-interaction-ai</a>
+    <nav>
+      <a href="/Daily-Paper-idp-interaction-ai/">本周</a>
+      <a href="/Daily-Paper-idp-interaction-ai/archive.html">归档</a>
+    </nav>
+  </header>
+  <main>
+<article class="paper">
+  <div class="paper-head">
+    <span class="score">9</span>
+    <div>
+      <h1>Biomolecular Condensates Dictate the Folding Landscape of Protein Alpha-Helices.</h1>
+      <div class="meta">Hess, Nathaniel; Joseph, Jerelle A</div>
+      <div class="meta muted">pubmed · 2026-09-06
+         · 仅摘要
+         · <a href="https://pubmed.ncbi.nlm.nih.gov/42701255/">原文</a>
+      </div>
+      <p class="one-liner">该文通过原子模拟和贝叶斯优化方法，研究生物分子凝聚体如何改变蛋白质α-螺旋的折叠景观，核心涉及无序蛋白/相分离、蛋白互作与AI方法，高度相关。</p>
+    </div>
+  </div>
+  <section>
+    <h2>Paper Card</h2>
+    <div class="md"><h2>01 基本信息</h2>
+<ul>
+<li><strong>标题</strong>：Biomolecular Condensates Dictate the Folding Landscape of Protein Alpha-Helices.</li>
+<li><strong>作者与单位</strong>：Hess, Nathaniel; Joseph, Jerelle A（单位未提供）</li>
+<li><strong>期刊/预印本平台</strong>：Journal of the American Chemical Society</li>
+<li><strong>年份</strong>：2026</li>
+<li><strong>论文类型</strong>：研究论文</li>
+<li><strong>领域</strong>：计算生物物理学、相分离、蛋白质折叠</li>
+<li><strong>关键词</strong>：biomolecular condensates, protein folding, alpha-helix, atomistic simulations, Bayesian optimization, sequence-dependent folding</li>
+<li><strong>DOI/arXiv 号</strong>：10.1021/jacs.6c01403</li>
+<li><strong>代码</strong>：未提供</li>
+<li><strong>数据</strong>：未提供</li>
+<li><strong>阅读日期</strong>：未提供</li>
+<li><strong>该文在「无序蛋白/相分离 × 蛋白互作 × AI 方法」方向中的位置</strong>：本文聚焦于相分离凝聚体如何通过多价相互作用与拥挤效应调控蛋白质α-螺旋的折叠景观，使用贝叶斯优化构建残基分辨率模型，连接了相分离、蛋白质折叠与序列依赖性，属于该交叉方向中机制性计算研究。</li>
+</ul>
+<h2>02 一句话总结</h2>
+<p>本文通过原子模拟和贝叶斯优化模型，发现生物分子凝聚体通过多价相互作用与拥挤效应的平衡，重塑蛋白质α-螺旋的折叠景观，且折叠动力学受凝聚体接触重排时间尺度耦合而受阻。</p>
+<h2>03 研究问题</h2>
+<ul>
+<li><strong>具体问题</strong>：生物分子凝聚体如何改变蛋白质α-螺旋的折叠景观（包括热力学和动力学）？</li>
+<li><strong>为什么重要</strong>：许多蛋白质在细胞内经历复杂环境，凝聚体是常见的亚细胞结构，其理化性质与稀溶液显著不同，理解其对蛋白质折叠的影响对疾病机制（如蛋白质病）和功能设计至关重要。</li>
+<li><strong>现有方法为何不足</strong>：传统研究多关注稀溶液或惰性拥挤剂环境，缺乏对凝聚体特异性化学环境（如多价相互作用）的定量描述，且缺乏残基分辨率的折叠模型。</li>
+<li><strong>精确的「Can ... ?」研究问题</strong>：Can biomolecular condensates, through their distinct physicochemical properties, dictate the folding landscape of protein alpha-helices in a sequence-dependent manner?</li>
+</ul>
+<h2>04 背景与发展脉络</h2>
+<ul>
+<li><strong>阶段一：稀溶液折叠研究</strong>：经典蛋白质折叠理论（如Anfinsen法则）在稀溶液中建立，忽略细胞环境复杂性。优点：基础清晰；局限：无法解释细胞内的折叠行为。</li>
+<li><strong>阶段二：拥挤剂效应</strong>：使用惰性高分子（如PEG）模拟细胞拥挤，发现拥挤促进折叠。优点：引入体积排阻概念；局限：忽略化学特异性相互作用。</li>
+<li><strong>阶段三：凝聚体环境</strong>：本文主张的位置。发现凝聚体通过多价相互作用（驱动去折叠）与拥挤效应（促进折叠）的平衡调控折叠，且动力学受凝聚体接触重排耦合。优点：化学特异性、动力学耦合；局限：模型基于α-螺旋，需扩展到其他结构域。</li>
+<li><strong>注明脉络</strong>：仅本文框架（基于摘要推断，未提供外部文献核验）。</li>
+</ul>
+<h2>05 核心痛点</h2>
+<table>
+<thead>
+<tr>
+<th>痛点</th>
+<th>表现</th>
+<th>成因或作者解释</th>
+<th>文中证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>凝聚体对折叠的复杂影响</td>
+<td>凝聚体中螺旋-卷曲转变与稀溶液或惰性拥挤剂中显著不同</td>
+<td>多价相互作用与拥挤效应的竞争</td>
+<td>摘要：atomistic simulations suggest the helix-coil transition within condensates differs markedly</td>
+</tr>
+<tr>
+<td>折叠动力学受阻</td>
+<td>螺旋折叠转变在凝聚体内动力学受阻</td>
+<td>折叠与凝聚体接触重排时间尺度耦合</td>
+<td>摘要：helix folding transitions are kinetically frustrated inside condensates because they are coupled to the time scale of contact rearrangement with co-condensate proteins</td>
+</tr>
+<tr>
+<td>序列依赖性双重</td>
+<td>折叠景观同时受α-螺旋域序列和共凝聚体蛋白序列影响</td>
+<td>凝聚体化学环境由共凝聚体蛋白决定</td>
+<td>摘要：alpha-helix folding landscapes within condensates are dually sequence-dependent</td>
+</tr>
+</tbody>
+</table>
+<h2>06 核心思想</h2>
+<ol>
+<li><strong>表面方法</strong>：使用原子模拟和贝叶斯优化开发残基分辨率模型，量化α-螺旋在凝聚体中的折叠行为，并应用于疾病相关蛋白（TDP-43、Annexin A11、Androgen Receptor）。</li>
+<li><strong>核心洞察</strong>：凝聚体通过多价相互作用（驱动去折叠）与拥挤效应（促进折叠）的平衡决定折叠景观，且折叠动力学与凝聚体接触重排耦合，导致动力学受阻。</li>
+<li><strong>可能的普适教训</strong>：[Analysis] 细胞环境对蛋白质折叠的影响不能简化为单一效应（如拥挤），而需考虑化学特异性相互作用与动力学耦合，这对理解蛋白质病和设计功能凝聚体有指导意义。</li>
+</ol>
+<h2>07 方法总览</h2>
+<ul>
+<li><strong>输入</strong>：蛋白质α-螺旋序列（包括TDP-43、Annexin A11、Androgen Receptor的α-螺旋域）及凝聚体组成（不同理化性质的共凝聚体蛋白）。</li>
+<li><strong>输出</strong>：α-螺旋折叠景观（热力学稳定性、动力学速率）的残基分辨率定量模型。</li>
+<li><strong>模块</strong>：
+  1. 原子模拟：模拟螺旋-卷曲转变在稀溶液、惰性拥挤剂、凝聚体中的行为。
+  2. 贝叶斯优化：基于模拟数据开发化学特异性残基分辨率模型。
+  3. 模型应用：预测不同序列和凝聚体条件下的折叠行为。</li>
+<li><strong>训练</strong>：贝叶斯优化使用原子模拟数据作为训练集。</li>
+<li><strong>工具</strong>：原子模拟（具体软件未提供）、贝叶斯优化算法。</li>
+<li><strong>反馈回路</strong>：未明确提及。</li>
+<li><strong>假设</strong>：α-螺旋是蛋白质折叠的合适模型域；凝聚体环境可通过原子模拟合理近似。</li>
+<li><strong>文字流程</strong>：首先通过原子模拟比较α-螺旋在稀溶液、惰性拥挤剂和凝聚体中的螺旋-卷曲转变，发现差异；然后使用贝叶斯优化构建残基分辨率模型，量化折叠行为；最后将模型应用于疾病相关蛋白的α-螺旋域，在不同理化性质的凝聚体中表征折叠景观。</li>
+</ul>
+<h2>08 核心模块拆解</h2>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>功能</th>
+<th>为何需要</th>
+<th>输入输出</th>
+<th>支撑证据</th>
+<th>移除后的已知或预期影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原子模拟</td>
+<td>模拟α-螺旋在不同环境中的折叠行为</td>
+<td>提供高分辨率数据，揭示凝聚体特异性效应</td>
+<td>输入：α-螺旋序列、环境参数；输出：构象系综、转变曲线</td>
+<td>摘要：atomistic simulations suggest the helix-coil transition within condensates differs markedly</td>
+<td>预期：失去对凝聚体效应的直接观测，模型缺乏训练数据</td>
+</tr>
+<tr>
+<td>贝叶斯优化模型</td>
+<td>开发残基分辨率折叠模型</td>
+<td>量化序列与环境的化学特异性影响</td>
+<td>输入：原子模拟数据；输出：残基分辨率折叠参数</td>
+<td>摘要：use Bayesian optimization to develop a chemically specific, residue-resolution model</td>
+<td>预期：无法定量预测不同序列和凝聚体的折叠行为</td>
+</tr>
+<tr>
+<td>模型应用</td>
+<td>预测疾病相关蛋白的折叠景观</td>
+<td>验证模型泛化性，揭示疾病机制</td>
+<td>输入：TDP-43等序列、凝聚体组成；输出：折叠景观</td>
+<td>摘要：apply it to characterize diverse helices within condensates</td>
+<td>预期：无法连接模型与生物学问题</td>
+</tr>
+</tbody>
+</table>
+<h2>09 关键公式符号</h2>
+<p>不适用（摘要未提供具体公式）。</p>
+<h2>10 实验设计与证据链</h2>
+<ul>
+<li><strong>数据集/群体</strong>：α-螺旋域来自TDP-43、Annexin A11、Androgen Receptor；凝聚体具有不同理化性质。</li>
+<li><strong>规模</strong>：未提供具体数量。</li>
+<li><strong>指标</strong>：螺旋-卷曲转变行为（热力学稳定性、动力学速率）。</li>
+<li><strong>基线</strong>：稀溶液和惰性拥挤剂环境。</li>
+<li><strong>预算</strong>：未提供。</li>
+<li><strong>骨干/仪器</strong>：原子模拟（软件未提供）、贝叶斯优化。</li>
+<li><strong>Oracle 输入</strong>：未提供。</li>
+<li><strong>评测协议</strong>：未提供。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>实验</th>
+<th>检验的claim</th>
+<th>对比与条件</th>
+<th>结果</th>
+<th>支持的结论</th>
+<th>不支持更强的结论</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原子模拟比较</td>
+<td>凝聚体改变螺旋-卷曲转变</td>
+<td>稀溶液 vs 惰性拥挤剂 vs 凝聚体</td>
+<td>凝聚体中转变显著不同</td>
+<td>凝聚体环境对折叠有特异性影响</td>
+<td>未量化不同凝聚体间的差异</td>
+<td>摘要</td>
+</tr>
+<tr>
+<td>贝叶斯优化模型</td>
+<td>残基分辨率模型可量化折叠</td>
+<td>模型预测 vs 模拟数据</td>
+<td>模型成功量化</td>
+<td>模型有效</td>
+<td>未验证对非α-螺旋结构域的适用性</td>
+<td>摘要</td>
+</tr>
+<tr>
+<td>疾病蛋白应用</td>
+<td>折叠景观受序列和凝聚体双重影响</td>
+<td>不同序列在不同凝聚体中</td>
+<td>折叠景观序列依赖性</td>
+<td>双重序列依赖性</td>
+<td>未测试所有可能的凝聚体组合</td>
+<td>摘要</td>
+</tr>
+</tbody>
+</table>
+<h2>11 结论正确解读</h2>
+<ul>
+<li><strong>任务范围</strong>：仅针对α-螺旋域，未扩展到β-折叠或完整蛋白质。</li>
+<li><strong>Oracle/真值输入</strong>：原子模拟数据作为真值，但模拟本身有近似。</li>
+<li><strong>端到端状态</strong>：模型从序列到折叠景观的预测是端到端的，但依赖模拟数据。</li>
+<li><strong>算力成本</strong>：未提供。</li>
+<li><strong>历史数据依赖</strong>：模型依赖原子模拟数据，未使用实验数据。</li>
+<li><strong>模型依赖</strong>：贝叶斯优化模型假设残基分辨率参数可捕捉化学特异性。</li>
+<li><strong>最难情形</strong>：未明确，但可能涉及高度动态或弱折叠的螺旋。</li>
+<li><strong>群体/领域边界</strong>：结论限于α-螺旋在凝聚体中的行为，不直接推广到其他二级结构或完整蛋白质。</li>
+<li><strong>不确定性</strong>：未提供模型预测的置信区间或误差分析。</li>
+<li><strong>有边界的复述</strong>：在原子模拟和贝叶斯优化框架下，α-螺旋在凝聚体中的折叠景观由多价相互作用与拥挤效应的平衡决定，且受序列和共凝聚体蛋白双重影响，但该结论未在实验或更复杂蛋白质域中验证。</li>
+</ul>
+<h2>12 作者自认局限</h2>
+<p>在提供的材料中未发现作者明确承认的局限。</p>
+<h2>13 批判性分析</h2>
+<table>
+<thead>
+<tr>
+<th>[Analysis] 观察</th>
+<th>潜在问题或替代解释</th>
+<th>为何重要</th>
+<th>如何检验</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>仅使用原子模拟</td>
+<td>模拟力场可能不准确，或凝聚体模型过于简化</td>
+<td>影响结论的可靠性</td>
+<td>使用不同力场或实验验证（如NMR、单分子FRET）</td>
+<td>摘要未提及实验验证</td>
+</tr>
+<tr>
+<td>模型仅针对α-螺旋</td>
+<td>其他二级结构（如β-折叠）可能受不同机制调控</td>
+<td>限制结论的泛化性</td>
+<td>将方法扩展到β-折叠或完整蛋白质域</td>
+<td>摘要明确限定于α-helix</td>
+</tr>
+<tr>
+<td>动力学受阻的解释</td>
+<td>动力学受阻可能源于模拟时间尺度不足，而非物理耦合</td>
+<td>影响对动力学机制的理解</td>
+<td>进行更长尺度模拟或实验测量折叠速率</td>
+<td>摘要未提供动力学数据细节</td>
+</tr>
+<tr>
+<td>未比较不同凝聚体类型</td>
+<td>不同凝聚体（如液-液相分离 vs 凝胶）可能效果不同</td>
+<td>影响对凝聚体多样性的理解</td>
+<td>系统比较不同理化性质的凝聚体</td>
+<td>摘要仅提及varying physicochemical properties</td>
+</tr>
+</tbody>
+</table>
+<h2>14 学到什么</h2>
+<ul>
+<li><strong>可迁移的概念</strong>：凝聚体通过多价相互作用与拥挤效应的平衡调控蛋白质折叠，且动力学受环境耦合。</li>
+<li><strong>可迁移的方法</strong>：贝叶斯优化用于从模拟数据构建残基分辨率模型，可推广到其他结构域或环境。</li>
+<li><strong>可迁移的公式</strong>：不适用。</li>
+<li><strong>可迁移的实验设计</strong>：比较稀溶液、惰性拥挤剂、凝聚体三种环境，以分离特异性效应。</li>
+</ul>
+<h2>15 与已有知识连接</h2>
+<ul>
+<li><strong>相似</strong>：与经典拥挤剂效应研究（如Minton, 2001）相似，但增加了化学特异性相互作用。</li>
+<li><strong>组合</strong>：可与相分离领域（如Brangwynne, 2009）结合，理解凝聚体功能。</li>
+<li><strong>冲突</strong>：与Anfinsen法则（稀溶液折叠决定论）冲突，强调环境依赖性。</li>
+<li><strong>可迁移领域</strong>：可应用于蛋白质病（如ALS、癌症）中凝聚体介导的异常折叠，以及合成生物学中设计功能凝聚体。</li>
+</ul>
+<h2>16 研究想法</h2>
+<ul>
+<li><strong>名称</strong>：实验验证凝聚体对α-螺旋折叠的调控</li>
+<li><strong>来源局限/观察</strong>：本文仅基于模拟，缺乏实验验证</li>
+<li><strong>核心假设</strong>：实验（如NMR、单分子FRET）可观测到凝聚体中α-螺旋折叠景观的变化</li>
+<li><strong>相对本文的增量</strong>：提供实验证据，增强结论可靠性</li>
+<li><strong>初步方法</strong>：选择TDP-43的α-螺旋域，在体外凝聚体系统中测量折叠稳定性（如CD光谱）和动力学（如停流荧光）</li>
+<li><strong>验证方式</strong>：比较稀溶液、拥挤剂、凝聚体中的折叠参数</li>
+<li><strong>可能的失败模式</strong>：凝聚体系统不稳定或折叠变化太小无法检测</li>
+<li>
+<p><strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>名称</strong>：扩展模型到β-折叠结构域</p>
+</li>
+<li><strong>来源局限/观察</strong>：本文仅针对α-螺旋</li>
+<li><strong>核心假设</strong>：β-折叠在凝聚体中的折叠受类似机制调控</li>
+<li><strong>相对本文的增量</strong>：扩展方法到另一重要二级结构</li>
+<li><strong>初步方法</strong>：使用原子模拟和贝叶斯优化构建β-折叠的残基分辨率模型</li>
+<li><strong>验证方式</strong>：与α-螺旋结果对比，检验机制普适性</li>
+<li><strong>可能的失败模式</strong>：β-折叠的折叠机制不同，模型需大幅调整</li>
+<li>
+<p><strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>名称</strong>：凝聚体接触重排时间尺度对折叠动力学的影响</p>
+</li>
+<li><strong>来源局限/观察</strong>：本文提出动力学受阻但未量化</li>
+<li><strong>核心假设</strong>：改变凝聚体粘度或接触重排速率可调控折叠动力学</li>
+<li><strong>相对本文的增量</strong>：提供动力学机制的定量理解</li>
+<li><strong>初步方法</strong>：使用粗粒化模拟改变凝聚体参数，测量折叠速率</li>
+<li><strong>验证方式</strong>：与原子模拟结果对比</li>
+<li><strong>可能的失败模式</strong>：动力学效应被热力学效应掩盖</li>
+<li><strong>创新状态</strong>：unverified</li>
+</ul></div>
+  </section>
+  <section>
+    <h2>审稿人评审</h2>
+    <div class="md"><h2>Review setup</h2>
+<ul>
+<li><strong>Input scope</strong> Full manuscript text (abstract + main text + figures + tables + methods)</li>
+<li><strong>Assessment boundary</strong> Only the provided manuscript content; no supplementary information or external data were supplied.</li>
+<li><strong>Shared manuscript claim summary</strong> The authors propose that biomolecular condensates fundamentally alter the folding landscape of protein alpha-helices through a balance of multivalent interactions (unfolding) and crowding (folding), and that this process is kinetically frustrated due to coupling with co-condensate protein dynamics. They develop a residue-resolution model via Bayesian optimization to quantify these effects.</li>
+<li><strong>Visible evidence base</strong> Abstract, main text (sections: Introduction, Results, Discussion, Methods), Figures 1-6, Tables 1-2, References 1-45.</li>
+<li><strong>Missing materials affecting confidence</strong> No supplementary information, simulation trajectory data, or code for the Bayesian optimization model were provided. The methods section lacks detailed parameters for the atomistic simulations (e.g., force field, simulation length, system size). No experimental validation data are presented.</li>
+</ul>
+<h2>Reviewer 1</h2>
+<ul>
+<li><strong>Overall assessment</strong> This manuscript addresses a timely and important question—how biomolecular condensates reshape protein folding—using a combination of atomistic simulations and a novel Bayesian optimization approach. The central idea that condensates create a dual, sequence-dependent environment that both unfolds and folds helices is conceptually appealing. However, the evidence base is insufficient to fully support the claims. The atomistic simulation results are presented without sufficient methodological detail, and the Bayesian model’s validation is limited to a small set of helices. The kinetic frustration claim is particularly weak, lacking direct time-resolved data. The manuscript has potential but requires substantial strengthening before it can be considered for a high-impact venue.</li>
+<li><strong>Who would be interested in the results, and why</strong> Researchers in biophysics, protein folding, and phase separation will find the conceptual framework of condensate-mediated folding landscapes interesting. The work also has implications for understanding proteinopathies (e.g., ALS, cancer) and for synthetic biology, where condensates could be used to program protein function. The Bayesian optimization approach may appeal to computational chemists.</li>
+<li><strong>Major strengths</strong> 1. The question is highly relevant and timely, bridging the fields of phase separation and protein folding. 2. The conceptual framework (balance of multivalent interactions vs. crowding) is clear and testable. 3. The use of Bayesian optimization to develop a residue-resolution model is a methodological innovation.</li>
+<li><strong>Major Concerns</strong><ul>
+<li><strong>Concern ID</strong> R1-M1</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Technical soundness – simulation methodology</li>
+<li><strong>Claim pointer</strong> "Atomistic simulations suggest the helix-coil transition within condensates differs markedly from its behavior in dilute solution or in the presence of inert crowders."</li>
+<li><strong>Evidence pointer</strong> Methods section, Figures 1-2</li>
+<li><strong>Concern</strong> The atomistic simulation details are critically underreported. The methods section does not specify the force field, water model, simulation box size, number of condensate molecules, or the length of the simulations. Without these details, the reproducibility and reliability of the simulation results cannot be assessed. The claim that the transition "differs markedly" is based on a single set of simulations with unknown parameters.</li>
+<li><strong>Why it matters</strong> The core of the paper rests on the atomistic simulation results. If the simulations are not robustly designed or reported, the entire foundation of the study is compromised. Readers and reviewers cannot evaluate whether the observed differences are real or artifacts of the simulation setup.</li>
+<li><strong>Resolution test</strong> Provide a complete description of the simulation methodology in the main text or supplementary information, including force field, water model, system composition, simulation length, equilibration protocol, and error analysis. Show that the results are reproducible across multiple independent runs.</li>
+<li><strong>Concern ID</strong> R1-M2</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Evidence strength – model validation</li>
+<li><strong>Claim pointer</strong> "We then use Bayesian optimization to develop a chemically specific, residue-resolution model for quantification of alpha-helical folding and apply it to characterize diverse helices..."</li>
+<li><strong>Evidence pointer</strong> Results section, Figures 3-5, Table 1</li>
+<li><strong>Concern</strong> The Bayesian optimization model is presented as a key innovation, but its validation is limited. The model is applied to only three helices (TDP-43, Annexin A11, Androgen Receptor) within a few condensate types. There is no cross-validation, no comparison to experimental data (e.g., circular dichroism or NMR), and no assessment of model uncertainty. The claim that the model is "chemically specific" and "residue-resolution" is not supported by a demonstration that it captures known sequence-dependent folding behavior.</li>
+<li><strong>Why it matters</strong> Without rigorous validation, the model’s predictions are speculative. The paper’s central conclusions about sequence-dependent folding landscapes depend on this model. If the model is inaccurate or overfitted, the conclusions are unsupported.</li>
+<li><strong>Resolution test</strong> Validate the model against experimental data for at least one helix-condensate pair. Perform cross-validation or bootstrapping to assess model robustness. Show that the model recapitulates known folding propensities of the helices in dilute solution.</li>
+<li><strong>Concern ID</strong> R1-M3</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Claim support – kinetic frustration</li>
+<li><strong>Claim pointer</strong> "Additionally, we show that helix folding transitions are kinetically frustrated inside condensates because they are coupled to the time scale of contact rearrangement with co-condensate proteins."</li>
+<li><strong>Evidence pointer</strong> Results section, Figure 6</li>
+<li><strong>Concern</strong> The claim of kinetic frustration is a major conceptual advance, but the evidence is weak. Figure 6 appears to show a correlation between helix folding time and condensate contact rearrangement time, but no direct kinetic measurements (e.g., from time-resolved simulations or experiments) are presented. The "coupling" is inferred from static or equilibrium data, which is insufficient to establish a kinetic mechanism.</li>
+<li><strong>Why it matters</strong> Kinetic frustration is a strong claim that implies a new physical mechanism. If it is not supported by direct evidence, the paper’s novelty is significantly reduced. The claim could mislead the field if it is based on correlation rather than causation.</li>
+<li><strong>Resolution test</strong> Provide direct kinetic data, such as time-resolved simulations (e.g., replica exchange or Markov state models) or experimental measurements (e.g., stopped-flow fluorescence), showing that helix folding rates are modulated by condensate dynamics. Alternatively, clearly reframe the claim as a hypothesis rather than a demonstrated result.</li>
+</ul>
+</li>
+<li><strong>Minor Comments</strong><ul>
+<li><strong>Concern ID</strong> R1-m1</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Readability</li>
+<li><strong>Affected element</strong> Abstract</li>
+<li><strong>Evidence pointer</strong> Abstract, line 3</li>
+<li><strong>Issue</strong> The phrase "horizontal line dense macromolecular assemblies" appears to be a formatting error (likely a misplaced hyphen or dash). It should read "dense macromolecular assemblies."</li>
+<li><strong>Required correction</strong> Correct the typo to "dense macromolecular assemblies."</li>
+<li><strong>Concern ID</strong> R1-m2</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity</li>
+<li><strong>Affected element</strong> Results section</li>
+<li><strong>Evidence pointer</strong> Results, paragraph 2</li>
+<li><strong>Issue</strong> The term "co-condensate proteins" is used without a clear definition. It is ambiguous whether this refers to all proteins in the condensate or a specific subset.</li>
+<li><strong>Required correction</strong> Define "co-condensate proteins" explicitly, e.g., "proteins that are co-localized in the same condensate as the alpha-helical domain."</li>
+<li><strong>Concern ID</strong> R1-m3</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Data presentation</li>
+<li><strong>Affected element</strong> Figure 6</li>
+<li><strong>Evidence pointer</strong> Figure 6 caption</li>
+<li><strong>Issue</strong> The figure caption does not specify the error bars or the number of independent measurements. It is unclear whether the data points represent single simulations or averages.</li>
+<li><strong>Required correction</strong> Add a description of error bars (e.g., standard deviation, confidence intervals) and the number of replicates in the figure caption.</li>
+</ul>
+</li>
+<li><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 (simulation methodology), R1-M2 (model validation), R1-M3 (kinetic frustration evidence).</li>
+<li><strong>Assessment against Nature-style criteria</strong> <ul>
+<li><strong>Originality</strong> The concept of condensates dictating folding landscapes is novel and extends existing work on crowding and phase separation. However, the kinetic frustration claim, if unsubstantiated, reduces originality.</li>
+<li><strong>Scientific importance</strong> High. Understanding how condensates affect protein structure is crucial for cell biology and disease mechanisms.</li>
+<li><strong>Interdisciplinary readership</strong> Moderate. The work bridges biophysics, computational chemistry, and cell biology, but the heavy reliance on simulations may limit appeal to experimentalists.</li>
+<li><strong>Technical soundness</strong> Currently insufficient. The simulation methodology is underreported, and the model validation is weak. The kinetic claim is not supported by direct evidence.</li>
+<li><strong>Readability for nonspecialists</strong> Good. The abstract and introduction are clear, though the results section becomes technical. The minor typo and undefined terms should be fixed.</li>
+</ul>
+</li>
+<li><strong>Recommendation posture</strong> Currently not established from the provided evidence. The manuscript has a strong conceptual framework but requires major revisions to address the technical failings, particularly in simulation reporting, model validation, and kinetic evidence. Supportive if technical concerns are resolved.</li>
+</ul>
+<h2>Risk / unsupported claims</h2>
+<ul>
+<li>The claim that "helix folding transitions are kinetically frustrated inside condensates" is unsupported by direct kinetic evidence. The provided data only show correlation, not causation.</li>
+<li>The claim that the Bayesian optimization model is "chemically specific" and "residue-resolution" is not validated against experimental data or shown to capture known sequence-dependent behavior.</li>
+<li>The claim that "atomistic simulations suggest the helix-coil transition within condensates differs markedly" is unverifiable due to insufficient methodological detail.</li>
+</ul></div>
+  </section>
+</article>
+</main>
+</body>
+</html>

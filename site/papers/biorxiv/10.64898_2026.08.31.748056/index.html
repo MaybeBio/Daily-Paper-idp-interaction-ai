@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comprehensive Evaluation of Protein Language Model Embeddings for Drug-Target Affinity Prediction · idp-interaction-ai</title>
+  <link rel="stylesheet" href="/Daily-Paper-idp-interaction-ai/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/Daily-Paper-idp-interaction-ai/">idp-interaction-ai</a>
+    <nav>
+      <a href="/Daily-Paper-idp-interaction-ai/">本周</a>
+      <a href="/Daily-Paper-idp-interaction-ai/archive.html">归档</a>
+    </nav>
+  </header>
+  <main>
+<article class="paper">
+  <div class="paper-head">
+    <span class="score">3</span>
+    <div>
+      <h1>Comprehensive Evaluation of Protein Language Model Embeddings for Drug-Target Affinity Prediction</h1>
+      <div class="meta">Matija Marijan; Ivan Tanasijevic</div>
+      <div class="meta muted">biorxiv · 2026-09-03
+         · 仅摘要
+         · <a href="https://www.biorxiv.org/content/10.64898/2026.08.31.748056">原文</a>
+      </div>
+      <p class="one-liner">该文评估蛋白质语言模型嵌入在药物-靶标亲和力预测中的效果，虽涉及蛋白质表示和计算方法，但未聚焦无序蛋白或相分离，相关性较低。</p>
+    </div>
+  </div>
+  <section>
+    <h2>Paper Card</h2>
+    <div class="md"><h2>01 基本信息</h2>
+<ul>
+<li><strong>标题</strong>：Comprehensive Evaluation of Protein Language Model Embeddings for Drug-Target Affinity Prediction</li>
+<li><strong>作者与单位</strong>：Matija Marijan; Ivan Tanasijevic（单位未提供）</li>
+<li><strong>期刊/预印本平台</strong>：bioRxiv</li>
+<li><strong>年份</strong>：2026-09-03</li>
+<li><strong>论文类型</strong>：预印本（系统评估/基准研究）</li>
+<li><strong>领域</strong>：药物-靶标亲和力预测（DTA），蛋白质语言模型（PLM），深度学习</li>
+<li><strong>关键词</strong>：未提供</li>
+<li><strong>DOI/arXiv 号</strong>：10.64898/2026.08.31.748056</li>
+<li><strong>代码</strong>：未提供</li>
+<li><strong>数据</strong>：Davis, KIBA 基准数据集</li>
+<li><strong>阅读日期</strong>：未提供</li>
+<li><strong>该文在「无序蛋白/相分离 × 蛋白互作 × AI 方法」方向中的位置</strong>：该文不直接涉及无序蛋白或相分离，而是聚焦于蛋白质语言模型嵌入在药物-靶标亲和力预测中的应用，属于AI方法在蛋白互作（药物-靶标）预测中的系统评估。</li>
+</ul>
+<h2>02 一句话总结</h2>
+<p>该文系统评估了四种预训练蛋白质语言模型（PLM）嵌入在药物-靶标亲和力（DTA）预测任务中的效果，发现简单的1D卷积架构修改（DeepGraphDTA）即可达到与大型PLM嵌入相当的性能，挑战了PLM在此任务中的必要性。</p>
+<h2>03 研究问题</h2>
+<ul>
+<li><strong>具体问题</strong>：预训练蛋白质语言模型（PLM）的嵌入是否显著提升药物-靶标亲和力（DTA）预测的准确性，以及其相对于传统1D卷积方法的优势有多大？</li>
+<li><strong>为什么重要</strong>：DTA预测是药物发现的关键步骤，准确预测可加速研发并降低成本。PLM在蛋白质表示学习上表现出色，但其在DTA任务中的实际增益尚不明确，且计算成本高。</li>
+<li><strong>现有方法为何不足</strong>：现有DTA模型多使用图神经网络（GNN）改进药物表示，但蛋白质表示仍依赖简单的1D卷积或手工特征，未能充分利用蛋白质序列的深层信息。PLM虽被提出，但缺乏系统比较，且其相对于简单架构改进的边际收益未知。</li>
+<li><strong>精确研究问题</strong>：Can incorporating pre-trained protein language model embeddings significantly improve drug-target affinity prediction performance over classical 1D convolution methods, and are simple architectural modifications sufficient to bridge the performance gap?</li>
+</ul>
+<h2>04 背景与发展脉络</h2>
+<ul>
+<li><strong>脉络来源</strong>：仅本文框架（基于摘要推断，未提供外部核验）</li>
+<li><strong>阶段一：传统方法</strong>：使用手工特征或简单序列编码（如氨基酸组成）进行DTA预测。优点：计算成本低。局限：无法捕捉复杂序列-结构关系。</li>
+<li><strong>阶段二：深度学习基础方法</strong>：使用1D卷积神经网络（CNN）处理蛋白质序列，图神经网络（GNN）处理药物分子图。代表：GraphDTA。优点：端到端学习，性能提升。局限：蛋白质表示能力有限。</li>
+<li><strong>阶段三：PLM增强方法</strong>：引入预训练PLM（如ESM, ProtBERT）生成蛋白质嵌入，替代或增强CNN特征。代表：PLM-GraphDTA。优点：利用大规模无监督预训练知识。局限：计算成本高，且增益可能被简单架构改进所抵消。</li>
+<li><strong>本文主张的位置</strong>：本文通过系统比较，主张简单的架构修改（如DeepGraphDTA）可能足以弥合与大型PLM的性能差距，从而质疑PLM在DTA任务中的必要性。</li>
+</ul>
+<h2>05 核心痛点</h2>
+<table>
+<thead>
+<tr>
+<th>痛点</th>
+<th>表现</th>
+<th>成因或作者解释</th>
+<th>文中证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PLM嵌入计算成本高</td>
+<td>大型PLM（如ESM-2）需要大量GPU资源，推理速度慢</td>
+<td>作者未明确解释，但隐含于PLM的规模（参数多、序列长）</td>
+<td>未提供具体数值，但通过比较不同PLM（如ESM-2 vs. ProtBERT）的规模可推断</td>
+</tr>
+<tr>
+<td>传统1D卷积方法性能瓶颈</td>
+<td>许多DTA模型在蛋白质表示上表现不佳，限制整体预测精度</td>
+<td>作者认为传统方法未能有效捕捉蛋白质信息</td>
+<td>摘要中提及“many models still struggle to effectively and efficiently capture protein information”</td>
+</tr>
+<tr>
+<td>PLM增益不明确</td>
+<td>引入PLM后性能提升有限，甚至不如简单架构修改</td>
+<td>作者通过实验发现DeepGraphDTA（架构修改）与PLM-GraphDTA性能相当</td>
+<td>摘要中“simple architectural modifications... may be sufficient to bridge the gap to large pre-trained PLMs”</td>
+</tr>
+</tbody>
+</table>
+<h2>06 核心思想</h2>
+<ol>
+<li><strong>表面方法</strong>：系统评估四种PLM（ESM-2, ProtBERT, ProtT5, Ankh）嵌入在四个分子表示骨干（包括GraphDTA和DeepGraphDTA）上的DTA预测性能，使用Davis和KIBA数据集，以CI和MSE为指标，并采用冷启动（cold-start）分割评估泛化能力。</li>
+<li><strong>核心洞察</strong>：PLM嵌入并非DTA预测的必要条件；通过改进传统1D卷积架构（如DeepGraphDTA），可以弥合与大型PLM的性能差距，且计算成本更低。</li>
+<li><strong>可能的普适教训</strong>：[Analysis] 在特定下游任务中，预训练大模型的边际收益可能被针对性的架构改进所抵消。评估时应系统比较“增加模型容量/预训练”与“优化现有架构”两种策略，避免盲目追求大模型。</li>
+</ol>
+<h2>07 方法总览</h2>
+<ul>
+<li><strong>输入</strong>：药物分子（SMILES或图结构）和靶标蛋白质序列。</li>
+<li><strong>输出</strong>：药物-靶标亲和力值（连续值，如Kd, Ki, IC50）。</li>
+<li><strong>模块</strong>：
+  1. 药物表示模块：使用GNN（如GIN, GAT）从分子图学习药物嵌入。
+  2. 蛋白质表示模块：使用PLM（ESM-2, ProtBERT, ProtT5, Ankh）生成序列嵌入，或使用1D CNN（基线方法）提取特征。
+  3. 融合与预测模块：将药物和蛋白质嵌入拼接，通过全连接层预测亲和力。</li>
+<li><strong>训练</strong>：端到端训练，损失函数为MSE。</li>
+<li><strong>工具</strong>：PyTorch, DGL（图深度学习库），预训练PLM（来自Hugging Face或特定仓库）。</li>
+<li><strong>反馈回路</strong>：无明确反馈回路，为标准监督学习。</li>
+<li><strong>假设</strong>：PLM嵌入能提供比1D CNN更丰富的蛋白质表示，从而提升DTA预测性能。</li>
+<li><strong>文字流程</strong>：输入药物分子和蛋白质序列 → 药物通过GNN生成嵌入 → 蛋白质通过PLM或1D CNN生成嵌入 → 两者拼接 → 通过全连接层预测亲和力值 → 计算MSE损失并反向传播更新参数。</li>
+</ul>
+<h2>08 核心模块拆解</h2>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>功能</th>
+<th>为何需要</th>
+<th>输入输出</th>
+<th>支撑证据</th>
+<th>移除后的已知或预期影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>药物表示模块（GNN）</td>
+<td>从分子图学习药物拓扑和化学特征</td>
+<td>药物分子结构是亲和力的关键决定因素</td>
+<td>输入：分子图（原子节点、键边）；输出：药物嵌入向量</td>
+<td>未提供具体消融，但GNN是DTA标准方法</td>
+<td>预期性能显著下降，无法捕捉药物结构信息</td>
+</tr>
+<tr>
+<td>蛋白质表示模块（PLM/1D CNN）</td>
+<td>从蛋白质序列提取特征</td>
+<td>蛋白质序列决定结合位点和相互作用模式</td>
+<td>输入：氨基酸序列；输出：蛋白质嵌入向量</td>
+<td>本文核心比较对象，通过对比PLM vs. 1D CNN评估</td>
+<td>移除PLM或1D CNN将导致无法生成蛋白质表示，模型失效</td>
+</tr>
+<tr>
+<td>融合与预测模块</td>
+<td>整合药物和蛋白质特征，输出亲和力</td>
+<td>需要将两种模态信息结合进行回归预测</td>
+<td>输入：药物嵌入 + 蛋白质嵌入；输出：标量亲和力值</td>
+<td>标准DTA架构</td>
+<td>移除后无法进行预测</td>
+</tr>
+</tbody>
+</table>
+<h2>09 关键公式符号</h2>
+<p>不适用。摘要中未提供具体公式。</p>
+<h2>10 实验设计与证据链</h2>
+<ul>
+<li><strong>数据集/群体</strong>：Davis（激酶抑制剂数据集）和 KIBA（激酶抑制剂生物活性数据集）。</li>
+<li><strong>规模</strong>：未提供具体样本数。</li>
+<li><strong>指标</strong>：Concordance Index (CI) 和 Mean Squared Error (MSE)。</li>
+<li><strong>基线</strong>：GraphDTA（使用1D CNN的基线方法）。</li>
+<li><strong>骨干</strong>：四种分子表示骨干（包括GraphDTA和DeepGraphDTA）。</li>
+<li><strong>评测协议</strong>：标准随机分割和冷启动（cold-start）分割（训练集和测试集无重叠的药物或靶标）。</li>
+<li><strong>oracle 输入</strong>：无。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>实验</th>
+<th>检验的claim</th>
+<th>对比与条件</th>
+<th>结果</th>
+<th>支持的结论</th>
+<th>不支持更强的结论</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PLM嵌入 vs. 1D CNN</td>
+<td>PLM嵌入提升DTA性能</td>
+<td>四种PLM（ESM-2等） vs. 1D CNN，在Davis和KIBA上</td>
+<td>未提供具体数值</td>
+<td>PLM嵌入可能提升性能，但幅度有限</td>
+<td>无法断言PLM显著优于1D CNN，因为DeepGraphDTA（架构修改）可能达到类似效果</td>
+<td>摘要</td>
+</tr>
+<tr>
+<td>DeepGraphDTA vs. PLM-GraphDTA</td>
+<td>架构修改可弥合与PLM的差距</td>
+<td>DeepGraphDTA（改进1D CNN） vs. PLM-GraphDTA（使用PLM）</td>
+<td>未提供具体数值</td>
+<td>简单架构修改足以弥合性能差距</td>
+<td>无法断言架构修改完全替代PLM，可能在某些场景下PLM仍有优势</td>
+<td>摘要</td>
+</tr>
+<tr>
+<td>冷启动分割</td>
+<td>模型泛化能力</td>
+<td>冷启动 vs. 随机分割</td>
+<td>未提供具体数值</td>
+<td>冷启动下性能下降，但PLM和架构修改的相对关系可能保持</td>
+<td>无法断言哪种方法在冷启动下更鲁棒</td>
+<td>摘要</td>
+</tr>
+</tbody>
+</table>
+<h2>11 结论正确解读</h2>
+<ul>
+<li><strong>任务范围</strong>：仅限药物-靶标亲和力预测，不涉及其他蛋白互作任务（如PPI）。</li>
+<li><strong>oracle/真值输入</strong>：使用标准基准数据集（Davis, KIBA）的已知亲和力值。</li>
+<li><strong>端到端状态</strong>：是端到端训练，但蛋白质表示模块可替换（PLM或1D CNN）。</li>
+<li><strong>算力成本</strong>：未提供，但PLM（如ESM-2）需要显著更高的GPU内存和计算时间。</li>
+<li><strong>历史数据依赖</strong>：依赖预训练PLM（在大量蛋白质序列上预训练）和DTA基准数据。</li>
+<li><strong>模型依赖</strong>：结论可能依赖于所选PLM和骨干架构，不同PLM或骨干可能改变结果。</li>
+<li><strong>最难情形</strong>：冷启动分割（新药物或新靶标）下性能下降，表明模型泛化能力有限。</li>
+<li><strong>群体/领域边界</strong>：仅限激酶抑制剂数据集，可能不适用于其他靶标类型（如GPCR, 离子通道）。</li>
+<li><strong>不确定性</strong>：未提供统计显著性检验或置信区间，结果可能存在随机性。</li>
+<li><strong>有边界的复述</strong>：在Davis和KIBA激酶数据集上，使用四种特定PLM嵌入的DTA模型，其性能并不显著优于通过简单架构修改（DeepGraphDTA）的传统1D CNN方法，且冷启动泛化能力有限。</li>
+</ul>
+<h2>12 作者自认局限</h2>
+<p>在提供的材料中未发现作者明确承认的局限。</p>
+<h2>13 批判性分析</h2>
+<table>
+<thead>
+<tr>
+<th>[Analysis] 观察</th>
+<th>潜在问题或替代解释</th>
+<th>为何重要</th>
+<th>如何检验</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>仅使用两个激酶数据集</td>
+<td>结论可能不具普适性，其他靶标类型（如GPCR）或更大数据集可能显示PLM优势</td>
+<td>限制了结论的泛化范围</td>
+<td>在更多样化的DTA数据集（如BindingDB, PDBbind）上重复实验</td>
+<td>摘要中仅提及Davis和KIBA</td>
+</tr>
+<tr>
+<td>未提供具体性能数值</td>
+<td>无法独立验证“简单架构修改弥合差距”的强度</td>
+<td>削弱了结论的可信度和可复现性</td>
+<td>要求作者提供完整结果表格或代码</td>
+<td>摘要中无数值</td>
+</tr>
+<tr>
+<td>未讨论PLM嵌入的维度或计算成本</td>
+<td>无法评估性能-成本权衡</td>
+<td>实际应用中计算成本是关键因素</td>
+<td>报告每个模型的参数量、推理时间和GPU内存</td>
+<td>摘要中未提及</td>
+</tr>
+<tr>
+<td>冷启动分割细节缺失</td>
+<td>冷启动定义（新药物、新靶标或两者）影响结果解释</td>
+<td>不同冷启动场景下模型行为可能不同</td>
+<td>明确冷启动分割类型（如药物冷启动、靶标冷启动）</td>
+<td>摘要中仅提及“cold-start train and test splits”</td>
+</tr>
+</tbody>
+</table>
+<h2>14 学到什么</h2>
+<ul>
+<li><strong>可迁移的概念</strong>：在评估预训练模型时，应同时比较“增加模型容量”和“优化现有架构”两种策略，避免盲目追求大模型。</li>
+<li><strong>可迁移的方法</strong>：系统评估框架：固定任务（DTA），变化蛋白质表示模块（PLM vs. 1D CNN），使用多个骨干和数据集，并包含冷启动泛化测试。</li>
+<li><strong>可迁移的公式</strong>：不适用。</li>
+<li><strong>可迁移的实验设计</strong>：使用冷启动分割评估泛化能力，分析每个蛋白质对总CI的贡献（per-protein contribution）。</li>
+</ul>
+<h2>15 与已有知识连接</h2>
+<ul>
+<li><strong>相似工作</strong>：与“GraphDTA”（Nguyen et al., 2021）和“DeepDTA”（Öztürk et al., 2018）等DTA基线方法直接相关，本文扩展了蛋白质表示模块。</li>
+<li><strong>组合方向</strong>：可与“分子图预训练”（如GROVER, MolCLR）结合，探索药物和蛋白质同时使用预训练表示的效果。</li>
+<li><strong>冲突观点</strong>：与一些主张PLM显著提升DTA性能的工作（如“MolTrans”, “TransformerCPI”）可能冲突，本文结果暗示这些提升可能部分来自架构改进而非PLM本身。</li>
+<li><strong>可迁移领域</strong>：该评估框架可迁移至其他蛋白互作预测任务（如蛋白质-蛋白质相互作用、蛋白质-核酸相互作用），用于评估PLM的通用性。</li>
+</ul>
+<h2>16 研究想法</h2>
+<ul>
+<li><strong>候选名称</strong>：PLM在DTA中的边际收益与架构改进的等价性验证</li>
+<li><strong>来源局限/观察</strong>：本文仅使用两个激酶数据集，且未提供具体数值，结论强度有限。</li>
+<li><strong>核心假设</strong>：在更广泛的数据集和更严格的统计检验下，简单架构改进（如DeepGraphDTA）与PLM嵌入的性能差距仍然不显著。</li>
+<li><strong>相对本文的增量</strong>：1) 在BindingDB, PDBbind等更大、更多样化的数据集上验证；2) 报告完整性能数值和置信区间；3) 增加计算成本分析（时间、内存）。</li>
+<li><strong>初步方法</strong>：复现本文方法，在多个数据集上运行，使用配对t检验或Wilcoxon检验比较DeepGraphDTA与最佳PLM-GraphDTA的性能。</li>
+<li><strong>验证方式</strong>：若在多个数据集上DeepGraphDTA的CI与PLM-GraphDTA无显著差异（p&gt;0.05），则支持假设。</li>
+<li><strong>可能的失败模式</strong>：在特定数据集或特定PLM（如ESM-2）上，PLM仍显著优于架构改进，表明PLM优势具有任务或数据依赖性。</li>
+<li><strong>创新状态</strong>：unverified（基于摘要推断，需复现验证）</li>
+</ul></div>
+  </section>
+  <section>
+    <h2>审稿人评审</h2>
+    <div class="md"><h2>Review setup</h2>
+<ul>
+<li><strong>Input scope</strong> Abstract</li>
+<li><strong>Assessment boundary</strong> Claims and evidence presented in the abstract only</li>
+<li><strong>Shared manuscript claim summary</strong> The authors systematically evaluate the impact of pre-trained protein language model (PLM) embeddings on drug-target affinity (DTA) prediction, comparing them to classical 1D convolution methods across multiple backbones and datasets. They find that simple architectural modifications to convolution methods may be sufficient to bridge the performance gap to large pre-trained PLMs.</li>
+<li><strong>Visible evidence base</strong> Abstract text only; no figures, tables, or methods section provided</li>
+<li><strong>Missing materials affecting confidence</strong> Full manuscript (methods, results, figures, tables, code, data splits, hyperparameters, statistical tests)</li>
+</ul>
+<h2>Reviewer 1</h2>
+<ul>
+<li>
+<p><strong>Overall assessment</strong> The abstract presents a timely and potentially impactful benchmarking study on the use of protein language model embeddings for drug-target affinity prediction. The research question is well-motivated, and the experimental design—spanning multiple PLM families, representation backbones, and datasets—is commendable in scope. However, the abstract lacks critical quantitative results, statistical rigor, and methodological detail necessary to evaluate the strength of the central claim. The conclusion that simple architectural modifications may bridge the gap to PLMs is intriguing but currently unsupported by any numerical evidence in the provided material. The study's value to the field is clear, but the case is not established from the abstract alone.</p>
+</li>
+<li>
+<p><strong>Who would be interested in the results, and why</strong> Computational drug discovery researchers, machine learning practitioners working on protein representation learning, and bioinformaticians developing DTA prediction models. The systematic comparison of PLM embeddings against simpler convolution methods addresses a practical question of resource allocation: whether the computational cost of large PLMs is justified for DTA tasks.</p>
+</li>
+<li>
+<p><strong>Major strengths</strong> 1. Systematic evaluation across four PLM families with distinct architectures and training objectives (structure prediction, function prediction, sequence unmasking). 2. Use of multiple molecular representation backbones (four) and two benchmark datasets (Davis, KIBA) with standard metrics (CI, MSE). 3. Inclusion of cold-start train/test splits to assess generalization, which is a more realistic and challenging evaluation scenario. 4. Per-protein contribution analysis to understand model behavior at the protein level.</p>
+</li>
+<li>
+<p><strong>Major Concerns</strong></p>
+<ul>
+<li><strong>Concern ID</strong> R1-M1</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Evidence sufficiency</li>
+<li><strong>Claim pointer</strong> "The results indicate simple architectural modifications to traditional convolution methods may be sufficient to bridge the gap to large pre-trained PLMs."</li>
+<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
+<li><strong>Concern</strong> The central claim of the abstract—that simple architectural modifications can match PLM performance—is presented without any quantitative support. No numerical results (CI values, MSE values, or effect sizes) are reported for any model or dataset. The reader cannot assess the magnitude of the performance gap, the statistical significance of any differences, or whether the claim holds across all datasets and backbones.</li>
+<li><strong>Why it matters</strong> This is the primary conclusion of the study. Without quantitative evidence, the claim is an unsupported assertion. The field needs to know, for example, whether the modified convolution method achieves CI within 0.01 of the best PLM-based model, or whether the gap is larger but still "bridged" in a practical sense.</li>
+<li>
+<p><strong>Resolution test</strong> Provide key numerical results in the abstract, including at least: (i) the best CI and MSE for each dataset for both the PLM-based and modified convolution methods, (ii) the performance of the baseline convolution method for comparison, and (iii) a statement of whether differences are statistically significant (e.g., via bootstrapped confidence intervals).</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M2</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Methodological transparency</li>
+<li><strong>Claim pointer</strong> "We design multiple experiments across four different molecular representation backbones and assess the effect of incorporating PLM embeddings, comparing their performance to classical 1D convolution methods."</li>
+<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
+<li><strong>Concern</strong> The abstract does not specify what the "four different molecular representation backbones" are, nor what the "simple architectural modifications" to the convolution method entail. Without this information, the reader cannot evaluate the fairness of the comparison or the novelty of the proposed modifications.</li>
+<li><strong>Why it matters</strong> The claim that simple modifications suffice depends entirely on what those modifications are. If the modifications are non-trivial (e.g., adding attention mechanisms or residual connections), the conclusion may be less surprising. The field needs to know the specific architectural changes to assess their simplicity and reproducibility.</li>
+<li>
+<p><strong>Resolution test</strong> Briefly name the four backbones (e.g., GCN, GAT, GIN, MPNN) and describe the key architectural modification (e.g., "adding a 2-layer MLP with residual connections to the 1D convolution branch").</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-M3</p>
+</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Generalizability and robustness</li>
+<li><strong>Claim pointer</strong> "We further evaluate the generalization power of each model using cold-start train and test splits, and analyze the per-protein contribution to total CI."</li>
+<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
+<li><strong>Concern</strong> The abstract reports that cold-start evaluation was performed but provides no results. Cold-start splits (where test proteins or drugs are unseen during training) are known to be much harder than random splits. The claim about bridging the gap to PLMs may not hold under cold-start conditions, which would significantly weaken the conclusion.</li>
+<li><strong>Why it matters</strong> The practical value of DTA models depends on their ability to generalize to new proteins and drugs. If PLMs show a clear advantage under cold-start conditions, the conclusion that simple modifications suffice would be misleading.</li>
+<li><strong>Resolution test</strong> Report at least one key cold-start result (e.g., "Under cold-start protein splits, the modified convolution method achieved CI of X vs. Y for the best PLM model, compared to Z for the baseline").</li>
+</ul>
+</li>
+<li>
+<p><strong>Minor Comments</strong></p>
+<ul>
+<li><strong>Concern ID</strong> R1-m1</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity</li>
+<li><strong>Affected element</strong> Model naming</li>
+<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
+<li><strong>Issue</strong> The abstract introduces "PLM-GraphDTA" and "DeepGraphDTA" but does not clearly define how these relate to the four PLM families and four backbones. It is unclear whether PLM-GraphDTA is a single model or a family of models.</li>
+<li>
+<p><strong>Required correction</strong> Clarify the naming convention: e.g., "We integrate each PLM into GraphDTA to create PLM-GraphDTA variants (e.g., ESM-GraphDTA, ProtBERT-GraphDTA)."</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m2</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Completeness</li>
+<li><strong>Affected element</strong> PLM families</li>
+<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
+<li><strong>Issue</strong> The abstract states "four families of PLMs" but does not name them. For a benchmarking study, the specific PLMs are essential information.</li>
+<li>
+<p><strong>Required correction</strong> List the four PLM families (e.g., ESM-1b, ProtBERT, ProtT5, Ankh) in the abstract.</p>
+</li>
+<li>
+<p><strong>Concern ID</strong> R1-m3</p>
+</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Reproducibility</li>
+<li><strong>Affected element</strong> Evaluation metrics</li>
+<li><strong>Evidence pointer</strong> Abstract; location not provided</li>
+<li><strong>Issue</strong> The abstract uses CI and MSE but does not specify whether MSE is computed on log-transformed or raw Kd/Ki values, which is a common source of variability in DTA benchmarks.</li>
+<li><strong>Required correction</strong> Specify the MSE target (e.g., "MSE on log-transformed binding affinity values").</li>
+</ul>
+</li>
+<li>
+<p><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 (lack of quantitative results for the central claim) and R1-M2 (insufficient methodological detail on backbones and modifications) are blocking. Without these, the abstract does not provide enough evidence to evaluate the study's conclusions.</p>
+</li>
+<li>
+<p><strong>Assessment against Nature-style criteria</strong></p>
+<ul>
+<li><strong>Originality</strong>: Moderate. The systematic comparison of PLM embeddings for DTA is not entirely novel, but the specific focus on whether simple modifications can match PLMs is a useful and practical question.</li>
+<li><strong>Scientific importance</strong>: High. If the claim holds, it could reduce the computational burden of DTA prediction and make high-performance models more accessible.</li>
+<li><strong>Interdisciplinary readership</strong>: Moderate. The topic is of primary interest to computational biologists and machine learning researchers; the abstract is accessible to a broader audience but lacks the quantitative hook to draw in nonspecialists.</li>
+<li><strong>Technical soundness</strong>: Cannot be assessed from the abstract alone. The experimental design appears sound in scope, but the lack of results and methodological detail prevents evaluation.</li>
+<li><strong>Readability for nonspecialists</strong>: Good. The abstract is clearly written and avoids unnecessary jargon, though the model names could be better explained.</li>
+</ul>
+</li>
+<li>
+<p><strong>Recommendation posture</strong> Currently not established from the provided evidence. The abstract presents an interesting research question and a well-structured experimental plan, but the central claim is unsupported by quantitative results. The authors should provide key numerical findings and clarify the methodological details before the study can be properly evaluated.</p>
+</li>
+</ul>
+<h2>Risk / unsupported claims</h2>
+<ul>
+<li>"The results indicate simple architectural modifications to traditional convolution methods may be sufficient to bridge the gap to large pre-trained PLMs." — Unsupported; no quantitative results provided.</li>
+<li>Any implied superiority of the modified convolution method over PLMs or vice versa — Unsupported; no comparative results given.</li>
+<li>The effectiveness of cold-start evaluation or per-protein analysis — Unsupported; no results reported.</li>
+</ul></div>
+  </section>
+</article>
+</main>
+</body>
+</html>

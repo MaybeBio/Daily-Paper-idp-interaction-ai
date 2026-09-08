@@ -1,0 +1,17 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.31.748056",
+  "title": "Comprehensive Evaluation of Protein Language Model Embeddings for Drug-Target Affinity Prediction",
+  "authors": "Matija Marijan; Ivan Tanasijevic",
+  "published_date": "2026-09-03",
+  "score": 3,
+  "one_liner_zh": "该文评估蛋白质语言模型嵌入在药物-靶标亲和力预测中的效果，虽涉及蛋白质表示和计算方法，但未聚焦无序蛋白或相分离，相关性较低。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.748056",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.31.748056",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.31.748056/index.html"
+}

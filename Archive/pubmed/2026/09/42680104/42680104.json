@@ -171,7 +171,7 @@
   },
   "metadata": {
     "entrez_date": "2026/09/01 23:34",
-    "fetched_at": "2026-09-08 15:20:36"
+    "fetched_at": "2026-09-08 17:26:48"
   },
   "links": {
     "cites": [],
@@ -300,7 +300,7 @@
         "linkname": ""
       },
       {
-        "url": "https://assays.cancer.gov/CPTAC-1248",
+        "url": "https://assays.cancer.gov/CPTAC-1619",
         "provider": "NCI CPTAC Assay Portal",
         "category": "Miscellaneous",
         "attribute": "free resource",
