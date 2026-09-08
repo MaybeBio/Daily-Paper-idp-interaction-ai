@@ -9,11 +9,9 @@ window_days: 7
 # GitHub Pages 站点根地址，用于 Issue「链接」列的绝对跳转（解析页）
 site_base_url: https://MaybeBio.github.io/Daily-Paper-idp-interaction-ai
 
-# LLM agent（从环境变量读密钥，不写进文件）
+# LLM agent：模型 / base_url / api_key 全部从环境变量读取，不写进文件
 #   LLM_BASE_URL / LLM_API_KEY / LLM_MODEL 由 GitHub Actions secrets/variables 或本地 env 注入
 llm:
-  model: deepseek-chat        # 默认；可被 env LLM_MODEL 覆盖
-  base_url: ""                # 留空则读 env LLM_BASE_URL
   enable_card: true
   enable_reviewer: true
 
