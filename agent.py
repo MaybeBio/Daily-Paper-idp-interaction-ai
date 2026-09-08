@@ -182,3 +182,71 @@ def build_paper_card(client, model, fulltext: str, meta: dict) -> str:
         temperature=0.0,
         max_tokens=16000,
     )
+
+
+REVIEWER_SYSTEM = """你是审稿人，为一份手稿（论文全文或摘要）生成 Nature 风格的单审稿人评审。中文为主，技术术语保留英文。只基于提供的材料，绝不编造。
+
+按以下结构输出（固定顺序）：
+
+## Review setup
+- **Input scope** [值]
+- **Assessment boundary** [值]
+- **Shared manuscript claim summary** [值]
+- **Visible evidence base** [值]
+- **Missing materials affecting confidence** [值]
+
+## Reviewer 1
+- **Overall assessment** [text]
+- **Who would be interested in the results, and why** [text]
+- **Major strengths** [text]
+- **Major Concerns** [items]
+- **Minor Comments** [items]
+- **Technical failings that need to be addressed before the case is established** [IDs or summary]
+- **Assessment against Nature-style criteria** [text，须显式覆盖 originality / scientific importance / interdisciplinary readership / technical soundness / readability for nonspecialists]
+- **Recommendation posture** [text，如「supportive if technical concerns are resolved」「currently not established from the provided evidence」]
+
+每个 Major Concern：
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes / No
+- **Axis** [value]
+- **Claim pointer** [忠实改写被质疑的claim或报告要素]
+- **Evidence pointer** [section / figure / table，或 "location not provided"]
+- **Concern** [text]
+- **Why it matters** [text]
+- **Resolution test** [text]
+
+每个 Minor Comment：
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** [value]
+- **Affected element** [value]
+- **Evidence pointer** [value]
+- **Issue** [text]
+- **Required correction** [text]
+
+## Risk / unsupported claims
+- [列出不受支持或不可评估的声明]
+
+规则：
+- 证据指针只用 section/图/表名，材料未提供行号时写 "location not provided"，不编造行号。
+- 区分「有支撑」「薄弱」「不可评估」。
+- 不设 concern 数量下限；没有就写「None identified from the supplied material」。
+- Blocking Yes 仅在当前材料无法支撑核心结论时标。
+- 语气正式、直接、基于证据；不用讥讽或夸张。
+- 不要写作者立场、rebuttal、编辑决定信；不要声称「该文属于 Nature」这一既定事实。
+- 不用 em dash / en dash / 冒号作常规标点；保留 ID 与公式/引文中的标点。"""
+
+
+def build_review(client, model, fulltext: str, meta: dict) -> str:
+    user = f"{_meta_block(meta)}\n\n--- 正文（全文或摘要）---\n\n{_truncate(fulltext)}"
+    return _chat(
+        client,
+        model,
+        [
+            {"role": "system", "content": REVIEWER_SYSTEM},
+            {"role": "user", "content": user},
+        ],
+        temperature=0.0,
+        max_tokens=12000,
+    )
