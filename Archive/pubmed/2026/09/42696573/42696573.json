@@ -265,7 +265,7 @@
   },
   "metadata": {
     "entrez_date": "2026/09/04 17:40",
-    "fetched_at": "2026-09-07 13:05:09"
+    "fetched_at": "2026-09-08 15:20:36"
   },
   "links": {
     "cites": [],
@@ -367,8 +367,8 @@
       "30907226",
       "35435132",
       "29634932",
-      "26236954",
       "41557796",
+      "26236954",
       "21205641",
       "34424124"
     ],
@@ -388,6 +388,13 @@
       {
         "url": "https:///www.science.org/doi/10.1126/sciadv.aeg3201?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
         "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42696573/",
+        "provider": "PubMed Central",
         "category": "Full Text Sources",
         "attribute": "free resource",
         "linkname": ""

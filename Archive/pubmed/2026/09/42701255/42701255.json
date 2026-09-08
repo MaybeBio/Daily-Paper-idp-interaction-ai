@@ -82,7 +82,7 @@
   },
   "metadata": {
     "entrez_date": "2026/09/06 05:40",
-    "fetched_at": "2026-09-07 13:05:09"
+    "fetched_at": "2026-09-08 15:20:36"
   },
   "links": {
     "cites": [],
@@ -150,8 +150,8 @@
       "20483336",
       "38740122",
       "29279008",
-      "40848932",
       "39937084",
+      "40848932",
       "9889160",
       "35293386",
       "2329584",
@@ -202,7 +202,15 @@
     ],
     "pmc": [],
     "entrez": {},
-    "external": [],
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.6c01403",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
     "text_mined": []
   }
 }
