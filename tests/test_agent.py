@@ -36,3 +36,14 @@ def test_chat_retries_then_raises():
     with pytest.raises(RuntimeError):
         agent._chat(client, "m", [{"role": "user", "content": "hi"}], max_attempts=2)
     assert len(calls) == 2
+
+
+def test_build_paper_card_includes_meta_and_fulltext():
+    client, calls = fake_client(["## 01 基本信息\n..."])
+    meta = {"title": "T", "authors": "A", "journal": "J", "published_date": "2026-01-01", "doi": "10.1/x", "url": "http://u"}
+    agent.build_paper_card(client, "m", "full text body", meta)
+    sent = calls[0]["messages"]
+    user = sent[-1]["content"]
+    assert "T" in user
+    assert "full text body" in user
+    assert "## 01 基本信息" in sent[0]["content"]
