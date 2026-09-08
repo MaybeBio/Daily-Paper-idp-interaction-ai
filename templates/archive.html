@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}归档 · idp-interaction-ai{% endblock %}
+{% block content %}
+<h1>历史归档</h1>
+<p class="muted">累计 {{ total }} 篇 · 按周聚合</p>
+{% for week, papers in weeks.items() %}
+<section class="week">
+  <h2>{{ week }} <span class="muted">（{{ papers|length }}）</span></h2>
+  <ul>
+    {% for p in papers %}
+    <li><a href="/Daily-Paper-idp-interaction-ai/{{ p.paper_page_path }}">{{ p.title }}</a>
+      <span class="muted"> · {{ p.score if p.score is not none else "-" }} · {{ p.source }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}

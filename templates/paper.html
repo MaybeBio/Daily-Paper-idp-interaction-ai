@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}{{ paper.title }} · idp-interaction-ai{% endblock %}
+{% block content %}
+<article class="paper">
+  <div class="paper-head">
+    <span class="score">{{ paper.score if paper.score is not none else "-" }}</span>
+    <div>
+      <h1>{{ paper.title }}</h1>
+      <div class="meta">{{ paper.authors }}</div>
+      <div class="meta muted">{{ paper.source }} · {{ paper.published_date[:10] }}
+        {% if paper.has_fulltext %} · 全文({{ paper.fulltext_source }}){% else %} · 仅摘要{% endif %}
+        {% if paper.url %} · <a href="{{ paper.url }}">原文</a>{% endif %}
+      </div>
+      {% if paper.one_liner_zh %}<p class="one-liner">{{ paper.one_liner_zh }}</p>{% endif %}
+    </div>
+  </div>
+  <section>
+    <h2>Paper Card</h2>
+    <div class="md">{{ card_html | safe }}</div>
+  </section>
+  <section>
+    <h2>审稿人评审</h2>
+    <div class="md">{{ review_html | safe }}</div>
+  </section>
+</article>
+{% endblock %}
