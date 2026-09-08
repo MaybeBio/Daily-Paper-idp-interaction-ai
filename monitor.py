@@ -382,7 +382,7 @@ def issue_title(start, end, total):
     return f"📅 {start} ~ {end} 本周文献推送（{total} 篇）"
 
 
-def build_issue(rows_by_platform, start, end, analyses=None):
+def build_issue(rows_by_platform, start, end, analyses=None, site_base_url=""):
     analyses = analyses or {}
     total = sum(len(v) for v in rows_by_platform.values())
     if total == 0:
@@ -405,7 +405,10 @@ def build_issue(rows_by_platform, start, end, analyses=None):
             score = a["score"] if a["score"] is not None else "-"
             one_liner = (a["one_liner_zh"] or "").replace("|", "\\|").replace("\n", " ")
             page = a["paper_page_path"]
-            link = f"[解析]({page})" if page else "-"
+            if page and site_base_url:
+                link = f"[解析]({site_base_url.rstrip('/')}/{page})"
+            else:
+                link = f"[解析]({page})" if page else "-"
             lines.append(
                 f"| {cell} | {_short_authors(r['authors'])} | {(r['published_date'] or '')[:10]} "
                 f"| {score} | {one_liner} | {link} |"
@@ -461,7 +464,7 @@ def main():
     total = sum(len(v) for v in rows_by_platform.values())
     if args.issue_body:
         with open(args.issue_body, "w", encoding="utf-8") as f:
-            f.write(build_issue(rows_by_platform, start, end, analyses))
+            f.write(build_issue(rows_by_platform, start, end, analyses, cfg.get("site_base_url") or ""))
     if args.issue_title and total > 0:
         with open(args.issue_title, "w", encoding="utf-8") as f:
             f.write(issue_title(start, end, total) + "\n")

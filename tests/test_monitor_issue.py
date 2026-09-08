@@ -16,10 +16,26 @@ def test_build_issue_six_columns():
             "score": 7, "one_liner_zh": "一句话", "paper_page_path": "papers/pubmed/1/index.html"
         }
     }
-    body = monitor.build_issue(rows_by_platform, "2026-01-01", "2026-01-07", analyses)
+    body = monitor.build_issue(rows_by_platform, "2026-01-01", "2026-01-07", analyses,
+                               site_base_url="https://MaybeBio.github.io/Daily-Paper-idp-interaction-ai")
     assert "| 标题 | 作者 | 日期 | 评分 | 一句话 | 链接 |" in body
     assert "[A\\|B](http://orig)" in body
-    assert "| 7 | 一句话 | [解析](papers/pubmed/1/index.html) |" in body
+    assert "| 7 | 一句话 | [解析](https://MaybeBio.github.io/Daily-Paper-idp-interaction-ai/papers/pubmed/1/index.html) |" in body
+
+
+def test_build_issue_link_falls_back_to_relative():
+    rows_by_platform = {
+        "pubmed": [
+            {
+                "source": "pubmed", "id": "1", "title": "T", "authors": "A",
+                "published_date": "2026-01-01", "url": "http://orig",
+            }
+        ],
+        "arxiv": [], "biorxiv": [], "chemrxiv": [], "medrxiv": [],
+    }
+    analyses = {("pubmed", "1"): {"score": 7, "one_liner_zh": "", "paper_page_path": "papers/pubmed/1/index.html"}}
+    body = monitor.build_issue(rows_by_platform, "2026-01-01", "2026-01-07", analyses)
+    assert "[解析](papers/pubmed/1/index.html)" in body
 
 
 def test_analysis_for_missing_returns_default():
