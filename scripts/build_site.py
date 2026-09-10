@@ -132,6 +132,31 @@ def _load_paper_files(paper_dir):
     return _md_to_html(card), _md_to_html(review)
 
 
+def _build_search_documents(papers):
+    docs = []
+    for p in papers:
+        sl = source_label(p["source"], p["journal"])
+        card, review = _load_paper_md(p["paper_dir"])
+        body = " ".join([
+            p["abstract"] or "",
+            p["abstract_zh"] or "",
+            _plain_text(card),
+            _plain_text(review),
+        ])
+        docs.append({
+            "id": f"{p['source']}:{p['id']}",
+            "title": p["title"],
+            "subtitle": "",
+            "url": f"{BASE_PATH}/{p['paper_page_path']}",
+            "meta": [p["authors"] or "", sl["venue"], (p["published_date"] or "")[:10]],
+            "tags": [],
+            "summary": p["one_liner_zh"] or "",
+            "body": body,
+            "date": (p["published_date"] or "")[:10],
+        })
+    return docs
+
+
 def build_site(out_dir):
     papers = load_archive(out_dir)
     env = Environment(
@@ -198,6 +223,8 @@ def build_site(out_dir):
         f.write(env.get_template("search.html").render())
     with open(os.path.join(data_dir, "index.json"), "w", encoding="utf-8") as f:
         json.dump({"latest_window": window_end, "papers": papers}, f, ensure_ascii=False, indent=2)
+    with open(os.path.join(data_dir, "search.json"), "w", encoding="utf-8") as f:
+        json.dump({"version": 1, "documents": _build_search_documents(papers)}, f, ensure_ascii=False, indent=2)
     _write_assets(assets_dir)
 
 

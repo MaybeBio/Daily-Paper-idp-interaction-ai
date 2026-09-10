@@ -106,3 +106,27 @@ def test_load_archive_window_fallback(tmp_path):
     papers = build_site.load_archive(str(tmp_path))
     assert papers[0]["window_start"] == "2026-08-31"
     assert papers[0]["window_end"] == "2026-09-06"
+
+
+def test_build_search_documents(tmp_path):
+    _make_paper(str(tmp_path), "pubmed", "1", "2026", "09", 8,
+                {"start": "2026-09-02", "end": "2026-09-08"}, journal="Nature")
+    papers = build_site.load_archive(str(tmp_path))
+    docs = build_site._build_search_documents(papers)
+    assert len(docs) == 1
+    assert docs[0]["id"] == "pubmed:1"
+    assert docs[0]["url"] == "/Daily-Paper-idp-interaction-ai/papers/pubmed/1/index.html"
+    assert "Nature" in docs[0]["meta"]
+    assert docs[0]["summary"] == "一句话"
+
+
+def test_build_site_writes_search_json(tmp_path):
+    _make_paper(str(tmp_path), "pubmed", "1", "2026", "09", 8,
+                {"start": "2026-09-02", "end": "2026-09-08"}, journal="Nature")
+    build_site.build_site(str(tmp_path))
+    path = os.path.join(str(tmp_path), "site", "data", "search.json")
+    assert os.path.isfile(path)
+    with open(path, encoding="utf-8") as f:
+        payload = json.load(f)
+    assert payload["version"] == 1
+    assert len(payload["documents"]) == 1
