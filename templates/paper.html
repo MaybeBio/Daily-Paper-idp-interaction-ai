@@ -3,11 +3,14 @@
 {% block content %}
 <article class="paper">
   <div class="paper-head">
-    <span class="score">{{ paper.score if paper.score is not none else "-" }}</span>
+    <span class="score score-{{ score_tier(paper.score) }}">{{ paper.score if paper.score is not none else "-" }}</span>
     <div>
       <h1>{{ paper.title }}</h1>
       <div class="meta">{{ paper.authors }}</div>
-      <div class="meta muted">{{ paper.source }} · {{ paper.published_date[:10] }}
+      <div class="meta muted">
+        {% set sl = source_label(paper.source, paper.journal) %}
+        <span class="journal">{{ sl.venue }}</span>{% if sl.kind == "preprint" %} <span class="preprint-badge">预印本</span>{% endif %}
+        · {{ paper.published_date[:10] }}
         {% if paper.has_fulltext %} · 全文({{ paper.fulltext_source }}){% else %} · 仅摘要{% endif %}
         {% if paper.url %} · <a href="{{ paper.url }}">原文</a>{% endif %}
       </div>
