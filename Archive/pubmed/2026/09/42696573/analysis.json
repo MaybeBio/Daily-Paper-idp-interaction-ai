@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42696573",
+  "title": "Reconstitution of multistep recruitment of ULK1 to membranes in autophagy.",
+  "authors": "Duan, Yongjia; Lu, Ye; Paul, Sanjoy; Betz, Johannes; Wilhelm, Lea P; Cook, Annan S I; Ren, Xuefeng; Adriaenssens, Elias; Martens, Sascha; Ganley, Ian G; Hummer, Gerhard; Hurley, James H",
+  "journal": "Science advances",
+  "published_date": "2026-09-04",
+  "window": {
+    "start": "2026-09-03",
+    "end": "2026-09-09"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过生化重建、分子动力学模拟和细胞实验，揭示了ULK1无序区域中的PVP基序与ATG13:ATG101 HORMA二聚体互作，协同WIPI蛋白将ULK1激酶结构域招募至自噬体膜的多步骤机制，核心关注无序蛋白介导的PPI及膜结合机制建模。",
+  "abstract": "The human Unc51-like kinase 1 (ULK1) autophagy-initiating complex consists of ULK1, FIP200, and the Hop/Rev7/Mad2 (HORMA) domain heterodimer ATG13:ATG101. Phosphatidylinositol 3-phosphate (PI3P) is essential to recruit ULK1 complex (ULK1C) to membranes for ULK1, but ULK1C subunits do not contain PI3P-binding domains. Here, we show that the ATG13:ATG101 dimer forms a complex with the PI3P-binding protein WD40 interacting with phosphoinositide protein 3 (WIPI3), as well as WIPI2. Bound to WIPI2 and WIPI3, ATG13:ATG101 inserts its Trp-Phe (WF) finger into the membrane. Molecular dynamics simulations show that WIPIs and the WF finger cooperatively stabilize the complex on membranes. Biochemical reconstitution and cell-based assays show that WIPI3:ATG13 engagement promotes ATG16L1 phosphorylation, autophagy, and mitophagy. A kinase domain (KD)-proximal Pro-Val-Pro (PVP) motif in the ULK1 intrinsically disordered region docks onto the ATG13:ATG101 HORMA dimer brings the ULK1 KD close to the membrane. The PVP motif is essential for in vitro ULK1 phosphorylation of ATG16L1 and important for autophagy and mitophagy. These data establish a stepwise pathway for recruitment of the ULK1 KD to the vicinity of the membrane surface.",
+  "abstract_zh": "人类Unc51样激酶1（ULK1）自噬起始复合物由ULK1、FIP200以及Hop/Rev7/Mad2（HORMA）结构域异二聚体ATG13:ATG101组成。磷脂酰肌醇3-磷酸（PI3P）对于将ULK1复合物（ULK1C）招募至膜上以激活ULK1至关重要，但ULK1C亚基并不包含PI3P结合结构域。在此，我们证明ATG13:ATG101二聚体与PI3P结合蛋白WD40相互作用蛋白3（WIPI3）以及WIPI2形成复合物。与WIPI2和WIPI3结合后，ATG13:ATG101将其Trp-Phe（WF）指状结构插入膜中。分子动力学（molecular dynamics）模拟显示，WIPIs与WF指状结构协同稳定膜上的复合物。生化重构实验和基于细胞的实验表明，WIPI3:ATG13的结合促进ATG16L1磷酸化、自噬及线粒体自噬。ULK1内在无序区中的一个激酶结构域（KD）近端Pro-Val-Pro（PVP）基序对接至ATG13:ATG101 HORMA二聚体上，将ULK1 KD拉近至膜附近。PVP基序对于体外ULK1磷酸化ATG16L1至关重要，并对自噬和线粒体自噬具有重要作用。这些数据揭示了将ULK1 KD招募至膜表面附近的逐步通路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42696573/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42696573/",
+  "paper_page_path": "papers/pubmed/42696573/index.html"
+}

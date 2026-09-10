@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "42713289",
+    "doi": "10.1016/j.fochx.2026.104380",
+    "title": "Rheological modulation and microstructural densification of hydrogels induced by Choy sum polysaccharides: Dual applications in dysphagia diets and anthocyanin stabilization."
+  },
+  "content": {
+    "abstract": "Texture-modified foods facilitate dysphagia care and nutrient supplementation, yet conventional high-molecular-weight polysaccharide-gelatin hydrogels suffer phase separation, sticky texture and aspiration risks. Herein, cold-set composite hydrogels of gelatin and low-molecular-weight Guangdong Choy sum polysaccharides (GCSP, Mw = 71.49 kDa), were constructed to tune swallowing-friendly rheology and stabilize anthocyanin. DLS and FTIR characterizations corroborated strong hydrogen bonding and electrostatic interactions between GCSP and gelatin, forming micron aggregates. SEM observations validated the microstructural densification. GCSP reduced porosity from 78.5% (neat gelatin) to 36.2%, building a dense, thick-walled interpenetrating network. The compact network slowed anthocyanin photodegradation, retaining over 40% after 10-day UV exposure. Moreover, GCSP lowered hardness (250.3-142.5 g) alongside springiness, while preserving high cohesiveness ( approximately 0.85) and desirable thixotropic recovery, mitigating brittleness and excessive stickiness. Swallowing simulations complied with IDDSI Level 4/5 standards. This work elucidates polysaccharide-regulated protein rearrangement, offering a dual-functional matrix for safe elderly dysphagia food with anthocyanin photoprotection.",
+    "keywords": [
+      "Anthocyanin stabilization",
+      "Composite hydrogel",
+      "Low-molecular-weight polysaccharide",
+      "Microstructural densification",
+      "Texture-modified foods"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Liming",
+        "Li, Junjie",
+        "Liu, Enhui",
+        "Zhou, Hong",
+        "Zhu, Hongfei",
+        "Xia, Yanshi",
+        "Yong, Yueyuan",
+        "Li, Xiaopeng"
+      ],
+      "short_names": [
+        "He L",
+        "Li J",
+        "Liu E",
+        "Zhou H",
+        "Zhu H",
+        "Xia Y",
+        "Yong Y",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+        "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China.",
+        "Guangdong Provincial Key Laboratory of Plant Adaptation and Molecular Design, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+        "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+        "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China.",
+        "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+        "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China.",
+        "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+        "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China.",
+        "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+        "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China.",
+        "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+        "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China.",
+        "Guangdong Provincial Key Laboratory of Plant Adaptation and Molecular Design, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+        "Laboratory of Agricultural and Food Biophysics, Institute of Biophysics, College of Science, Northwest A&F University, Yangling, Shaanxi 712100, China.",
+        "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+        "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China.",
+        "Guangdong Provincial Key Laboratory of Plant Adaptation and Molecular Design, School of Life Sciences, Guangzhou University, Guangzhou 510006, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Liming",
+        "short_name": "He L",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+          "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China.",
+          "Guangdong Provincial Key Laboratory of Plant Adaptation and Molecular Design, School of Life Sciences, Guangzhou University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junjie",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+          "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Enhui",
+        "short_name": "Liu E",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+          "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Hong",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+          "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Hongfei",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+          "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Yanshi",
+        "short_name": "Xia Y",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+          "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China.",
+          "Guangdong Provincial Key Laboratory of Plant Adaptation and Molecular Design, School of Life Sciences, Guangzhou University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Yong, Yueyuan",
+        "short_name": "Yong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Agricultural and Food Biophysics, Institute of Biophysics, College of Science, Northwest A&F University, Yangling, Shaanxi 712100, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaopeng",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Center for Cell Signal Transduction and Synthetic Biology, School of Life Sciences, Guangzhou University, Guangzhou 510006, China.",
+          "Guangzhou University Branch Center of the State Key Laboratory of Non-food Biomass Energy Technology, Guangzhou 510006, China.",
+          "Guangdong Provincial Key Laboratory of Plant Adaptation and Molecular Design, School of Life Sciences, Guangzhou University, Guangzhou 510006, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Food chemistry: X"
+    ],
+    "journal_abbrev": [
+      "Food Chem X"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/09 11:38",
+    "fetched_at": "2026-09-10 17:43:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42713289",
+      "41942180",
+      "42284900",
+      "31397895",
+      "42169261",
+      "40184742",
+      "40597497",
+      "42378729",
+      "40090652",
+      "41755493",
+      "42070597",
+      "41562102",
+      "40361685",
+      "41185371",
+      "42299047",
+      "42134693",
+      "42548241",
+      "40968455",
+      "42248272",
+      "41935809",
+      "41794489",
+      "42044821",
+      "36244539",
+      "41937424",
+      "29052849",
+      "35708507",
+      "41156542",
+      "42497714",
+      "41590066",
+      "33309658",
+      "41534224",
+      "37001775",
+      "39954895",
+      "40717482",
+      "34146451",
+      "42354178",
+      "42323998",
+      "42143569",
+      "33760237",
+      "41405670",
+      "39593286",
+      "41185331",
+      "41470870",
+      "41828872",
+      "41376090",
+      "39657486",
+      "34802803",
+      "42409529",
+      "36948025",
+      "27913916",
+      "37372499",
+      "38104682",
+      "41161432",
+      "39658158",
+      "39148333",
+      "28963723",
+      "40741692",
+      "41825364",
+      "42705754",
+      "42054965",
+      "41349756",
+      "41950241",
+      "41174426",
+      "42392195",
+      "39694383",
+      "41750900",
+      "41214948",
+      "42475988",
+      "42705766",
+      "42098171",
+      "40263804",
+      "41174460",
+      "34606787",
+      "41508526",
+      "40382072",
+      "41547503",
+      "33233301",
+      "42270235",
+      "35717604",
+      "40947191",
+      "34200551",
+      "37059558",
+      "39849694",
+      "42617209",
+      "41713348",
+      "42424735",
+      "32574738",
+      "42591793",
+      "33155674",
+      "42442102",
+      "36398686",
+      "41154110",
+      "29251503",
+      "30716919",
+      "40545072",
+      "36737943",
+      "41570916",
+      "40675286",
+      "42270275",
+      "39883636"
+    ],
+    "review": [
+      "42713289",
+      "42284900",
+      "42299047",
+      "42548241",
+      "36244539",
+      "41937424",
+      "34146451",
+      "42354178",
+      "42143569",
+      "33760237",
+      "39658158",
+      "42054965",
+      "40263804",
+      "34200551",
+      "42424735"
+    ],
+    "pmc": [
+      "13551938"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2590-1575(26)00901-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

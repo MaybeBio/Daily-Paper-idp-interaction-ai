@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "42709078",
+    "doi": "10.1021/acs.langmuir.6c03110",
+    "title": "Membrane Phase, Charge, and Curvature Regulate alpha-Synuclein Binding Dynamics."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein (alphaSyn) is an intrinsically disordered protein whose interactions with lipid membranes are central to both its physiological function and its role in synucleopathies. While membrane charge, phase, and curvature are each known to influence alphaSyn binding, these properties are typically examined independently, leaving their combined effects on both equilibrium and dynamic membrane association unresolved. Here, we systematically investigate how membrane phase and charge jointly regulate alphaSyn binding, curvature sensitivity, and exchange dynamics using fluorescence microscopy, circular dichroism spectroscopy, and fluorescence recovery after photobleaching (FRAP), complemented by coarse-grained molecular dynamics simulations. Under zwitterionic conditions, alphaSyn preferentially binds highly curved gel-phase membranes, driven by curvature-dependent enrichment of packing defects arising from faceted vesicle morphologies. Incorporation of anionic lipids selectively enhances binding in liquid-phase membranes while attenuating curvature-dependent partitioning in gel-phase membranes. Dynamic measurements reveal that membrane phase and charge also govern the stability of membrane-associated alphaSyn, with gel-phase membranes and anionic lipids promoting kinetically stabilized states. Simulations show that curvature-induced defect formation is strongly amplified in gel-phase membranes but largely insensitive to charge. These findings establish that alphaSyn-membrane interactions are governed by a cooperative interplay between membrane phase, curvature, and charge and highlight the importance of resolving both thermodynamic and kinetic contributions to protein-membrane binding.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*Lipid Bilayers/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kou, Orianna H",
+        "Sakurai, Cailyn M",
+        "Ramirez, Stephanie Y",
+        "Kim, Brian H",
+        "Johnson, David H",
+        "Zhang, Zixin",
+        "Lee, Christopher T",
+        "Zeno, Wade F"
+      ],
+      "short_names": [
+        "Kou OH",
+        "Sakurai CM",
+        "Ramirez SY",
+        "Kim BH",
+        "Johnson DH",
+        "Zhang Z",
+        "Lee CT",
+        "Zeno WF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0670-2308",
+        "ORCID: 0000-0002-2341-8923"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, University of Southern California, Los Angeles, California90089, United States.",
+        "Department of Molecular Biology, University of California San Diego, San Diego, California92093, United States.",
+        "Department of Biological Sciences, University of Southern California, Los Angeles, California90089, United States.",
+        "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, California90089, United States.",
+        "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, California90089, United States.",
+        "Keck School of Medicine, University of Southern California, Los Angeles, California90033, United States.",
+        "Department of Molecular Biology, University of California San Diego, San Diego, California92093, United States.",
+        "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, California90089, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kou, Orianna H",
+        "short_name": "Kou OH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Southern California, Los Angeles, California90089, United States."
+        ]
+      },
+      {
+        "full_name": "Sakurai, Cailyn M",
+        "short_name": "Sakurai CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, University of California San Diego, San Diego, California92093, United States."
+        ]
+      },
+      {
+        "full_name": "Ramirez, Stephanie Y",
+        "short_name": "Ramirez SY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University of Southern California, Los Angeles, California90089, United States."
+        ]
+      },
+      {
+        "full_name": "Kim, Brian H",
+        "short_name": "Kim BH",
+        "identifiers": [],
+        "affiliations": [
+          "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, California90089, United States."
+        ]
+      },
+      {
+        "full_name": "Johnson, David H",
+        "short_name": "Johnson DH",
+        "identifiers": [],
+        "affiliations": [
+          "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, California90089, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zixin",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Keck School of Medicine, University of Southern California, Los Angeles, California90033, United States."
+        ]
+      },
+      {
+        "full_name": "Lee, Christopher T",
+        "short_name": "Lee CT",
+        "identifiers": [
+          "0000-0002-0670-2308"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, University of California San Diego, San Diego, California92093, United States."
+        ]
+      },
+      {
+        "full_name": "Zeno, Wade F",
+        "short_name": "Zeno WF",
+        "identifiers": [
+          "0000-0002-2341-8923"
+        ],
+        "affiliations": [
+          "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, California90089, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Langmuir : the ACS journal of surfaces and colloids"
+    ],
+    "journal_abbrev": [
+      "Langmuir"
+    ],
+    "pub_date": "2026 Sep 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/08 17:36",
+    "fetched_at": "2026-09-10 17:43:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42709078",
+      "42182307",
+      "40775530",
+      "39829920",
+      "41428873",
+      "42244556",
+      "42575205",
+      "29853639",
+      "42430503",
+      "33415971",
+      "18930058",
+      "39306670",
+      "38100855",
+      "28239748",
+      "23740253",
+      "23823878",
+      "24397368",
+      "32091512",
+      "22211521",
+      "33437978",
+      "40878020",
+      "42622271",
+      "26119565",
+      "32304757",
+      "38537131",
+      "42212534",
+      "20923663",
+      "26972046",
+      "33538595",
+      "27273030",
+      "24316000",
+      "25824255",
+      "27298346",
+      "38916260",
+      "12911309",
+      "19167303",
+      "21330368",
+      "41069254",
+      "33719460",
+      "40559352",
+      "35897670",
+      "24383916",
+      "23401499",
+      "40849683",
+      "34076426",
+      "40297234",
+      "21953452",
+      "40721018",
+      "36604961",
+      "20923645",
+      "30198000",
+      "23933657",
+      "26297828",
+      "25665896",
+      "15028717",
+      "27177693",
+      "41046336",
+      "33971161",
+      "24892900",
+      "31932647",
+      "16519533",
+      "39025583",
+      "29291379",
+      "24417311",
+      "37191140",
+      "16455667",
+      "31268447",
+      "23912807",
+      "27851940",
+      "22439820",
+      "42391802",
+      "33318779",
+      "34261315",
+      "40315262",
+      "16669622",
+      "18082181",
+      "24699372",
+      "35718804",
+      "24099487",
+      "41573950",
+      "32513706",
+      "38702883",
+      "42439051",
+      "19293380",
+      "29208465",
+      "23766730",
+      "31760463",
+      "30826264",
+      "33395285",
+      "37768058",
+      "22450237",
+      "40851236",
+      "27742354",
+      "39150323",
+      "38951707",
+      "35524412",
+      "22325271",
+      "27926845",
+      "17729279",
+      "23747485"
+    ],
+    "review": [
+      "42709078",
+      "42212534",
+      "26972046",
+      "40559352"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/langd5/article-lookup/doi/10.1021/acs.langmuir.6c03110",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}
