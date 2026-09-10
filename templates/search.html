@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}搜索 · idp-interaction-ai{% endblock %}
+{% block content %}
+<div class="search-page" data-search-root data-index-url="{{ BASE }}/data/search.json">
+  <h1>搜索</h1>
+  <p class="muted">检索标题、作者、摘要、Paper Card 与 Review 全文</p>
+  <form class="search-form" role="search">
+    <div class="search-input-row">
+      <input id="search-query" name="q" type="search" maxlength="200"
+             placeholder="如 molecular dynamics、相分离、intrinsically disordered"
+             autocomplete="off" spellcheck="false"/>
+      <button type="submit" class="search-submit" id="search-submit">搜索</button>
+    </div>
+  </form>
+  <p class="search-status" id="search-status" role="status" aria-live="polite">输入关键词开始搜索</p>
+  <section id="search-results" aria-label="搜索结果"></section>
+  <div class="search-empty" id="search-empty" hidden>
+    <p>没有找到匹配项。试试更短的关键词，或减少同时搜索的词。</p>
+  </div>
+  <button type="button" class="search-more" id="search-more" hidden>显示更多结果</button>
+</div>
+<script src="{{ BASE }}/assets/search.js"></script>
+{% endblock %}
