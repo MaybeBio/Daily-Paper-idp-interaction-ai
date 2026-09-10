@@ -14,6 +14,9 @@ site_base_url: https://MaybeBio.github.io/Daily-Paper-idp-interaction-ai
 llm:
   enable_card: true
   enable_reviewer: true
+  # LLM 并发数（线程池大小）。顺序跑 80+ 篇 × 3 次调用会超过 GitHub Actions 6h 上限，
+  # 并发跑可把墙钟时间压到几十分钟。按网关 QPS 承受力调，默认 8。
+  concurrency: 8
 
 # PubMed 的 ENTREZ_EMAIL（必填）/ NCBI_API_KEY（可选）从环境变量读，不写进文件
 #   GitHub Actions：repo Settings → Secrets and variables → Actions

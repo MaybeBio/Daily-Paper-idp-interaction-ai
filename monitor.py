@@ -24,6 +24,7 @@ import shutil
 import sys
 import tempfile
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import httpx
 import pandas as pd
@@ -378,6 +379,37 @@ def run_agent_pipeline(row, cfg, out_dir):
         return None
 
 
+def run_agent_pipeline_all(rows, cfg, out_dir):
+    """Run the agent pipeline over all rows concurrently; return analyses dict.
+
+    The LLM calls are IO-bound (network waits), so a thread pool collapses
+    wall-clock time from ~sum(per-paper) to ~max(per-paper) * (n / concurrency).
+    Without this, 80+ papers x 3 long generations exceed the 6h GitHub Actions
+    job limit. Per-paper failures are isolated by run_agent_pipeline (returns
+    None) and do not abort the batch.
+    """
+    analyses = {}
+    llm_cfg = cfg.get("llm") or {}
+    if not llm_cfg or not rows:
+        return analyses
+    concurrency = max(1, int(llm_cfg.get("concurrency") or 8))
+    print(f"[agent] running {len(rows)} papers with concurrency={concurrency}")
+    with ThreadPoolExecutor(max_workers=concurrency) as ex:
+        futures = {ex.submit(run_agent_pipeline, row, cfg, out_dir): row for row in rows}
+        done = 0
+        for fut in as_completed(futures):
+            row = futures[fut]
+            done += 1
+            try:
+                analysis = fut.result()
+            except Exception:
+                analysis = None
+            if analysis is not None:
+                analyses[(row["source"], row["id"])] = analysis
+            print(f"[agent] {done}/{len(rows)} {row['source']}/{row['id']}", flush=True)
+    return analyses
+
+
 def issue_title(start, end, total):
     return f"📅 {start} ~ {end} 本周文献推送（{total} 篇）"
 
@@ -450,13 +482,7 @@ def main():
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 
-    analyses = {}
-    llm_enabled = bool(cfg.get("llm"))
-    if llm_enabled:
-        for row in all_rows:
-            analysis = run_agent_pipeline(row, cfg, args.out_dir)
-            if analysis is not None:
-                analyses[(row["source"], row["id"])] = analysis
+    analyses = run_agent_pipeline_all(all_rows, cfg, args.out_dir)
 
     csv_path, ids_path, n = write_discovery(args.out_dir, topic, run_date, all_rows)
     print(f"[total] {n} records -> {csv_path} + {ids_path}")
