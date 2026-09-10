@@ -1,4 +1,4 @@
-pyPaperFlow @ git+https://github.com/MaybeBio/pyPaperFlow.git@v0.6.1
+pyPaperFlow
 pandas
 PyYAML
 httpx
