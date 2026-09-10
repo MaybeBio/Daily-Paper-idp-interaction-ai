@@ -308,7 +308,7 @@ def _analysis_for(row, analyses):
     }
 
 
-def run_agent_pipeline(row, cfg, out_dir):
+def run_agent_pipeline(row, cfg, out_dir, window=None):
     """Fetch full text, run score + card + reviewer, write per-paper artifacts.
 
     Returns the analysis.json dict, or None if the paper was skipped/failed.
@@ -365,7 +365,9 @@ def run_agent_pipeline(row, cfg, out_dir):
             "id": rec_id,
             "title": meta["title"],
             "authors": meta["authors"],
+            "journal": meta["journal"],
             "published_date": meta["published_date"],
+            "window": window or {},
             "score": score["score"],
             "one_liner_zh": score["one_liner_zh"],
             "abstract": abstract,
@@ -387,7 +389,7 @@ def run_agent_pipeline(row, cfg, out_dir):
         return None
 
 
-def run_agent_pipeline_all(rows, cfg, out_dir):
+def run_agent_pipeline_all(rows, cfg, out_dir, window=None):
     """Run the agent pipeline over all rows concurrently; return analyses dict.
 
     The LLM calls are IO-bound (network waits), so a thread pool collapses
@@ -403,7 +405,7 @@ def run_agent_pipeline_all(rows, cfg, out_dir):
     concurrency = max(1, int(llm_cfg.get("concurrency") or 8))
     print(f"[agent] running {len(rows)} papers with concurrency={concurrency}")
     with ThreadPoolExecutor(max_workers=concurrency) as ex:
-        futures = {ex.submit(run_agent_pipeline, row, cfg, out_dir): row for row in rows}
+        futures = {ex.submit(run_agent_pipeline, row, cfg, out_dir, window): row for row in rows}
         done = 0
         for fut in as_completed(futures):
             row = futures[fut]
@@ -490,7 +492,7 @@ def main():
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 
-    analyses = run_agent_pipeline_all(all_rows, cfg, args.out_dir)
+    analyses = run_agent_pipeline_all(all_rows, cfg, args.out_dir, {"start": start, "end": end})
 
     csv_path, ids_path, n = write_discovery(args.out_dir, topic, run_date, all_rows)
     print(f"[total] {n} records -> {csv_path} + {ids_path}")

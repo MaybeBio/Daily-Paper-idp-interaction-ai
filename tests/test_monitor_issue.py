@@ -53,7 +53,7 @@ def test_run_agent_pipeline_all_collects_results(monkeypatch):
     active = {"n": 0, "max": 0}
     lock = threading.Lock()
 
-    def fake_pipeline(row, cfg, out_dir):
+    def fake_pipeline(row, cfg, out_dir, window=None):
         with lock:
             active["n"] += 1
             active["max"] = max(active["max"], active["n"])
@@ -121,3 +121,19 @@ def test_run_agent_pipeline_generates_card_review_at_or_above_threshold(monkeypa
     assert analysis["review_path"] == "review.md"
     assert len(card_calls) == 1
     assert len(review_calls) == 1
+
+
+def test_run_agent_pipeline_writes_window_and_journal(monkeypatch, tmp_path):
+    import json
+    card_calls, review_calls = [], []
+    _patch_agent(monkeypatch, score=7, card_calls=card_calls, review_calls=review_calls)
+    cfg = {"llm": {"min_score": 5, "enable_card": True, "enable_reviewer": True}}
+    row = {"source": "pubmed", "id": "123", "doi": "10.1/x", "abstract": "The abstract.",
+           "published_date": "2026-01-01", "title": "T", "authors": "A", "journal": "Nature", "url": "http://u"}
+    window = {"start": "2026-01-01", "end": "2026-01-07"}
+    monitor.run_agent_pipeline(row, cfg, str(tmp_path), window)
+    path = os.path.join(str(tmp_path), "Archive", "pubmed", "2026", "01", "123", "analysis.json")
+    with open(path, encoding="utf-8") as f:
+        saved = json.load(f)
+    assert saved["journal"] == "Nature"
+    assert saved["window"] == window
