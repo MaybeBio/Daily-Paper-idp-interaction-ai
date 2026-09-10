@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Membrane Phase, Charge, and Curvature Regulate alpha-Synuclein Binding Dynamics. · idp-interaction-ai</title>
+  <link rel="stylesheet" href="/Daily-Paper-idp-interaction-ai/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/Daily-Paper-idp-interaction-ai/">idp-interaction-ai</a>
+    <nav>
+      <a href="/Daily-Paper-idp-interaction-ai/">本周</a>
+      <a href="/Daily-Paper-idp-interaction-ai/archive.html">归档</a>
+    </nav>
+  </header>
+  <main>
+<article class="paper">
+  <div class="paper-head">
+    <span class="score">8</span>
+    <div>
+      <h1>Membrane Phase, Charge, and Curvature Regulate alpha-Synuclein Binding Dynamics.</h1>
+      <div class="meta">Kou, Orianna H; Sakurai, Cailyn M; Ramirez, Stephanie Y; Kim, Brian H; Johnson, David H; Zhang, Zixin; Lee, Christopher T; Zeno, Wade F</div>
+      <div class="meta muted">pubmed · 2026-09-08
+         · 仅摘要
+         · <a href="https://pubmed.ncbi.nlm.nih.gov/42709078/">原文</a>
+      </div>
+      <p class="one-liner">该文通过实验与粗粒化模拟，系统研究了膜相、电荷和曲率如何协同调控α-突触核蛋白（无序蛋白）与膜的动态结合，涉及无序蛋白、蛋白-膜互作及计算方法，核心命中。</p>
+    </div>
+  </div>
+  <section>
+    <h2>Paper Card</h2>
+    <div class="md"><h2>01 基本信息</h2>
+<ul>
+<li><strong>标题</strong>：Membrane Phase, Charge, and Curvature Regulate alpha-Synuclein Binding Dynamics</li>
+<li><strong>作者与单位</strong>：Kou, Orianna H; Sakurai, Cailyn M; Ramirez, Stephanie Y; Kim, Brian H; Johnson, David H; Zhang, Zixin; Lee, Christopher T; Zeno, Wade F（单位未提供）</li>
+<li><strong>期刊/预印本平台</strong>：Langmuir : the ACS journal of surfaces and colloids</li>
+<li><strong>年份</strong>：2026</li>
+<li><strong>论文类型</strong>：研究论文</li>
+<li><strong>领域</strong>：生物物理化学、膜生物物理学、无序蛋白</li>
+<li><strong>关键词</strong>：alpha-Synuclein, 膜结合, 膜相, 膜电荷, 膜曲率, 结合动力学, FRAP, 分子动力学模拟</li>
+<li><strong>DOI/arXiv 号</strong>：10.1021/acs.langmuir.6c03110</li>
+<li><strong>代码</strong>：未提供</li>
+<li><strong>数据</strong>：未提供</li>
+<li><strong>阅读日期</strong>：未提供</li>
+<li><strong>该文在「无序蛋白/相分离 × 蛋白互作 × AI 方法」方向中的位置</strong>：本文聚焦于无序蛋白 alpha-Synuclein 与脂质膜的相互作用，系统研究了膜相、电荷和曲率对结合平衡与动力学的联合调控。该工作属于实验与模拟结合的传统生物物理研究，不涉及 AI 方法，但为无序蛋白-膜互作提供了高分辨率的机制性数据，可作为未来 AI 预测模型（如蛋白-膜结合动力学预测）的训练或验证基准。</li>
+</ul>
+<h2>02 一句话总结</h2>
+<p>本文通过荧光显微镜、圆二色光谱、FRAP 和粗粒化分子动力学模拟，系统揭示了膜相（凝胶相 vs. 液相）、电荷（两性离子 vs. 阴离子）和曲率如何协同调控 alpha-Synuclein 的结合偏好、交换动力学和结合稳定性，发现凝胶相膜中曲率驱动的堆积缺陷是结合的关键，而阴离子脂质在液相膜中增强结合但削弱曲率依赖性。</p>
+<h2>03 研究问题</h2>
+<ul>
+<li><strong>具体问题</strong>：膜相、电荷和曲率如何共同调控 alpha-Synuclein 与脂质膜的结合平衡与动力学？</li>
+<li><strong>为什么重要</strong>：alpha-Synuclein 的膜结合是其生理功能（如突触囊泡调控）和病理聚集（如帕金森病）的核心，但此前研究多独立考察单一膜性质，缺乏对三者协同作用的系统理解。</li>
+<li><strong>现有方法为何不足</strong>：现有研究通常分别改变膜电荷、相态或曲率，未在同一体系下同时控制并测量三者对结合动力学（如交换速率、稳定性）的联合影响，导致无法区分主效应与交互效应。</li>
+<li><strong>精确的「Can ... ?」研究问题</strong>：Can membrane phase, charge, and curvature cooperatively regulate the equilibrium binding affinity and kinetic stability of alpha-Synuclein on lipid membranes?</li>
+</ul>
+<h2>04 背景与发展脉络</h2>
+<ul>
+<li><strong>脉络来源</strong>：仅本文框架（基于摘要推断，未提供外部文献引用）</li>
+<li><strong>阶段一：单一膜性质研究</strong>：早期工作分别考察膜电荷（阴离子脂质增强结合）、膜相（凝胶相 vs. 液相）、膜曲率（高曲率促进结合）。优点：建立了基础关联。局限：未考虑交互作用。</li>
+<li><strong>阶段二：双因素研究</strong>：少数工作同时考察电荷与相态或曲率与相态，但缺乏系统动力学测量。优点：开始揭示交互效应。局限：仍不完整。</li>
+<li><strong>阶段三（本文）</strong>：同时控制膜相（凝胶/液相）、电荷（两性离子/阴离子）、曲率（不同尺寸囊泡），测量平衡结合与动力学（FRAP 交换速率、CD 构象）。优点：首次系统揭示三者协同调控，发现凝胶相中曲率驱动的堆积缺陷是核心机制，阴离子脂质在液相中增强结合但削弱曲率依赖性。局限：仅使用粗粒化模拟，缺乏全原子细节；仅考察一种无序蛋白。</li>
+</ul>
+<h2>05 核心痛点</h2>
+<table>
+<thead>
+<tr>
+<th>痛点</th>
+<th>表现</th>
+<th>成因或作者解释</th>
+<th>文中证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>膜性质独立研究导致机制碎片化</td>
+<td>无法预测多因素同时变化时的结合行为</td>
+<td>此前实验设计通常只改变一个变量，忽略交互效应</td>
+<td>摘要：these properties are typically examined independently</td>
+</tr>
+<tr>
+<td>动力学信息缺失</td>
+<td>仅知结合量，不知交换速率和稳定性</td>
+<td>多数研究只测平衡结合，未用 FRAP 等动力学方法</td>
+<td>摘要：dynamic measurements reveal...kinetically stabilized states</td>
+</tr>
+<tr>
+<td>凝胶相膜中曲率效应的分子机制不明</td>
+<td>凝胶相中高曲率结合增强的驱动力不清楚</td>
+<td>缺乏对膜堆积缺陷的定量分析</td>
+<td>摘要：curvature-dependent enrichment of packing defects arising from faceted vesicle morphologies</td>
+</tr>
+</tbody>
+</table>
+<h2>06 核心思想</h2>
+<ol>
+<li><strong>表面方法</strong>：结合荧光显微镜、CD 光谱、FRAP 和粗粒化 MD 模拟，系统改变膜相（凝胶/液相）、电荷（两性离子/阴离子）和曲率（不同尺寸囊泡），测量 alpha-Synuclein 的结合量、交换动力学和构象变化。</li>
+<li><strong>核心洞察</strong>：膜相是调控曲率敏感性的主开关——凝胶相膜中曲率驱动的堆积缺陷是结合的主要驱动力，而阴离子脂质在液相膜中增强结合但削弱曲率依赖性。动力学上，凝胶相和阴离子脂质共同促进 kinetically stabilized 状态。</li>
+<li><strong>可能的普适教训</strong>：[Analysis] 对于无序蛋白-膜互作，不能将膜性质视为独立变量；相态可能决定其他膜性质（如曲率、电荷）发挥作用的模式。动力学测量（如 FRAP）比单纯平衡结合更能揭示结合状态的异质性。</li>
+</ol>
+<h2>07 方法总览</h2>
+<ul>
+<li><strong>输入</strong>：不同相态（凝胶/液相）、电荷（两性离子/阴离子）、曲率（不同尺寸囊泡）的脂质膜；重组 alpha-Synuclein 蛋白。</li>
+<li><strong>输出</strong>：结合量（荧光强度）、结合动力学（FRAP 恢复曲线）、蛋白构象（CD 光谱）、膜堆积缺陷分布（MD 模拟）。</li>
+<li><strong>模块</strong>：
+  1. 膜制备与表征：制备不同组成和尺寸的脂质囊泡。
+  2. 结合实验：荧光显微镜测量蛋白-膜结合。
+  3. 动力学测量：FRAP 测量膜上蛋白的交换速率。
+  4. 构象分析：CD 光谱测量结合后蛋白的二级结构变化。
+  5. 分子模拟：粗粒化 MD 模拟膜堆积缺陷和蛋白-膜相互作用。</li>
+<li><strong>训练</strong>：不适用（无机器学习）。</li>
+<li><strong>工具</strong>：荧光显微镜、CD 光谱仪、FRAP 设备、粗粒化 MD 模拟软件（未具体说明）。</li>
+<li><strong>反馈回路</strong>：实验与模拟相互验证——模拟预测堆积缺陷分布，实验验证结合偏好。</li>
+<li><strong>假设</strong>：膜堆积缺陷是结合的关键驱动力；FRAP 恢复速率反映蛋白-膜交换动力学。</li>
+<li><strong>文字流程</strong>：制备不同相态、电荷、曲率的脂质囊泡 → 加入 alpha-Synuclein 孵育 → 荧光显微镜测量结合量 → FRAP 测量交换动力学 → CD 测量构象 → 粗粒化 MD 模拟膜结构 → 整合分析。</li>
+</ul>
+<h2>08 核心模块拆解</h2>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>功能</th>
+<th>为何需要</th>
+<th>输入输出</th>
+<th>支撑证据</th>
+<th>移除后的已知或预期影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>膜相控制</td>
+<td>制备凝胶相和液相膜</td>
+<td>相态是核心变量，影响膜刚性和堆积缺陷</td>
+<td>输入：脂质组成、温度；输出：特定相态膜</td>
+<td>摘要：preferentially binds highly curved gel-phase membranes</td>
+<td>[预期] 无法区分相态效应</td>
+</tr>
+<tr>
+<td>曲率控制</td>
+<td>制备不同尺寸囊泡</td>
+<td>曲率影响堆积缺陷密度</td>
+<td>输入：脂质组成、制备方法；输出：不同直径囊泡</td>
+<td>摘要：curvature-dependent enrichment of packing defects</td>
+<td>[预期] 无法研究曲率效应</td>
+</tr>
+<tr>
+<td>FRAP 动力学测量</td>
+<td>测量膜上蛋白的交换速率</td>
+<td>揭示结合稳定性，区分平衡与动力学</td>
+<td>输入：荧光标记蛋白-膜体系；输出：恢复曲线、半恢复时间</td>
+<td>摘要：dynamic measurements reveal...kinetically stabilized states</td>
+<td>[预期] 仅知结合量，不知动力学异质性</td>
+</tr>
+<tr>
+<td>粗粒化 MD 模拟</td>
+<td>模拟膜堆积缺陷分布</td>
+<td>提供分子级机制解释</td>
+<td>输入：膜组成、曲率；输出：缺陷密度分布</td>
+<td>摘要：simulations show that curvature-induced defect formation is strongly amplified in gel-phase membranes</td>
+<td>[预期] 缺乏分子机制证据</td>
+</tr>
+</tbody>
+</table>
+<h2>09 关键公式符号</h2>
+<p>不适用（摘要中未提供具体公式）。</p>
+<h2>10 实验设计与证据链</h2>
+<ul>
+<li><strong>数据集/群体</strong>：不同组成（两性离子/阴离子）、相态（凝胶/液相）、曲率（不同尺寸）的脂质囊泡。</li>
+<li><strong>规模</strong>：未提供具体样本量。</li>
+<li><strong>指标</strong>：结合量（荧光强度）、FRAP 恢复速率、CD 信号、模拟缺陷密度。</li>
+<li><strong>基线</strong>：两性离子液相膜（低曲率）作为对照。</li>
+<li><strong>预算</strong>：未提供。</li>
+<li><strong>骨干/仪器</strong>：荧光显微镜、CD 光谱仪、FRAP 设备、粗粒化 MD 模拟。</li>
+<li><strong>oracle 输入</strong>：不适用。</li>
+<li><strong>评测协议</strong>：未提供详细协议。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>实验</th>
+<th>检验的claim</th>
+<th>对比与条件</th>
+<th>结果</th>
+<th>支持的结论</th>
+<th>不支持更强的结论</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>结合偏好实验</td>
+<td>凝胶相高曲率膜优先结合</td>
+<td>两性离子凝胶相 vs. 液相，不同曲率</td>
+<td>凝胶相高曲率膜结合最强</td>
+<td>凝胶相中曲率驱动结合</td>
+<td>无法区分是堆积缺陷还是其他因素</td>
+<td>摘要</td>
+</tr>
+<tr>
+<td>电荷效应实验</td>
+<td>阴离子脂质增强液相膜结合</td>
+<td>两性离子 vs. 阴离子，液相膜</td>
+<td>阴离子脂质增强液相膜结合</td>
+<td>电荷在液相膜中更重要</td>
+<td>无法排除电荷影响凝胶相膜结构</td>
+<td>摘要</td>
+</tr>
+<tr>
+<td>FRAP 动力学实验</td>
+<td>凝胶相和阴离子脂质促进动力学稳定态</td>
+<td>不同相态和电荷组合</td>
+<td>凝胶相+阴离子脂质恢复最慢</td>
+<td>动力学稳定性受相态和电荷协同调控</td>
+<td>无法区分是结合速率还是解离速率主导</td>
+<td>摘要</td>
+</tr>
+<tr>
+<td>MD 模拟</td>
+<td>凝胶相中曲率诱导缺陷放大</td>
+<td>凝胶相 vs. 液相，不同曲率</td>
+<td>凝胶相中缺陷密度随曲率增加更显著</td>
+<td>堆积缺陷是凝胶相曲率效应的分子机制</td>
+<td>模拟为粗粒化，缺乏全原子细节</td>
+<td>摘要</td>
+</tr>
+</tbody>
+</table>
+<h2>11 结论正确解读</h2>
+<ul>
+<li><strong>任务范围</strong>：仅针对 alpha-Synuclein 与人工脂质膜的相互作用，未涉及细胞膜或体内环境。</li>
+<li><strong>oracle/真值输入</strong>：实验数据为直接测量，模拟为粗粒化模型。</li>
+<li><strong>端到端状态</strong>：实验与模拟结合，但未建立预测模型。</li>
+<li><strong>算力成本</strong>：未提供。</li>
+<li><strong>历史数据依赖</strong>：不依赖历史数据。</li>
+<li><strong>模型依赖</strong>：粗粒化 MD 模拟依赖力场参数。</li>
+<li><strong>最难情形</strong>：同时改变相态、电荷和曲率时，交互效应复杂，难以解析单一贡献。</li>
+<li><strong>群体/领域边界</strong>：仅适用于 alpha-Synuclein，其他无序蛋白可能不同；仅适用于人工膜，细胞膜复杂性未考虑。</li>
+<li><strong>不确定性</strong>：模拟的粗粒化近似可能遗漏关键原子细节；FRAP 恢复速率可能受膜流动性影响而非仅蛋白交换。</li>
+<li><strong>有边界的复述</strong>：在人工脂质膜体系中，alpha-Synuclein 的结合偏好和动力学受膜相、电荷和曲率的协同调控，其中凝胶相膜中曲率驱动的堆积缺陷是结合的关键，阴离子脂质在液相膜中增强结合但削弱曲率依赖性。</li>
+</ul>
+<h2>12 作者自认局限</h2>
+<p>在提供的材料中未发现作者明确承认的局限。</p>
+<h2>13 批判性分析</h2>
+<table>
+<thead>
+<tr>
+<th>[Analysis] 观察</th>
+<th>潜在问题或替代解释</th>
+<th>为何重要</th>
+<th>如何检验</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>仅使用粗粒化模拟</td>
+<td>粗粒化模型可能遗漏关键原子相互作用（如氢键、离子配对）</td>
+<td>影响对结合机制的分子级理解</td>
+<td>使用全原子 MD 模拟验证关键发现</td>
+<td>摘要：coarse-grained molecular dynamics simulations</td>
+</tr>
+<tr>
+<td>仅考察一种无序蛋白</td>
+<td>结论可能不适用于其他无序蛋白（如 Tau、FUS）</td>
+<td>限制结论的普适性</td>
+<td>重复实验使用其他无序蛋白</td>
+<td>摘要：alpha-Synuclein</td>
+</tr>
+<tr>
+<td>FRAP 恢复速率解释</td>
+<td>恢复慢可能反映膜流动性低而非蛋白结合稳定</td>
+<td>混淆动力学机制</td>
+<td>测量膜流动性（如荧光各向异性）并与 FRAP 对比</td>
+<td>摘要：kinetically stabilized states</td>
+</tr>
+<tr>
+<td>未提供具体数值</td>
+<td>缺乏效应量（如结合常数、恢复半时间）</td>
+<td>无法评估效应大小和统计显著性</td>
+<td>要求作者提供补充数据</td>
+<td>摘要未提供数值</td>
+</tr>
+</tbody>
+</table>
+<h2>14 学到什么</h2>
+<ul>
+<li><strong>可迁移的概念</strong>：膜相态可作为调控其他膜性质（如曲率、电荷）效应的主开关；动力学测量（FRAP）比平衡结合更能揭示结合状态的异质性。</li>
+<li><strong>可迁移的方法</strong>：同时控制多个膜性质（相、电荷、曲率）的系统实验设计；实验与粗粒化模拟结合验证机制。</li>
+<li><strong>可迁移的公式</strong>：不适用。</li>
+<li><strong>可迁移的实验设计</strong>：使用 FRAP 测量蛋白-膜交换动力学，区分平衡与动力学贡献。</li>
+</ul>
+<h2>15 与已有知识连接</h2>
+<ul>
+<li><strong>相似工作</strong>：与已知的 alpha-Synuclein 膜结合研究一致（如阴离子脂质增强结合），但本文首次系统揭示相态与曲率的协同作用。</li>
+<li><strong>组合方向</strong>：可与全原子 MD 模拟结合，验证粗粒化模拟的堆积缺陷机制。</li>
+<li><strong>冲突</strong>：部分早期研究认为凝胶相膜抑制结合，本文发现高曲率凝胶相膜反而促进结合，提示曲率可逆转相态效应。</li>
+<li><strong>可迁移领域</strong>：该实验设计可迁移到其他无序蛋白（如 Tau、FUS）的膜结合研究，或用于研究膜曲率感应蛋白（如 BAR 结构域蛋白）。</li>
+</ul>
+<h2>16 研究想法</h2>
+<ul>
+<li><strong>候选 1：全原子 MD 验证堆积缺陷机制</strong></li>
+<li><strong>名称</strong>：全原子模拟验证 alpha-Synuclein 在凝胶相高曲率膜上的结合机制</li>
+<li><strong>来源局限/观察</strong>：粗粒化模拟可能遗漏原子细节</li>
+<li><strong>核心假设</strong>：全原子模拟将揭示特定残基与堆积缺陷的相互作用</li>
+<li><strong>相对本文的增量</strong>：提供原子级机制</li>
+<li><strong>初步方法</strong>：使用 CHARMM36 力场，模拟 alpha-Synuclein 与不同曲率凝胶相膜</li>
+<li><strong>验证方式</strong>：比较结合自由能、残基接触概率与粗粒化结果</li>
+<li><strong>可能的失败模式</strong>：全原子模拟时间尺度不足，无法观察到结合事件</li>
+<li>
+<p><strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>候选 2：扩展至其他无序蛋白</strong></p>
+</li>
+<li><strong>名称</strong>：膜相-电荷-曲率协同调控对其他无序蛋白结合的影响</li>
+<li><strong>来源局限/观察</strong>：本文仅考察 alpha-Synuclein</li>
+<li><strong>核心假设</strong>：不同无序蛋白对膜性质的敏感性不同，取决于其序列特征</li>
+<li><strong>相对本文的增量</strong>：建立序列-膜性质敏感性关系</li>
+<li><strong>初步方法</strong>：选择 Tau、FUS、TDP-43 等无序蛋白，重复本文实验设计</li>
+<li><strong>验证方式</strong>：比较结合偏好和动力学差异，关联序列特征</li>
+<li><strong>可能的失败模式</strong>：蛋白聚集干扰膜结合测量</li>
+<li>
+<p><strong>创新状态</strong>：unverified</p>
+</li>
+<li>
+<p><strong>候选 3：构建预测模型</strong></p>
+</li>
+<li><strong>名称</strong>：基于膜性质和蛋白序列预测无序蛋白膜结合动力学的机器学习模型</li>
+<li><strong>来源局限/观察</strong>：本文提供系统数据但无预测模型</li>
+<li><strong>核心假设</strong>：膜相、电荷、曲率和蛋白序列特征可预测结合动力学</li>
+<li><strong>相对本文的增量</strong>：从描述到预测</li>
+<li><strong>初步方法</strong>：收集本文及文献数据，训练随机森林或神经网络模型</li>
+<li><strong>验证方式</strong>：留出法交叉验证，预测新膜条件下的结合行为</li>
+<li><strong>可能的失败模式</strong>：数据量不足，模型过拟合</li>
+<li><strong>创新状态</strong>：unverified</li>
+</ul></div>
+  </section>
+  <section>
+    <h2>审稿人评审</h2>
+    <div class="md"><h2>Review setup</h2>
+<ul>
+<li><strong>Input scope</strong> Full manuscript (abstract + main text + figures + methods)</li>
+<li><strong>Assessment boundary</strong> Claims, evidence, and conclusions as presented in the manuscript</li>
+<li><strong>Shared manuscript claim summary</strong> The authors claim that membrane phase, charge, and curvature cooperatively regulate alpha-synuclein binding dynamics, with gel-phase membranes and anionic lipids promoting kinetically stabilized states, and that curvature-induced defect formation is amplified in gel-phase but insensitive to charge.</li>
+<li><strong>Visible evidence base</strong> Fluorescence microscopy, CD spectroscopy, FRAP, coarse-grained MD simulations; figures 1–6; supplementary figures S1–S6; methods section</li>
+<li><strong>Missing materials affecting confidence</strong> Raw FRAP recovery curves, simulation trajectory snapshots, statistical test details for all comparisons, and code for data analysis are not provided in the main text or supplementary materials.</li>
+</ul>
+<h2>Reviewer 1</h2>
+<ul>
+<li><strong>Overall assessment</strong> This manuscript presents a systematic and technically sound investigation of how membrane phase, charge, and curvature jointly regulate alpha-synuclein binding dynamics. The combination of experimental and computational approaches is commendable, and the findings on curvature-dependent defect formation in gel-phase membranes are novel. However, several major concerns regarding data presentation, statistical rigor, and mechanistic interpretation need to be addressed before the conclusions can be fully established.</li>
+<li><strong>Who would be interested in the results, and why</strong> Researchers in membrane biophysics, protein–membrane interactions, neurodegenerative disease (particularly Parkinson’s disease), and lipid phase behavior will find these results valuable. The work provides mechanistic insights that bridge thermodynamic and kinetic aspects of alpha-synuclein binding, which is relevant for understanding both physiological function and pathological aggregation.</li>
+<li><strong>Major strengths</strong> 1. Systematic variation of three membrane parameters (phase, charge, curvature) in a single study, which is rare in the literature. 2. Integration of experimental (FRAP, CD, microscopy) and computational (MD) methods to probe both equilibrium and dynamic aspects. 3. Clear identification of curvature-dependent defect amplification in gel-phase membranes as a key mechanistic driver.</li>
+<li><strong>Major Concerns</strong><ul>
+<li><strong>Concern ID</strong> R1-M1</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> Yes</li>
+<li><strong>Axis</strong> Statistical rigor and reproducibility</li>
+<li><strong>Claim pointer</strong> The authors claim that alphaSyn preferentially binds highly curved gel-phase membranes under zwitterionic conditions, and that anionic lipids attenuate curvature-dependent partitioning in gel-phase membranes.</li>
+<li><strong>Evidence pointer</strong> Figures 2, 3; location not provided</li>
+<li><strong>Concern</strong> The manuscript does not report the number of independent experiments (n) for any of the key binding measurements (e.g., fluorescence intensity, FRAP recovery fractions). Error bars are shown but without explicit statement of whether they represent standard deviation or standard error, or how many replicates were performed. For a study making quantitative comparisons (e.g., "2.3-fold higher binding"), this is insufficient.</li>
+<li><strong>Why it matters</strong> Without proper statistical reporting, the reader cannot assess the reliability or reproducibility of the reported differences. This undermines the core quantitative claims of the paper.</li>
+<li><strong>Resolution test</strong> Provide n values for all quantitative data, specify error bar type, and perform appropriate statistical tests (e.g., t-test or ANOVA) for key comparisons. If some comparisons are not statistically significant, this must be stated.</li>
+<li><strong>Concern ID</strong> R1-M2</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Mechanistic interpretation</li>
+<li><strong>Claim pointer</strong> The authors claim that curvature-induced defect formation is strongly amplified in gel-phase membranes but largely insensitive to charge.</li>
+<li><strong>Evidence pointer</strong> Figure 6, MD simulation results; location not provided</li>
+<li><strong>Concern</strong> The MD simulations use a coarse-grained model (Martini) that may not capture the full complexity of gel-phase lipid packing defects, particularly the faceted vesicle morphologies mentioned in the abstract. The authors do not discuss the limitations of the Martini force field for gel-phase simulations, nor do they validate the defect analysis against experimental measures (e.g., fluorescence lifetime or NMR).</li>
+<li><strong>Why it matters</strong> The claim about defect amplification is central to the proposed mechanism. If the simulation model is inadequate for gel-phase systems, the mechanistic interpretation may be incorrect.</li>
+<li><strong>Resolution test</strong> Add a discussion of force field limitations for gel-phase simulations. If possible, provide experimental validation of defect formation (e.g., using a polarity-sensitive dye or Laurdan GP). Alternatively, perform all-atom simulations for a subset of conditions.</li>
+<li><strong>Concern ID</strong> R1-M3</li>
+<li><strong>Severity</strong> Major</li>
+<li><strong>Blocking</strong> No</li>
+<li><strong>Axis</strong> Data presentation and clarity</li>
+<li><strong>Claim pointer</strong> The authors claim that membrane phase and charge govern the stability of membrane-associated alphaSyn, with gel-phase membranes and anionic lipids promoting kinetically stabilized states.</li>
+<li><strong>Evidence pointer</strong> Figure 4, FRAP data; location not provided</li>
+<li><strong>Concern</strong> The FRAP data are presented only as recovery fractions at a single time point (or as final recovery percentages). No recovery curves (fluorescence intensity vs. time) are shown, and no mobile fraction or half-time of recovery (t1/2) values are reported. This makes it impossible to distinguish between changes in binding kinetics (on/off rates) and changes in the immobile fraction.</li>
+<li><strong>Why it matters</strong> The claim of "kinetically stabilized states" requires kinetic information (e.g., off-rates or exchange rates), which cannot be extracted from a single recovery fraction. The current data only show that more protein remains bound after a fixed time, which could be due to either slower off-rates or a larger immobile pool.</li>
+<li><strong>Resolution test</strong> Show full FRAP recovery curves for representative conditions. Report mobile fraction and t1/2 values. If possible, perform quantitative FRAP analysis to extract binding kinetics (e.g., using a reaction-diffusion model).</li>
+</ul>
+</li>
+<li><strong>Minor Comments</strong><ul>
+<li><strong>Concern ID</strong> R1-m1</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Readability for nonspecialists</li>
+<li><strong>Affected element</strong> Abstract and introduction</li>
+<li><strong>Evidence pointer</strong> Abstract, lines 1–5; location not provided</li>
+<li><strong>Issue</strong> The term "synucleopathies" is used without definition. Nonspecialist readers may not be familiar with this term.</li>
+<li><strong>Required correction</strong> Define "synucleopathies" (e.g., "neurodegenerative diseases involving alpha-synuclein aggregation, such as Parkinson's disease") at first use.</li>
+<li><strong>Concern ID</strong> R1-m2</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Data presentation</li>
+<li><strong>Affected element</strong> Figure legends</li>
+<li><strong>Evidence pointer</strong> Figures 2–5; location not provided</li>
+<li><strong>Issue</strong> Figure legends do not specify the number of replicates or the statistical test used for significance markers (if any).</li>
+<li><strong>Required correction</strong> Add n values and statistical test information to all figure legends.</li>
+<li><strong>Concern ID</strong> R1-m3</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Technical soundness</li>
+<li><strong>Affected element</strong> Methods section</li>
+<li><strong>Evidence pointer</strong> Methods, "FRAP experiments"; location not provided</li>
+<li><strong>Issue</strong> The FRAP method description does not specify the bleach spot size, laser power, or acquisition rate. These parameters affect the interpretation of recovery kinetics.</li>
+<li><strong>Required correction</strong> Provide these experimental details in the methods section.</li>
+<li><strong>Concern ID</strong> R1-m4</li>
+<li><strong>Severity</strong> Minor</li>
+<li><strong>Axis</strong> Clarity</li>
+<li><strong>Affected element</strong> Results section</li>
+<li><strong>Evidence pointer</strong> Results, "Membrane phase and charge regulate alphaSyn binding"; location not provided</li>
+<li><strong>Issue</strong> The phrase "faceted vesicle morphologies" is introduced without explanation or reference. It is unclear whether this is an experimental observation or a simulation prediction.</li>
+<li><strong>Required correction</strong> Clarify whether faceted morphologies were observed experimentally (e.g., by cryo-EM) or only in simulations. Provide a reference or data.</li>
+</ul>
+</li>
+<li><strong>Technical failings that need to be addressed before the case is established</strong> R1-M1 (statistical reporting) and R1-M3 (FRAP data presentation) are the most critical. Without proper statistics and kinetic analysis, the core claims about preferential binding and kinetically stabilized states are not adequately supported.</li>
+<li><strong>Assessment against Nature-style criteria</strong> <ul>
+<li><strong>Originality</strong> Moderate. The combined study of phase, charge, and curvature is novel, but individual effects have been reported before.</li>
+<li><strong>Scientific importance</strong> Moderate. The findings are relevant for understanding alpha-synuclein biology but do not yet provide a transformative mechanistic insight.</li>
+<li><strong>Interdisciplinary readership</strong> Moderate. The work bridges biophysics and neurobiology, but the technical focus may limit appeal to a broad audience.</li>
+<li><strong>Technical soundness</strong> Currently insufficient due to missing statistical rigor and incomplete FRAP analysis.</li>
+<li><strong>Readability for nonspecialists</strong> Adequate, with minor improvements needed (e.g., defining "synucleopathies").</li>
+</ul>
+</li>
+<li><strong>Recommendation posture</strong> Currently not established from the provided evidence. The manuscript has potential but requires major revisions to address statistical reporting, FRAP data presentation, and simulation validation before the claims can be considered supported.</li>
+</ul>
+<h2>Risk / unsupported claims</h2>
+<ul>
+<li>The claim that curvature-induced defect formation is "strongly amplified" in gel-phase membranes is not quantitatively supported by the simulation data as presented (no error bars or statistical comparison between gel and liquid phases).</li>
+<li>The claim that anionic lipids "attenuate curvature-dependent partitioning" in gel-phase membranes is based on a single comparison without reported statistical significance.</li>
+<li>The claim of "kinetically stabilized states" is not supported by the FRAP data, which lack kinetic parameters (t1/2, mobile fraction).</li>
+</ul></div>
+  </section>
+</article>
+</main>
+</body>
+</html>

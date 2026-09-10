@@ -1,6 +1,36 @@
 {
-  "latest_week": "2026-W36",
+  "latest_week": "2026-W37",
   "papers": [
+    {
+      "source": "pubmed",
+      "id": "42713289",
+      "title": "Rheological modulation and microstructural densification of hydrogels induced by Choy sum polysaccharides: Dual applications in dysphagia diets and anthocyanin stabilization.",
+      "authors": "He, Liming; Li, Junjie; Liu, Enhui; Zhou, Hong; Zhu, Hongfei; Xia, Yanshi; Yong, Yueyuan; Li, Xiaopeng",
+      "published_date": "2026-09-09",
+      "score": 0,
+      "one_liner_zh": "该文研究多糖与明胶水凝胶的流变学调控和微观结构致密化，用于吞咽困难饮食和花青素稳定，不涉及无序蛋白、相分离或AI方法，与课题无关。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42713289/",
+      "has_fulltext": false,
+      "fulltext_source": "abstract",
+      "paper_page_path": "papers/pubmed/42713289/index.html",
+      "paper_dir": "./Archive/pubmed/2026/09/42713289",
+      "week": "2026-W37"
+    },
+    {
+      "source": "pubmed",
+      "id": "42709078",
+      "title": "Membrane Phase, Charge, and Curvature Regulate alpha-Synuclein Binding Dynamics.",
+      "authors": "Kou, Orianna H; Sakurai, Cailyn M; Ramirez, Stephanie Y; Kim, Brian H; Johnson, David H; Zhang, Zixin; Lee, Christopher T; Zeno, Wade F",
+      "published_date": "2026-09-08",
+      "score": 8,
+      "one_liner_zh": "该文通过实验与粗粒化模拟，系统研究了膜相、电荷和曲率如何协同调控α-突触核蛋白（无序蛋白）与膜的动态结合，涉及无序蛋白、蛋白-膜互作及计算方法，核心命中。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42709078/",
+      "has_fulltext": false,
+      "fulltext_source": "abstract",
+      "paper_page_path": "papers/pubmed/42709078/index.html",
+      "paper_dir": "./Archive/pubmed/2026/09/42709078",
+      "week": "2026-W37"
+    },
     {
       "source": "pubmed",
       "id": "42701255",
@@ -8,7 +38,7 @@
       "authors": "Hess, Nathaniel; Joseph, Jerelle A",
       "published_date": "2026-09-06",
       "score": 9,
-      "one_liner_zh": "该文通过原子模拟和贝叶斯优化方法，研究生物分子凝聚体如何改变蛋白质α-螺旋的折叠景观，核心涉及无序蛋白/相分离、蛋白互作与AI方法，高度相关。",
+      "one_liner_zh": "该文通过原子模拟和贝叶斯优化方法，研究生物分子凝聚体如何改变蛋白质α-螺旋的折叠景观，涉及无序蛋白、相分离、蛋白互作和AI方法，核心命中。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42701255/",
       "has_fulltext": false,
       "fulltext_source": "abstract",

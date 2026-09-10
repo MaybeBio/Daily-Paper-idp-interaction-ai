@@ -1,0 +1,17 @@
+{
+  "source": "pubmed",
+  "id": "42709078",
+  "title": "Membrane Phase, Charge, and Curvature Regulate alpha-Synuclein Binding Dynamics.",
+  "authors": "Kou, Orianna H; Sakurai, Cailyn M; Ramirez, Stephanie Y; Kim, Brian H; Johnson, David H; Zhang, Zixin; Lee, Christopher T; Zeno, Wade F",
+  "published_date": "2026-09-08",
+  "score": 8,
+  "one_liner_zh": "该文通过实验与粗粒化模拟，系统研究了膜相、电荷和曲率如何协同调控α-突触核蛋白（无序蛋白）与膜的动态结合，涉及无序蛋白、蛋白-膜互作及计算方法，核心命中。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42709078/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42709078/",
+  "paper_page_path": "papers/pubmed/42709078/index.html"
+}

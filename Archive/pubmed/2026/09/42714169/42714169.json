@@ -1,0 +1,438 @@
+{
+  "identity": {
+    "pmid": "42714169",
+    "doi": "10.2196/84753",
+    "title": "Extended Reality Interventions for Osteoarthritis of the Knee and Recovery After Total Knee Arthroplasty: Systematic Review and Meta-Analyses."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Nonpharmacologic interventions are important for treating knee pain due to osteoarthritis or after total knee arthroplasty (TKA), and extended reality (XR) technology may enhance treatments for these indications. OBJECTIVE: This systematic review aimed to evaluate XR interventions for pain due to knee osteoarthritis (KOA) or for recovery after TKA. METHODS: Databases were searched through May 2023 and updated in December 2025. Eligible trials evaluated XR interventions to treat KOA pain or after TKA. We classified interventions by depth of immersion and clinical mechanism. We used the Grading of Recommendations Assessment, Development, and Evaluation (GRADE) criteria to determine the certainty of evidence for prioritized outcomes. Meta-analyses were performed when >/=3 studies evaluated similar comparisons, outcomes, and time points. RESULTS: Eligible trials addressed KOA (k=12) or recovery after TKA (k=9). Sample sizes ranged from 36 to 306 participants, and most studies had a follow-up of </=3 months. Nineteen studies assessed pain-related functioning and pain intensity, and 5 assessed adverse events (AEs). For KOA, 10 studies examined interactive digital rehabilitation (IDR), and 2 examined virtual reality (VR)-digitally augmented exercise (DAE). IDR for KOA may result in better pain-related functioning (low certainty of evidence [COE]; pooled standardized mean difference [SMD] -0.59, 95% CI -1.11 to -0.06; prediction interval [PI] -1.72 to 0.55; k=5) and lower pain intensity at 6-8 weeks (low COE; pooled SMD -0.46, 95% CI -0.92 to 0.00; PI -1.39 to 0.47; k=4). VR-DAE for KOA (k=2) produced inconsistent results (very low COE). For post-TKA studies, 5 examined IDR, 2 examined VR-DAE, 1 examined VR-distraction, and 1 examined VR-psychoeducation. Post-TKA IDR may result in better pain-related functioning (low [k=4] and moderate COE [k=1]) but little to no difference in pain intensity (low-moderate COE; pooled SMD at 3-4 months -0.12, 95% CI -0.75 to 0.52; PI -1.63 to 1.27; k=3). VR-psychoeducation probably results in lower pain at 4 weeks (moderate COE; k=1), and VR-distraction may result in 6 months (low COE; k=1), whereas VR-DAE produced mixed findings (k=2; very low COE). IDR was not associated with AEs, and VR may not be associated with AEs for KOA (high and low COE), though AE reporting was uncommon (k=5) and evidence was very uncertain for post-TKA. CONCLUSIONS: IDR may augment treatment for KOA and post-TKA recovery, and VR may benefit post-TKA rehabilitation. This review is the first to stratify by level of immersion, clinical mechanism, and follow-up duration and to systematically evaluate AEs. IDR may be ready for integration into KOA care, while use after TKA needs more evidence. Randomized controlled trials with implementation outcomes could determine how XR interventions can be used for KOA, whereas trials evaluating efficacy and AEs are needed before their use for post-TKA.",
+    "keywords": [
+      "extended reality",
+      "knee osteoarthritis",
+      "knee pain",
+      "rehabilitation",
+      "total joint arthroplasty",
+      "total knee arthroplasty",
+      "virtual reality"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Arthroplasty, Replacement, Knee/rehabilitation",
+      "*Osteoarthritis, Knee/surgery/therapy/rehabilitation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Review",
+      "Systematic Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kalinowski, Caleb",
+        "Goldsmith, Elizabeth",
+        "Anthony, Maylen",
+        "Landsteiner, Adrienne",
+        "Ullman, Kristen",
+        "Zerzan, Nicholas",
+        "Rich, Tonya",
+        "Calvert, Collin",
+        "Wilt, Timothy J",
+        "Duan-Porter, Wei",
+        "Ewart, David"
+      ],
+      "short_names": [
+        "Kalinowski C",
+        "Goldsmith E",
+        "Anthony M",
+        "Landsteiner A",
+        "Ullman K",
+        "Zerzan N",
+        "Rich T",
+        "Calvert C",
+        "Wilt TJ",
+        "Duan-Porter W",
+        "Ewart D"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-6747-9139",
+        "ORCID: 0000-0002-7480-3880",
+        "ORCID: 0009-0003-8800-4195",
+        "ORCID: 0000-0002-6557-6516",
+        "ORCID: 0000-0002-4726-3997",
+        "ORCID: 0009-0008-6591-9612",
+        "ORCID: 0000-0002-9419-7259",
+        "ORCID: 0000-0003-1834-5245",
+        "ORCID: 0000-0002-6019-7779",
+        "ORCID: 0000-0002-6040-1717",
+        "ORCID: 0000-0002-6050-6447"
+      ],
+      "affiliations": [
+        "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919.",
+        "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919.",
+        "Department of Medicine, University of Minnesota Medical School, Minnneapolis, MN, United States.",
+        "Department of Orthopedic Surgery, University of Minnesota Medical School, Minnneapolis, MN, United States.",
+        "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919.",
+        "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919.",
+        "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919.",
+        "Rehabilitation and Engineering Center for Optimizing Veteran Engagement and Reintegration, Minneapolis Veterans Affairs Health Care System, Minneapolis, MN, United States.",
+        "Department of Family Medicine and Community Health, University of Minnesota Medical School, Minnneapolis, MN, United States.",
+        "Department of Medicine, University of Minnesota Medical School, Minnneapolis, MN, United States.",
+        "Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, Minneapolis, MN, United States.",
+        "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919.",
+        "Department of Medicine, University of Minnesota Medical School, Minnneapolis, MN, United States.",
+        "University of Minnesota School of Public Health, Minnneapolis, MN, United States.",
+        "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919.",
+        "Department of Medicine, University of Minnesota Medical School, Minnneapolis, MN, United States.",
+        "University of Minnesota School of Public Health, Minnneapolis, MN, United States.",
+        "Department of Medicine, University of Minnesota Medical School, Minnneapolis, MN, United States.",
+        "Minneapolis Veterans Affairs Health Care System, Minneapolis, MN, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kalinowski, Caleb",
+        "short_name": "Kalinowski C",
+        "identifiers": [
+          "0009-0008-6747-9139"
+        ],
+        "affiliations": [
+          "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919."
+        ]
+      },
+      {
+        "full_name": "Goldsmith, Elizabeth",
+        "short_name": "Goldsmith E",
+        "identifiers": [
+          "0000-0002-7480-3880"
+        ],
+        "affiliations": [
+          "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919.",
+          "Department of Medicine, University of Minnesota Medical School, Minnneapolis, MN, United States."
+        ]
+      },
+      {
+        "full_name": "Anthony, Maylen",
+        "short_name": "Anthony M",
+        "identifiers": [
+          "0009-0003-8800-4195"
+        ],
+        "affiliations": [
+          "Department of Orthopedic Surgery, University of Minnesota Medical School, Minnneapolis, MN, United States."
+        ]
+      },
+      {
+        "full_name": "Landsteiner, Adrienne",
+        "short_name": "Landsteiner A",
+        "identifiers": [
+          "0000-0002-6557-6516"
+        ],
+        "affiliations": [
+          "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919."
+        ]
+      },
+      {
+        "full_name": "Ullman, Kristen",
+        "short_name": "Ullman K",
+        "identifiers": [
+          "0000-0002-4726-3997"
+        ],
+        "affiliations": [
+          "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919."
+        ]
+      },
+      {
+        "full_name": "Zerzan, Nicholas",
+        "short_name": "Zerzan N",
+        "identifiers": [
+          "0009-0008-6591-9612"
+        ],
+        "affiliations": [
+          "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919."
+        ]
+      },
+      {
+        "full_name": "Rich, Tonya",
+        "short_name": "Rich T",
+        "identifiers": [
+          "0000-0002-9419-7259"
+        ],
+        "affiliations": [
+          "Rehabilitation and Engineering Center for Optimizing Veteran Engagement and Reintegration, Minneapolis Veterans Affairs Health Care System, Minneapolis, MN, United States.",
+          "Department of Family Medicine and Community Health, University of Minnesota Medical School, Minnneapolis, MN, United States."
+        ]
+      },
+      {
+        "full_name": "Calvert, Collin",
+        "short_name": "Calvert C",
+        "identifiers": [
+          "0000-0003-1834-5245"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of Minnesota Medical School, Minnneapolis, MN, United States.",
+          "Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, Minneapolis, MN, United States."
+        ]
+      },
+      {
+        "full_name": "Wilt, Timothy J",
+        "short_name": "Wilt TJ",
+        "identifiers": [
+          "0000-0002-6019-7779"
+        ],
+        "affiliations": [
+          "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919.",
+          "Department of Medicine, University of Minnesota Medical School, Minnneapolis, MN, United States.",
+          "University of Minnesota School of Public Health, Minnneapolis, MN, United States."
+        ]
+      },
+      {
+        "full_name": "Duan-Porter, Wei",
+        "short_name": "Duan-Porter W",
+        "identifiers": [
+          "0000-0002-6040-1717"
+        ],
+        "affiliations": [
+          "Veterans Affairs Evidence Synthesis Program, Center for Care Delivery Outcomes Research, Minneapolis Veterans Affairs Health Care System, One Veterans Drive, Minneapolis, MN, 55417, United States, 1 612-467-1919.",
+          "Department of Medicine, University of Minnesota Medical School, Minnneapolis, MN, United States.",
+          "University of Minnesota School of Public Health, Minnneapolis, MN, United States."
+        ]
+      },
+      {
+        "full_name": "Ewart, David",
+        "short_name": "Ewart D",
+        "identifiers": [
+          "0000-0002-6050-6447"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of Minnesota Medical School, Minnneapolis, MN, United States.",
+          "Minneapolis Veterans Affairs Health Care System, Minneapolis, MN, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of medical Internet research"
+    ],
+    "journal_abbrev": [
+      "J Med Internet Res"
+    ],
+    "pub_date": "2026 Sep 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Review",
+      "Systematic Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/09 11:38",
+    "fetched_at": "2026-09-10 07:03:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42714169",
+      "42304290",
+      "36321557",
+      "41494148",
+      "41813248",
+      "39625083",
+      "42490572",
+      "31322289",
+      "36250418",
+      "37643992",
+      "37598785",
+      "35238404",
+      "41165130",
+      "23074461",
+      "42565815",
+      "35182172",
+      "33089901",
+      "37706609",
+      "32129963",
+      "39593159",
+      "41010978",
+      "29364620",
+      "23074477",
+      "42206643",
+      "41064996",
+      "38960934",
+      "41556318",
+      "34908004",
+      "40537150",
+      "38873396",
+      "40990154",
+      "21214357",
+      "40279163",
+      "30354042",
+      "40169165",
+      "41498625",
+      "26513223",
+      "25650566",
+      "38962070",
+      "42011808",
+      "37010891",
+      "41188876",
+      "30668519",
+      "25569281",
+      "25629804",
+      "41619392",
+      "41423944",
+      "42489003",
+      "36070134",
+      "40792483",
+      "35951347",
+      "26490760",
+      "38504373",
+      "37323050",
+      "41152983",
+      "42486497",
+      "35727196",
+      "41500513",
+      "28076926",
+      "24848732",
+      "29232265",
+      "30883665",
+      "36269595",
+      "38997246",
+      "33316105",
+      "41229465",
+      "28141914",
+      "42283624",
+      "29493789",
+      "33871055",
+      "30117156",
+      "42680183",
+      "42222636",
+      "32975190",
+      "37131370",
+      "34854473",
+      "31273764",
+      "40919710",
+      "40832852",
+      "35349186",
+      "30939227",
+      "40058767",
+      "39621381",
+      "41561818",
+      "41239361",
+      "29231243",
+      "42311349",
+      "40576190",
+      "32794606",
+      "42389359",
+      "42647858",
+      "32927498",
+      "34365635",
+      "39312389",
+      "32356396",
+      "32542647",
+      "34766330",
+      "33075160",
+      "37490423",
+      "40990157"
+    ],
+    "review": [
+      "42714169",
+      "42304290",
+      "36321557",
+      "41494148",
+      "41813248",
+      "39625083",
+      "42490572",
+      "31322289",
+      "36250418",
+      "37643992",
+      "37598785",
+      "35238404",
+      "41165130",
+      "42565815",
+      "35182172",
+      "33089901",
+      "37706609",
+      "39593159",
+      "41010978",
+      "42206643",
+      "41064996",
+      "38960934",
+      "41556318",
+      "34908004",
+      "40537150",
+      "38873396",
+      "40990154",
+      "40279163",
+      "40169165",
+      "41498625",
+      "26513223",
+      "25650566",
+      "38962070",
+      "42011808",
+      "37010891",
+      "41188876",
+      "30668519",
+      "25569281",
+      "25629804",
+      "41619392",
+      "41423944",
+      "42489003",
+      "36070134",
+      "40792483",
+      "35951347",
+      "26490760",
+      "38504373",
+      "37323050",
+      "41152983",
+      "42486497",
+      "35727196",
+      "41500513",
+      "28076926",
+      "24848732",
+      "29232265",
+      "30883665",
+      "36269595",
+      "38997246",
+      "33316105",
+      "41229465",
+      "28141914",
+      "42283624",
+      "29493789",
+      "33871055",
+      "30117156",
+      "42680183",
+      "42222636",
+      "32975190",
+      "34854473",
+      "31273764",
+      "40919710",
+      "40832852",
+      "35349186",
+      "30939227",
+      "40058767",
+      "39621381",
+      "41561818",
+      "41239361",
+      "29231243",
+      "40576190",
+      "32794606",
+      "42389359",
+      "42647858",
+      "32927498",
+      "34365635",
+      "39312389",
+      "32542647",
+      "32356396",
+      "34766330",
+      "33075160",
+      "37490423",
+      "40990157"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}
