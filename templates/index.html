@@ -1,19 +1,21 @@
 {% extends "base.html" %}
 {% block title %}本周推荐 · idp-interaction-ai{% endblock %}
 {% block content %}
-<h1>本周推荐 <span class="week-tag">{{ week }}</span></h1>
+<h1>本周推荐 <span class="window-tag">{{ window_start }} ~ {{ window_end }}</span></h1>
 <p class="muted">累计 {{ total }} 篇 · 按相关度评分排序</p>
-<div class="cards">
-  {% for p in papers %}
-  <a class="card" href="/Daily-Paper-idp-interaction-ai/{{ p.paper_page_path }}">
-    <div class="card-head">
-      <span class="score">{{ p.score if p.score is not none else "-" }}</span>
-      <span class="src">{{ p.source }}</span>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="legend">
+      <h3>红绿灯</h3>
+      <div class="row"><span class="dot high"></span>高<span class="range">8–10</span></div>
+      <div class="row"><span class="dot mid"></span>中<span class="range">5–7</span></div>
+      <div class="row"><span class="dot low"></span>低<span class="range">0–4</span></div>
     </div>
-    <h2>{{ p.title }}</h2>
-    <p class="one-liner">{{ p.one_liner_zh }}</p>
-    <div class="meta">{{ p.authors }} · {{ p.published_date[:10] }}</div>
-  </a>
-  {% endfor %}
+  </aside>
+  <div class="content">
+    <div class="paper-list">
+      {% for p in papers %}{% include "_paper_card.html" %}{% endfor %}
+    </div>
+  </div>
 </div>
 {% endblock %}
