@@ -1,3 +1,5 @@
+import os
+
 import monitor
 
 
@@ -79,3 +81,43 @@ def test_run_agent_pipeline_all_skips_when_llm_disabled(monkeypatch):
     analyses = monitor.run_agent_pipeline_all([{"source": "pubmed", "id": "1"}], {}, "/tmp")
     assert analyses == {}
     assert calls == []
+
+
+def _patch_agent(monkeypatch, score, card_calls, review_calls):
+    monkeypatch.setattr(monitor.fulltext, "get_fulltext", lambda *a, **k: {"text": "full", "has_fulltext": False, "fulltext_source": "abstract"})
+    monkeypatch.setattr(monitor.agent, "make_client", lambda: object())
+    monkeypatch.setattr(monitor.agent, "model_name", lambda: "m")
+    monkeypatch.setattr(monitor.agent, "score_paper", lambda *a, **k: {"score": score, "one_liner_zh": "x"})
+    monkeypatch.setattr(monitor.agent, "translate_abstract", lambda *a, **k: "译文")
+    monkeypatch.setattr(monitor.agent, "build_paper_card", lambda *a, **k: card_calls.append(1) or "card")
+    monkeypatch.setattr(monitor.agent, "build_review", lambda *a, **k: review_calls.append(1) or "review")
+
+
+def test_run_agent_pipeline_skips_card_review_below_threshold(monkeypatch, tmp_path):
+    card_calls, review_calls = [], []
+    _patch_agent(monkeypatch, score=3, card_calls=card_calls, review_calls=review_calls)
+    cfg = {"llm": {"min_score": 5, "enable_card": True, "enable_reviewer": True}}
+    row = {"source": "pubmed", "id": "123", "doi": "10.1/x", "abstract": "The abstract.",
+           "published_date": "2026-01-01", "title": "T", "authors": "A", "journal": "J", "url": "http://u"}
+    analysis = monitor.run_agent_pipeline(row, cfg, str(tmp_path))
+    assert analysis["score"] == 3
+    assert analysis["abstract"] == "The abstract."
+    assert analysis["abstract_zh"] == "译文"
+    assert analysis["paper_card_path"] == ""
+    assert analysis["review_path"] == ""
+    assert card_calls == []
+    assert review_calls == []
+    assert not os.path.exists(os.path.join(str(tmp_path), "Archive", "pubmed", "2026", "01", "123", "paper-card.md"))
+
+
+def test_run_agent_pipeline_generates_card_review_at_or_above_threshold(monkeypatch, tmp_path):
+    card_calls, review_calls = [], []
+    _patch_agent(monkeypatch, score=5, card_calls=card_calls, review_calls=review_calls)
+    cfg = {"llm": {"min_score": 5, "enable_card": True, "enable_reviewer": True}}
+    row = {"source": "pubmed", "id": "123", "doi": "10.1/x", "abstract": "The abstract.",
+           "published_date": "2026-01-01", "title": "T", "authors": "A", "journal": "J", "url": "http://u"}
+    analysis = monitor.run_agent_pipeline(row, cfg, str(tmp_path))
+    assert analysis["paper_card_path"] == "paper-card.md"
+    assert analysis["review_path"] == "review.md"
+    assert len(card_calls) == 1
+    assert len(review_calls) == 1

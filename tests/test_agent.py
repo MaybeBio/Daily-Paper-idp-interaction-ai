@@ -11,7 +11,10 @@ def fake_client(responses):
             r = responses.pop(0)
             if isinstance(r, Exception):
                 raise r
-            return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=r))])
+            # Streaming: _chat iterates chunks and reads .choices[0].delta.content.
+            def gen():
+                yield SimpleNamespace(choices=[SimpleNamespace(delta=SimpleNamespace(content=r))])
+            return gen()
     return SimpleNamespace(chat=SimpleNamespace(completions=Completions())), calls
 
 
@@ -56,3 +59,16 @@ def test_build_review_single_reviewer_structure():
     assert "Reviewer 1" in sys_content
     assert "Cross-review synthesis" not in sys_content
     assert "Reviewer 2" not in sys_content
+
+
+def test_translate_abstract_returns_translation():
+    client, calls = fake_client(["中文译文"])
+    res = agent.translate_abstract(client, "m", "The abstract in English.")
+    assert res == "中文译文"
+    assert "The abstract in English." in calls[0]["messages"][-1]["content"]
+
+
+def test_translate_abstract_empty_abstract_returns_empty():
+    client, calls = fake_client([])
+    assert agent.translate_abstract(client, "m", "") == ""
+    assert calls == []

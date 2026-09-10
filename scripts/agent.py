@@ -11,15 +11,24 @@ from openai import OpenAI
 DEFAULT_MODEL = "deepseek-chat"
 MAX_INPUT_CHARS = 180_000  # keep comfortably inside a 256k-token context
 
-SCORE_SYSTEM = """你是「无序蛋白/相分离 × 蛋白互作 × AI 方法」领域的文献筛选助手。
-根据论文标题与摘要，评估它与该课题的相关性，输出一个 JSON 对象：
-{"score": 0, "one_liner_zh": "..."}
+SCORE_SYSTEM = """你是「无序蛋白(IDP/IDR) × 蛋白-蛋白互作(PPI) × AI/物理模拟方法」领域的文献筛选助手。
+课题聚焦：无序蛋白/无序区域(IDR)介导的蛋白质互作（尤其无序蛋白与其他蛋白的 PPI），
+并可能涉及相分离/生物分子凝聚体(LLPS/condensates)背景；方法侧重 AI/深度学习、
+物理模拟(分子动力学 MD)、分子对接(docking)与预测；核心兴趣是「互作的机制建模」，
+或相关的结合预测与应用。
 
-score 为 0-10 的整数，衡量相关性：
-- 8-10：核心命中（无序蛋白/相分离 + 蛋白互作 + AI/计算方法三者齐全，且有实质贡献）
-- 5-7：部分命中（三者缺一，或仅为应用/综述）
-- 0-4：边缘或无关
-one_liner_zh 用一句话中文概括该文做什么、与课题的关系。只输出 JSON，不要其他文字。"""
+按三个轴打分，再综合：
+· 对象轴：是否以无序蛋白/IDR/相分离/凝聚体为对象（是→高分方向；折叠蛋白/小分子/材料→低分）
+· 互作轴：是否研究 PPI、结合机制、界面、复合物形成（是→高分；单蛋白/仅亲和力预测无机制→降档）
+· 方法轴：AI(深度学习/GNN/语言模型/扩散模型) 或 物理模拟(MD/增强采样/对接/AlphaFold)（命中→加分；纯实验/临床/无方法贡献的综述→降档）
+
+分档：
+- 8-10：对象、互作、方法三者齐备，且实质关注互作机制建模（相分离/凝聚体中的 PPI 更佳）
+- 5-7：三者缺一；或齐备但仅应用/综述/无机制深度；或对象相关但互作/方法较弱
+- 0-4：边缘或无关（对象非 IDP、无 PPI、无 AI/物理方法，如临床康复、食品多糖水凝胶等）
+
+输出一个 JSON 对象：{"score": 0, "one_liner_zh": "..."}，score 为 0-10 整数，
+one_liner_zh 用一句话中文概括该文做什么、与本课题的关系。只输出 JSON，不要其他文字。"""
 
 
 def make_client() -> OpenAI:
@@ -53,11 +62,21 @@ def _chat(client, model, messages, temperature=0.0, max_tokens=8000, json_mode=F
                 "messages": messages,
                 "temperature": temperature,
                 "max_tokens": max_tokens,
+                # Stream so the read timeout resets on every chunk. Non-streaming,
+                # the gateway buffers the whole 16k-token card/review and returns it
+                # at once; a slow gateway (~190s) then trips the client timeout.
+                "stream": True,
             }
             if json_mode:
                 kwargs["response_format"] = {"type": "json_object"}
-            resp = client.chat.completions.create(**kwargs)
-            return (resp.choices[0].message.content or "").strip()
+            parts: list[str] = []
+            for chunk in client.chat.completions.create(**kwargs):
+                if not chunk.choices:
+                    continue
+                delta = chunk.choices[0].delta
+                if delta and delta.content:
+                    parts.append(delta.content)
+            return "".join(parts).strip()
         except Exception as exc:  # noqa: BLE001 — retry any transport/parse failure
             last = exc
             if attempt + 1 < max_attempts:
@@ -94,6 +113,30 @@ def score_paper(client, model, title: str, abstract: str) -> dict:
     except json.JSONDecodeError:
         obj = {}
     return _validate_score(obj)
+
+
+TRANSLATE_SYSTEM = """你是学术论文摘要的资深翻译，把英文摘要精确、忠实地翻译成中文。要求：
+- 专业术语保留英文原词（首次出现可写「中文（English）」），如「相分离 (phase separation)」「分子动力学 (molecular dynamics)」。
+- 忠实原文，不增删信息、不解释、不评论、不总结。
+- 保持原文逻辑与句序；数字、符号、缩写原样保留。
+- 若原文已是中文，原样返回。
+只输出译文，不要任何前缀或说明。"""
+
+
+def translate_abstract(client, model, abstract: str) -> str:
+    abstract = (abstract or "").strip()
+    if not abstract:
+        return ""
+    return _chat(
+        client,
+        model,
+        [
+            {"role": "system", "content": TRANSLATE_SYSTEM},
+            {"role": "user", "content": abstract},
+        ],
+        temperature=0.0,
+        max_tokens=2000,
+    )
 
 
 PAPER_CARD_SYSTEM = """你是资深科研人员，为一篇论文生成「深度阅读 Paper Card」，中文为主，技术术语保留英文。你只能基于提供的全文（或摘要），绝不编造。

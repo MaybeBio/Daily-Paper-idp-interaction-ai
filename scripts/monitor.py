@@ -35,6 +35,9 @@ from pyPaperFlow.preprint.biorxiv_fetcher import BioRxivFetcher
 from pyPaperFlow.preprint.chemrxiv_fetcher import ChemRxivFetcher
 from pyPaperFlow.pubmed.pubmed_fetcher import PubmedFetcher
 
+# Allow running as `python scripts/monitor.py` from anywhere: put this file's
+# directory on sys.path so the sibling modules (fulltext, agent) resolve.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fulltext
 import agent
 
@@ -340,19 +343,22 @@ def run_agent_pipeline(row, cfg, out_dir):
         }
 
         score = agent.score_paper(client, model, meta["title"], abstract)
+        abstract_zh = agent.translate_abstract(client, model, abstract)
 
         llm_cfg = cfg.get("llm") or {}
+        min_score = int(llm_cfg.get("min_score") or 5)
         card_path, review_path = "", ""
-        if llm_cfg.get("enable_card", True):
-            card = agent.build_paper_card(client, model, ft["text"], meta)
-            card_path = os.path.join(paper_dir, "paper-card.md")
-            with open(card_path, "w", encoding="utf-8") as f:
-                f.write(card)
-        if llm_cfg.get("enable_reviewer", True):
-            review = agent.build_review(client, model, ft["text"], meta)
-            review_path = os.path.join(paper_dir, "review.md")
-            with open(review_path, "w", encoding="utf-8") as f:
-                f.write(review)
+        if score["score"] >= min_score:
+            if llm_cfg.get("enable_card", True):
+                card = agent.build_paper_card(client, model, ft["text"], meta)
+                card_path = os.path.join(paper_dir, "paper-card.md")
+                with open(card_path, "w", encoding="utf-8") as f:
+                    f.write(card)
+            if llm_cfg.get("enable_reviewer", True):
+                review = agent.build_review(client, model, ft["text"], meta)
+                review_path = os.path.join(paper_dir, "review.md")
+                with open(review_path, "w", encoding="utf-8") as f:
+                    f.write(review)
 
         analysis = {
             "source": source,
@@ -362,6 +368,8 @@ def run_agent_pipeline(row, cfg, out_dir):
             "published_date": meta["published_date"],
             "score": score["score"],
             "one_liner_zh": score["one_liner_zh"],
+            "abstract": abstract,
+            "abstract_zh": abstract_zh,
             "has_fulltext": ft["has_fulltext"],
             "fulltext_source": ft["fulltext_source"],
             "fulltext_path": "fulltext.md",

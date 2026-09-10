@@ -6,10 +6,10 @@
 
 ## 仓库结构
 
-- `monitor.py` — 读取 `config.yaml`，逐平台检索，规范化后写入 `Discovery/`（合并 CSV + `_ids.txt`）与 `Archive/`（逐篇元数据 JSON），并生成 Issue 正文与标题；末尾调用 `run_agent_pipeline_all` 并发跑 LLM 流水线。
-- `agent.py` — LLM 层：OpenAI 兼容客户端 + 三个 prompt 构建器（评分/一句话、16 节 Paper Card、Reviewer 报告）。
-- `fulltext.py` — 全文获取封装：优先原生全文 HTML / PMC XML，失败回退摘要。
-- `build_site.py` + `templates/` — 静态站点生成，产出 `papers/{source}/{id}/index.html` 解析页。
+- `scripts/monitor.py` — 读取 `config.yaml`，逐平台检索，规范化后写入 `Discovery/`（合并 CSV + `_ids.txt`）与 `Archive/`（逐篇元数据 JSON），并生成 Issue 正文与标题；末尾调用 `run_agent_pipeline_all` 并发跑 LLM 流水线。
+- `scripts/agent.py` — LLM 层：OpenAI 兼容客户端 + 三个 prompt 构建器（评分/一句话、16 节 Paper Card、Reviewer 报告）。
+- `scripts/fulltext.py` — 全文获取封装：优先原生全文 HTML / PMC XML，失败回退摘要。
+- `scripts/build_site.py` + `templates/` — 静态站点生成，产出 `papers/{source}/{id}/index.html` 解析页。
 - `config.yaml` — 检索配置：课题短名、时间窗口、每平台一条布尔检索式，以及 `llm` 块（开关与并发）。PubMed 邮箱、API key 与 LLM 密钥均通过环境变量注入，不写入文件。
 - `.github/workflows/monitor.yml` — 每周一 09:23 UTC 自动运行，支持 `workflow_dispatch` 手动触发。
 
@@ -52,25 +52,31 @@ PubMed 检索需要邮箱（必填）与 NCBI API key（可选），通过环境
 
 ## LLM Agent
 
-每篇命中文献会跑 3 次 LLM 调用，产出深度阅读材料，写入 `Archive/{source}/{year}/{month}/{id}/`：
+每篇命中文献跑一次 LLM 流水线，产出深度阅读材料，写入 `Archive/{source}/{year}/{month}/{id}/`：
 
 - **评分 + 一句话**（`score_paper`，`max_tokens=500`，JSON 模式）：0–10 相关性打分 + 一句中文概括，写入 `analysis.json` 的 `score` / `one_liner_zh`，并进入 Issue 表格。
+- **摘要翻译**（`translate_abstract`，`max_tokens=2000`）：原文摘要的精确中文翻译，写入 `analysis.json` 的 `abstract_zh`。
 - **Paper Card**（`build_paper_card`，`max_tokens=16000`）：固定 16 节的深度阅读卡片，写入 `paper-card.md`。
 - **Reviewer 报告**（`build_review`，`max_tokens=12000`）：单人评审报告，写入 `review.md`。
 
-同时写入 `fulltext.md`（全文原文，含获取来源）与 `analysis.json`（元数据 + 各产物路径），并据此生成静态站点页面 `papers/{source}/{id}/index.html`（Issue「链接」列指向它）。
+### 评分阈值门控
+
+`config.yaml` 的 `llm.min_score`（默认 5）控制后两类深度产物的生成：仅当 `score >= min_score` 时才调用 Paper Card + Reviewer 报告；低于阈值则只保留「评分 + 一句话 + 摘要 + 摘要翻译」，不再生成 card/review。对应评分分档 0–4 / 5–7 / 8–10，5 为「部分命中」入口。
+
+同时写入 `fulltext.md`（全文原文，含获取来源）与 `analysis.json`（元数据 + 各产物路径），并据此生成静态站点页面 `papers/{source}/{id}/index.html`（Issue「链接」列指向它）。站点页面顺序为 head 信息 → 摘要 → 摘要翻译 →（高分时）Paper Card → Reviewer 报告；低分篇只有前两者。
 
 ### 配置与密钥
 
 - 模型与网关全部从环境变量读取，不写入仓库：`LLM_BASE_URL`（OpenAI 兼容网关）、`LLM_API_KEY`、`LLM_MODEL`（默认 `deepseek-chat`）。
 - `config.yaml` 的 `llm` 块：
   - `enable_card` / `enable_reviewer`：是否生成 Paper Card / 评审报告（默认 `true`）。
+  - `min_score`：生成 Paper Card + Reviewer 报告的评分阈值（默认 5）。
   - `concurrency`：LLM 并发线程数（默认 8）。
 - GitHub Actions：repo Settings → Secrets and variables → Actions 添加 `LLM_BASE_URL` / `LLM_API_KEY` / `LLM_MODEL`。
 
 ### 并发与时长
 
-3 次调用以网关 IO 等待为主，单篇顺序跑约等于 3 段长生成之和。每周 80+ 篇顺序跑会超过 GitHub Actions 单 job 6 小时上限，因此用线程池并发：墙钟时间从「每篇耗时之和」压到约「每篇耗时 × (篇数 / 并发)」。`concurrency` 按网关 QPS 承受力调，默认 8。
+LLM 调用以网关 IO 等待为主：每篇必跑「评分 + 翻译」两段短生成，`score >= min_score` 的篇再追加 Paper Card + Reviewer 两段长生成。每周 80+ 篇顺序跑会超过 GitHub Actions 单 job 6 小时上限，因此用线程池并发：墙钟时间从「每篇耗时之和」压到约「每篇耗时 × (篇数 / 并发)」。`concurrency` 按网关 QPS 承受力调，默认 8。
 
 全文获取本身（约 2–4 s/篇，命中限流 30–90 s）远小于任一次 LLM 生成，不是瓶颈；LLM 调用失败会重试（指数退避，最多 4 次），单篇失败只跳过该篇、不中断整批。
 
@@ -79,9 +85,18 @@ PubMed 检索需要邮箱（必填）与 NCBI API key（可选），通过环境
 ```bash
 pip install pyPaperFlow
 export ENTREZ_EMAIL=you@example.com
-python monitor.py --config config.yaml --out-dir . --issue-body /tmp/issue.md
+python scripts/monitor.py --config config.yaml --out-dir . --issue-body /tmp/issue.md
 ```
 
 调整时间窗口：`--window-days 1`，或修改 `config.yaml` 中的 `window_days`。
+
+## 测试
+
+`tests/` 是 pytest 自检用例（不参与部署，可安全删除）。`tests/conftest.py` 会把 `scripts/` 注入 `sys.path`，所以测试里可直接 `import agent` / `import monitor` 等。
+
+```bash
+pip install pytest        # 或 pip install -r requirements.txt（已含 pytest）
+pytest                    # 或 python -m pytest tests/ -q
+```
 
 平台 query 语法与调优记录见母仓 `docs/topics-catalog.md` 与本课题 `topics/idp-interaction-ai/test-notes.md`。

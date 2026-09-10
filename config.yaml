@@ -17,6 +17,9 @@ llm:
   # LLM 并发数（线程池大小）。顺序跑 80+ 篇 × 3 次调用会超过 GitHub Actions 6h 上限，
   # 并发跑可把墙钟时间压到几十分钟。按网关 QPS 承受力调，默认 8。
   concurrency: 8
+  # 评分阈值：score >= min_score 才生成 Paper Card + Reviewer 报告；低于则只保留
+  # 评分 + 一句话 + 摘要(翻译)。对应评分分档 0-4/5-7/8-10，5 为「部分命中」入口。
+  min_score: 5
 
 # PubMed 的 ENTREZ_EMAIL（必填）/ NCBI_API_KEY（可选）从环境变量读，不写进文件
 #   GitHub Actions：repo Settings → Secrets and variables → Actions

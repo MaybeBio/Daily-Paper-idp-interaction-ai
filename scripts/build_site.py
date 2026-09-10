@@ -10,7 +10,8 @@ import markdown as md
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-TEMPLATES = os.path.join(HERE, "templates")
+# templates/ lives at the repo root, one level above this scripts/ directory.
+TEMPLATES = os.path.join(os.path.dirname(HERE), "templates")
 
 
 def _week_of(iso: str) -> str:
@@ -47,6 +48,8 @@ def load_archive(out_dir: str) -> list[dict]:
                         "published_date": a.get("published_date", ""),
                         "score": a.get("score"),
                         "one_liner_zh": a.get("one_liner_zh", ""),
+                        "abstract": a.get("abstract", ""),
+                        "abstract_zh": a.get("abstract_zh", ""),
                         "url": a.get("url", ""),
                         "has_fulltext": a.get("has_fulltext", False),
                         "fulltext_source": a.get("fulltext_source", ""),

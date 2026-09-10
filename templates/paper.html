@@ -14,13 +14,29 @@
       {% if paper.one_liner_zh %}<p class="one-liner">{{ paper.one_liner_zh }}</p>{% endif %}
     </div>
   </div>
+  {% if paper.abstract %}
+  <section>
+    <h2>摘要</h2>
+    <div class="md">{{ paper.abstract }}</div>
+  </section>
+  {% endif %}
+  {% if paper.abstract_zh %}
+  <section>
+    <h2>摘要翻译</h2>
+    <div class="md">{{ paper.abstract_zh }}</div>
+  </section>
+  {% endif %}
+  {% if card_html %}
   <section>
     <h2>Paper Card</h2>
     <div class="md">{{ card_html | safe }}</div>
   </section>
+  {% endif %}
+  {% if review_html %}
   <section>
     <h2>审稿人评审</h2>
     <div class="md">{{ review_html | safe }}</div>
   </section>
+  {% endif %}
 </article>
 {% endblock %}
