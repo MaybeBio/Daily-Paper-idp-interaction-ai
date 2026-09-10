@@ -186,7 +186,7 @@ def build_site(out_dir):
         y = key[:4] if key != "unknown" else "unknown"
         years.setdefault(y, []).append({"end": key, "start": ps[0]["window_start"] if ps else "", "papers": ps})
 
-    latest_key = max(batches) if batches else "unknown"
+    latest_key = max((k for k in batches if k != "unknown"), default="unknown")
     this_week = batches.get(latest_key, [])
     window_start = this_week[0]["window_start"] if this_week else ""
     window_end = latest_key if latest_key != "unknown" else ""

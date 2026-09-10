@@ -130,3 +130,44 @@ def test_build_site_writes_search_json(tmp_path):
         payload = json.load(f)
     assert payload["version"] == 1
     assert len(payload["documents"]) == 1
+
+
+def test_build_site_end_to_end(tmp_path):
+    _make_paper(str(tmp_path), "pubmed", "1", "2026", "09", 8,
+                {"start": "2026-09-02", "end": "2026-09-08"}, journal="Nature")
+    _make_paper(str(tmp_path), "biorxiv", "2", "2026", "09", 3,
+                {"start": "2026-09-02", "end": "2026-09-08"}, journal="")
+    build_site.build_site(str(tmp_path))
+    site = os.path.join(str(tmp_path), "site")
+    index = open(os.path.join(site, "index.html"), encoding="utf-8").read()
+    assert "2026-09-02 ~ 2026-09-08" in index
+    assert "score-high" in index and "score-low" in index
+    assert "Nature" in index and "预印本" in index
+    archive = open(os.path.join(site, "archive.html"), encoding="utf-8").read()
+    assert "archive-year" in archive and "2026-09-08" in archive
+    assert os.path.isfile(os.path.join(site, "weeks", "2026-09-08", "index.html"))
+    assert os.path.isfile(os.path.join(site, "search.html"))
+    assert os.path.isfile(os.path.join(site, "data", "search.json"))
+    assert os.path.isfile(os.path.join(site, "assets", "search.js"))
+    paper_html = open(os.path.join(site, "papers", "pubmed", "1", "index.html"), encoding="utf-8").read()
+    assert "score-high" in paper_html
+
+
+def test_build_site_latest_window_ignores_unknown_bucket(tmp_path):
+    # A real window must win over the degenerate "unknown" bucket so the
+    # homepage does not fall back to an empty window_end.
+    _make_paper(str(tmp_path), "pubmed", "1", "2026", "09", 8,
+                {"start": "2026-09-02", "end": "2026-09-08"}, journal="Nature")
+    d = os.path.join(str(tmp_path), "Archive", "pubmed", "2026", "09", "9")
+    os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, "analysis.json"), "w", encoding="utf-8") as f:
+        json.dump({
+            "source": "pubmed", "id": "9", "title": "Title 9", "authors": "A",
+            "journal": "", "published_date": "",
+            "score": 6, "one_liner_zh": "一句话", "abstract": "", "abstract_zh": "",
+            "url": "", "has_fulltext": False, "fulltext_source": "abstract",
+            "paper_page_path": "papers/pubmed/9/index.html", "window": {},
+        }, f)
+    build_site.build_site(str(tmp_path))
+    index = open(os.path.join(str(tmp_path), "site", "index.html"), encoding="utf-8").read()
+    assert "2026-09-08" in index

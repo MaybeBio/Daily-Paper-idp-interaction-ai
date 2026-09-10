@@ -1,5 +1,5 @@
 <a class="paper-card" href="{{ BASE }}/{{ p.paper_page_path }}">
-  <div class="paper-number">{{ loop.index }}</div>
+  <div class="paper-number">{{ card_index }}</div>
   <div class="paper-card-main">
     <div class="paper-meta">
       {% set sl = source_label(p.source, p.journal) %}

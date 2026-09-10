@@ -14,7 +14,7 @@
   </aside>
   <div class="content">
     <div class="paper-list">
-      {% for p in papers %}{% include "_paper_card.html" %}{% endfor %}
+      {% for p in papers %}{% set card_index = loop.index %}{% include "_paper_card.html" %}{% endfor %}
     </div>
   </div>
 </div>
