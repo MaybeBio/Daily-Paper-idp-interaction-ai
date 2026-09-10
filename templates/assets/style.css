@@ -63,6 +63,8 @@ h1 { font-size: 24px; margin: 0 0 4px; }
 .paper { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 24px; }
 .paper-head { display: flex; gap: 16px; margin-bottom: 24px; }
 .paper-head h1 { font-size: 22px; }
+.meta { color: var(--muted); font-size: 13px; margin: 2px 0; }
+.one-liner { color: #3b505b; font-size: 14px; margin: 8px 0 0; }
 .md table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 14px; }
 .md th, .md td { border: 1px solid var(--border); padding: 8px; text-align: left; vertical-align: top; }
 .md th { background: #f3f4f6; }
@@ -71,6 +73,8 @@ h1 { font-size: 24px; margin: 0 0 4px; }
 .md p { margin: 8px 0; }
 .md a { color: var(--accent); }
 
+.search-page { max-width: 860px; }
+.search-more { display: block; margin: 16px auto; padding: 10px 24px; background: var(--card); border: 1px solid var(--border); border-radius: 8px; color: var(--accent); cursor: pointer; font-size: 14px; }
 .search-form { margin: 16px 0 8px; }
 .search-input-row { display: flex; gap: 8px; }
 #search-query { flex: 1; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 15px; }

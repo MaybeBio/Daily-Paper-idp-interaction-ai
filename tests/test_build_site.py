@@ -171,3 +171,5 @@ def test_build_site_latest_window_ignores_unknown_bucket(tmp_path):
     build_site.build_site(str(tmp_path))
     index = open(os.path.join(str(tmp_path), "site", "index.html"), encoding="utf-8").read()
     assert "2026-09-08" in index
+    archive = open(os.path.join(str(tmp_path), "site", "archive.html"), encoding="utf-8").read()
+    assert "/weeks/unknown/" not in archive

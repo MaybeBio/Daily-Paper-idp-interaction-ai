@@ -6,6 +6,7 @@ import json
 import os
 import re
 import shutil
+from html import unescape
 
 import markdown as md
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -44,8 +45,9 @@ def source_label(source, journal):
 
 
 def _plain_text(md_text):
-    html = _md_to_html(md_text)
-    return _TAG_RE.sub(" ", html).replace("\n", " ").replace("  ", " ").strip()
+    rendered = _md_to_html(md_text)
+    text = _TAG_RE.sub(" ", rendered).replace("\n", " ")
+    return re.sub(r"\s+", " ", unescape(text)).strip()
 
 
 def _parse_date(iso):
@@ -182,8 +184,10 @@ def build_site(out_dir):
 
     years = {}
     for key in sorted(batches, reverse=True):
+        if key == "unknown":
+            continue
         ps = batches[key]
-        y = key[:4] if key != "unknown" else "unknown"
+        y = key[:4]
         years.setdefault(y, []).append({"end": key, "start": ps[0]["window_start"] if ps else "", "papers": ps})
 
     latest_key = max((k for k in batches if k != "unknown"), default="unknown")

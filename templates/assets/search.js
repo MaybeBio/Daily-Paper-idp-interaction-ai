@@ -98,7 +98,9 @@
     var positions = tokens.map(function (tok) { return fp.text.indexOf(tok); }).filter(function (i) { return i >= 0; });
     var position = positions.length ? fp.starts[Math.min.apply(null, positions)] : 0;
     var start = Math.min(Math.max(0, position - 45), Math.max(0, value.length - length));
+    if (start > 0 && /[\uDC00-\uDFFF]/.test(value[start])) start--;
     var end = Math.min(value.length, start + length);
+    if (end < value.length && /[\uDC00-\uDFFF]/.test(value[end])) end++;
     return (start ? '…' : '') + value.slice(start, end) + (end < value.length ? '…' : '');
   }
 
