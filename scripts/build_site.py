@@ -48,12 +48,24 @@ def _plain_text(md_text):
     return _TAG_RE.sub(" ", html).replace("\n", " ").replace("  ", " ").strip()
 
 
-def _week_of(iso: str) -> str:
+def _parse_date(iso):
     try:
-        d = dt.date.fromisoformat((iso or "")[:10])
+        return dt.date.fromisoformat((iso or "")[:10])
     except ValueError:
-        return "unknown"
-    return f"{d.isocalendar()[0]}-W{d.isocalendar()[1]:02d}"
+        return None
+
+
+def _window_of(a):
+    window = a.get("window") or {}
+    start = window.get("start") or ""
+    end = window.get("end") or ""
+    if start and end:
+        return start, end
+    d = _parse_date(a.get("published_date", ""))
+    if d:
+        monday = d - dt.timedelta(days=d.weekday())
+        return monday.isoformat(), (monday + dt.timedelta(days=6)).isoformat()
+    return "", ""
 
 
 def load_archive(out_dir: str) -> list[dict]:
@@ -74,11 +86,13 @@ def load_archive(out_dir: str) -> list[dict]:
                         continue
                     with open(analysis_path, encoding="utf-8") as f:
                         a = json.load(f)
+                    w_start, w_end = _window_of(a)
                     papers.append({
                         "source": source,
                         "id": a.get("id", sid),
                         "title": a.get("title", ""),
                         "authors": a.get("authors", ""),
+                        "journal": a.get("journal", ""),
                         "published_date": a.get("published_date", ""),
                         "score": a.get("score"),
                         "one_liner_zh": a.get("one_liner_zh", ""),
@@ -89,7 +103,8 @@ def load_archive(out_dir: str) -> list[dict]:
                         "fulltext_source": a.get("fulltext_source", ""),
                         "paper_page_path": a.get("paper_page_path", ""),
                         "paper_dir": paper_dir,
-                        "week": _week_of(a.get("published_date", "")),
+                        "window_start": w_start,
+                        "window_end": w_end,
                     })
     papers.sort(key=lambda p: p.get("published_date") or "", reverse=True)
     return papers
@@ -99,25 +114,33 @@ def _md_to_html(text: str) -> str:
     return md.markdown(text or "", extensions=["tables", "fenced_code", "sane_lists"])
 
 
-def _load_paper_files(paper_dir: str) -> tuple[str, str]:
+def _load_paper_md(paper_dir):
     card = review = ""
     card_path = os.path.join(paper_dir, "paper-card.md")
     review_path = os.path.join(paper_dir, "review.md")
     if os.path.isfile(card_path):
         with open(card_path, encoding="utf-8") as f:
-            card = _md_to_html(f.read())
+            card = f.read()
     if os.path.isfile(review_path):
         with open(review_path, encoding="utf-8") as f:
-            review = _md_to_html(f.read())
+            review = f.read()
     return card, review
 
 
-def build_site(out_dir: str) -> None:
+def _load_paper_files(paper_dir):
+    card, review = _load_paper_md(paper_dir)
+    return _md_to_html(card), _md_to_html(review)
+
+
+def build_site(out_dir):
     papers = load_archive(out_dir)
     env = Environment(
         loader=FileSystemLoader(TEMPLATES),
         autoescape=select_autoescape(["html"]),
     )
+    env.globals["BASE"] = BASE_PATH
+    env.globals["score_tier"] = score_tier
+    env.globals["source_label"] = source_label
 
     site_dir = os.path.join(out_dir, "site")
     data_dir = os.path.join(site_dir, "data")
@@ -125,19 +148,24 @@ def build_site(out_dir: str) -> None:
     os.makedirs(data_dir, exist_ok=True)
     os.makedirs(assets_dir, exist_ok=True)
 
-    # Weekly grouping for the archive page.
-    weeks: dict[str, list[dict]] = {}
+    batches = {}
     for p in papers:
-        weeks.setdefault(p["week"], []).append(p)
-    for wk in weeks.values():
-        wk.sort(key=lambda x: x.get("score") if x.get("score") is not None else -1, reverse=True)
+        key = p["window_end"] or "unknown"
+        batches.setdefault(key, []).append(p)
+    for b in batches.values():
+        b.sort(key=lambda x: x.get("score") if x.get("score") is not None else -1, reverse=True)
 
-    # This week = the latest week that has papers.
-    latest_week = papers[0]["week"] if papers else "unknown"
-    this_week = [p for p in papers if p["week"] == latest_week]
-    this_week.sort(key=lambda x: x.get("score") if x.get("score") is not None else -1, reverse=True)
+    years = {}
+    for key in sorted(batches, reverse=True):
+        ps = batches[key]
+        y = key[:4] if key != "unknown" else "unknown"
+        years.setdefault(y, []).append({"end": key, "start": ps[0]["window_start"] if ps else "", "papers": ps})
 
-    # Per-paper pages.
+    latest_key = max(batches) if batches else "unknown"
+    this_week = batches.get(latest_key, [])
+    window_start = this_week[0]["window_start"] if this_week else ""
+    window_end = latest_key if latest_key != "unknown" else ""
+
     for p in papers:
         card_html, review_html = _load_paper_files(p["paper_dir"])
         page = env.get_template("paper.html").render(paper=p, card_html=card_html, review_html=review_html)
@@ -146,20 +174,38 @@ def build_site(out_dir: str) -> None:
         with open(page_path, "w", encoding="utf-8") as f:
             f.write(page)
 
-    # Index + archive + data.
+    for key, ps in batches.items():
+        if key == "unknown":
+            continue
+        page = env.get_template("week.html").render(
+            window_start=ps[0]["window_start"] if ps else "",
+            window_end=key,
+            papers=ps,
+        )
+        week_dir = os.path.join(site_dir, "weeks", key)
+        os.makedirs(week_dir, exist_ok=True)
+        with open(os.path.join(week_dir, "index.html"), "w", encoding="utf-8") as f:
+            f.write(page)
+
     with open(os.path.join(site_dir, "index.html"), "w", encoding="utf-8") as f:
-        f.write(env.get_template("index.html").render(week=latest_week, papers=this_week, total=len(papers)))
+        f.write(env.get_template("index.html").render(
+            window_start=window_start, window_end=window_end,
+            papers=this_week, total=len(papers),
+        ))
     with open(os.path.join(site_dir, "archive.html"), "w", encoding="utf-8") as f:
-        f.write(env.get_template("archive.html").render(weeks=weeks, total=len(papers)))
+        f.write(env.get_template("archive.html").render(years=years, total=len(papers)))
+    with open(os.path.join(site_dir, "search.html"), "w", encoding="utf-8") as f:
+        f.write(env.get_template("search.html").render())
     with open(os.path.join(data_dir, "index.json"), "w", encoding="utf-8") as f:
-        json.dump({"latest_week": latest_week, "papers": papers}, f, ensure_ascii=False, indent=2)
-    _write_style(assets_dir)
+        json.dump({"latest_window": window_end, "papers": papers}, f, ensure_ascii=False, indent=2)
+    _write_assets(assets_dir)
 
 
-def _write_style(assets_dir: str) -> None:
-    css = os.path.join(TEMPLATES, "assets", "style.css")
-    if os.path.isfile(css):
-        shutil.copy(css, os.path.join(assets_dir, "style.css"))
+def _write_assets(assets_dir):
+    for name in ("style.css", "search.js"):
+        src = os.path.join(TEMPLATES, "assets", name)
+        if os.path.isfile(src):
+            shutil.copy(src, os.path.join(assets_dir, name))
 
 
 if __name__ == "__main__":

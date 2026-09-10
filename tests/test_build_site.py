@@ -73,3 +73,36 @@ def test_source_label_preprint():
 
 def test_plain_text_strips_markdown():
     assert build_site._plain_text("**bold** and [link](http://x)") == "bold and link"
+
+
+def _make_paper(root, source, sid, year, month, score, window, journal=""):
+    d = os.path.join(root, "Archive", source, year, month, sid)
+    os.makedirs(d, exist_ok=True)
+    analysis = {
+        "source": source, "id": sid, "title": f"Title {sid}", "authors": "A",
+        "journal": journal, "published_date": f"{year}-{month}-02",
+        "score": score, "one_liner_zh": "一句话", "abstract": "", "abstract_zh": "",
+        "url": "", "has_fulltext": False, "fulltext_source": "abstract",
+        "paper_page_path": f"papers/{source}/{sid}/index.html", "window": window,
+    }
+    with open(os.path.join(d, "analysis.json"), "w", encoding="utf-8") as f:
+        json.dump(analysis, f)
+    return analysis
+
+
+def test_load_archive_reads_window_and_journal(tmp_path):
+    _make_paper(str(tmp_path), "pubmed", "1", "2026", "09", 8,
+                {"start": "2026-09-02", "end": "2026-09-08"}, journal="Nature")
+    papers = build_site.load_archive(str(tmp_path))
+    assert len(papers) == 1
+    assert papers[0]["journal"] == "Nature"
+    assert papers[0]["window_start"] == "2026-09-02"
+    assert papers[0]["window_end"] == "2026-09-08"
+
+
+def test_load_archive_window_fallback(tmp_path):
+    # published_date 2026-09-02 是周三；兜底周 = 周一 2026-08-31 ~ 周日 2026-09-06
+    _make_paper(str(tmp_path), "biorxiv", "2", "2026", "09", 6, {}, journal="")
+    papers = build_site.load_archive(str(tmp_path))
+    assert papers[0]["window_start"] == "2026-08-31"
+    assert papers[0]["window_end"] == "2026-09-06"
