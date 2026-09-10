@@ -1,81 +1,68 @@
 ## Review setup
-- **Input scope** Full manuscript (abstract + main text + figures + methods)
-- **Assessment boundary** Claims, evidence, and conclusions as presented in the manuscript
-- **Shared manuscript claim summary** The authors claim that membrane phase, charge, and curvature cooperatively regulate alpha-synuclein binding dynamics, with gel-phase membranes and anionic lipids promoting kinetically stabilized states, and that curvature-induced defect formation is amplified in gel-phase but insensitive to charge.
-- **Visible evidence base** Fluorescence microscopy, CD spectroscopy, FRAP, coarse-grained MD simulations; figures 1–6; supplementary figures S1–S6; methods section
-- **Missing materials affecting confidence** Raw FRAP recovery curves, simulation trajectory snapshots, statistical test details for all comparisons, and code for data analysis are not provided in the main text or supplementary materials.
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors claim that membrane phase, charge, and curvature cooperatively regulate alpha-synuclein binding dynamics, with gel-phase membranes and anionic lipids promoting kinetically stabilized states, and that curvature-induced defect formation is amplified in gel-phase membranes but insensitive to charge.
+- **Visible evidence base** Abstract text only; no figures, tables, or methods details provided
+- **Missing materials affecting confidence** Full manuscript (methods, figures, data, simulation details, statistical analyses)
 
 ## Reviewer 1
-- **Overall assessment** This manuscript presents a systematic and technically sound investigation of how membrane phase, charge, and curvature jointly regulate alpha-synuclein binding dynamics. The combination of experimental and computational approaches is commendable, and the findings on curvature-dependent defect formation in gel-phase membranes are novel. However, several major concerns regarding data presentation, statistical rigor, and mechanistic interpretation need to be addressed before the conclusions can be fully established.
-- **Who would be interested in the results, and why** Researchers in membrane biophysics, protein–membrane interactions, neurodegenerative disease (particularly Parkinson’s disease), and lipid phase behavior will find these results valuable. The work provides mechanistic insights that bridge thermodynamic and kinetic aspects of alpha-synuclein binding, which is relevant for understanding both physiological function and pathological aggregation.
-- **Major strengths** 1. Systematic variation of three membrane parameters (phase, charge, curvature) in a single study, which is rare in the literature. 2. Integration of experimental (FRAP, CD, microscopy) and computational (MD) methods to probe both equilibrium and dynamic aspects. 3. Clear identification of curvature-dependent defect amplification in gel-phase membranes as a key mechanistic driver.
+- **Overall assessment** The abstract presents a potentially interesting and systematic study of the cooperative effects of membrane phase, charge, and curvature on alpha-synuclein binding. The combination of experimental (fluorescence microscopy, CD, FRAP) and computational (coarse-grained MD) approaches is commendable. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental design, the quality of the data, or the robustness of the conclusions. Several claims appear to be based on qualitative observations or lack quantitative support as presented.
+- **Who would be interested in the results, and why** Researchers in the fields of protein-membrane interactions, neurodegenerative diseases (particularly Parkinson’s disease), biophysics of intrinsically disordered proteins, and membrane biophysics. The work could be of interest to those studying how membrane physical properties (phase, curvature, charge) collectively regulate protein binding, which has implications for understanding alpha-synuclein function and pathology.
+- **Major strengths** 1. Systematic investigation of three membrane properties (phase, charge, curvature) in combination, rather than in isolation. 2. Use of complementary experimental and computational techniques. 3. Focus on both equilibrium binding and dynamic exchange (kinetic stabilization), which is a relatively underexplored aspect.
 - **Major Concerns**
     - **Concern ID** R1-M1
     - **Severity** Major
     - **Blocking** Yes
-    - **Axis** Statistical rigor and reproducibility
-    - **Claim pointer** The authors claim that alphaSyn preferentially binds highly curved gel-phase membranes under zwitterionic conditions, and that anionic lipids attenuate curvature-dependent partitioning in gel-phase membranes.
-    - **Evidence pointer** Figures 2, 3; location not provided
-    - **Concern** The manuscript does not report the number of independent experiments (n) for any of the key binding measurements (e.g., fluorescence intensity, FRAP recovery fractions). Error bars are shown but without explicit statement of whether they represent standard deviation or standard error, or how many replicates were performed. For a study making quantitative comparisons (e.g., "2.3-fold higher binding"), this is insufficient.
-    - **Why it matters** Without proper statistical reporting, the reader cannot assess the reliability or reproducibility of the reported differences. This undermines the core quantitative claims of the paper.
-    - **Resolution test** Provide n values for all quantitative data, specify error bar type, and perform appropriate statistical tests (e.g., t-test or ANOVA) for key comparisons. If some comparisons are not statistically significant, this must be stated.
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** "alphaSyn preferentially binds highly curved gel-phase membranes, driven by curvature-dependent enrichment of packing defects arising from faceted vesicle morphologies."
+    - **Evidence pointer** Abstract only; location not provided
+    - **Concern** The claim that binding is "driven by curvature-dependent enrichment of packing defects" and that these defects arise from "faceted vesicle morphologies" is a mechanistic assertion. The abstract does not provide any direct evidence (e.g., from simulations or structural data) that faceted morphologies exist under the conditions used, or that defect density correlates quantitatively with binding. The MD simulations are mentioned but their specific findings are not described.
+    - **Why it matters** This is a central mechanistic claim of the paper. Without evidence for faceted vesicle morphologies and a direct link between defect density and binding, the claim is unsupported. The field has established that curvature can create packing defects, but the specific "faceted" morphology is a strong and novel assertion that requires explicit validation.
+    - **Resolution test** Provide direct evidence (e.g., cryo-EM, simulation snapshots, or quantitative defect analysis from MD) showing faceted morphologies in gel-phase vesicles of high curvature, and a correlation between defect density and alphaSyn binding affinity or kinetics.
     - **Concern ID** R1-M2
     - **Severity** Major
-    - **Blocking** No
-    - **Axis** Mechanistic interpretation
-    - **Claim pointer** The authors claim that curvature-induced defect formation is strongly amplified in gel-phase membranes but largely insensitive to charge.
-    - **Evidence pointer** Figure 6, MD simulation results; location not provided
-    - **Concern** The MD simulations use a coarse-grained model (Martini) that may not capture the full complexity of gel-phase lipid packing defects, particularly the faceted vesicle morphologies mentioned in the abstract. The authors do not discuss the limitations of the Martini force field for gel-phase simulations, nor do they validate the defect analysis against experimental measures (e.g., fluorescence lifetime or NMR).
-    - **Why it matters** The claim about defect amplification is central to the proposed mechanism. If the simulation model is inadequate for gel-phase systems, the mechanistic interpretation may be incorrect.
-    - **Resolution test** Add a discussion of force field limitations for gel-phase simulations. If possible, provide experimental validation of defect formation (e.g., using a polarity-sensitive dye or Laurdan GP). Alternatively, perform all-atom simulations for a subset of conditions.
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** "Incorporation of anionic lipids selectively enhances binding in liquid-phase membranes while attenuating curvature-dependent partitioning in gel-phase membranes."
+    - **Evidence pointer** Abstract only; location not provided
+    - **Concern** The terms "selectively enhances" and "attenuates" imply quantitative comparisons. The abstract does not report any binding constants, fold-changes, or statistical measures. It is unclear whether the effects are large, small, or statistically significant. The claim of "attenuation" of curvature-dependent partitioning in gel-phase membranes is particularly important because it suggests a non-additive interaction between charge and phase.
+    - **Why it matters** Without quantitative data, the reader cannot assess the magnitude or reliability of these effects. The claim of a non-additive (cooperative) interplay is a key conclusion, but the abstract provides no evidence for it.
+    - **Resolution test** Report quantitative binding data (e.g., Kd values, binding isotherms, or FRAP recovery curves) with error bars and statistical comparisons for all conditions (zwitterionic vs. anionic, gel vs. liquid, low vs. high curvature). Show that the effect of charge is significantly different between liquid and gel phases.
     - **Concern ID** R1-M3
     - **Severity** Major
-    - **Blocking** No
-    - **Axis** Data presentation and clarity
-    - **Claim pointer** The authors claim that membrane phase and charge govern the stability of membrane-associated alphaSyn, with gel-phase membranes and anionic lipids promoting kinetically stabilized states.
-    - **Evidence pointer** Figure 4, FRAP data; location not provided
-    - **Concern** The FRAP data are presented only as recovery fractions at a single time point (or as final recovery percentages). No recovery curves (fluorescence intensity vs. time) are shown, and no mobile fraction or half-time of recovery (t1/2) values are reported. This makes it impossible to distinguish between changes in binding kinetics (on/off rates) and changes in the immobile fraction.
-    - **Why it matters** The claim of "kinetically stabilized states" requires kinetic information (e.g., off-rates or exchange rates), which cannot be extracted from a single recovery fraction. The current data only show that more protein remains bound after a fixed time, which could be due to either slower off-rates or a larger immobile pool.
-    - **Resolution test** Show full FRAP recovery curves for representative conditions. Report mobile fraction and t1/2 values. If possible, perform quantitative FRAP analysis to extract binding kinetics (e.g., using a reaction-diffusion model).
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** "Simulations show that curvature-induced defect formation is strongly amplified in gel-phase membranes but largely insensitive to charge."
+    - **Evidence pointer** Abstract only; location not provided
+    - **Concern** This is a strong claim from simulations, but the abstract provides no details on the simulation system (e.g., lipid composition, vesicle size, force field, timescale). The "insensitivity to charge" is surprising given that anionic lipids are known to alter membrane properties. Without seeing the simulation data (e.g., defect density as a function of curvature, phase, and charge), this claim cannot be evaluated.
+    - **Why it matters** The simulation results are used to support the experimental interpretation. If the simulations are not properly validated (e.g., against experimental defect measurements or known lipid behavior), the entire mechanistic framework is weakened.
+    - **Resolution test** Provide simulation details (system setup, force field, analysis methods) and show quantitative plots of defect density vs. curvature for all four combinations (gel/liquid × zwitterionic/anionic). Demonstrate that the effect of charge on defect density is negligible compared to the effect of phase.
 - **Minor Comments**
     - **Concern ID** R1-m1
     - **Severity** Minor
-    - **Axis** Readability for nonspecialists
-    - **Affected element** Abstract and introduction
-    - **Evidence pointer** Abstract, lines 1–5; location not provided
-    - **Issue** The term "synucleopathies" is used without definition. Nonspecialist readers may not be familiar with this term.
-    - **Required correction** Define "synucleopathies" (e.g., "neurodegenerative diseases involving alpha-synuclein aggregation, such as Parkinson's disease") at first use.
+    - **Axis** Clarity
+    - **Affected element** Terminology
+    - **Evidence pointer** Abstract
+    - **Issue** The term "kinetically stabilized states" is vague. Does it refer to slower off-rates, longer residence times, or a higher energy barrier for dissociation?
+    - **Required correction** Define "kinetically stabilized" in the context of the FRAP measurements (e.g., "slower recovery half-times" or "reduced mobile fraction").
     - **Concern ID** R1-m2
     - **Severity** Minor
-    - **Axis** Data presentation
-    - **Affected element** Figure legends
-    - **Evidence pointer** Figures 2–5; location not provided
-    - **Issue** Figure legends do not specify the number of replicates or the statistical test used for significance markers (if any).
-    - **Required correction** Add n values and statistical test information to all figure legends.
-    - **Concern ID** R1-m3
-    - **Severity** Minor
-    - **Axis** Technical soundness
-    - **Affected element** Methods section
-    - **Evidence pointer** Methods, "FRAP experiments"; location not provided
-    - **Issue** The FRAP method description does not specify the bleach spot size, laser power, or acquisition rate. These parameters affect the interpretation of recovery kinetics.
-    - **Required correction** Provide these experimental details in the methods section.
-    - **Concern ID** R1-m4
-    - **Severity** Minor
-    - **Axis** Clarity
-    - **Affected element** Results section
-    - **Evidence pointer** Results, "Membrane phase and charge regulate alphaSyn binding"; location not provided
-    - **Issue** The phrase "faceted vesicle morphologies" is introduced without explanation or reference. It is unclear whether this is an experimental observation or a simulation prediction.
-    - **Required correction** Clarify whether faceted morphologies were observed experimentally (e.g., by cryo-EM) or only in simulations. Provide a reference or data.
-- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical reporting) and R1-M3 (FRAP data presentation) are the most critical. Without proper statistics and kinetic analysis, the core claims about preferential binding and kinetically stabilized states are not adequately supported.
+    - **Axis** Completeness
+    - **Affected element** Scope
+    - **Evidence pointer** Abstract
+    - **Issue** The abstract mentions "cooperative interplay" but does not specify whether the cooperativity is synergistic, antagonistic, or additive. For example, does anionic lipid enhance binding more in liquid than in gel phase (synergistic with fluidity), or does it have a smaller effect in gel phase (antagonistic)?
+    - **Required correction** Clarify the nature of the cooperativity (e.g., "anionic lipids enhance binding in liquid-phase membranes but have a diminished effect in gel-phase membranes, indicating a phase-dependent modulation of charge sensitivity").
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central mechanistic claims (faceted morphologies, quantitative binding differences, simulation results) are not supported by the abstract alone.
 - **Assessment against Nature-style criteria** 
-    - **Originality** Moderate. The combined study of phase, charge, and curvature is novel, but individual effects have been reported before.
-    - **Scientific importance** Moderate. The findings are relevant for understanding alpha-synuclein biology but do not yet provide a transformative mechanistic insight.
-    - **Interdisciplinary readership** Moderate. The work bridges biophysics and neurobiology, but the technical focus may limit appeal to a broad audience.
-    - **Technical soundness** Currently insufficient due to missing statistical rigor and incomplete FRAP analysis.
-    - **Readability for nonspecialists** Adequate, with minor improvements needed (e.g., defining "synucleopathies").
-- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but requires major revisions to address statistical reporting, FRAP data presentation, and simulation validation before the claims can be considered supported.
+    - **Originality** The study of combined effects of phase, charge, and curvature on alphaSyn binding dynamics is moderately original, as most studies examine these factors in isolation. However, the individual concepts (curvature sensing, charge effects, phase preference) are well-established.
+    - **Scientific importance** The work addresses a relevant question in protein-membrane biophysics and neurodegeneration, but the importance is difficult to assess without seeing the magnitude of the effects and whether they are physiologically relevant.
+    - **Interdisciplinary readership** The topic is of interest to biophysicists, cell biologists, and neuroscientists, but the abstract is written in a specialized language that may not be accessible to a broad Nature readership.
+    - **Technical soundness** Cannot be assessed from the abstract alone. The combination of techniques is appropriate, but the lack of quantitative data and simulation details raises concerns.
+    - **Readability for nonspecialists** The abstract is clear for a specialist audience but uses jargon (e.g., "faceted vesicle morphologies," "kinetically stabilized states") without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but does not provide sufficient quantitative or mechanistic evidence to support the claims. A full manuscript with detailed methods, figures, and statistical analyses is required for evaluation.
 
 ## Risk / unsupported claims
-- The claim that curvature-induced defect formation is "strongly amplified" in gel-phase membranes is not quantitatively supported by the simulation data as presented (no error bars or statistical comparison between gel and liquid phases).
-- The claim that anionic lipids "attenuate curvature-dependent partitioning" in gel-phase membranes is based on a single comparison without reported statistical significance.
-- The claim of "kinetically stabilized states" is not supported by the FRAP data, which lack kinetic parameters (t1/2, mobile fraction).
+- "driven by curvature-dependent enrichment of packing defects arising from faceted vesicle morphologies" – No evidence for faceted morphologies or direct defect-binding correlation.
+- "selectively enhances binding in liquid-phase membranes while attenuating curvature-dependent partitioning in gel-phase membranes" – No quantitative binding data provided.
+- "curvature-induced defect formation is strongly amplified in gel-phase membranes but largely insensitive to charge" – No simulation details or data provided.
+- "cooperative interplay between membrane phase, curvature, and charge" – The nature of the cooperativity is not defined or supported.
