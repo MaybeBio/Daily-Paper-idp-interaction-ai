@@ -4,6 +4,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import os
+import re
 import shutil
 
 import markdown as md
@@ -12,6 +13,39 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 HERE = os.path.dirname(os.path.abspath(__file__))
 # templates/ lives at the repo root, one level above this scripts/ directory.
 TEMPLATES = os.path.join(os.path.dirname(HERE), "templates")
+
+BASE_PATH = "/Daily-Paper-idp-interaction-ai"
+
+PREPRINT_LABELS = {"arxiv": "arXiv", "biorxiv": "bioRxiv", "chemrxiv": "ChemRxiv", "medrxiv": "medRxiv"}
+
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def score_tier(score):
+    try:
+        s = int(score)
+    except (TypeError, ValueError):
+        return "none"
+    if s >= 8:
+        return "high"
+    if s >= 5:
+        return "mid"
+    return "low"
+
+
+def source_label(source, journal):
+    src = (source or "").strip().lower()
+    if src == "pubmed":
+        venue = (journal or "").strip() or "PubMed"
+        return {"venue": venue, "kind": "journal"}
+    if src in PREPRINT_LABELS:
+        return {"venue": PREPRINT_LABELS[src], "kind": "preprint"}
+    return {"venue": (source or "unknown").strip() or "unknown", "kind": "journal"}
+
+
+def _plain_text(md_text):
+    html = _md_to_html(md_text)
+    return _TAG_RE.sub(" ", html).replace("\n", " ").replace("  ", " ").strip()
 
 
 def _week_of(iso: str) -> str:

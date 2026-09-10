@@ -45,3 +45,31 @@ def test_build_site_writes_outputs(tmp_path):
     with open(os.path.join(out, "site", "data", "index.json"), encoding="utf-8") as f:
         data = json.load(f)
     assert data["papers"][0]["title"] == "Paper Title"
+
+
+def test_score_tier():
+    assert build_site.score_tier(8) == "high"
+    assert build_site.score_tier(10) == "high"
+    assert build_site.score_tier(7) == "mid"
+    assert build_site.score_tier(5) == "mid"
+    assert build_site.score_tier(4) == "low"
+    assert build_site.score_tier(0) == "low"
+    assert build_site.score_tier(None) == "none"
+    assert build_site.score_tier("x") == "none"
+
+
+def test_source_label_pubmed_journal():
+    assert build_site.source_label("pubmed", "Nature") == {"venue": "Nature", "kind": "journal"}
+
+
+def test_source_label_pubmed_fallback():
+    assert build_site.source_label("pubmed", "") == {"venue": "PubMed", "kind": "journal"}
+
+
+def test_source_label_preprint():
+    assert build_site.source_label("biorxiv", "") == {"venue": "bioRxiv", "kind": "preprint"}
+    assert build_site.source_label("arxiv", "") == {"venue": "arXiv", "kind": "preprint"}
+
+
+def test_plain_text_strips_markdown():
+    assert build_site._plain_text("**bold** and [link](http://x)") == "bold and link"
