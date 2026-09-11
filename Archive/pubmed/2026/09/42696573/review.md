@@ -1,86 +1,74 @@
 ## Review setup
-- **Input scope** Full manuscript (including abstract, introduction, results, discussion, materials and methods, and supplementary materials)
-- **Assessment boundary** Scientific content only; editorial or formatting issues are not considered
-- **Shared manuscript claim summary** The authors propose a stepwise molecular pathway for the recruitment of the ULK1 autophagy-initiating complex to membranes, mediated by WIPI proteins and the ATG13:ATG101 HORMA dimer, culminating in the positioning of the ULK1 kinase domain near the membrane surface.
-- **Visible evidence base** Biochemical reconstitution assays, cell-based assays (autophagy and mitophagy), AlphaFold2 structural predictions, molecular dynamics simulations, GUV and SUV binding assays, mutagenesis, and microscopy.
-- **Missing materials affecting confidence** None identified; the manuscript is comprehensive.
+- **Input scope** Full manuscript (including main text, figures, and supplementary materials)
+- **Assessment boundary** Scientific claims, experimental evidence, and logical coherence as presented
+- **Shared manuscript claim summary** The authors propose a stepwise molecular pathway for the recruitment of the ULK1 autophagy-initiating complex to membranes, mediated by WIPI proteins and the ATG101 WF finger, and further show that a PVP motif in the ULK1 IDR binds the ATG13 HORMA domain to position the kinase domain near the membrane.
+- **Visible evidence base** Biochemical reconstitution, cell-based assays (autophagy/mitophagy), molecular dynamics simulations, AlphaFold2 structural predictions, and mutagenesis
+- **Missing materials affecting confidence** None identified; all key data appear to be present in the main text or supplementary materials
 
-## Reviewer 1
-- **Overall assessment** This is a thorough and well-executed study that addresses a long-standing question in the autophagy field: how the ULK1 complex is recruited to PI3P-containing membranes despite lacking a canonical PI3P-binding domain. The authors present a compelling stepwise model involving WIPI2, WIPI3, the ATG101 WF finger, and a novel ULK1 IDR-ATG13 HORMA interaction. The combination of in vitro reconstitution, cell-based assays, and computational modeling is a strength. However, several concerns regarding the quantitative rigor of the cellular data and the generalizability of the model to all forms of autophagy need to be addressed.
-- **Who would be interested in the results, and why** Researchers in the fields of autophagy, membrane biology, and kinase signaling. The study provides a mechanistic framework for a central event in autophagy initiation, which has implications for understanding diseases linked to autophagy dysfunction, such as Parkinson's disease and cancer.
-- **Major strengths** 1. The study elegantly solves a long-standing paradox in the field. 2. The use of a minimal reconstituted system to dissect the stepwise recruitment is powerful. 3. The combination of computational modeling (AlphaFold2 and MD simulations) with experimental validation is robust. 4. The identification of a novel ULK1 IDR-ATG13 HORMA interaction provides a mechanism for kinase positioning.
+## Reviewer
+- **Overall assessment** This is a comprehensive and well-executed study that addresses a long-standing question in the autophagy field: how the ULK1 complex, which lacks PI3P-binding domains, is recruited to PI3P-containing membranes. The authors provide a convincing multistep model involving WIPI2, WIPI3, the ATG101 WF finger, and a newly identified ULK1 IDR-ATG13 HORMA interaction. The combination of structural predictions, MD simulations, biochemical reconstitution, and cell-based assays is impressive and largely supports the central claims. The work is of high quality and significance.
+- **Who would be interested in the results, and why** Autophagy researchers, cell biologists studying membrane recruitment and kinase activation, structural biologists interested in HORMA domain proteins and IDR function, and those studying the molecular basis of Parkinson's disease and other neurodegenerative conditions linked to autophagy dysfunction.
+- **Major strengths** 1. Addresses a fundamental, unresolved question in autophagy initiation with a clear and testable model. 2. Employs a powerful combination of computational (AlphaFold2, MD simulations) and experimental (biochemical reconstitution, cell-based assays) approaches. 3. Provides mechanistic depth, including identification of specific motifs (DHF, WF, PVP) and their functional validation. 4. The reconstitution system is elegant and allows for direct assessment of individual contributions. 5. The cellular data (autophagy and mitophagy assays) corroborate the in vitro findings.
 - **Major Concerns**
     - **Concern ID** R1-M1
     - **Severity** Major
     - **Blocking** No
-    - **Axis** Quantitative rigor of cellular data
-    - **Claim pointer** The authors claim that the ATG13(HF|DD) and ULK1(ADA) mutants significantly impair autophagy and mitophagy in cells.
-    - **Evidence pointer** Figures 4, 6, and S6, S10
-    - **Concern** The quantification of the autophagy and mitophagy assays (e.g., Halo-LC3 flux, mito-QC) relies on manual or semi-automated image analysis. The statistical power and the number of independent experiments for these key cellular phenotypes are not always clearly stated in the figure legends. For example, in Figure 4K-L, the Halo-LC3 flux assay shows a clear defect for the HF|DD mutant, but the error bars and statistical test are not fully described in the legend. Similarly, the mito-QC data in Figure 6A-B and S6A-B would benefit from a more detailed description of the quantification pipeline and the number of cells analyzed per replicate.
-    - **Why it matters** The cellular validation is critical for establishing the physiological relevance of the proposed mechanism. Without rigorous and transparent quantification, the strength of the in vivo conclusions is weakened.
-    - **Resolution test** Provide a clear statement in the figure legends for all cellular assays (Figures 4, 6, S6, S10) detailing: (1) the number of independent biological replicates (n), (2) the total number of cells analyzed per condition per replicate, (3) the specific statistical test used (e.g., two-way ANOVA with Šidák's multiple-comparison test), and (4) whether the data are presented as mean ± SD or SEM. For the mito-QC and LC3 flux assays, consider providing a more detailed description of the automated or semi-automated quantification pipeline in the Methods section.
-
+    - **Axis** Data interpretation / Overclaim
+    - **Claim pointer** The authors state that the data "establish a stepwise pathway for recruitment of the ULK1 KD to the vicinity of the membrane surface" (Abstract) and that the model accounts for "the more than decade-old observation that ULK1C is stabilized at phagophore initiation sites by PI3P" (Discussion).
+    - **Evidence pointer** Figures 1-6, especially the reconstitution (Fig. 4) and modeling (Fig. 5H-J)
+    - **Concern** While the data strongly support a role for WIPI2, WIPI3, the ATG101 WF finger, and the ULK1 PVP motif in ULK1C recruitment and activation, the claim of a complete "stepwise pathway" may be overstated. The reconstitution experiments (Fig. 4) show that removal of WIPI2 or WIPI3 individually reduces ULK1 activity, but the relative order and potential redundancy of these steps are not fully resolved. The model in Fig. 7 implies a sequential process, but the data do not exclude the possibility that WIPI2 and WIPI3 act in parallel or that their contributions are partially redundant. Furthermore, the claim that this pathway explains PI3P-dependent stabilization is supported, but the authors do not directly test whether the WIPI-mediated recruitment is the *sole* mechanism or if other PI3P-dependent processes (e.g., via ATG9 or PI3KC3-C1 supercomplex formation) also contribute.
+    - **Why it matters** Overstating the completeness of the pathway could mislead the field into thinking the problem is fully solved, potentially discouraging investigation of other parallel or redundant mechanisms. The claim of a "stepwise" pathway implies a strict order that is not rigorously demonstrated.
+    - **Resolution test** The authors should either (a) provide experimental evidence for the order of WIPI2 vs. WIPI3 binding (e.g., kinetic assays or sequential addition experiments in the reconstitution system) or (b) temper the language to reflect that the data support a multistep, synergistic recruitment mechanism rather than a strictly ordered pathway. Acknowledging the possibility of parallel or redundant contributions would be appropriate.
     - **Concern ID** R1-M2
     - **Severity** Major
     - **Blocking** No
-    - **Axis** Generalizability of the model
-    - **Claim pointer** The authors propose a stepwise pathway for ULK1 recruitment that is general to autophagy initiation.
-    - **Evidence pointer** Discussion, Figure 7
-    - **Concern** The model is built primarily on data from starvation-induced autophagy and DFP-induced mitophagy. The authors acknowledge that WIPI3 KO has been reported to have no effect on starvation-induced autophagy in HEK293 cells (reference 61). While they discuss this discrepancy, they do not provide a clear explanation or experimental data to resolve it. The model's generalizability to other forms of selective autophagy (e.g., xenophagy, aggrephagy) or to different cell types is not addressed.
-    - **Why it matters** A central claim of the paper is that this is a unifying model for ULK1 recruitment. The existence of a contradictory report and the lack of testing in other contexts limits the scope of the claim.
-    - **Resolution test** 1. Discuss the discrepancy with reference 61 in more detail. Is it possible that WIPI3 is redundant with WIPI2 in HEK293 cells, or that the KO was incomplete? 2. Add a sentence or two in the Discussion acknowledging that the model may be context-dependent and that further work is needed to test its generalizability to other cell types and autophagy-inducing conditions.
-
-    - **Concern ID** R1-M3
-    - **Severity** Major
-    - **Blocking** No
-    - **Axis** Mechanistic detail of the ULK1 IDR-ATG13 interaction
-    - **Claim pointer** The ULK1 IDR (residues 428-450) binds directly to the ATG13 HORMA domain, and this interaction is critical for kinase positioning and activity.
-    - **Evidence pointer** Figures 5, S7, S8
-    - **Concern** The evidence for the direct interaction is strong (AlphaFold2, GST pull-down). However, the functional consequence of this interaction is modeled as a reduction in the average distance of the ULK1 KD to the membrane (from 19 to 12 nm). The model is based on a single set of assumptions about the IDR conformation and the position of the palmitoylated cysteines. The authors should discuss the limitations of this model and whether other mechanisms (e.g., allosteric activation of ULK1 by the ATG13 HORMA domain) could also contribute to the observed increase in ATG16L1 phosphorylation.
-    - **Why it matters** The paper's central conclusion is that the IDR-HD interaction positions the kinase. If the primary effect is allosteric, the model would need to be revised.
-    - **Resolution test** 1. In the Discussion, explicitly state that the modeling data are consistent with a proximity-based mechanism but do not rule out additional allosteric effects. 2. Consider performing an in vitro kinase assay using a soluble substrate (e.g., a peptide) to test if the ADA mutation affects ULK1 catalytic activity directly, independent of membrane proximity.
-
+    - **Axis** Mechanistic interpretation / Alternative explanation
+    - **Claim pointer** The authors propose that the ULK1 IDR-ATG13 HORMA interaction "drives proximity of ULK1 KD to the membrane" (Results, section title) and that this is the primary mechanism for positioning the kinase.
+    - **Evidence pointer** Figure 5, especially Fig. 5H-J (modeling) and Fig. 5F-G (kinase activity)
+    - **Concern** The modeling in Fig. 5H-J shows a reduction in average KD-membrane distance from 19 to 12 nm upon IDR binding. While this is a significant reduction, the KD is still ~12 nm from the membrane. The authors argue this is equivalent to a one order of magnitude increase in local concentration. However, the functional readout (phosphorylation of ATG16L1, Fig. 5F-G) shows a near-complete loss of activity with the ADA mutant. It is not clear that a ~7 nm reduction in average distance alone can account for this dramatic effect. The ADA mutation could also affect other aspects of ULK1C assembly, stability, or dynamics that are not captured by the static modeling. The co-IP data in Fig. 6G-H show reduced ATG13 binding, but the effect on overall complex integrity is not fully explored.
+    - **Why it matters** The mechanistic link between the IDR-HORMA interaction and the dramatic loss of kinase activity is not fully established. The modeling provides a plausible explanation, but the quantitative relationship between the distance change and the activity loss is not demonstrated. Other consequences of the ADA mutation (e.g., altered complex dynamics, impaired substrate presentation) could contribute.
+    - **Resolution test** The authors should (a) provide a more quantitative analysis of the relationship between KD-membrane distance and activity, perhaps by engineering ULK1 constructs with different IDR lengths or tethering points, or (b) perform additional experiments (e.g., crosslinking, hydrogen-deuterium exchange) to assess whether the ADA mutation affects the overall conformation or dynamics of the ULK1C beyond the KD-membrane distance. Acknowledging the limitations of the static model would strengthen the argument.
 - **Minor Comments**
     - **Concern ID** R1-m1
     - **Severity** Minor
-    - **Axis** Clarity of presentation
-    - **Affected element** Figure 1
-    - **Evidence pointer** Figure 1A-B
-    - **Issue** The sequence logo in Figure 1A is described as showing the "DHF motif," but the logo appears to show conservation of a broader region. The exact boundaries of the motif should be more clearly indicated.
-    - **Required correction** Add a box or bracket to the sequence logo in Figure 1A to clearly delineate the DHF motif (residues D213, H214, F215).
-
+    - **Axis** Clarity / Presentation
+    - **Affected element** Figure 1 and associated text
+    - **Evidence pointer** Figure 1A-B, Results section "ATG13 contains a DHF motif..."
+    - **Issue** The sequence logo in Fig. 1A-B is described as showing the "DHF motif" (D213, H214, F215). However, the logo appears to show conservation of a broader region. The authors should clarify whether the logo is specifically for the DHF motif or for the entire WIR-like sequence. The text states "a highly conserved motif... including residues Asp213, His214 and Phe215," but the logo may show conservation of other residues as well.
+    - **Required correction** Clarify in the figure legend or text exactly which residues are being highlighted in the sequence logo. If the logo represents a larger region, indicate the boundaries.
     - **Concern ID** R1-m2
     - **Severity** Minor
     - **Axis** Data presentation
-    - **Affected element** Figure 2
-    - **Evidence pointer** Figure 2D-E
-    - **Issue** The GUV binding data in Figure 2D-E show a linear, concentration-dependent relationship for the WF mutant. The authors state this is "primarily driven by the WIPI3-PI3P interaction." It would be helpful to show a control without WIPI3 for the WF mutant to confirm this.
-    - **Required correction** Add a control condition for the ATG101(WF|DD) mutant in the absence of WIPI3 in Figure 2D-E to demonstrate that the residual binding is indeed WIPI3-dependent.
-
+    - **Affected element** Figure 2D-E
+    - **Evidence pointer** Figure 2D-E, GUV experiments
+    - **Issue** In Fig. 2D, the GUV images for the ATG101(WF|DD) mutant show some residual binding, which is quantified in Fig. 2E. The text states that "the double mutant construct showed almost the same effect with the WF to DD mutant." However, the quantification in Fig. 2E appears to show a slightly higher binding for the double mutant (WF|DD + ΔCTH) compared to WF|DD alone at some concentrations. This should be explicitly addressed.
+    - **Required correction** Provide a statistical comparison between the WF|DD and the double mutant (WF|DD + ΔCTH) in Fig. 2E, or clarify in the text that the difference is not statistically significant.
     - **Concern ID** R1-m3
     - **Severity** Minor
-    - **Axis** Statistical reporting
-    - **Affected element** Figure 4
-    - **Evidence pointer** Figure 4C
-    - **Issue** The dot blot data in Figure 4C are quantified in Figure 4E. The statistical test used is not specified in the legend for Figure 4C.
-    - **Required correction** Add the statistical test used (e.g., two-way ANOVA) to the legend of Figure 4C.
-
+    - **Axis** Clarity / Terminology
+    - **Affected element** Results section "ATG13-ATG101-WIPI3 complexes stably interact with membrane..."
+    - **Evidence pointer** Figure 3 and associated text
+    - **Issue** The authors use the term "FRRG motif" for WIPI2 (Fig. 3G) and "LRRG motif" for WIPI3 (Fig. 3A). The text in the Introduction mentions the "(F/L)RRG motif" for PROPPIN proteins. This is clear, but the switch between "F" and "L" could be confusing for readers not familiar with the PROPPIN family.
+    - **Required correction** In the text describing Fig. 3, explicitly state that WIPI2 has an FRRG motif and WIPI3 has an LRRG motif, to avoid any ambiguity.
     - **Concern ID** R1-m4
     - **Severity** Minor
-    - **Axis** Completeness of model
-    - **Affected element** Discussion
-    - **Evidence pointer** Discussion, Figure 7
-    - **Issue** The model in Figure 7 is elegant but does not include the role of ATG9, which is mentioned in the Introduction as a binding partner for the ATG13:ATG101 dimer.
-    - **Required correction** Add a brief note in the Discussion or a label in Figure 7 to indicate where ATG9 binding might fit into the stepwise pathway, even if it is not the focus of this study.
-
-- **Technical failings that need to be addressed before the case is established** None identified. The technical quality of the work is high.
-- **Assessment against Nature-style criteria**
-    - **Originality**: High. The study provides a novel and unifying mechanism for a central, unresolved question in autophagy.
-    - **Scientific importance**: High. The work explains a decade-old observation and has implications for understanding the molecular basis of autophagy-related diseases.
-    - **Interdisciplinary readership**: Moderate. The topic is specialized, but the principles of membrane recruitment and kinase positioning are of broad interest to cell biologists and biochemists.
-    - **Technical soundness**: High. The study uses a multi-pronged approach with appropriate controls and rigorous data analysis.
-    - **Readability for nonspecialists**: Good. The abstract and introduction are clear, and the figures are well-designed. The discussion effectively contextualizes the findings.
-- **Recommendation posture** Supportive if technical concerns are resolved. The major concerns are primarily about the quantitative rigor of the cellular data and the generalizability of the model, which can be addressed with clarifications and additional discussion.
-
-## Risk / unsupported claims
-- None identified. All major claims are supported by the provided evidence.
+    - **Axis** Data interpretation
+    - **Affected element** Figure 4H
+    - **Evidence pointer** Figure 4H, co-IP of ATG13 with WIPI3 in cells
+    - **Issue** The co-IP experiment in Fig. 4H shows that starvation induces an interaction between ATG13-WT and WIPI3, but not ATG13(HF|DD). This is a key cellular validation. However, the input lanes show that the expression levels of the HA-ATG13 constructs are not perfectly equal. The authors should comment on whether this could affect the interpretation.
+    - **Required correction** Provide a quantification of the input levels and state that the observed difference in co-IP is not due to differences in expression. Alternatively, show a longer exposure or a different loading control.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Data presentation
+    - **Affected element** Figure 6A-B
+    - **Evidence pointer** Figure 6A-B, mito-QC assay
+    - **Issue** The mito-QC images in Fig. 6A are representative, but the quantification in Fig. 6B shows a significant difference between WT and ADA mutant. The authors should provide a measure of the number of mitolysosomes per cell, not just the percentage of mitophagic cells, to give a more complete picture.
+    - **Required correction** Consider adding a quantification of the number of red-only puncta per cell as a complementary metric.
+- **Technical failings that need to be addressed before the case is established** None identified. The experimental design and execution appear sound.
+- **Assessment against Nature-style criteria** 
+    - **Originality**: High. The study provides a novel and unifying mechanism for ULK1C recruitment, resolving a long-standing puzzle in the field. The identification of the ULK1 IDR-ATG13 HORMA interaction is a new finding.
+    - **Scientific importance**: High. The work addresses a central question in autophagy initiation, a process of broad biological and medical relevance. The findings have implications for understanding the molecular basis of autophagy-related diseases.
+    - **Interdisciplinary readership**: Moderate to high. The study will be of primary interest to cell biologists and biochemists. The use of MD simulations and structural modeling may also appeal to biophysicists and computational biologists. The medical relevance (Parkinson's disease) broadens the potential audience.
+    - **Technical soundness**: High. The study uses a rigorous combination of computational and experimental approaches. The reconstitution system is a particular strength. The data are generally well-controlled and quantified.
+    - **Readability for nonspecialists**: Good. The Introduction provides sufficient background, and the Results are clearly written. The figures are well-designed. Some sections (e.g., MD simulation details) may be challenging for a general audience, but the main conclusions are accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The major concerns (R1-M1, R1-M2) are not fatal but require careful revision of the claims and interpretation. The minor comments should be addressed to improve clarity and rigor. The study is of high quality and significance, and with appropriate revisions, it would be a strong contribution.

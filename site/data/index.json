@@ -1,5 +1,5 @@
 {
-  "latest_window": "2026-09-09",
+  "latest_window": "2026-09-10",
   "papers": [
     {
       "source": "pubmed",
@@ -8,17 +8,17 @@
       "authors": "He, Liming; Li, Junjie; Liu, Enhui; Zhou, Hong; Zhu, Hongfei; Xia, Yanshi; Yong, Yueyuan; Li, Xiaopeng",
       "journal": "Food chemistry: X",
       "published_date": "2026-09-09",
-      "score": 0,
-      "one_liner_zh": "研究菜心多糖调控明胶水凝胶的流变学与微观结构，用于吞咽障碍饮食和花青素稳定，完全不涉及无序蛋白、蛋白互作或AI/物理模拟方法。",
+      "score": 2,
+      "one_liner_zh": "该文研究菜心多糖与明胶水凝胶的流变调控和微观结构致密化，用于吞咽困难饮食和花青素稳定，对象为多糖-明胶体系而非无序蛋白/IDR，互作机制为氢键和静电作用但非PPI，方法为实验表征无AI/物理模拟，与本课题无关。",
       "abstract": "Texture-modified foods facilitate dysphagia care and nutrient supplementation, yet conventional high-molecular-weight polysaccharide-gelatin hydrogels suffer phase separation, sticky texture and aspiration risks. Herein, cold-set composite hydrogels of gelatin and low-molecular-weight Guangdong Choy sum polysaccharides (GCSP, Mw = 71.49 kDa), were constructed to tune swallowing-friendly rheology and stabilize anthocyanin. DLS and FTIR characterizations corroborated strong hydrogen bonding and electrostatic interactions between GCSP and gelatin, forming micron aggregates. SEM observations validated the microstructural densification. GCSP reduced porosity from 78.5% (neat gelatin) to 36.2%, building a dense, thick-walled interpenetrating network. The compact network slowed anthocyanin photodegradation, retaining over 40% after 10-day UV exposure. Moreover, GCSP lowered hardness (250.3-142.5 g) alongside springiness, while preserving high cohesiveness ( approximately 0.85) and desirable thixotropic recovery, mitigating brittleness and excessive stickiness. Swallowing simulations complied with IDDSI Level 4/5 standards. This work elucidates polysaccharide-regulated protein rearrangement, offering a dual-functional matrix for safe elderly dysphagia food with anthocyanin photoprotection.",
-      "abstract_zh": "质构改良食品有助于吞咽障碍护理和营养补充，然而传统的高分子量多糖-明胶水凝胶存在相分离 (phase separation)、粘稠质地及误吸风险。本文构建了明胶与低分子量广东菜心多糖 (GCSP, Mw = 71.49 kDa) 的冷凝固复合水凝胶，以调控适宜吞咽的流变学特性并稳定花青素。动态光散射 (DLS) 和傅里叶变换红外光谱 (FTIR) 表征证实了GCSP与明胶之间存在强氢键和静电相互作用，形成微米级聚集体。扫描电子显微镜 (SEM) 观察验证了微观结构的致密化。GCSP将孔隙率从78.5%（纯明胶）降低至36.2%，构建了致密厚壁的互穿网络。该致密网络减缓了花青素的光降解，在10天紫外线暴露后仍保留超过40%。此外，GCSP降低了硬度（250.3-142.5 g）和弹性，同时保持了高内聚性（约0.85）和理想的触变恢复性，减轻了脆性和过度粘性。吞咽模拟符合IDDSI 4/5级标准。本研究阐明了多糖调控的蛋白质重排，为具有花青素光保护功能的老年安全吞咽障碍食品提供了双功能基质。",
+      "abstract_zh": "质构改良食品有助于吞咽障碍护理和营养补充，但传统的高分子量多糖-明胶水凝胶存在相分离 (phase separation)、粘稠质地及误吸风险。本文构建了明胶与低分子量广东菜心多糖（GCSP, Mw = 71.49 kDa）的冷凝固复合水凝胶，以调控适宜吞咽的流变学特性并稳定花青素。动态光散射 (DLS) 和傅里叶变换红外光谱 (FTIR) 表征证实了GCSP与明胶之间存在强氢键和静电相互作用，形成微米级聚集体。扫描电子显微镜 (SEM) 观察验证了微观结构的致密化。GCSP将孔隙率从78.5%（纯明胶）降低至36.2%，构建了致密厚壁的互穿网络。该致密网络减缓了花青素的光降解，在10天紫外线暴露后仍保留超过40%。此外，GCSP降低了硬度（250.3-142.5 g）和弹性，同时保持了高内聚性（约0.85）和理想的触变恢复性，减轻了脆性和过度粘性。吞咽模拟符合IDDSI 4/5级标准。本研究阐明了多糖调控的蛋白质重排，为具有花青素光保护功能的安全老年吞咽障碍食品提供了双功能基质。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42713289/",
       "has_fulltext": true,
       "fulltext_source": "pmc",
       "paper_page_path": "papers/pubmed/42713289/index.html",
       "paper_dir": "./Archive/pubmed/2026/09/42713289",
-      "window_start": "2026-09-03",
-      "window_end": "2026-09-09"
+      "window_start": "2026-09-04",
+      "window_end": "2026-09-10"
     },
     {
       "source": "pubmed",
@@ -28,7 +28,7 @@
       "journal": "Journal of medical Internet research",
       "published_date": "2026-09-09",
       "score": 0,
-      "one_liner_zh": "该文是关于扩展现实干预对膝骨关节炎和全膝关节置换术后康复的系统综述与荟萃分析，完全不涉及无序蛋白、蛋白互作或AI/物理模拟方法。",
+      "one_liner_zh": "该文系统评价扩展现实干预对膝骨关节炎和全膝关节置换术后康复的效果，属于临床康复研究，与无序蛋白互作机制建模完全无关。",
       "abstract": "BACKGROUND: Nonpharmacologic interventions are important for treating knee pain due to osteoarthritis or after total knee arthroplasty (TKA), and extended reality (XR) technology may enhance treatments for these indications. OBJECTIVE: This systematic review aimed to evaluate XR interventions for pain due to knee osteoarthritis (KOA) or for recovery after TKA. METHODS: Databases were searched through May 2023 and updated in December 2025. Eligible trials evaluated XR interventions to treat KOA pain or after TKA. We classified interventions by depth of immersion and clinical mechanism. We used the Grading of Recommendations Assessment, Development, and Evaluation (GRADE) criteria to determine the certainty of evidence for prioritized outcomes. Meta-analyses were performed when >/=3 studies evaluated similar comparisons, outcomes, and time points. RESULTS: Eligible trials addressed KOA (k=12) or recovery after TKA (k=9). Sample sizes ranged from 36 to 306 participants, and most studies had a follow-up of </=3 months. Nineteen studies assessed pain-related functioning and pain intensity, and 5 assessed adverse events (AEs). For KOA, 10 studies examined interactive digital rehabilitation (IDR), and 2 examined virtual reality (VR)-digitally augmented exercise (DAE). IDR for KOA may result in better pain-related functioning (low certainty of evidence [COE]; pooled standardized mean difference [SMD] -0.59, 95% CI -1.11 to -0.06; prediction interval [PI] -1.72 to 0.55; k=5) and lower pain intensity at 6-8 weeks (low COE; pooled SMD -0.46, 95% CI -0.92 to 0.00; PI -1.39 to 0.47; k=4). VR-DAE for KOA (k=2) produced inconsistent results (very low COE). For post-TKA studies, 5 examined IDR, 2 examined VR-DAE, 1 examined VR-distraction, and 1 examined VR-psychoeducation. Post-TKA IDR may result in better pain-related functioning (low [k=4] and moderate COE [k=1]) but little to no difference in pain intensity (low-moderate COE; pooled SMD at 3-4 months -0.12, 95% CI -0.75 to 0.52; PI -1.63 to 1.27; k=3). VR-psychoeducation probably results in lower pain at 4 weeks (moderate COE; k=1), and VR-distraction may result in 6 months (low COE; k=1), whereas VR-DAE produced mixed findings (k=2; very low COE). IDR was not associated with AEs, and VR may not be associated with AEs for KOA (high and low COE), though AE reporting was uncommon (k=5) and evidence was very uncertain for post-TKA. CONCLUSIONS: IDR may augment treatment for KOA and post-TKA recovery, and VR may benefit post-TKA rehabilitation. This review is the first to stratify by level of immersion, clinical mechanism, and follow-up duration and to systematically evaluate AEs. IDR may be ready for integration into KOA care, while use after TKA needs more evidence. Randomized controlled trials with implementation outcomes could determine how XR interventions can be used for KOA, whereas trials evaluating efficacy and AEs are needed before their use for post-TKA.",
       "abstract_zh": "背景：非药物干预对于治疗膝骨关节炎或全膝关节置换术（TKA）后的膝关节疼痛至关重要，而扩展现实（XR）技术可能增强针对这些适应症的治疗。目的：本系统综述旨在评估XR干预措施对膝骨关节炎（KOA）疼痛或TKA术后恢复的效果。方法：检索数据库至2023年5月，并于2025年12月更新。符合条件的试验评估了用于治疗KOA疼痛或TKA术后的XR干预措施。我们根据沉浸深度和临床机制对干预措施进行分类。使用推荐分级的评估、制定与评价（GRADE）标准确定优先结局的证据确定性。当≥3项研究评估了相似的比较、结局和时间点时，进行荟萃分析。结果：符合条件的试验涉及KOA（k=12）或TKA术后恢复（k=9）。样本量范围为36至306名参与者，大多数研究的随访时间≤3个月。19项研究评估了疼痛相关功能和疼痛强度，5项评估了不良事件（AEs）。对于KOA，10项研究考察了交互式数字康复（IDR），2项考察了虚拟现实（VR）-数字增强运动（DAE）。IDR用于KOA可能在6-8周时改善疼痛相关功能（低证据确定性[COE]；合并标准化均数差[SMD] -0.59，95% CI -1.11至-0.06；预测区间[PI] -1.72至0.55；k=5）并降低疼痛强度（低COE；合并SMD -0.46，95% CI -0.92至0.00；PI -1.39至0.47；k=4）。VR-DAE用于KOA（k=2）结果不一致（极低COE）。对于TKA术后研究，5项考察了IDR，2项考察了VR-DAE，1项考察了VR-分心，1项考察了VR-心理教育。TKA术后IDR可能改善疼痛相关功能（低[k=4]和中度COE [k=1]），但对疼痛强度影响很小或无差异（低-中度COE；3-4个月时合并SMD -0.12，95% CI -0.75至0.52；PI -1.63至1.27；k=3）。VR-心理教育可能在4周时降低疼痛（中度COE；k=1），VR-分心可能在6个月时降低疼痛（低COE；k=1），而VR-DAE结果混杂（k=2；极低COE）。IDR与AEs无关，VR可能与KOA的AEs无关（高和低COE），尽管AEs报告不常见（k=5），且TKA术后的证据非常不确定。结论：IDR可能增强KOA和TKA术后恢复的治疗，VR可能有益于TKA术后康复。本综述首次按沉浸水平、临床机制和随访持续时间进行分层，并系统评估AEs。IDR可能已准备好整合到KOA护理中，而TKA术后使用需要更多证据。具有实施结局的随机对照试验可确定XR干预措施如何用于KOA，而在用于TKA术后之前，需要评估疗效和AEs的试验。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42714169/",
@@ -36,8 +36,8 @@
       "fulltext_source": "abstract",
       "paper_page_path": "papers/pubmed/42714169/index.html",
       "paper_dir": "./Archive/pubmed/2026/09/42714169",
-      "window_start": "2026-09-03",
-      "window_end": "2026-09-09"
+      "window_start": "2026-09-04",
+      "window_end": "2026-09-10"
     },
     {
       "source": "pubmed",
@@ -47,16 +47,16 @@
       "journal": "Langmuir : the ACS journal of surfaces and colloids",
       "published_date": "2026-09-08",
       "score": 8,
-      "one_liner_zh": "该文结合实验与粗粒化分子动力学模拟，系统研究了膜相、电荷和曲率如何协同调控α-突触核蛋白（一种无序蛋白）与脂质膜的结合动力学与稳定性，揭示了无序蛋白-膜互作的热力学与动力学机制。",
+      "one_liner_zh": "该文通过实验与粗粒化分子动力学模拟，系统研究了膜相、电荷和曲率如何协同调控α-突触核蛋白（一种无序蛋白）与膜的结合动力学与曲率敏感性，揭示了无序蛋白-膜互作的热力学与动力学机制，与本课题的无序蛋白介导互作机制建模高度相关。",
       "abstract": "alpha-Synuclein (alphaSyn) is an intrinsically disordered protein whose interactions with lipid membranes are central to both its physiological function and its role in synucleopathies. While membrane charge, phase, and curvature are each known to influence alphaSyn binding, these properties are typically examined independently, leaving their combined effects on both equilibrium and dynamic membrane association unresolved. Here, we systematically investigate how membrane phase and charge jointly regulate alphaSyn binding, curvature sensitivity, and exchange dynamics using fluorescence microscopy, circular dichroism spectroscopy, and fluorescence recovery after photobleaching (FRAP), complemented by coarse-grained molecular dynamics simulations. Under zwitterionic conditions, alphaSyn preferentially binds highly curved gel-phase membranes, driven by curvature-dependent enrichment of packing defects arising from faceted vesicle morphologies. Incorporation of anionic lipids selectively enhances binding in liquid-phase membranes while attenuating curvature-dependent partitioning in gel-phase membranes. Dynamic measurements reveal that membrane phase and charge also govern the stability of membrane-associated alphaSyn, with gel-phase membranes and anionic lipids promoting kinetically stabilized states. Simulations show that curvature-induced defect formation is strongly amplified in gel-phase membranes but largely insensitive to charge. These findings establish that alphaSyn-membrane interactions are governed by a cooperative interplay between membrane phase, curvature, and charge and highlight the importance of resolving both thermodynamic and kinetic contributions to protein-membrane binding.",
-      "abstract_zh": "α-突触核蛋白（alpha-Synuclein, alphaSyn）是一种 intrinsically disordered protein，其与脂质膜的相互作用对其生理功能和突触核蛋白病中的作用均至关重要。尽管已知膜电荷、相态和曲率各自影响alphaSyn结合，但这些特性通常被独立研究，导致它们对平衡态和动态膜关联的综合效应尚未明确。本文中，我们利用荧光显微镜、圆二色光谱和荧光漂白恢复（fluorescence recovery after photobleaching, FRAP），并结合粗粒化分子动力学（coarse-grained molecular dynamics）模拟，系统研究了膜相态和电荷如何共同调控alphaSyn结合、曲率敏感性和交换动力学。在 zwitterionic 条件下，alphaSyn优先结合高曲率的 gel-phase 膜，这由曲率依赖的堆积缺陷富集驱动，而堆积缺陷源于多面体囊泡形态。阴离子脂质的掺入选择性增强 liquid-phase 膜中的结合，同时减弱 gel-phase 膜中曲率依赖的分配。动态测量表明，膜相态和电荷也调控膜结合alphaSyn的稳定性，其中 gel-phase 膜和阴离子脂质促进动力学稳定状态。模拟显示，曲率诱导的缺陷形成在 gel-phase 膜中显著放大，但对电荷基本不敏感。这些发现确立了alphaSyn-膜相互作用受膜相态、曲率和电荷之间的协同调控，并强调了解析蛋白质-膜结合的热力学和动力学贡献的重要性。",
+      "abstract_zh": "α-突触核蛋白（alpha-Synuclein, alphaSyn）是一种 intrinsically disordered protein，其与脂质膜的相互作用对其生理功能和突触核蛋白病中的作用均至关重要。虽然膜电荷、相态和曲率各自已知会影响alphaSyn的结合，但这些特性通常被独立研究，导致它们对平衡和动态膜关联的综合效应尚未明确。在此，我们利用荧光显微镜、圆二色光谱和荧光漂白后恢复（FRAP），并结合粗粒化分子动力学（coarse-grained molecular dynamics）模拟，系统研究了膜相态和电荷如何共同调控alphaSyn的结合、曲率敏感性和交换动力学。在 zwitterionic 条件下，alphaSyn优先结合高曲率的 gel-phase 膜，这是由多面体囊泡形态产生的 packing defects 的曲率依赖性富集所驱动的。阴离子脂质的掺入选择性地增强了 liquid-phase 膜中的结合，同时减弱了 gel-phase 膜中曲率依赖性的分配。动态测量表明，膜相态和电荷也调控膜结合alphaSyn的稳定性，其中 gel-phase 膜和阴离子脂质促进了动力学稳定状态。模拟显示，曲率诱导的缺陷形成在 gel-phase 膜中显著增强，但对电荷基本不敏感。这些发现确立了alphaSyn-膜相互作用受膜相态、曲率和电荷之间的协同调控，并强调了解析蛋白质-膜结合的热力学和动力学贡献的重要性。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42709078/",
       "has_fulltext": false,
       "fulltext_source": "abstract",
       "paper_page_path": "papers/pubmed/42709078/index.html",
       "paper_dir": "./Archive/pubmed/2026/09/42709078",
-      "window_start": "2026-09-03",
-      "window_end": "2026-09-09"
+      "window_start": "2026-09-04",
+      "window_end": "2026-09-10"
     },
     {
       "source": "pubmed",
@@ -66,16 +66,16 @@
       "journal": "Journal of the American Chemical Society",
       "published_date": "2026-09-06",
       "score": 9,
-      "one_liner_zh": "利用原子模拟和贝叶斯优化研究生物分子凝聚体如何通过多价相互作用与拥挤效应重塑蛋白质α-螺旋的折叠景观，揭示了无序蛋白/IDR介导的PPI与相分离对折叠动力学的耦合机制。",
+      "one_liner_zh": "该文通过原子模拟和贝叶斯优化研究生物分子凝聚体如何重塑蛋白α-螺旋的折叠景观，揭示了多价互作与拥挤效应的平衡机制，直接关联无序蛋白/IDR介导的相分离PPI机制建模，方法上结合物理模拟与AI优化，高度契合课题核心。",
       "abstract": "Protein structure is exquisitely sensitive to the surrounding chemical environment, and many proteins encounter complex environments within cells. Importantly, numerous proteins organize into biomolecular condensates horizontal line dense macromolecular assemblies with distinct physicochemical properties. This raises a fundamental question: how do condensates reshape protein structure and dynamics? Here, we investigate how protein folding landscapes are altered inside condensates, using the protein alpha-helix as a model folded domain. Atomistic simulations suggest the helix-coil transition within condensates differs markedly from its behavior in dilute solution or in the presence of inert crowders. We then use Bayesian optimization to develop a chemically specific, residue-resolution model for quantification of alpha-helical folding and apply it to characterize diverse helices, including alpha-helical domains from the disease-associated proteins TDP-43, Annexin A11, and Androgen Receptor, within condensates of varying physicochemical properties. Our results support a framework in which multivalent interactions drive unfolding while crowding promotes folding, and alpha-helix conformational ensembles inside condensates emerge from this balance. Additionally, we show that helix folding transitions are kinetically frustrated inside condensates because they are coupled to the time scale of contact rearrangement with co-condensate proteins. As such, alpha-helix folding landscapes within condensates are dually sequence-dependent, informed by both the sequence of the alpha-helical domain and co-condensate proteins. Together, our work has implications for understanding condensate-mediated proteinopathies, targeting aberrant condensates, and designing condensates to program protein function across scales.",
-      "abstract_zh": "蛋白质结构对周围化学环境极为敏感，许多蛋白质在细胞内会遭遇复杂环境。重要的是，大量蛋白质会组织成生物分子凝聚体 (biomolecular condensates)——即具有独特物理化学性质的致密大分子组装体。这引出一个基本问题：凝聚体如何重塑蛋白质的结构与动力学？在此，我们以蛋白质α-螺旋 (alpha-helix) 作为折叠结构域模型，研究凝聚体内部蛋白质折叠景观如何改变。原子模拟 (atomistic simulations) 表明，凝聚体中的螺旋-卷曲转变 (helix-coil transition) 与其在稀溶液或惰性拥挤剂存在下的行为显著不同。随后，我们利用贝叶斯优化 (Bayesian optimization) 开发了一种化学特异性、残基分辨率的模型，用于定量α-螺旋折叠，并将其应用于表征不同物理化学性质凝聚体中的多种螺旋，包括来自疾病相关蛋白TDP-43、Annexin A11和雄激素受体 (Androgen Receptor) 的α-螺旋结构域。我们的结果支持一个框架：多价相互作用驱动去折叠，而拥挤促进折叠，凝聚体内部的α-螺旋构象系综由此平衡产生。此外，我们表明，凝聚体内部的螺旋折叠转变在动力学上受到阻碍，因为它们与共凝聚体蛋白的接触重排时间尺度相耦合。因此，凝聚体内部的α-螺旋折叠景观具有双重序列依赖性，既受α-螺旋结构域序列的影响，也受共凝聚体蛋白序列的影响。总体而言，我们的工作对理解凝聚体介导的蛋白质病、靶向异常凝聚体以及设计凝聚体以跨尺度编程蛋白质功能具有启示意义。",
+      "abstract_zh": "蛋白质结构对周围化学环境极为敏感，许多蛋白质在细胞内会遭遇复杂环境。重要的是，大量蛋白质会组织成生物分子凝聚体 (biomolecular condensates)——即具有独特物理化学性质的致密大分子组装体。这引出一个基本问题：凝聚体如何重塑蛋白质的结构与动力学？在此，我们以蛋白质α-螺旋 (alpha-helix) 作为折叠结构域模型，研究凝聚体内部蛋白质折叠景观的变化。原子模拟 (atomistic simulations) 表明，凝聚体中的螺旋-卷曲转变 (helix-coil transition) 与稀溶液或惰性拥挤剂存在时的行为显著不同。随后，我们利用贝叶斯优化 (Bayesian optimization) 开发了一种化学特异性、残基分辨率的模型，用于定量α-螺旋折叠，并将其应用于表征不同物理化学性质凝聚体中的多种螺旋，包括来自疾病相关蛋白TDP-43、Annexin A11和雄激素受体 (Androgen Receptor) 的α-螺旋结构域。我们的结果支持一个框架：多价相互作用驱动去折叠，而拥挤促进折叠，凝聚体内部的α-螺旋构象系综由此平衡产生。此外，我们表明，凝聚体内部的螺旋折叠转变在动力学上受到阻碍，因为它们与共凝聚体蛋白的接触重排时间尺度相耦合。因此，凝聚体内部的α-螺旋折叠景观具有双重序列依赖性，既受α-螺旋结构域序列的影响，也受共凝聚体蛋白序列的影响。总体而言，我们的工作对理解凝聚体介导的蛋白质病、靶向异常凝聚体以及设计凝聚体以跨尺度编程蛋白质功能具有启示意义。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42701255/",
       "has_fulltext": false,
       "fulltext_source": "abstract",
       "paper_page_path": "papers/pubmed/42701255/index.html",
       "paper_dir": "./Archive/pubmed/2026/09/42701255",
-      "window_start": "2026-09-03",
-      "window_end": "2026-09-09"
+      "window_start": "2026-09-04",
+      "window_end": "2026-09-10"
     },
     {
       "source": "pubmed",
@@ -85,16 +85,16 @@
       "journal": "Science advances",
       "published_date": "2026-09-04",
       "score": 9,
-      "one_liner_zh": "该文通过生化重建、分子动力学模拟和细胞实验，揭示了ULK1无序区域中的PVP基序与ATG13:ATG101 HORMA二聚体互作，协同WIPI蛋白将ULK1激酶结构域招募至自噬体膜的多步骤机制，核心关注无序蛋白介导的PPI及膜结合机制建模。",
+      "one_liner_zh": "该文通过生化重建、分子动力学模拟和细胞实验，揭示了ULK1无序区域中的PVP基序与ATG13:ATG101 HORMA二聚体结合，协同WIPI蛋白将ULK1激酶结构域招募至自噬体膜的多步骤机制，直接涉及IDR介导的PPI及膜结合机制建模。",
       "abstract": "The human Unc51-like kinase 1 (ULK1) autophagy-initiating complex consists of ULK1, FIP200, and the Hop/Rev7/Mad2 (HORMA) domain heterodimer ATG13:ATG101. Phosphatidylinositol 3-phosphate (PI3P) is essential to recruit ULK1 complex (ULK1C) to membranes for ULK1, but ULK1C subunits do not contain PI3P-binding domains. Here, we show that the ATG13:ATG101 dimer forms a complex with the PI3P-binding protein WD40 interacting with phosphoinositide protein 3 (WIPI3), as well as WIPI2. Bound to WIPI2 and WIPI3, ATG13:ATG101 inserts its Trp-Phe (WF) finger into the membrane. Molecular dynamics simulations show that WIPIs and the WF finger cooperatively stabilize the complex on membranes. Biochemical reconstitution and cell-based assays show that WIPI3:ATG13 engagement promotes ATG16L1 phosphorylation, autophagy, and mitophagy. A kinase domain (KD)-proximal Pro-Val-Pro (PVP) motif in the ULK1 intrinsically disordered region docks onto the ATG13:ATG101 HORMA dimer brings the ULK1 KD close to the membrane. The PVP motif is essential for in vitro ULK1 phosphorylation of ATG16L1 and important for autophagy and mitophagy. These data establish a stepwise pathway for recruitment of the ULK1 KD to the vicinity of the membrane surface.",
-      "abstract_zh": "人类Unc51样激酶1（ULK1）自噬起始复合物由ULK1、FIP200以及Hop/Rev7/Mad2（HORMA）结构域异二聚体ATG13:ATG101组成。磷脂酰肌醇3-磷酸（PI3P）对于将ULK1复合物（ULK1C）招募至膜上以激活ULK1至关重要，但ULK1C亚基并不包含PI3P结合结构域。在此，我们证明ATG13:ATG101二聚体与PI3P结合蛋白WD40相互作用蛋白3（WIPI3）以及WIPI2形成复合物。与WIPI2和WIPI3结合后，ATG13:ATG101将其Trp-Phe（WF）指状结构插入膜中。分子动力学（molecular dynamics）模拟显示，WIPIs与WF指状结构协同稳定膜上的复合物。生化重构实验和基于细胞的实验表明，WIPI3:ATG13的结合促进ATG16L1磷酸化、自噬及线粒体自噬。ULK1内在无序区中的一个激酶结构域（KD）近端Pro-Val-Pro（PVP）基序对接至ATG13:ATG101 HORMA二聚体上，将ULK1 KD拉近至膜附近。PVP基序对于体外ULK1磷酸化ATG16L1至关重要，并对自噬和线粒体自噬具有重要作用。这些数据揭示了将ULK1 KD招募至膜表面附近的逐步通路。",
+      "abstract_zh": "人类Unc51样激酶1（ULK1）自噬起始复合物由ULK1、FIP200以及Hop/Rev7/Mad2（HORMA）结构域异二聚体ATG13:ATG101组成。磷脂酰肌醇3-磷酸（PI3P）对于将ULK1复合物（ULK1C）招募至膜上以启动ULK1功能至关重要，但ULK1C亚基并不包含PI3P结合结构域。在此，我们证明ATG13:ATG101二聚体与PI3P结合蛋白WD40相互作用蛋白3（WIPI3）以及WIPI2形成复合物。与WIPI2和WIPI3结合后，ATG13:ATG101将其Trp-Phe（WF）指状结构插入膜中。分子动力学（molecular dynamics）模拟显示，WIPIs与WF指状结构协同稳定膜上的复合物。生化重构实验和基于细胞的实验表明，WIPI3:ATG13的结合促进了ATG16L1磷酸化、自噬及线粒体自噬。ULK1内在无序区中的一个激酶结构域（KD）近端Pro-Val-Pro（PVP）基序对接至ATG13:ATG101 HORMA二聚体上，将ULK1 KD拉近至膜附近。PVP基序对于体外ULK1磷酸化ATG16L1至关重要，并对自噬和线粒体自噬具有重要作用。这些数据揭示了将ULK1 KD招募至膜表面附近的逐步通路。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42696573/",
       "has_fulltext": true,
       "fulltext_source": "pmc",
       "paper_page_path": "papers/pubmed/42696573/index.html",
       "paper_dir": "./Archive/pubmed/2026/09/42696573",
-      "window_start": "2026-09-03",
-      "window_end": "2026-09-09"
+      "window_start": "2026-09-04",
+      "window_end": "2026-09-10"
     },
     {
       "source": "biorxiv",

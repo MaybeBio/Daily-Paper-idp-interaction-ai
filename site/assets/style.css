@@ -77,6 +77,7 @@ h1 { font-size: 24px; margin: 0 0 4px; }
 .search-more { display: block; margin: 16px auto; padding: 10px 24px; background: var(--card); border: 1px solid var(--border); border-radius: 8px; color: var(--accent); cursor: pointer; font-size: 14px; }
 .search-form { margin: 16px 0 8px; }
 .search-input-row { display: flex; gap: 8px; }
+.search-deep-toggle { display: flex; align-items: center; gap: 6px; margin-top: 8px; font-size: 13px; color: var(--muted); cursor: pointer; }
 #search-query { flex: 1; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 15px; }
 .search-submit { padding: 10px 20px; background: var(--accent); color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 15px; }
 .search-status { color: var(--muted); font-size: 13px; min-height: 20px; margin: 8px 0; }
