@@ -56,7 +56,7 @@ def test_build_review_single_reviewer_structure():
     client, calls = fake_client(["## Review setup\n..."])
     agent.build_review(client, "m", "full text", {"title": "T"})
     sys_content = calls[0]["messages"][0]["content"]
-    assert "Reviewer 1" in sys_content
+    assert "## Reviewer" in sys_content
     assert "Cross-review synthesis" not in sys_content
     assert "Reviewer 2" not in sys_content
 
