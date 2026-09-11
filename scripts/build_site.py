@@ -135,28 +135,30 @@ def _load_paper_files(paper_dir):
 
 
 def _build_search_documents(papers):
-    docs = []
+    """Split searchable fields into a small always-loaded head index and a
+    larger lazily-loaded deep index (Paper Card + Review)."""
+    head = []
+    deep = []
     for p in papers:
         sl = source_label(p["source"], p["journal"])
         card, review = _load_paper_md(p["paper_dir"])
-        body = " ".join([
-            p["abstract"] or "",
-            p["abstract_zh"] or "",
-            _plain_text(card),
-            _plain_text(review),
-        ])
-        docs.append({
-            "id": f"{p['source']}:{p['id']}",
+        doc_id = f"{p['source']}:{p['id']}"
+        head.append({
+            "id": doc_id,
             "title": p["title"],
             "subtitle": "",
             "url": f"{BASE_PATH}/{p['paper_page_path']}",
             "meta": [p["authors"] or "", sl["venue"], (p["published_date"] or "")[:10]],
             "tags": [],
             "summary": p["one_liner_zh"] or "",
-            "body": body,
+            "abstract": " ".join([p["abstract"] or "", p["abstract_zh"] or ""]),
             "date": (p["published_date"] or "")[:10],
         })
-    return docs
+        deep.append({
+            "id": doc_id,
+            "deep": " ".join([_plain_text(card), _plain_text(review)]),
+        })
+    return head, deep
 
 
 def build_site(out_dir):
@@ -227,8 +229,11 @@ def build_site(out_dir):
         f.write(env.get_template("search.html").render())
     with open(os.path.join(data_dir, "index.json"), "w", encoding="utf-8") as f:
         json.dump({"latest_window": window_end, "papers": papers}, f, ensure_ascii=False, indent=2)
+    head_docs, deep_docs = _build_search_documents(papers)
     with open(os.path.join(data_dir, "search.json"), "w", encoding="utf-8") as f:
-        json.dump({"version": 1, "documents": _build_search_documents(papers)}, f, ensure_ascii=False, indent=2)
+        json.dump({"version": 1, "documents": head_docs}, f, ensure_ascii=False, indent=2)
+    with open(os.path.join(data_dir, "search-deep.json"), "w", encoding="utf-8") as f:
+        json.dump({"version": 1, "documents": deep_docs}, f, ensure_ascii=False, indent=2)
     _write_assets(assets_dir)
 
 

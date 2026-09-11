@@ -112,12 +112,15 @@ def test_build_search_documents(tmp_path):
     _make_paper(str(tmp_path), "pubmed", "1", "2026", "09", 8,
                 {"start": "2026-09-02", "end": "2026-09-08"}, journal="Nature")
     papers = build_site.load_archive(str(tmp_path))
-    docs = build_site._build_search_documents(papers)
-    assert len(docs) == 1
-    assert docs[0]["id"] == "pubmed:1"
-    assert docs[0]["url"] == "/Daily-Paper-idp-interaction-ai/papers/pubmed/1/index.html"
-    assert "Nature" in docs[0]["meta"]
-    assert docs[0]["summary"] == "一句话"
+    head, deep = build_site._build_search_documents(papers)
+    assert len(head) == 1
+    assert head[0]["id"] == "pubmed:1"
+    assert head[0]["url"] == "/Daily-Paper-idp-interaction-ai/papers/pubmed/1/index.html"
+    assert "Nature" in head[0]["meta"]
+    assert head[0]["summary"] == "一句话"
+    assert len(deep) == 1
+    assert deep[0]["id"] == "pubmed:1"
+    assert deep[0]["deep"].strip() == ""
 
 
 def test_build_site_writes_search_json(tmp_path):
@@ -130,6 +133,12 @@ def test_build_site_writes_search_json(tmp_path):
         payload = json.load(f)
     assert payload["version"] == 1
     assert len(payload["documents"]) == 1
+    deep_path = os.path.join(str(tmp_path), "site", "data", "search-deep.json")
+    assert os.path.isfile(deep_path)
+    with open(deep_path, encoding="utf-8") as f:
+        deep_payload = json.load(f)
+    assert deep_payload["version"] == 1
+    assert len(deep_payload["documents"]) == 1
 
 
 def test_build_site_end_to_end(tmp_path):

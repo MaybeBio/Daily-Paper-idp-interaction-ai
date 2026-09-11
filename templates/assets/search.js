@@ -21,11 +21,21 @@
         document: doc,
         fields: [
           [doc.title, 18], [doc.subtitle, 14], [doc.tags.join(' '), 10],
-          [doc.summary, 6], [doc.meta.join(' '), 4], [doc.body, 1]
+          [doc.summary, 6], [doc.meta.join(' '), 4], [doc.abstract, 1]
         ].map(function (f) {
           return { text: foldSearchText(String(f[0])), weight: Number(f[1]) };
         })
       };
+    });
+  }
+
+  function buildMerged(hotIndex, deepMap) {
+    return hotIndex.map(function (entry) {
+      var deepText = deepMap[entry.document.id] || '';
+      entry.document.deep = deepText;
+      var fields = entry.fields.slice();
+      fields.push({ text: foldSearchText(deepText), weight: 1 });
+      return { document: entry.document, fields: fields };
     });
   }
 
@@ -91,7 +101,7 @@
 
   function searchSnippet(doc, tokens, length) {
     length = length || 180;
-    var candidates = [doc.summary, doc.body, doc.subtitle, doc.meta.join(' '), doc.tags.join(' ')];
+    var candidates = [doc.summary, doc.abstract, doc.deep || '', doc.subtitle, doc.meta.join(' '), doc.tags.join(' ')];
     var value = candidates.find(function (t) { return tokens.some(function (tok) { return foldSearchText(t).indexOf(tok) !== -1; }); }) || doc.summary;
     if (value.length <= length) return value;
     var fp = foldedPositions(value);
@@ -108,23 +118,53 @@
   if (!root) return;
   var input = document.getElementById('search-query');
   var submit = document.getElementById('search-submit');
+  var deepToggle = document.getElementById('search-deep');
   var results = document.getElementById('search-results');
   var status = document.getElementById('search-status');
   var empty = document.getElementById('search-empty');
+  var deepHint = document.getElementById('search-deep-hint');
   var more = document.getElementById('search-more');
-  var indexPromise, hits = [], tokens = [], shown = 0, revision = 0, timer;
+  var hotIndexPromise, deepPromise, hits = [], tokens = [], shown = 0, revision = 0, timer;
+  var deepOn = false, mergedIndex = null;
 
   function loadIndex() {
-    if (!indexPromise) {
-      indexPromise = fetch(root.dataset.indexUrl)
+    if (!hotIndexPromise) {
+      hotIndexPromise = fetch(root.dataset.indexUrl)
         .then(function (r) { if (!r.ok) throw new Error('index unavailable'); return r.json(); })
         .then(function (payload) {
           if (payload.version !== 1 || !Array.isArray(payload.documents)) throw new Error('invalid index');
           return prepareSearch(payload.documents);
         })
-        .catch(function (e) { indexPromise = undefined; throw e; });
+        .catch(function (e) { hotIndexPromise = undefined; throw e; });
     }
-    return indexPromise;
+    return hotIndexPromise;
+  }
+
+  function loadDeep() {
+    if (!deepPromise) {
+      deepPromise = fetch(root.dataset.deepIndexUrl)
+        .then(function (r) { if (!r.ok) throw new Error('deep index unavailable'); return r.json(); })
+        .then(function (payload) {
+          if (payload.version !== 1 || !Array.isArray(payload.documents)) throw new Error('invalid deep index');
+          var map = {};
+          payload.documents.forEach(function (d) { map[d.id] = d.deep || ''; });
+          return map;
+        })
+        .catch(function (e) { deepPromise = undefined; throw e; });
+    }
+    return deepPromise;
+  }
+
+  function mergedIndexPromise() {
+    if (mergedIndex) return Promise.resolve(mergedIndex);
+    return Promise.all([loadIndex(), loadDeep()])
+      .then(function (pair) {
+        mergedIndex = buildMerged(pair[0], pair[1]);
+        return mergedIndex;
+      })
+      .catch(function () {
+        return loadIndex();
+      });
   }
 
   function highlight(el, value) {
@@ -178,14 +218,17 @@
     tokens = queryTokens(query);
     results.innerHTML = '';
     more.hidden = true;
-    if (!tokens.length) { status.textContent = '输入关键词开始搜索'; empty.hidden = true; return; }
+    if (!tokens.length) { status.textContent = '输入关键词开始搜索'; empty.hidden = true; deepHint.hidden = true; return; }
     empty.hidden = true;
+    deepHint.hidden = true;
     status.textContent = '正在搜索…';
-    loadIndex().then(function (index) {
+    var ready = deepOn ? mergedIndexPromise() : loadIndex();
+    ready.then(function (index) {
       if (current !== revision) return;
       hits = searchDocuments(index, query);
       shown = 0;
       appendResults();
+      deepHint.hidden = !(!hits.length && !deepOn);
       if (!hits.length) empty.hidden = false;
     }).catch(function () {
       if (current !== revision) return;
@@ -210,6 +253,10 @@
   });
   input.addEventListener('compositionend', function () { clearTimeout(timer); timer = setTimeout(runSearch, 150); });
   more.addEventListener('click', appendResults);
+  deepToggle.addEventListener('change', function () {
+    deepOn = deepToggle.checked;
+    update();
+  });
   function restoreURL() {
     var params = new URLSearchParams(window.location.search);
     input.value = (params.get('q') || '').slice(0, 200);
