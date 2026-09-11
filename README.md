@@ -107,6 +107,24 @@ PubMed 检索需要邮箱（必填）与 NCBI API key（可选），通过环境
   - `concurrency`：LLM 并发线程数（默认 8）。
 - GitHub Actions：repo Settings → Secrets and variables → Actions 添加 `LLM_BASE_URL` / `LLM_API_KEY` / `LLM_MODEL`。
 
+### 模型选型与升级
+
+模型经 `LLM_MODEL` 环境变量注入（`agent.py` 的 `model_name()`，默认 `deepseek-chat`），不写入仓库。**当前四个阶段（评分+一句话 / 摘要翻译 / Paper Card / Reviewer）共用同一个 `LLM_MODEL`。**
+
+选型与升级时的注意点：
+
+- **JSON 模式**：`score_paper` 以 `response_format={"type":"json_object"}` 请求结构化输出，所选模型必须支持 JSON mode，否则评分解析失败。DeepSeek 的 `deepseek-reasoner`（思考模型）通常不支持 JSON 输出，不能直接替换。
+- **翻译忠实度**：`translate_abstract` 要求逐句忠实，思考/推理模式易「发挥」，不宜用于该阶段。
+- **推理开销**：思考模型额外产生推理 token，计入输出、更慢更贵；卡片/评审单次输出已达 16k / 12k token，逼近客户端 180 s 超时（`make_client` 的 `timeout`）与 Actions 单 job 6 h 上限，改用思考模型前应先实测单篇延迟与 token 成本。
+- **上下文长度**：需覆盖输入上限 `MAX_INPUT_CHARS = 180_000` 字符，256k token 上下文即够。
+- **网关兼容**：需 OpenAI 兼容，支持 `chat.completions` 且可 `stream`。
+
+未来按阶段分配更强模型时的注意点：
+
+- 现为「单一模型全阶段」。若要按阶段分模型（如 `deepseek-chat` 跑评分/翻译、`deepseek-reasoner` 跑 card/review，或更强模型只跑高分篇），需把 `model_name()` 扩展为按阶段/按阈值取模型（如 `card_model` / `review_model`），或迁到 `config.yaml` 配置。
+- 升级应逐阶段 A/B，先确认该模型的 JSON mode 支持、`max_tokens` 语义与实测延迟，再全量切换。
+- 评分模型能力变化会改变分档分布，进而影响 `min_score` 门控通过率——换模型后应观察高分篇数量与 Card/Review 生成量是否失控。
+
 ### 并发与时长
 
 LLM 调用以网关 IO 等待为主：每篇必跑「评分 + 翻译」两段短生成，`score >= min_score` 的篇再追加 Paper Card + Reviewer 两段长生成。每周 80+ 篇顺序跑会超过 GitHub Actions 单 job 6 小时上限，因此用线程池并发：墙钟时间从「每篇耗时之和」压到约「每篇耗时 × (篇数 / 并发)」。`concurrency` 按网关 QPS 承受力调，默认 8。
