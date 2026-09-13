@@ -4,7 +4,7 @@
 topic: idp-interaction-ai
 
 # 抓取时间窗口（天），每周自动跑默认 7；手动跑可改 1
-window_days: 14
+window_days: 7
 
 # PubMed 的 ENTREZ_EMAIL（必填）/ NCBI_API_KEY（可选）从环境变量读，不写进文件
 #   GitHub Actions：repo Settings → Secrets and variables → Actions
