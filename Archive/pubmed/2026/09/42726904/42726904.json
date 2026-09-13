@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "42726904",
+    "doi": "10.1371/journal.ppat.1014607",
+    "title": "Discovering host-viral protein interactions in autophagy: A LIR discovery pipeline for identifying LC3-interacting region motifs in highly virulent viruses."
+  },
+  "content": {
+    "abstract": "Hemorrhagic fever virus (HFV) infections are highly fatal, posing a significant global pandemic threat as they continue to emerge in new locations. HFVs and other highly virulent viruses (HVVs), such as Nipah virus, exploit host cell pathways, including the conserved host autophagy pathway, to promote viral replication. The Atg8/microtubule-associated protein 1 light chain 3 (LC3) proteins are necessary for autophagosome formation and maturation. Proteins interact with Atg8-family proteins through LC3-interacting region (LIR) motifs, which is a short linear motif (SLiM) found in intrinsically disordered regions of proteins. The presence of these motifs in viral components suggests they play a role in hijacking or evading the host autophagy pathway, yet the identification of functional LIR motifs in viral proteins remains limited. To address this gap, we developed the LIR Discovery Pipeline (LIR-DP) which integrates amino acid sequence pattern matching, with protein disorder prediction using IUPred3, and modeling with AlphaFold3. Using LIR-DP, we identified 43 putative LIR motifs in 166 proteins from 22 HVVs and predicted that 18 of these LIRs would be functional. In vitro and in cellulo laboratory experiments demonstrated that LIRs from the Marburg virus nucleoprotein, the Nipah virus phosphoprotein, the Ebola virus VP35, and the Rift Valley fever virus NSs protein bind to Atg8/LC3 family proteins. The aromatic amino acid in the first position of each LIR motif was found to be critical for these interactions. We provide evidence for the utility of the LIR-DP in identifying functional LIRs within HVV proteins which may provide valuable insight into the mechanism by which HVVs modulate the autophagy pathway during infection.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Petraccione, Kaylee D",
+        "Wahba, Haytham M",
+        "Ali, Mohamed G H",
+        "Stocker, Timothy",
+        "Akhrymuk, Ivan",
+        "Swese, Yossira",
+        "Sastre, Danuta",
+        "Silberfarb, Andrew",
+        "O'Maille, Paul E",
+        "Omichinski, James G",
+        "Kehn-Hall, Kylene"
+      ],
+      "short_names": [
+        "Petraccione KD",
+        "Wahba HM",
+        "Ali MGH",
+        "Stocker T",
+        "Akhrymuk I",
+        "Swese Y",
+        "Sastre D",
+        "Silberfarb A",
+        "O'Maille PE",
+        "Omichinski JG",
+        "Kehn-Hall K"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8036-7213"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences and Pathobiology, Virginia-Maryland College of Veterinary Medicine, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America.",
+        "Center for Emerging, Zoonotic, and Arthropod-borne Pathogens, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America.",
+        "Department of Biochemistry and Molecular Medicine, Universite de Montreal, Montreal, Quebec, Canada.",
+        "Department of Biochemistry, Faculty of Pharmacy, Beni-Suef University, Beni-Suef, Egypt.",
+        "Department of Biochemistry and Molecular Medicine, Universite de Montreal, Montreal, Quebec, Canada.",
+        "Department of Biochemistry, Faculty of Pharmacy, Beni-Suef University, Beni-Suef, Egypt.",
+        "Department of Biomedical Sciences and Pathobiology, Virginia-Maryland College of Veterinary Medicine, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America.",
+        "Department of Biomedical Sciences and Pathobiology, Virginia-Maryland College of Veterinary Medicine, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America.",
+        "Center for Emerging, Zoonotic, and Arthropod-borne Pathogens, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America.",
+        "Department of Biochemistry and Molecular Medicine, Universite de Montreal, Montreal, Quebec, Canada.",
+        "Biosciences Division, S.R.I. International, Menlo Park, California, United States of America.",
+        "Artificial Intelligence Center, S.R.I. International, Menlo Park, California, United States of America.",
+        "Biosciences Division, S.R.I. International, Menlo Park, California, United States of America.",
+        "Department of Biochemistry and Molecular Medicine, Universite de Montreal, Montreal, Quebec, Canada.",
+        "Department of Biomedical Sciences and Pathobiology, Virginia-Maryland College of Veterinary Medicine, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America.",
+        "Center for Emerging, Zoonotic, and Arthropod-borne Pathogens, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Petraccione, Kaylee D",
+        "short_name": "Petraccione KD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences and Pathobiology, Virginia-Maryland College of Veterinary Medicine, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America.",
+          "Center for Emerging, Zoonotic, and Arthropod-borne Pathogens, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wahba, Haytham M",
+        "short_name": "Wahba HM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Medicine, Université de Montréal, Montréal, Quebec, Canada.",
+          "Department of Biochemistry, Faculty of Pharmacy, Beni-Suef University, Beni-Suef, Egypt."
+        ]
+      },
+      {
+        "full_name": "Ali, Mohamed G H",
+        "short_name": "Ali MGH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Medicine, Université de Montréal, Montréal, Quebec, Canada.",
+          "Department of Biochemistry, Faculty of Pharmacy, Beni-Suef University, Beni-Suef, Egypt."
+        ]
+      },
+      {
+        "full_name": "Stocker, Timothy",
+        "short_name": "Stocker T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences and Pathobiology, Virginia-Maryland College of Veterinary Medicine, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America."
+        ]
+      },
+      {
+        "full_name": "Akhrymuk, Ivan",
+        "short_name": "Akhrymuk I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences and Pathobiology, Virginia-Maryland College of Veterinary Medicine, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America.",
+          "Center for Emerging, Zoonotic, and Arthropod-borne Pathogens, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America."
+        ]
+      },
+      {
+        "full_name": "Swese, Yossira",
+        "short_name": "Swese Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Medicine, Université de Montréal, Montréal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Sastre, Danuta",
+        "short_name": "Sastre D",
+        "identifiers": [],
+        "affiliations": [
+          "Biosciences Division, S.R.I. International, Menlo Park, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Silberfarb, Andrew",
+        "short_name": "Silberfarb A",
+        "identifiers": [],
+        "affiliations": [
+          "Artificial Intelligence Center, S.R.I. International, Menlo Park, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "O'Maille, Paul E",
+        "short_name": "O'Maille PE",
+        "identifiers": [],
+        "affiliations": [
+          "Biosciences Division, S.R.I. International, Menlo Park, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Omichinski, James G",
+        "short_name": "Omichinski JG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Medicine, Université de Montréal, Montréal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Kehn-Hall, Kylene",
+        "short_name": "Kehn-Hall K",
+        "identifiers": [
+          "0000-0001-8036-7213"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences and Pathobiology, Virginia-Maryland College of Veterinary Medicine, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America.",
+          "Center for Emerging, Zoonotic, and Arthropod-borne Pathogens, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS pathogens"
+    ],
+    "journal_abbrev": [
+      "PLoS Pathog"
+    ],
+    "pub_date": "2026 Sep 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/11 17:36",
+    "fetched_at": "2026-09-13 15:36:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42726904",
+      "40320752",
+      "28806134",
+      "37530436",
+      "38512999",
+      "36753519",
+      "28253953",
+      "33845085",
+      "28668392",
+      "31362979",
+      "30990354",
+      "26565669",
+      "31310766",
+      "30767700",
+      "39665531",
+      "27484196",
+      "39394962",
+      "30610694",
+      "40704964",
+      "38214012",
+      "30282803",
+      "23043107",
+      "26468287",
+      "27246247",
+      "39694607",
+      "30955882",
+      "38566321",
+      "41968644",
+      "30982432",
+      "35000542",
+      "28121222",
+      "35649355",
+      "21620860",
+      "28320742",
+      "24589857",
+      "31208283",
+      "31053714",
+      "27540684",
+      "32296703",
+      "24528869",
+      "39594645",
+      "39384175",
+      "41937559",
+      "35820026",
+      "36041015",
+      "27402840",
+      "22354992",
+      "30909843",
+      "42007729",
+      "39928048",
+      "30679426",
+      "40395991",
+      "23908376",
+      "29367244",
+      "39809444",
+      "35134996",
+      "34657568",
+      "40928249",
+      "33436497",
+      "37252361",
+      "31118257",
+      "28291748",
+      "34152791",
+      "42554470",
+      "30541828",
+      "35417087",
+      "36446976",
+      "38766171",
+      "24290141",
+      "40835742",
+      "33436498",
+      "28497334",
+      "31914609",
+      "42645187",
+      "33783314",
+      "34670023",
+      "28279163",
+      "42391028",
+      "30231788",
+      "40855209",
+      "39464037",
+      "32972302",
+      "31722778",
+      "34854256",
+      "31857374",
+      "42200529",
+      "32272685",
+      "22421968",
+      "34076483",
+      "42212595",
+      "40894917",
+      "31608276",
+      "25918396",
+      "39115668",
+      "22024753",
+      "29313416",
+      "35072587",
+      "38726830",
+      "32882854",
+      "28250132"
+    ],
+    "review": [
+      "42726904",
+      "31310766",
+      "39394962",
+      "40704964",
+      "35000542",
+      "28121222",
+      "30909843",
+      "23908376",
+      "33436497",
+      "34152791",
+      "28497334",
+      "34670023",
+      "35072587"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

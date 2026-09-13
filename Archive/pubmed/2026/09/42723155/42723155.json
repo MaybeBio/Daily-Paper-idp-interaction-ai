@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "42723155",
+    "doi": "10.1002/advs.77238",
+    "title": "A Site-Aware Representation Learning Framework For Unified Molecular Interaction Modeling and Generative Design."
+  },
+  "content": {
+    "abstract": "Unifying drug-target affinity prediction and targeted molecular design within a single interpretable framework remains challenging. Many sequence-based affinity and design methods rely on global target representations without explicitly modeling binding regions, leading to site-level ambiguity in both screening and design. By contrast, structure-based methods require high-quality structural data and are poorly suited to dynamic targets. In this study, a new model named MolDBG is proposed as a unified site-aware framework that combines affinity prediction, binding-site identification, and affinity-conditioned molecular generation within a single architecture. With binding-site supervision, MolDBG prioritizes interaction-critical residues before learning drug-target representations, reducing false positives from misaligned binding sites and improving interpretability. MolDBG achieves competitive performance across all three tasks while enabling site-specific affinity prediction and interpretable binding-site discovery. The framework generalizes to structurally elusive targets, including cryptic pockets and intrinsically disordered proteins. Overall, these results demonstrate that MolDBG is a promising framework for molecular design and screening.",
+    "keywords": [
+      "binding-site prediction",
+      "deep learning",
+      "drug-target interactions",
+      "intrinsically disordered proteins",
+      "molecular design"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Gang",
+        "Zhang, Qianqian",
+        "Wang, Chenhao",
+        "Yi, Zhiheng",
+        "Wang, Alex Jinpeng",
+        "Tang, Jing",
+        "Li, Min"
+      ],
+      "short_names": [
+        "Luo G",
+        "Zhang Q",
+        "Wang C",
+        "Yi Z",
+        "Wang AJ",
+        "Tang J",
+        "Li M"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-4677-4923",
+        "ORCID: 0009-0004-9348-3976",
+        "ORCID: 0000-0001-7480-7710",
+        "ORCID: 0000-0002-0188-1394"
+      ],
+      "affiliations": [
+        "School of Computer Science and Engineering, Central South University, Changsha, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha, China.",
+        "Sai Ling Pharmaceutical Technology Group Co., Ltd., Yuxi, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha, China.",
+        "Research Program in Systems Oncology, Faculty of Medicine, University of Helsinki, Helsinki, Finland.",
+        "School of Computer Science and Engineering, Central South University, Changsha, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Gang",
+        "short_name": "Luo G",
+        "identifiers": [
+          "0009-0000-4677-4923"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qianqian",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chenhao",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0009-0004-9348-3976"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Yi, Zhiheng",
+        "short_name": "Yi Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha, China.",
+          "Sai Ling Pharmaceutical Technology Group Co., Ltd., Yuxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Alex Jinpeng",
+        "short_name": "Wang AJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Jing",
+        "short_name": "Tang J",
+        "identifiers": [
+          "0000-0001-7480-7710"
+        ],
+        "affiliations": [
+          "Research Program in Systems Oncology, Faculty of Medicine, University of Helsinki, Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Li, Min",
+        "short_name": "Li M",
+        "identifiers": [
+          "0000-0002-0188-1394"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Sep 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/11 05:36",
+    "fetched_at": "2026-09-13 15:36:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42723155",
+      "42163392",
+      "42239143",
+      "42032471",
+      "38365583",
+      "42286075",
+      "38930976",
+      "42131843",
+      "41750280",
+      "41436386",
+      "42066524",
+      "41729820",
+      "42670852",
+      "42541540",
+      "41347164",
+      "41677811",
+      "42475469",
+      "34905358",
+      "41385420",
+      "42546051",
+      "41596767",
+      "42531710",
+      "41690335",
+      "40934535",
+      "41540516",
+      "38102069",
+      "42046069",
+      "42622746",
+      "41174305",
+      "42391908",
+      "39881398",
+      "41514052",
+      "40794942",
+      "41361908",
+      "42635222",
+      "40845562",
+      "37096593",
+      "42453414",
+      "42507573",
+      "37564414",
+      "41636346",
+      "42572360",
+      "41341719",
+      "42048634",
+      "42021142",
+      "39208057",
+      "38552281",
+      "41542461",
+      "42476249",
+      "42057604",
+      "42296331",
+      "41392472",
+      "38538598",
+      "42478599",
+      "42464502",
+      "42446537",
+      "42574500",
+      "35715734",
+      "41285097",
+      "40447614",
+      "41429653",
+      "42720476",
+      "40288256",
+      "41454719",
+      "40111772",
+      "41547300",
+      "40795814",
+      "36967455",
+      "40428123",
+      "39833138",
+      "42295634",
+      "33347301",
+      "41890808",
+      "41697919",
+      "40001524",
+      "41331479",
+      "42390120",
+      "41855845",
+      "30423097",
+      "41729823",
+      "41455180",
+      "35471889",
+      "42118199",
+      "39878060",
+      "39587070",
+      "42190366",
+      "40175286",
+      "42619129",
+      "40279085",
+      "18831774",
+      "41977286",
+      "36430386",
+      "42024942",
+      "42703973",
+      "41021261",
+      "42083067",
+      "36519247",
+      "42627648",
+      "41992362",
+      "36071406"
+    ],
+    "review": [
+      "42723155",
+      "41729820",
+      "42546051",
+      "41690335",
+      "42572360"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

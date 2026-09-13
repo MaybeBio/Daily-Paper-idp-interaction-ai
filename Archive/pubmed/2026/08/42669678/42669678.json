@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "42669678",
+    "doi": "10.1038/s41467-026-76248-2",
+    "title": "A machine learning framework for predicting and modulating condition-dependent protein phase separation."
+  },
+  "content": {
+    "abstract": "Protein phase separation is a fundamental process in organizing membraneless organelles and is implicated in pathological conditions. Importantly, this process is dynamic and depends on conditions such as concentration, temperature, and solvent composition. However, current machine learning models infer phase separation propensity solely from amino acid sequences, failing to capture these context-dependent behaviors. Here we show that LLPSense, a machine learning framework that integrates protein language model embeddings with environmental parameters, achieves accurate, condition-aware predictions of phase separation. Multiple experimental validations confirm LLPSense's predictive power and utility. The model reveals complex, temperature-dependent reentrant behavior in SGTA, previously unrecognized as phase-separating. Moreover, LLPSense accurately predicts mutations in Parkinson's disease-associated alpha-synuclein that either enhance or suppress phase separation. Beyond predictive accuracy, model-guided mutagenesis enables the modulation of phase behavior. Collectively, LLPSense establishes a robust computational framework for interrogating phase landscapes, facilitating mechanistic disease studies and programmable condensate design.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phase Separation",
+      "*Machine Learning",
+      "alpha-Synuclein/genetics/chemistry",
+      "Mutation",
+      "Predictive Learning Models",
+      "*Proteins/chemistry",
+      "Parkinson Disease/genetics/metabolism",
+      "Humans",
+      "Prediction Algorithms",
+      "Temperature"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bae, Jangwon",
+        "Kang, Minjun",
+        "Lee, Donghyuk",
+        "Yoon, Kuk-Jin",
+        "Jung, Yongwon"
+      ],
+      "short_names": [
+        "Bae J",
+        "Kang M",
+        "Lee D",
+        "Yoon KJ",
+        "Jung Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-1200-4994",
+        "ORCID: 0000-0003-3102-7591",
+        "ORCID: 0009-0005-2291-2662",
+        "ORCID: 0000-0002-1634-2756",
+        "ORCID: 0000-0002-1034-9797"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea. baejang1@kaist.ac.kr.",
+        "The Robotics Program, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea.",
+        "Department of Chemistry, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea.",
+        "Department of Mechanical Engineering, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea. kjyoon@kaist.ac.kr.",
+        "Department of Chemistry, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea. ywjung@kaist.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bae, Jangwon",
+        "short_name": "Bae J",
+        "identifiers": [
+          "0009-0005-1200-4994"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea. baejang1@kaist.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Kang, Minjun",
+        "short_name": "Kang M",
+        "identifiers": [
+          "0000-0003-3102-7591"
+        ],
+        "affiliations": [
+          "The Robotics Program, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Donghyuk",
+        "short_name": "Lee D",
+        "identifiers": [
+          "0009-0005-2291-2662"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yoon, Kuk-Jin",
+        "short_name": "Yoon KJ",
+        "identifiers": [
+          "0000-0002-1634-2756"
+        ],
+        "affiliations": [
+          "Department of Mechanical Engineering, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea. kjyoon@kaist.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Jung, Yongwon",
+        "short_name": "Jung Y",
+        "identifiers": [
+          "0000-0002-1034-9797"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea. ywjung@kaist.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jul 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/31 19:42",
+    "fetched_at": "2026-09-13 15:36:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42669678",
+      "42475469",
+      "42214054",
+      "40315433",
+      "42350393",
+      "40916915",
+      "39979996",
+      "42153320",
+      "40815456",
+      "40440171",
+      "42418847",
+      "33535034",
+      "40770610",
+      "40421658",
+      "41405960",
+      "39957201",
+      "34431665",
+      "42001471",
+      "41980315",
+      "42184109",
+      "41385824",
+      "41905267",
+      "40238878",
+      "37238596",
+      "41671389",
+      "35139023",
+      "32514159",
+      "39612640",
+      "42212534",
+      "32786289",
+      "39125972",
+      "37462852",
+      "41741511",
+      "39818366",
+      "35168563",
+      "42387849",
+      "39663388",
+      "41810761",
+      "41987292",
+      "42270738",
+      "33428933",
+      "38511533",
+      "39333476",
+      "39133858",
+      "41775210",
+      "38808534",
+      "29364151",
+      "41794467",
+      "41902287",
+      "41721737",
+      "42677625",
+      "41789888",
+      "23390095",
+      "42012015",
+      "42536998",
+      "42286075",
+      "42627428",
+      "41037332",
+      "26695014",
+      "27573854",
+      "27494614",
+      "39116032",
+      "38951707",
+      "39549813",
+      "18353766",
+      "40560766",
+      "17200685",
+      "41763759",
+      "32015135",
+      "41814305",
+      "33827920",
+      "41507378",
+      "42288527",
+      "19580781",
+      "41527506",
+      "41381668",
+      "42341962",
+      "38003686",
+      "41350652",
+      "42002559",
+      "26972727",
+      "23607785",
+      "29747690",
+      "42374910",
+      "40867524",
+      "30419784",
+      "40911789",
+      "39576667",
+      "18955133",
+      "28585381",
+      "39937084",
+      "42462439",
+      "41957161",
+      "41241351",
+      "41808174",
+      "42393234",
+      "35485974",
+      "40769196",
+      "39628476",
+      "20544898"
+    ],
+    "review": [
+      "42669678",
+      "42418847",
+      "42184109",
+      "41385824",
+      "39612640",
+      "42212534",
+      "42387849",
+      "38808534",
+      "29364151",
+      "23390095",
+      "42012015",
+      "26972727",
+      "18955133"
+    ],
+    "pmc": [
+      "13527070"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-76248-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42669678/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}
