@@ -1,0 +1,201 @@
+{
+  "identity": {
+    "pmid": "42759629",
+    "doi": "10.1016/j.ijbiomac.2026.154403",
+    "title": "Retinoid X receptor in motion: Subtype-specific organization and dynamics of condensate-like assemblies."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates have emerged as important regulators of gene expression, yet their contribution to nuclear receptor function remains poorly understood. Here, we demonstrate that retinoid X receptors (RXRs) form distinct condensate-like assemblies, the properties of which depend on receptor subtype, ligand binding, and subcellular localization. RXRalpha, RXRbeta, and RXRgamma exhibit marked differences in spatial organization and molecular dynamics, indicating subtype-specific modes of higher-order receptor organization. Deletion analyses identify the intrinsically disordered AB region as a determinant of subtype-specific assembly organization and dynamics. In the nucleus, only 9cRA-induced RXRalpha and RXRgamma foci colocalize with transcription initiation-associated RNA polymerase II, whereas fine puncta and RXRbeta assemblies show no detectable overlap, highlighting functional heterogeneity within the nuclear RXR population. Beyond the nucleus, RXRalpha and RXRgamma form 9cRA-induced cytoplasmic droplets exhibiting liquid-like behavior, including fusion events and rapid molecular exchange, indicating that higher-order RXR organization is not restricted to the nuclear compartment. Together, our findings uncover subtype-specific and compartment-specific principles governing the organization and dynamics of RXR condensate-like assemblies and suggest that distinct assemblies contribute to compartment-specific RXR functions.",
+    "keywords": [
+      "Intrinsically disordered region",
+      "Liquid-liquid phase separation",
+      "Retinoid X receptor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Soltys, Katarzyna",
+        "Czogalla, Aleksander",
+        "Ozyhar, Andrzej"
+      ],
+      "short_names": [
+        "Soltys K",
+        "Czogalla A",
+        "Ozyhar A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Molecular Biology and Biotechnology, Faculty of Chemistry, Wroclaw University of Science and Technology, Wybrzeze Wyspianskiego 27, 50-370, Wroclaw, Poland. Electronic address: katarzyna.soltys@pwr.edu.pl.",
+        "Department of Cytobiochemistry, Faculty of Biotechnology, University of Wroclaw, Fryderyka Joliot-Curie 14a, 50-383, Wroclaw, Poland.",
+        "Department of Biochemistry, Molecular Biology and Biotechnology, Faculty of Chemistry, Wroclaw University of Science and Technology, Wybrzeze Wyspianskiego 27, 50-370, Wroclaw, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sołtys, Katarzyna",
+        "short_name": "Sołtys K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Molecular Biology and Biotechnology, Faculty of Chemistry, Wrocław University of Science and Technology, Wybrzeże Wyspiańskiego 27, 50-370, Wrocław, Poland. Electronic address: katarzyna.soltys@pwr.edu.pl."
+        ]
+      },
+      {
+        "full_name": "Czogalla, Aleksander",
+        "short_name": "Czogalla A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cytobiochemistry, Faculty of Biotechnology, University of Wroclaw, Fryderyka Joliot-Curie 14a, 50-383, Wroclaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Ożyhar, Andrzej",
+        "short_name": "Ożyhar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Molecular Biology and Biotechnology, Faculty of Chemistry, Wrocław University of Science and Technology, Wybrzeże Wyspiańskiego 27, 50-370, Wrocław, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Sep 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/18 23:36",
+    "fetched_at": "2026-09-20 07:34:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42759629",
+      "37143076",
+      "36533416",
+      "10464303",
+      "30529222",
+      "10747970",
+      "40420113",
+      "28267642",
+      "20740296",
+      "16460010",
+      "40701035",
+      "31359395",
+      "20674387",
+      "23912807",
+      "7852380",
+      "9491782",
+      "23896434",
+      "42059885",
+      "41524628",
+      "42475469",
+      "11839661",
+      "18202130",
+      "9756939",
+      "12145331",
+      "31881311",
+      "10520230",
+      "32487073",
+      "24530888",
+      "9379138",
+      "41169547",
+      "8628649",
+      "9692555",
+      "42406097",
+      "7862171",
+      "10409738",
+      "35881789",
+      "12757020",
+      "28939253",
+      "25637539",
+      "8721985",
+      "17132853",
+      "39068565",
+      "18157857",
+      "33971237",
+      "23977068",
+      "10529278",
+      "12844485",
+      "7821715",
+      "10406462",
+      "16288995",
+      "9806918",
+      "9171239",
+      "23690070",
+      "10913286",
+      "42064063",
+      "15618235",
+      "28251414",
+      "9186301",
+      "40848932",
+      "8196667",
+      "7578026",
+      "20798333",
+      "9041123",
+      "14668324",
+      "8626539",
+      "16517099",
+      "17761950",
+      "12354671",
+      "25053412",
+      "40166180",
+      "17213293",
+      "36107323",
+      "18162523",
+      "24187139",
+      "31172692",
+      "42106138",
+      "16099843",
+      "15082790",
+      "8037682",
+      "15509776",
+      "30275017",
+      "33011201",
+      "15178767",
+      "10082574",
+      "29510153",
+      "25092517",
+      "11714715",
+      "35015251",
+      "8961274",
+      "31531208",
+      "22310716",
+      "8631847",
+      "9856825",
+      "8156902",
+      "29621670",
+      "10026278",
+      "25981521",
+      "8940178",
+      "40291420",
+      "25324544"
+    ],
+    "review": [
+      "42759629",
+      "20674387",
+      "9379138",
+      "12757020",
+      "17132853",
+      "42064063",
+      "33011201"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

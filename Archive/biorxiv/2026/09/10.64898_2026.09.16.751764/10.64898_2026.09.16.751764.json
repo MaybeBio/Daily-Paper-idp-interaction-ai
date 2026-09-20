@@ -1,0 +1,161 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.09.16.751764",
+  "title": "Mimicin, an antimicrobial protein encoded by mimivirus",
+  "doi": "10.64898/2026.09.16.751764",
+  "abstract": "Antimicrobial peptides (AMPs) are innate defense molecules found in all domains of life. Giant viruses of amoeba are known to thrive among complex microbial relationships within its hosts cells, hinting at the existence of virus-derived antimicrobial strategies. Here we show that viruses belonging to the Mimiviridae and Marseilleviridae families contain a higher density of in silico predicted AMPs per genome size than other viruses of amoeba. The investigation of potential AMPs led to the description of Mimicin, a taxonomically restricted 74 amino acid long protein coded by few mimiviruses. Mimicin contains three smaller predicted AMP sequences within it and has a broad in vitro antimicrobial activity against different bacteria, a yeast and two non-enveloped phages. In contrast, it has no activity against a marseillevirus, a mimivirus or human cell lines. When tested against bacterial endosymbionts co-cultured with Acanthamoeba terricola, Mimicin and its SIM-31 portion were able to control the attenuated Protochlamydia amoebophila but not the highly virulent Parachlamydia acanthamoebae. Based on deposited transcriptomic data, Mimicin is coded by an early gene more active during the beginning of the infection process. No structure could be predicted using Alphafold, while additional structural analysis indicate that Mimicin could be a highly disordered protein. In conclusion, we describe evidence of a biologically relevant antimicrobial activity derived from a giant virus. Mimicin highlights the relevance of AMPs from giant viruses for microbial ecology and opens the way for investigating their biotechnological and clinical potential.",
+  "authors": [
+    "Tatara JM",
+    "Dey H",
+    "Goyal N",
+    "Alves AKN",
+    "Dutra LAL",
+    "Jivaji AM",
+    "Blencke H",
+    "Haug T",
+    "Aylward F",
+    "Abrahao JS",
+    "Horn M",
+    "Almeida GMdF"
+  ],
+  "published_date": "2026-09-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.09.16.751764",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.16.751764.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1321797",
+    "raw_record": {
+      "id": "PPR1321797",
+      "source": "PPR",
+      "doi": "10.64898/2026.09.16.751764",
+      "title": "Mimicin, an antimicrobial protein encoded by mimivirus",
+      "authorString": "Tatara JM, Dey H, Goyal N, Alves AKN, Dutra LAL, Jivaji AM, Blencke H, Haug T, Aylward F, Abrahao JS, Horn M, Almeida GMdF.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tatara JM",
+            "lastName": "Tatara",
+            "firstName": "Juliana Miranda",
+            "initials": "JM"
+          },
+          {
+            "fullName": "Dey H",
+            "lastName": "Dey",
+            "firstName": "Hymonti",
+            "initials": "H"
+          },
+          {
+            "fullName": "Goyal N",
+            "lastName": "Goyal",
+            "firstName": "Nisha",
+            "initials": "N"
+          },
+          {
+            "fullName": "Alves AKN",
+            "lastName": "Alves",
+            "firstName": "Ana Karoline Nunes",
+            "initials": "AKN"
+          },
+          {
+            "fullName": "Dutra LAL",
+            "lastName": "Dutra",
+            "firstName": "Lara Ambrosio Leal",
+            "initials": "LAL"
+          },
+          {
+            "fullName": "Jivaji AM",
+            "lastName": "Jivaji",
+            "firstName": "Abdeali",
+            "initials": "AM"
+          },
+          {
+            "fullName": "Blencke H",
+            "lastName": "Blencke",
+            "firstName": "Hans-Matti",
+            "initials": "H"
+          },
+          {
+            "fullName": "Haug T",
+            "lastName": "Haug",
+            "firstName": "Tor",
+            "initials": "T"
+          },
+          {
+            "fullName": "Aylward F",
+            "lastName": "Aylward",
+            "firstName": "Frank",
+            "initials": "F"
+          },
+          {
+            "fullName": "Abrahao JS",
+            "lastName": "Abrahao",
+            "firstName": "Jonatas Santos",
+            "initials": "JS"
+          },
+          {
+            "fullName": "Horn M",
+            "lastName": "Horn",
+            "firstName": "Matthias",
+            "initials": "M"
+          },
+          {
+            "fullName": "Almeida GMdF",
+            "lastName": "Almeida",
+            "firstName": "Gabriel Magno de Freitas",
+            "initials": "GMdF"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Antimicrobial peptides (AMPs) are innate defense molecules found in all domains of life. Giant viruses of amoeba are known to thrive among complex microbial relationships within its hosts cells, hinting at the existence of virus-derived antimicrobial strategies. Here we show that viruses belonging to the Mimiviridae and Marseilleviridae families contain a higher density of in silico predicted AMPs per genome size than other viruses of amoeba. The investigation of potential AMPs led to the description of Mimicin, a taxonomically restricted 74 amino acid long protein coded by few mimiviruses. Mimicin contains three smaller predicted AMP sequences within it and has a broad in vitro antimicrobial activity against different bacteria, a yeast and two non-enveloped phages. In contrast, it has no activity against a marseillevirus, a mimivirus or human cell lines. When tested against bacterial endosymbionts co-cultured with Acanthamoeba terricola, Mimicin and its SIM-31 portion were able to control the attenuated Protochlamydia amoebophila but not the highly virulent Parachlamydia acanthamoebae. Based on deposited transcriptomic data, Mimicin is coded by an early gene more active during the beginning of the infection process. No structure could be predicted using Alphafold, while additional structural analysis indicate that Mimicin could be a highly disordered protein. In conclusion, we describe evidence of a biologically relevant antimicrobial activity derived from a giant virus. Mimicin highlights the relevance of AMPs from giant viruses for microbial ecology and opens the way for investigating their biotechnological and clinical potential.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.09.16.751764"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-09-18",
+      "firstPublicationDate": "2026-09-16",
+      "firstIndexDate": "2026-09-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

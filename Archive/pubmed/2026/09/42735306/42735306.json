@@ -1,0 +1,228 @@
+{
+  "identity": {
+    "pmid": "42735306",
+    "doi": "10.1073/pnas.2622980123",
+    "title": "Maintaining transcriptome solubility constrains mRNA sequence composition."
+  },
+  "content": {
+    "abstract": "RNA is built from a four-nucleotide alphabet. Complementary sequences inevitably arise, creating pervasive opportunities for promiscuous RNA-RNA interactions. Here, we show that this chemistry makes the transcriptome intrinsically prone to self-association. We simulated the simultaneous interactions of ~7,500 mRNAs representing the Escherichia coli transcriptome at physiological concentrations. These large-scale simulations predict widespread, dynamic clustering driven by RNA alone and organized by long, multivalent transcripts. Purified mRNA recapitulates this behavior in vitro, with aggregate composition mirroring model predictions. Strikingly, native mRNA sequences are markedly less prone to self-association than matched randomized controls: They fold more stably, expose shorter single-stranded regions, and form weaker intermolecular contacts. Similar signatures are observed in abundant human mRNAs, suggesting that evolution has shaped coding sequences to minimize self-association. These findings identify transcriptome solubility as an unrecognized constraint on mRNA sequence evolution and provide a framework for understanding how cells keep their transcriptomes dispersed and functional.",
+    "keywords": [
+      "RNA aggregation",
+      "RNA-RNA interactions",
+      "biomolecular condensates",
+      "molecular evolution",
+      "transcriptome dynamics"
+    ],
+    "mesh_terms": [
+      "*RNA, Messenger/genetics/chemistry/metabolism",
+      "*Transcriptome/genetics",
+      "Escherichia coli/genetics/metabolism",
+      "Solubility",
+      "Humans",
+      "Base Sequence",
+      "*RNA, Bacterial/genetics/chemistry/metabolism",
+      "Evolution, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Todisco, Marco",
+        "Ausler, Christalyn",
+        "Jain, Ankur"
+      ],
+      "short_names": [
+        "Todisco M",
+        "Ausler C",
+        "Jain A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0917-1602"
+      ],
+      "affiliations": [
+        "Whitehead Institute for Biomedical Research, Cambridge, MA 02142. ROR: https://ror.org/04vqm6w82",
+        "Whitehead Institute for Biomedical Research, Cambridge, MA 02142. ROR: https://ror.org/04vqm6w82",
+        "Whitehead Institute for Biomedical Research, Cambridge, MA 02142. ROR: https://ror.org/04vqm6w82",
+        "Department of Biology, Massachusetts Institute of Technology, Cambridge, MA 02139. ROR: https://ror.org/042nb2s44"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Todisco, Marco",
+        "short_name": "Todisco M",
+        "identifiers": [],
+        "affiliations": [
+          "Whitehead Institute for Biomedical Research, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Ausler, Christalyn",
+        "short_name": "Ausler C",
+        "identifiers": [],
+        "affiliations": [
+          "Whitehead Institute for Biomedical Research, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Jain, Ankur",
+        "short_name": "Jain A",
+        "identifiers": [
+          "0000-0002-0917-1602"
+        ],
+        "affiliations": [
+          "Whitehead Institute for Biomedical Research, Cambridge, MA 02142.",
+          "Department of Biology, Massachusetts Institute of Technology, Cambridge, MA 02139."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Sep 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/14 17:40",
+    "fetched_at": "2026-09-20 07:34:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42735306",
+      "41000932",
+      "25753660",
+      "30113670",
+      "29668692",
+      "8843434",
+      "11713316",
+      "9367743",
+      "23912807",
+      "24343175",
+      "42475469",
+      "10954740",
+      "23541653",
+      "39011882",
+      "35524564",
+      "42241317",
+      "41748590",
+      "31540875",
+      "33460557",
+      "18755071",
+      "17612492",
+      "33616037",
+      "33231643",
+      "24244437",
+      "16131593",
+      "1373488",
+      "32356726",
+      "7534370",
+      "21133991",
+      "28484048",
+      "7534474",
+      "12102557",
+      "12068631",
+      "28918899",
+      "10745094",
+      "9917389",
+      "6176575",
+      "26196441",
+      "30315853",
+      "40401555",
+      "9767575",
+      "8643405",
+      "18202662",
+      "40930088",
+      "11073215",
+      "41055992",
+      "18826256",
+      "28334889",
+      "12076807",
+      "12166643",
+      "41930970",
+      "7515489",
+      "11568441",
+      "34798057",
+      "18309265",
+      "12834539",
+      "26175201",
+      "30462638",
+      "32469307",
+      "7592434",
+      "30254125",
+      "40638087",
+      "8602164",
+      "9586061",
+      "19359587",
+      "1370426",
+      "22872780",
+      "21278294",
+      "23280569",
+      "21350158",
+      "12903369",
+      "9335281",
+      "9020978",
+      "40715458",
+      "16313626",
+      "1284463",
+      "1380562",
+      "31571126",
+      "10090722",
+      "10463180",
+      "10213678",
+      "14993318",
+      "10348874",
+      "23169642",
+      "9222503",
+      "23980204",
+      "24758737",
+      "26607828",
+      "21944167",
+      "23122049",
+      "39505899",
+      "30261",
+      "1712292",
+      "26609136",
+      "17661085",
+      "26760206",
+      "337294",
+      "10600370",
+      "12119387",
+      "29804828"
+    ],
+    "review": [
+      "42735306",
+      "12102557"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2622980123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

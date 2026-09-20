@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "42742050",
+    "doi": "10.1002/pro.70782",
+    "title": "Full-length brain-derived alpha-synuclein fibril models reveal fuzzy-coat control of peptide recognition."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein (aSyn) fibrils in Parkinson's disease are generally represented by their ordered cross-beta cores, although nearly half of the protein remains disordered in the fibrillar state. The unresolved N- and C-terminal segments form a fuzzy coat that is expected to shape the surface encountered by molecular partners. Here, we reconstructed full-length, brain-derived aSyn Lewy-fold fibrils by extending a patient-derived cryo-EM core spanning residues 31-100, with disordered termini, and sampling the resulting assemblies with the CALVADOS coarse-grained force field. The acidic C-terminal tails established recurrent, transient contacts with solvent-exposed core motifs, especially beta5/P2 and beta9/P3, generating a dynamic surface in which aggregation-prone ladders are intermittently shielded rather than permanently buried. Simulations with two experimentally validated aSyn-binding peptides, PSMalpha3 and LL-37, show that peptide recognition follows a two-step process. Cationic peptides are first retained by the anionic fuzzy coat and subsequently engage exposed hydrophobic/electrostatic hotspots on the structured core. PSMalpha3 variants and LL-37 controls support the importance of positive charge for capture, peptide flexibility for multivalent engagement, and the full-length fibril architecture for persistent binding. These results present a mechanistic model in which selectivity for aggregated aSyn arises from an emergent mesoscale interface combining a polyelectrolyte brush with recurrent core hotspots. Together, these results establish full-length, brain-derived fibril ensembles as a practical framework for understanding ligand recognition at amyloid surfaces.",
+    "keywords": [
+      "CALVADOS",
+      "Parkinson's disease",
+      "amyloid fibrils",
+      "fuzzy coat",
+      "intrinsically disordered regions",
+      "molecular dynamics simulations",
+      "peptide binding",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "Humans",
+      "*Brain/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Peptides/chemistry/metabolism",
+      "Protein Binding",
+      "Cryoelectron Microscopy",
+      "*Amyloid/chemistry/metabolism",
+      "Parkinson Disease/metabolism",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pintado-Grima, Carlos",
+        "Barcenas, Oriol",
+        "Tesei, Giulio",
+        "Thomasen, F Emil",
+        "Lindorff-Larsen, Kresten",
+        "Ventura, Salvador"
+      ],
+      "short_names": [
+        "Pintado-Grima C",
+        "Barcenas O",
+        "Tesei G",
+        "Thomasen FE",
+        "Lindorff-Larsen K",
+        "Ventura S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8544-959X",
+        "ORCID: 0000-0002-8439-4005",
+        "ORCID: 0000-0003-4339-4460",
+        "ORCID: 0000-0002-2096-4873",
+        "ORCID: 0000-0002-4750-6039",
+        "ORCID: 0000-0002-9652-6351"
+      ],
+      "affiliations": [
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Institute of Advanced Chemistry of Catalonia (IQAC), CSIC, Barcelona, Spain.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen N, Denmark.",
+        "Department of Biomedical Science, Malmo University, Malmo, Sweden.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen N, Denmark.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen N, Denmark.",
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Hospital Universitari Parc Tauli, Institut d'Investigacio i Innovacio Parc Tauli (I3PT-CERCA), Universitat Autonoma de Barcelona, Sabadell, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pintado-Grima, Carlos",
+        "short_name": "Pintado-Grima C",
+        "identifiers": [
+          "0000-0002-8544-959X"
+        ],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Bárcenas, Oriol",
+        "short_name": "Bárcenas O",
+        "identifiers": [
+          "0000-0002-8439-4005"
+        ],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain.",
+          "Institute of Advanced Chemistry of Catalonia (IQAC), CSIC, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Tesei, Giulio",
+        "short_name": "Tesei G",
+        "identifiers": [
+          "0000-0003-4339-4460"
+        ],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen N, Denmark.",
+          "Department of Biomedical Science, Malmö University, Malmö, Sweden."
+        ]
+      },
+      {
+        "full_name": "Thomasen, F Emil",
+        "short_name": "Thomasen FE",
+        "identifiers": [
+          "0000-0002-2096-4873"
+        ],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [
+          "0000-0002-4750-6039"
+        ],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Ventura, Salvador",
+        "short_name": "Ventura S",
+        "identifiers": [
+          "0000-0002-9652-6351"
+        ],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain.",
+          "Hospital Universitari Parc Taulí, Institut d'Investigació i Innovació Parc Taulí (I3PT-CERCA), Universitat Autònoma de Barcelona, Sabadell, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/15 11:37",
+    "fetched_at": "2026-09-20 07:34:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42742050",
+      "41820812",
+      "40819250",
+      "29715424",
+      "29364151",
+      "32019169",
+      "32737160",
+      "36871760",
+      "42055633",
+      "40215967",
+      "31685848",
+      "32394304",
+      "41240336",
+      "39813358",
+      "31776941",
+      "30065316",
+      "41067404",
+      "10704204",
+      "31295458",
+      "40371781",
+      "29969391",
+      "41002442",
+      "41575853",
+      "35836937",
+      "40535603",
+      "29750499",
+      "24058647",
+      "17963364",
+      "33903234",
+      "16162499",
+      "33345970",
+      "36278939",
+      "30277753",
+      "40268916",
+      "28710275",
+      "33610557",
+      "16533927",
+      "38458997",
+      "36794997",
+      "28075555",
+      "34452994",
+      "33539920",
+      "21761818",
+      "41301496",
+      "31181290",
+      "38335809",
+      "29372732",
+      "25389903",
+      "29704492",
+      "34172566",
+      "37036430",
+      "33184287",
+      "33333378",
+      "39172784",
+      "38010414",
+      "38683963",
+      "22573613",
+      "25869255",
+      "31142553",
+      "29400668",
+      "31092553",
+      "22274962",
+      "41553152",
+      "42319017",
+      "26845568",
+      "40853068",
+      "39480879",
+      "37047286",
+      "29286644",
+      "28759722",
+      "40916915",
+      "28460628",
+      "32120928",
+      "41134940",
+      "39133842",
+      "40015644",
+      "33444530",
+      "31034892",
+      "32015135",
+      "41404791",
+      "29417650",
+      "33177717",
+      "30769283",
+      "26351699",
+      "33335475",
+      "25505181",
+      "21085664",
+      "21244841",
+      "25143382",
+      "40015369",
+      "38663121",
+      "33831509",
+      "36866721",
+      "40921362",
+      "41706531",
+      "26723627",
+      "37481159",
+      "40453094",
+      "37253119",
+      "31815671"
+    ],
+    "review": [
+      "42742050",
+      "29364151",
+      "41067404",
+      "16533927",
+      "42319017",
+      "41404791"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/pro.70782",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

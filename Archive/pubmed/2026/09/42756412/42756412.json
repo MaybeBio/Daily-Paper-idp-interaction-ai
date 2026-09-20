@@ -1,0 +1,232 @@
+{
+  "identity": {
+    "pmid": "42756412",
+    "doi": "10.3389/fbinf.2026.1907936",
+    "title": "Conformational dynamics of fuzzy interfaces in disordered protein complexes: mapping key residues and binding modes beyond NMR models."
+  },
+  "content": {
+    "abstract": "Understanding the dynamic behavior of fuzzy complexes formed by intrinsically disordered proteins (IDPs) is challenging due to their conformational flexibility. Nuclear Magnetic Resonance (NMR) structural bundles satisfy experimental constraints and inherently provide an overview of alternative conformations in solution. However, they assign equal weight to every sampled model, obscuring the temporal prevalence and dynamics of inter-residue contacts. In this study, we performed dual 1-microsecond (micros) Molecular Dynamics (MD) simulations for eight biologically relevant fuzzy complexes, utilizing the most distant conformers from deposited NMR models, as starting configurations. Through structural clustering and contact-persistence analysis, we classified the complexes into two distinct dynamic categories. The first group comprises complexes whose trajectories remain consistent with experimental data. Notably, large-scale motions such as relative chain rotations observed during simulations are already reflected as distinct orientations within the starting NMR conformers. Conversely, the second group comprises complexes that exhibit interaction modes absent in the structural NMR ensembles. These include alternative stable interfaces arising from chain reorientation, as well as highly dynamic interfaces characterized by rapidly exchanging contacts lacking any persistent stabilizing core. Furthermore, the microsecond trajectories captured intermittent dissociation and re-association events where the proteins sampled transient contacts through alternative regions. Overall, leveraging NMR models as a baseline for MD clustering and contact weighting, provides a systematic bioinformatics analysis to solve the atomistic details of flexible interfaces. Beyond categorizing diverse binding behaviors, this approach systematically refines the interaction surfaces across all studied cases, uncovers dynamic features that escape detection in ensemble-averaged NMR structures. Furthermore, it maps key residues to guide further experimental approaches, such as mutational studies or therapeutic targeting, among other applications.",
+    "keywords": [
+      "NMR conformational ensembles",
+      "fuzzy complexes",
+      "fuzzy interfaces",
+      "intrinsically disordered proteins (IDPs)",
+      "molecular dynamics simulations",
+      "residue contact analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fernandez, Maria Laura",
+        "Bastien, Maria Clara",
+        "Tavolaro, Franco G",
+        "Marino-Buslje, Cristina"
+      ],
+      "short_names": [
+        "Fernandez ML",
+        "Bastien MC",
+        "Tavolaro FG",
+        "Marino-Buslje C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Departamento de Fisica, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Ciudad Universitaria, Buenos Aires, Argentina.",
+        "CONICET - Universidad de Buenos Aires, Instituto de Fisica Interdisciplinaria y Aplicada (INFINA), Ciudad Universitaria, Buenos Aires, Argentina.",
+        "Instituto Tecnologico de Buenos Aires (ITBA). San Martin 202 CABA, Buenos Aires, Argentina.",
+        "Instituto Tecnologico de Buenos Aires (ITBA). San Martin 202 CABA, Buenos Aires, Argentina.",
+        "Instituto Tecnologico de Buenos Aires (ITBA). San Martin 202 CABA, Buenos Aires, Argentina.",
+        "Instituto Tecnologico de Buenos Aires (ITBA). San Martin 202 CABA, Buenos Aires, Argentina.",
+        "Instituto Leloir/IIBBA-CONICET. Av. Patricias Argentinas 435. CABA, Buenos Aires, Argentina."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fernández, María Laura",
+        "short_name": "Fernández ML",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Física, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Ciudad Universitaria, Buenos Aires, Argentina.",
+          "CONICET - Universidad de Buenos Aires, Instituto de Física Interdisciplinaria y Aplicada (INFINA), Ciudad Universitaria, Buenos Aires, Argentina.",
+          "Instituto Tecnológico de Buenos Aires (ITBA). San Martín 202 CABA, Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Bastien, María Clara",
+        "short_name": "Bastien MC",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto Tecnológico de Buenos Aires (ITBA). San Martín 202 CABA, Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Tavolaro, Franco G",
+        "short_name": "Tavolaro FG",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto Tecnológico de Buenos Aires (ITBA). San Martín 202 CABA, Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Marino-Buslje, Cristina",
+        "short_name": "Marino-Buslje C",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto Tecnológico de Buenos Aires (ITBA). San Martín 202 CABA, Buenos Aires, Argentina.",
+          "Instituto Leloir/IIBBA-CONICET. Av. Patricias Argentinas 435. CABA, Buenos Aires, Argentina."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/18 12:25",
+    "fetched_at": "2026-09-20 07:34:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42756412",
+      "42475469",
+      "30840442",
+      "23912807",
+      "30813629",
+      "36348631",
+      "32135192",
+      "36131545",
+      "39647695",
+      "33030907",
+      "40782957",
+      "41706900",
+      "28493424",
+      "27300592",
+      "29276882",
+      "36084124",
+      "42376479",
+      "30471688",
+      "33310020",
+      "37646172",
+      "41325725",
+      "41073429",
+      "22253588",
+      "24687405",
+      "27844185",
+      "41851975",
+      "38869513",
+      "35679397",
+      "40907012",
+      "26910732",
+      "31445064",
+      "42299722",
+      "31303975",
+      "35841142",
+      "40842437",
+      "26387102",
+      "26735936",
+      "39651234",
+      "42129207",
+      "30802457",
+      "34504009",
+      "36934808",
+      "36930141",
+      "32840111",
+      "33382616",
+      "36321557",
+      "10373009",
+      "31793290",
+      "23189168",
+      "25077693",
+      "38979147",
+      "42448413",
+      "39163306",
+      "29864281",
+      "38978607",
+      "20698672",
+      "38512660",
+      "17006738",
+      "32929427",
+      "36641212",
+      "39740355",
+      "22506277",
+      "11427046",
+      "39588651",
+      "40264953",
+      "42406548",
+      "38930833",
+      "30316104",
+      "10698632",
+      "33267376",
+      "39984300",
+      "35312477",
+      "30527137",
+      "30878202",
+      "30204435",
+      "25574774",
+      "31794728",
+      "24763499",
+      "36674958",
+      "24159811",
+      "37108059",
+      "36346589",
+      "34014914",
+      "31809054",
+      "34152264",
+      "38373700",
+      "33187345",
+      "31325636",
+      "8230221",
+      "23811057",
+      "39340152",
+      "40060049",
+      "37990496",
+      "31241933",
+      "35923464",
+      "21058670",
+      "25896389",
+      "26387101",
+      "24671380",
+      "26068746"
+    ],
+    "review": [
+      "42756412",
+      "30840442",
+      "30813629",
+      "32135192",
+      "24687405",
+      "31303975",
+      "26387102",
+      "36321557",
+      "31793290",
+      "42448413",
+      "39740355",
+      "40264953",
+      "30316104",
+      "30527137",
+      "25574774",
+      "25896389"
+    ],
+    "pmc": [
+      "13582614"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

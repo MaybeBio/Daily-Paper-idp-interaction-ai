@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "42745995",
+    "doi": "10.3389/fimmu.2026.1793320",
+    "title": "Intrinsically disordered regions in the NLRP family of receptors act as regulatory hubs for inflammasome condensation and activation."
+  },
+  "content": {
+    "abstract": "Inflammasomes are multiprotein complexes that orchestrate immune responses to pathogenic and sterile insults by regulating the maturation of inflammatory cytokines and pyroptotic cell death. While inflammasome activation is well-characterized at the biochemical level, the mechanisms governing the spatial and temporal assembly of these complexes remain poorly understood. Here, we uncover a critical role for intrinsically disordered regions (IDRs) in activating NLRP1, NLRP3, and NLRP14 inflammasomes. Through structural prediction analyses, we identify IDRs within these receptors that harbor post-translational modification sites essential for inflammasome assembly and function. Notably, disease-associated mutations in NLRP1 and NLRP3 occur within these IDRs, underscoring their functional relevance in inflammatory disorders. Our computational analysis suggests that IDR-mediated phase separation may drive inflammasome condensation at the perinuclear membrane, serving as a sensor for cellular stress, as stress signals may change their conformation, through post-translational modifications, and thus their interaction capacity. Furthermore, inflammasomes lacking IDRs in their NLRPs may rely on interactions with chaperone or adapter proteins containing IDRs for proper assembly. These insights provide a new framework for understanding the regulation of inflammasomes, suggesting that targeting the dynamics of phase transitions could open novel therapeutic avenues for treating inflammatory and autoimmune diseases.",
+    "keywords": [
+      "IDRs",
+      "Inflammasome",
+      "Inflammation",
+      "NLRPs",
+      "biocondensates",
+      "phase transition"
+    ],
+    "mesh_terms": [
+      "*Inflammasomes/metabolism/immunology",
+      "Humans",
+      "*NLR Family, Pyrin Domain-Containing 3 Protein/genetics/metabolism/chemistry/immunology",
+      "*NLR Proteins/metabolism/chemistry/genetics",
+      "Protein Processing, Post-Translational",
+      "Animals",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/immunology/genetics",
+      "*Adaptor Proteins, Signal Transducing/metabolism/genetics/chemistry/immunology",
+      "*Apoptosis Regulatory Proteins/genetics/metabolism/chemistry",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nava-Ramirez, Teresa B",
+        "Cuevas-Velazquez, Cesar L",
+        "Covarrubias, Alejandra A",
+        "Rudino-Pinera, Enrique",
+        "Perez-Martinez, Leonor",
+        "Pedraza-Alva, Gustavo"
+      ],
+      "short_names": [
+        "Nava-Ramirez TB",
+        "Cuevas-Velazquez CL",
+        "Covarrubias AA",
+        "Rudino-Pinera E",
+        "Perez-Martinez L",
+        "Pedraza-Alva G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Departamento de Biologia Molecular de Plantas, Instituto de Biotecnologia, Universidad Nacional Autonoma de Mexico, Cuernavaca, Morelos, Mexico.",
+        "Centro de Investigacion en Biotecnologia, Universidad Autonoma del Estado de Morelos, Cuernavaca, Morelos, Mexico.",
+        "Departamento de Biologia Molecular de Plantas, Instituto de Biotecnologia, Universidad Nacional Autonoma de Mexico, Cuernavaca, Morelos, Mexico.",
+        "Laboratorio de Bioquimica Estructural, Departamento de Medicina Molecular y Bioprocesos, Instituto de Biotecnologia, Universidad Nacional Autonoma de Mexico, Cuernavaca, Morelos, Mexico.",
+        "Laboratorio de Neuroinmunobiologia, Departamento de Medicina Molecular y Bioprocesos, Instituto de Biotecnologia, Universidad Nacional Autonoma de Mexico, Cuernavaca, Morelos, Mexico.",
+        "Laboratorio de Neuroinmunobiologia, Departamento de Medicina Molecular y Bioprocesos, Instituto de Biotecnologia, Universidad Nacional Autonoma de Mexico, Cuernavaca, Morelos, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nava-Ramírez, Teresa B",
+        "short_name": "Nava-Ramírez TB",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Biología Molecular de Plantas, Instituto de Biotecnología, Universidad Nacional Autónoma de México, Cuernavaca, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Cuevas-Velazquez, Cesar L",
+        "short_name": "Cuevas-Velazquez CL",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Investigación en Biotecnología, Universidad Autónoma del Estado de Morelos, Cuernavaca, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Covarrubias, Alejandra A",
+        "short_name": "Covarrubias AA",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Biología Molecular de Plantas, Instituto de Biotecnología, Universidad Nacional Autónoma de México, Cuernavaca, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Rudiño-Piñera, Enrique",
+        "short_name": "Rudiño-Piñera E",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Bioquímica Estructural, Departamento de Medicina Molecular y Bioprocesos, Instituto de Biotecnología, Universidad Nacional Autónoma de México, Cuernavaca, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Pérez-Martínez, Leonor",
+        "short_name": "Pérez-Martínez L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Neuroinmunobiologia, Departamento de Medicina Molecular y Bioprocesos, Instituto de Biotecnología, Universidad Nacional Autónoma de México, Cuernavaca, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Pedraza-Alva, Gustavo",
+        "short_name": "Pedraza-Alva G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Neuroinmunobiologia, Departamento de Medicina Molecular y Bioprocesos, Instituto de Biotecnología, Universidad Nacional Autónoma de México, Cuernavaca, Morelos, Mexico."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/16 11:41",
+    "fetched_at": "2026-09-20 07:34:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42745995",
+      "40334522",
+      "38104185",
+      "40435843",
+      "28875942",
+      "33420028",
+      "38644450",
+      "41904744",
+      "30291141",
+      "29393464",
+      "32983094",
+      "24008734",
+      "33420033",
+      "36426349",
+      "28370480",
+      "40959087",
+      "32983099",
+      "25879281",
+      "28092085",
+      "42358953",
+      "37889986",
+      "41106373",
+      "39086059",
+      "28245768",
+      "25681332",
+      "40152367",
+      "29915579",
+      "30195027",
+      "41160185",
+      "39707387",
+      "27455510",
+      "24549849",
+      "22427013",
+      "36225929",
+      "26418144",
+      "42034005",
+      "32640751",
+      "27662089",
+      "38907167",
+      "40307577",
+      "24078393",
+      "31170267",
+      "31543674",
+      "37043073",
+      "40194758",
+      "36541912",
+      "21252346",
+      "34021586",
+      "25024200",
+      "33467177",
+      "42361162",
+      "39173681",
+      "42123364",
+      "27626170",
+      "26549800",
+      "24337744",
+      "31250434",
+      "37575265",
+      "29128729",
+      "41944903",
+      "23843215",
+      "38374299",
+      "38763335",
+      "33603747",
+      "33584639",
+      "32558991",
+      "41105347",
+      "42058220",
+      "31078283",
+      "42683221",
+      "26814970",
+      "36293159",
+      "30150286",
+      "41380532",
+      "28403163",
+      "19120479",
+      "29672590",
+      "25625584",
+      "31621910",
+      "26232934",
+      "29384096",
+      "38920661",
+      "42312856",
+      "36911693",
+      "36649710",
+      "38261657",
+      "31511697",
+      "41219086",
+      "41983141",
+      "33850310",
+      "38008850",
+      "28356568",
+      "37440315",
+      "37578725",
+      "24054327",
+      "36941400",
+      "32901127",
+      "26053021",
+      "34092352",
+      "28733143"
+    ],
+    "review": [
+      "42745995",
+      "40334522",
+      "38104185",
+      "28875942",
+      "38644450",
+      "40959087",
+      "32983099",
+      "25879281",
+      "37889986",
+      "41106373",
+      "28245768",
+      "40152367",
+      "41160185",
+      "22427013",
+      "26418144",
+      "42034005",
+      "32640751",
+      "40307577",
+      "24078393",
+      "40194758",
+      "34021586",
+      "33467177",
+      "39173681",
+      "26549800",
+      "29128729",
+      "38374299",
+      "38763335",
+      "33603747",
+      "33584639",
+      "32558991",
+      "41105347",
+      "42058220",
+      "42683221",
+      "36293159",
+      "19120479",
+      "25625584",
+      "31621910",
+      "29384096",
+      "38920661",
+      "36911693",
+      "41219086",
+      "41983141",
+      "33850310",
+      "28356568",
+      "37440315",
+      "24054327",
+      "34092352",
+      "28733143"
+    ],
+    "pmc": [
+      "13574816"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42745995/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1793320",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

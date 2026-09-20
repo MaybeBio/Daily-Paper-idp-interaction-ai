@@ -1,0 +1,210 @@
+{
+  "identity": {
+    "pmid": "42757025",
+    "doi": "10.1039/d6sc02874h",
+    "title": "Training a force field for proteins and small molecules from scratch."
+  },
+  "content": {
+    "abstract": "Force fields for molecular dynamics are usually developed manually, limiting their transferability and making systematic exploration of functional forms challenging. We developed a graph neural network that assigns all force field parameters for diverse molecules using continuous atom typing. The freely-available model, called Garnet, was trained on quantum mechanical, condensed phase and protein nuclear magnetic resonance data without the use of existing parameters. The resulting force field shows comparable performance to current force fields on small molecules, folded proteins, protein complexes and disordered proteins. It shows similar results to popular approaches for relative binding free energy predictions across a range of targets. Assessing different functional forms shows that the double exponential potential is a flexible and accurate alternative to the Lennard-Jones potential. Garnet provides a platform for automated, reproducible force field discovery that brings the benefits of machine learning to classical force fields.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Blanco-Gonzalez, Alexandre",
+        "Schulze, Thea K",
+        "Rovers, Evianne",
+        "Greener, Joe G"
+      ],
+      "short_names": [
+        "Blanco-Gonzalez A",
+        "Schulze TK",
+        "Rovers E",
+        "Greener JG"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5154-1929"
+      ],
+      "affiliations": [
+        "Medical Research Council Laboratory of Molecular Biology Cambridge CB2 0QH UK jgreener@mrclmb.ac.uk.",
+        "Medical Research Council Laboratory of Molecular Biology Cambridge CB2 0QH UK jgreener@mrclmb.ac.uk.",
+        "Medical Research Council Laboratory of Molecular Biology Cambridge CB2 0QH UK jgreener@mrclmb.ac.uk.",
+        "Medical Research Council Laboratory of Molecular Biology Cambridge CB2 0QH UK jgreener@mrclmb.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Blanco-González, Alexandre",
+        "short_name": "Blanco-González A",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Laboratory of Molecular Biology Cambridge CB2 0QH UK jgreener@mrclmb.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Schulze, Thea K",
+        "short_name": "Schulze TK",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Laboratory of Molecular Biology Cambridge CB2 0QH UK jgreener@mrclmb.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Rovers, Evianne",
+        "short_name": "Rovers E",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Laboratory of Molecular Biology Cambridge CB2 0QH UK jgreener@mrclmb.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Greener, Joe G",
+        "short_name": "Greener JG",
+        "identifiers": [
+          "0000-0002-5154-1929"
+        ],
+        "affiliations": [
+          "Medical Research Council Laboratory of Molecular Biology Cambridge CB2 0QH UK jgreener@mrclmb.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2026 Sep 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/18 12:25",
+    "fetched_at": "2026-09-20 07:34:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42757025",
+      "36304919",
+      "38013814",
+      "36349096",
+      "40060049",
+      "41294373",
+      "39148808",
+      "38020379",
+      "42209490",
+      "42011005",
+      "31917572",
+      "34533949",
+      "37431910",
+      "39913331",
+      "41851056",
+      "41235840",
+      "40459410",
+      "37167319",
+      "34609863",
+      "34623804",
+      "42734020",
+      "32447472",
+      "30351006",
+      "36190354",
+      "40864866",
+      "42604909",
+      "29735687",
+      "35920605",
+      "42475469",
+      "35362975",
+      "25098651",
+      "35039818",
+      "42239179",
+      "42013870",
+      "23912807",
+      "29694035",
+      "42175905",
+      "31984465",
+      "38895959",
+      "32035448",
+      "31657215",
+      "40434635",
+      "41802224",
+      "42118388",
+      "37071552",
+      "39822899",
+      "39579131",
+      "33729795",
+      "29096511",
+      "31528808",
+      "28508076",
+      "26910732",
+      "34551262",
+      "38550690",
+      "40065732",
+      "40172236",
+      "22857380",
+      "29624370",
+      "28696692",
+      "40387214",
+      "25328495",
+      "32816485",
+      "36744744",
+      "26574315",
+      "41310253",
+      "30182836",
+      "34181200",
+      "40766644",
+      "29096508",
+      "27709949",
+      "32786995",
+      "35507313",
+      "15185334",
+      "41896379",
+      "31475155",
+      "30742438",
+      "18802495",
+      "41427731",
+      "41298416",
+      "41591329",
+      "19754142",
+      "24000174",
+      "35694853",
+      "12483672",
+      "32859072",
+      "33604023",
+      "24223528",
+      "40033678",
+      "37856313",
+      "31062799",
+      "34536913",
+      "41979361",
+      "26537332",
+      "39753520",
+      "26627431",
+      "41953892",
+      "34662102",
+      "38147689",
+      "16526746",
+      "36856658"
+    ],
+    "review": [
+      "42757025",
+      "30182836",
+      "41896379"
+    ],
+    "pmc": [
+      "13585093"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "42759328",
+    "doi": "10.1016/j.sbi.2026.103378",
+    "title": "Molecular simulations of chromatin-associated biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are central to nuclear organisation, and molecular simulations have most advanced our understanding of the molecular interactions that drive their formation and phase behaviour. Coarse-grained, physicochemically specific models are now able to reproduce phase diagrams, material properties, and sequence-phase space relationships with quantitative accuracy for intrinsically disordered proteins, but capturing condensates as they exist in the nucleus demands additional ingredients: explicit ionic environments, post-translational modification grammars, chromatin architecture as an explicit component, and nonequilibrium dynamics driven by active processes.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maristany, M Julia",
+        "Russell, Kieran",
+        "Perez Lopez, Ignacio",
+        "Huertas, Jan",
+        "Collepardo-Guevara, Rosana"
+      ],
+      "short_names": [
+        "Maristany MJ",
+        "Russell K",
+        "Perez Lopez I",
+        "Huertas J",
+        "Collepardo-Guevara R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, United Kingdom.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, United Kingdom.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, United Kingdom.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, United Kingdom; Department of Genetics, University of Cambridge, United Kingdom.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, United Kingdom; Department of Genetics, University of Cambridge, United Kingdom; PhAsIca Biosciences S.L., Calle Velazquez, 27, 28001 Madrid, Spain. Electronic address: rc597@cam.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maristany, M Julia",
+        "short_name": "Maristany MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Russell, Kieran",
+        "short_name": "Russell K",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Perez Lopez, Ignacio",
+        "short_name": "Perez Lopez I",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Huertas, Jan",
+        "short_name": "Huertas J",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, United Kingdom; Department of Genetics, University of Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, United Kingdom; Department of Genetics, University of Cambridge, United Kingdom; PhAsIca Biosciences S.L., Calle Velázquez, 27, 28001 Madrid, Spain. Electronic address: rc597@cam.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2026 Sep 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/18 23:36",
+    "fetched_at": "2026-09-20 07:34:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42759328",
+      "42350353",
+      "40009520",
+      "30926670",
+      "39319382",
+      "40848932",
+      "40172489",
+      "40028356",
+      "37194953",
+      "36227468",
+      "38656803",
+      "40766493",
+      "41481439",
+      "38429263",
+      "38181073",
+      "40970906",
+      "41868013",
+      "37705794",
+      "32487073",
+      "40534071",
+      "39605385",
+      "41524628",
+      "33069007",
+      "40748104",
+      "40441156",
+      "35179885",
+      "40664121",
+      "34716273",
+      "35727989",
+      "41863073",
+      "40614690",
+      "35054543",
+      "23912807",
+      "36004748",
+      "39804953",
+      "38260590",
+      "41332608",
+      "40985078",
+      "37468629",
+      "38383656",
+      "42055532",
+      "39937084",
+      "33453922",
+      "39908323",
+      "34090478",
+      "34598583",
+      "39071308",
+      "40455990",
+      "39636939",
+      "41343645",
+      "41670285",
+      "34144468",
+      "37645312",
+      "40791470",
+      "40954121",
+      "36412795",
+      "30471685",
+      "40527409",
+      "41378109",
+      "38832749",
+      "38961263",
+      "36819870",
+      "37961422",
+      "39866835",
+      "40645941",
+      "34203110",
+      "34311273",
+      "42580188",
+      "39413416",
+      "42620391",
+      "41232529",
+      "37215004",
+      "40894760",
+      "32584357",
+      "37695778",
+      "40389455",
+      "33704061",
+      "34271007",
+      "42531022",
+      "42475469",
+      "36657879",
+      "40629690",
+      "32393642",
+      "37252985",
+      "40661423",
+      "42223083",
+      "33076213",
+      "39225535",
+      "42620098",
+      "34785657",
+      "35802394",
+      "40058249",
+      "38621751",
+      "40747072",
+      "41575805",
+      "41647538",
+      "41660270",
+      "38252962",
+      "41480717",
+      "33139563"
+    ],
+    "review": [
+      "42759328",
+      "40172489",
+      "33069007",
+      "35179885",
+      "40664121",
+      "40614690",
+      "34144468",
+      "40527409",
+      "41378109",
+      "34311273",
+      "42580188",
+      "34271007",
+      "35802394",
+      "40058249",
+      "38621751",
+      "41575805",
+      "41647538"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

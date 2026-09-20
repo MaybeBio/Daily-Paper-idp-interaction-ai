@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "42742140",
+    "doi": "10.1063/5.0350732",
+    "title": "Molecular origins of pH gradients in charge-regulated biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates exhibit spontaneous electrochemical microenvironments characterized by asymmetric ion distributions and pH gradients that emerge from protein-sequence-dependent charge regulation. Despite their biological importance, mechanistic understanding of these microenvironments has been constrained by the absence of computationally tractable frameworks capable of treating proton exchange, counterion partitioning, and buffer equilibria on consistent thermodynamic footing. Here, we introduce the buffered Charge-Regulation Monte Carlo (b-CR-MC) framework, which couples grand-canonical exchange of ions and buffer species with explicit charge regulation of titratable residues. By extending the CR-MC ion-merging strategy to multicomponent reservoirs and employing the restricted primitive model, b-CR-MC achieves computational efficiency while maintaining thermodynamic rigor, achievingquantitative agreement with the more expensive generalized grand-reaction Monte Carlo approach. Applied to full-length FUS (net positive) and PGL-3 (net negative) under physiological conditions, the framework reveals sequence-dependent pH gradients: the dense phase of FUS exhibits an alkaline shift, while that of PGL-3 exhibits an acidic shift, in both cases driving the condensate interior toward the protein's isoelectric point. Slab-geometry simulations further resolve the Donnan potential and continuous ion profiles across the condensate interface, confirming the direction of these electrochemical shifts. Additionally, we identify spatially resolved buffer depletion within dense phases, establishing that dynamic charge regulation is a primary determinant rather than a secondary correction to condensate electrochemistry. By establishing a sequence-resolved, thermodynamically consistent computational platform, b-CR-MC enables quantitative prediction of how mutations and post-translational modifications reprogram condensate microenvironments across biological and pathophysiological contexts.",
+    "keywords": [],
+    "mesh_terms": [
+      "Hydrogen-Ion Concentration",
+      "Monte Carlo Method",
+      "*Biomolecular Condensates/chemistry",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Weng, Shuo-Lin",
+        "Rekhi, Shiv",
+        "Kim, Young C",
+        "Palmer, Jeremy C",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Weng SL",
+        "Rekhi S",
+        "Kim YC",
+        "Palmer JC",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-8082-8206",
+        "ORCID: 0009-0007-3625-903X",
+        "ORCID: 0000-0002-2578-1830",
+        "ORCID: 0000-0003-0856-4743",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Texas A&M University, College Station, Texas 77843, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, USA.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, District of Columbia 20375, USA.",
+        "Department of Chemistry, University of Houston, Houston, Texas 77204, USA.",
+        "William A. Brookshire Department of Chemical & Biomolecular Engineering, University of Houston, Houston, Texas 77204, USA.",
+        "Welch Center for Advanced Bioactive Materials Crystallization, University of Houston, Houston, Texas 77204, USA.",
+        "Department of Chemistry, Texas A&M University, College Station, Texas 77843, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, USA.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas 77843, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Weng, Shuo-Lin",
+        "short_name": "Weng SL",
+        "identifiers": [
+          "0009-0009-8082-8206"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Texas A&M University, College Station, Texas 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Rekhi, Shiv",
+        "short_name": "Rekhi S",
+        "identifiers": [
+          "0009-0007-3625-903X"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [
+          "0000-0002-2578-1830"
+        ],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, District of Columbia 20375, USA."
+        ]
+      },
+      {
+        "full_name": "Palmer, Jeremy C",
+        "short_name": "Palmer JC",
+        "identifiers": [
+          "0000-0003-0856-4743"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Houston, Houston, Texas 77204, USA.",
+          "William A. Brookshire Department of Chemical & Biomolecular Engineering, University of Houston, Houston, Texas 77204, USA.",
+          "Welch Center for Advanced Bioactive Materials Crystallization, University of Houston, Houston, Texas 77204, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Texas A&M University, College Station, Texas 77843, USA.",
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, USA.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas 77843, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2026 Sep 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/15 11:37",
+    "fetched_at": "2026-09-20 07:34:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42742140",
+      "42465288",
+      "42475469",
+      "41612036",
+      "31362509",
+      "41662498",
+      "42261607",
+      "39260373",
+      "37904914",
+      "23005559",
+      "39356108",
+      "41524103",
+      "40074825",
+      "41187075",
+      "36883003",
+      "40653653",
+      "42081454",
+      "39005320",
+      "42497855",
+      "34862761",
+      "39227569",
+      "41481439",
+      "35727989",
+      "42232026",
+      "40690668",
+      "41360394",
+      "42143038",
+      "42531022",
+      "34598583",
+      "29111720",
+      "37791635",
+      "39636939",
+      "40899329",
+      "36758221",
+      "36251838",
+      "37549257",
+      "29346981",
+      "14995196",
+      "41134609",
+      "30307229",
+      "41542481",
+      "41251020",
+      "40954121",
+      "36847235",
+      "40744081",
+      "38722189",
+      "42350353",
+      "41134585",
+      "41703914",
+      "39928699",
+      "40877270",
+      "41540001",
+      "38999934",
+      "31795443",
+      "42425985",
+      "41452986",
+      "41670285",
+      "40640131",
+      "39896463",
+      "41881426",
+      "37735186",
+      "37819001",
+      "40985078",
+      "41944692",
+      "37194953",
+      "20568849",
+      "38429263",
+      "39026887",
+      "40172489",
+      "35105090",
+      "40058249",
+      "40093099",
+      "32426986",
+      "23912807",
+      "32464053",
+      "41386341",
+      "26881315",
+      "24122878",
+      "41535729",
+      "42556552",
+      "31665596",
+      "38987300",
+      "40903498",
+      "40970906",
+      "40791470",
+      "38670952",
+      "40327693",
+      "37043540",
+      "34772789",
+      "37980572",
+      "39910711",
+      "20925354",
+      "42244763",
+      "40236055",
+      "26764648",
+      "39605385",
+      "39327453",
+      "40867025",
+      "42329660",
+      "35621307"
+    ],
+    "review": [
+      "42742140",
+      "40744081",
+      "40172489",
+      "40058249",
+      "42556552",
+      "34772789"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0350732",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

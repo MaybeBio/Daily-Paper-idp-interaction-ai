@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "42732193",
+    "doi": "10.64898/2026.08.26.26360896",
+    "title": "A germline KDM3C polymorphism impairs DNA repair and sensitizes to chemoradiotherapy."
+  },
+  "content": {
+    "abstract": "Chemoradiotherapy (CRT) is the standard-of-care therapy for many solid malignancies, yet predictive biomarkers of treatment response remain limited. We identified a germline single nucleotide polymorphism (SNP) in an intrinsically disordered region of the lysine demethylase KDM3C/JMJD1C (p.S464T) that is associated with CRT outcomes in locally advanced rectal cancers (LARC) and head and neck squamous cell carcinoma (LA-HNSCC). In silico modeling with AlphaFold predicted S464T substitution influenced interaction between phosphorylated KDM3C and RNF8 FHA domain. In cellular models, conversion of S464 to T464 increased sensitivity to DNA-damaging agents. S464T substitution impaired damage-induced MDC1-RAP80 signaling and downstream RAP80-BRCA1 colocalization. SNP carrying cells impaired DNA repair causing genotoxic stress that is associated with increased cGAS-cGAMP innate immune signaling and increased apoptosis. Population analyses with the SNP highlighted an increase incidence of UV-induced skin and other cancers, linking inherited variation in the chromatin regulatory gene KDM3C to genome instability, cancer risk, and therapeutic vulnerability.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hasan, Adria",
+        "Demidova, Elena V",
+        "Priyadarshini, Pragya",
+        "Czyzewicz, Philip",
+        "Gathuka, Leonny",
+        "Murayama, Takahiko",
+        "Zhou, Yan",
+        "Kiss, Zachary Ac",
+        "Shastry, Raksha Kr",
+        "Andrake, Mark",
+        "Hearne, Gavin",
+        "Devarajan, Karthik",
+        "Wu, Chao",
+        "Shah, Anshul",
+        "Schultz, Bryant M",
+        "Connolly, Denise C",
+        "Rosen, Gail L",
+        "Canadas, Israel",
+        "Liu, Jeffrey C",
+        "Burtness, Barbara A",
+        "Smith, Jesse Joshua",
+        "Dunbrack, Roland L",
+        "Golemis, Erica A",
+        "Whetstine, Johnathan R",
+        "Meyer, Joshua E",
+        "Arora, Sanjeevani"
+      ],
+      "short_names": [
+        "Hasan A",
+        "Demidova EV",
+        "Priyadarshini P",
+        "Czyzewicz P",
+        "Gathuka L",
+        "Murayama T",
+        "Zhou Y",
+        "Kiss ZA",
+        "Shastry RK",
+        "Andrake M",
+        "Hearne G",
+        "Devarajan K",
+        "Wu C",
+        "Shah A",
+        "Schultz BM",
+        "Connolly DC",
+        "Rosen GL",
+        "Canadas I",
+        "Liu JC",
+        "Burtness BA",
+        "Smith JJ",
+        "Dunbrack RL",
+        "Golemis EA",
+        "Whetstine JR",
+        "Meyer JE",
+        "Arora S"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-1651-0822",
+        "ORCID: 0000-0003-1763-5750",
+        "ORCID: 0000-0002-8273-589X"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Hasan, Adria",
+        "short_name": "Hasan A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Demidova, Elena V",
+        "short_name": "Demidova EV",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Priyadarshini, Pragya",
+        "short_name": "Priyadarshini P",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Czyzewicz, Philip",
+        "short_name": "Czyzewicz P",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gathuka, Leonny",
+        "short_name": "Gathuka L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Murayama, Takahiko",
+        "short_name": "Murayama T",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhou, Yan",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kiss, Zachary Ac",
+        "short_name": "Kiss ZA",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Shastry, Raksha Kr",
+        "short_name": "Shastry RK",
+        "identifiers": [
+          "0009-0003-1651-0822"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Andrake, Mark",
+        "short_name": "Andrake M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hearne, Gavin",
+        "short_name": "Hearne G",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Devarajan, Karthik",
+        "short_name": "Devarajan K",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wu, Chao",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Shah, Anshul",
+        "short_name": "Shah A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Schultz, Bryant M",
+        "short_name": "Schultz BM",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Connolly, Denise C",
+        "short_name": "Connolly DC",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Rosen, Gail L",
+        "short_name": "Rosen GL",
+        "identifiers": [
+          "0000-0003-1763-5750"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Canadas, Israel",
+        "short_name": "Canadas I",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Liu, Jeffrey C",
+        "short_name": "Liu JC",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Burtness, Barbara A",
+        "short_name": "Burtness BA",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Smith, Jesse Joshua",
+        "short_name": "Smith JJ",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Dunbrack, Roland L",
+        "short_name": "Dunbrack RL",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Golemis, Erica A",
+        "short_name": "Golemis EA",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Whetstine, Johnathan R",
+        "short_name": "Whetstine JR",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Meyer, Joshua E",
+        "short_name": "Meyer JE",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Arora, Sanjeevani",
+        "short_name": "Arora S",
+        "identifiers": [
+          "0000-0002-8273-589X"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "medRxiv : the preprint server for health sciences"
+    ],
+    "journal_abbrev": [
+      "medRxiv"
+    ],
+    "pub_date": "2026 Aug 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/13 05:41",
+    "fetched_at": "2026-09-20 07:34:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42732193",
+      "27465548",
+      "24240613",
+      "18550271",
+      "41601672",
+      "18077395",
+      "36778420",
+      "31107542",
+      "33506057",
+      "28678401",
+      "34908512",
+      "42210090",
+      "28143445",
+      "42718586",
+      "21875606",
+      "27608007",
+      "35789992",
+      "37467684",
+      "30646957",
+      "33692216",
+      "31515237",
+      "20567625",
+      "41612885",
+      "34437813",
+      "23226053",
+      "30973677",
+      "42510932",
+      "23490283",
+      "32345666",
+      "19305427",
+      "32524284",
+      "41749511",
+      "41009656",
+      "42154368",
+      "18768166",
+      "18001825",
+      "34309735",
+      "40052649",
+      "24958516",
+      "33714009",
+      "19797077",
+      "33342577",
+      "40838991",
+      "39567962",
+      "40759282",
+      "41730003",
+      "31165040",
+      "18001824",
+      "35390246",
+      "38869038",
+      "30022091",
+      "36573562",
+      "36640618",
+      "26937435",
+      "39978426",
+      "35378404",
+      "26381412",
+      "20023648",
+      "26336991",
+      "34142659",
+      "31703649",
+      "41158234",
+      "26328888",
+      "32936912",
+      "31749055",
+      "36745138",
+      "17621610",
+      "35172587",
+      "41484607",
+      "41948912",
+      "40099538",
+      "27720129",
+      "42081182",
+      "29936769",
+      "27938998",
+      "30979744",
+      "40563049",
+      "21570215",
+      "31321084",
+      "31192117",
+      "26124202",
+      "37403098",
+      "17472413",
+      "28423495",
+      "21890746",
+      "42565918",
+      "34309212",
+      "21737503",
+      "38286657",
+      "37392723",
+      "35768785",
+      "34475205",
+      "29575240",
+      "33794205",
+      "40048190",
+      "37314748",
+      "28068245",
+      "24490130",
+      "29491055",
+      "24604319"
+    ],
+    "review": [
+      "42732193",
+      "18550271",
+      "37467684",
+      "34437813",
+      "42154368",
+      "40759282",
+      "31165040",
+      "36573562",
+      "36640618",
+      "39978426",
+      "36745138",
+      "17472413",
+      "42565918"
+    ],
+    "pmc": [
+      "13564808"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42732193/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.08.26.26360896",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}
