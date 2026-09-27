@@ -1,0 +1,233 @@
+{
+  "identity": {
+    "pmid": "42790418",
+    "doi": "10.1016/j.str.2026.09.001",
+    "title": "Chaperoning by dynamic encasement: Structural basis of linker histone H1 nuclear import."
+  },
+  "content": {
+    "abstract": "Importins transport numerous proteins into cell nuclei. They also chaperone highly positively charged cargoes against ionic aggregation during transit. An extreme example is histone H1, which requires two importins, Importin 7 (Imp7) and Importin beta (Impbeta), for safe import. Here, we present a combined cryoelectron microscopy (cryo-EM)/molecular dynamics (MD) structure of the Imp7.Impbeta.H1 complex, correcting a previous model (PDB 6N88) with misassigned importin chains. Our structure reveals that Imp7 contacts Impbeta via three interfaces and that this heterodimerization creates a large negatively charged cavity. The globular H1-domain is recognized by Imp7 alone. The highly cationic C-terminal H1-tail participates in fluid-like transient interactions, contacting the inner surface of Impbeta before returning to the alpha-solenoid and long acidic loop of Imp7. This architecture and dynamics explain how the importins shield the histone's enormous positive charge while avoiding interactions too strong for efficient intranuclear cargo release. Finally, we report a RanGTP.Imp7 structure, illustrating how RanGTP dissociates the import complex inside nuclei.",
+    "keywords": [
+      "RanGTPase",
+      "chaperone",
+      "chromatin",
+      "histone H1",
+      "importin",
+      "intrinsically disordered protein",
+      "molecular dynamics",
+      "nuclear pore",
+      "nuclear transport",
+      "nucleosome"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fu, Zhenglin",
+        "Chafra, Fatma",
+        "Freytag, Bernard",
+        "Huyton, Trevor",
+        "Gorlich, Dirk"
+      ],
+      "short_names": [
+        "Fu Z",
+        "Chafra F",
+        "Freytag B",
+        "Huyton T",
+        "Gorlich D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cellular Logistics, Max Planck Institute for Multidisciplinary Sciences, am Fassberg 11, 37077 Gottingen, Germany.",
+        "Department of Cellular Logistics, Max Planck Institute for Multidisciplinary Sciences, am Fassberg 11, 37077 Gottingen, Germany.",
+        "Department of Cellular Logistics, Max Planck Institute for Multidisciplinary Sciences, am Fassberg 11, 37077 Gottingen, Germany.",
+        "Department of Cellular Logistics, Max Planck Institute for Multidisciplinary Sciences, am Fassberg 11, 37077 Gottingen, Germany.",
+        "Department of Cellular Logistics, Max Planck Institute for Multidisciplinary Sciences, am Fassberg 11, 37077 Gottingen, Germany. Electronic address: goerlich@mpinat.mpg.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fu, Zhenglin",
+        "short_name": "Fu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular Logistics, Max Planck Institute for Multidisciplinary Sciences, am Fassberg 11, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Chafra, Fatma",
+        "short_name": "Chafra F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular Logistics, Max Planck Institute for Multidisciplinary Sciences, am Fassberg 11, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Freytag, Bernard",
+        "short_name": "Freytag B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular Logistics, Max Planck Institute for Multidisciplinary Sciences, am Fassberg 11, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Huyton, Trevor",
+        "short_name": "Huyton T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular Logistics, Max Planck Institute for Multidisciplinary Sciences, am Fassberg 11, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Görlich, Dirk",
+        "short_name": "Görlich D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular Logistics, Max Planck Institute for Multidisciplinary Sciences, am Fassberg 11, 37077 Göttingen, Germany. Electronic address: goerlich@mpinat.mpg.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Structure (London, England : 1993)"
+    ],
+    "journal_abbrev": [
+      "Structure"
+    ],
+    "pub_date": "2026 Sep 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/25 23:47",
+    "fetched_at": "2026-09-27 07:48:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42790418",
+      "30824373",
+      "10228156",
+      "12080050",
+      "41529687",
+      "37450495",
+      "41736444",
+      "36103578",
+      "27528606",
+      "36747879",
+      "11823430",
+      "16222336",
+      "34992286",
+      "17485461",
+      "28475873",
+      "42411008",
+      "15602554",
+      "32734712",
+      "15864302",
+      "33238161",
+      "35246520",
+      "11815630",
+      "37619707",
+      "17052178",
+      "11423015",
+      "21780770",
+      "27098855",
+      "30855230",
+      "27518410",
+      "21029753",
+      "35679404",
+      "42182196",
+      "17360709",
+      "9102465",
+      "9135132",
+      "24823279",
+      "33617899",
+      "10428841",
+      "35679401",
+      "37214834",
+      "19193229",
+      "19835572",
+      "19494118",
+      "35013395",
+      "25748139",
+      "18485366",
+      "16704975",
+      "15795315",
+      "40390365",
+      "35679397",
+      "20927327",
+      "28166455",
+      "20925424",
+      "24218562",
+      "22510057",
+      "41381450",
+      "12176322",
+      "11535586",
+      "11318643",
+      "17551513",
+      "33667509",
+      "41795455",
+      "37379840",
+      "23130102",
+      "32642505",
+      "36659983",
+      "34643426",
+      "35066947",
+      "10336485",
+      "12885761",
+      "27030801",
+      "37432033",
+      "42044761",
+      "35618225",
+      "20471264",
+      "29263320",
+      "33300986",
+      "39229246",
+      "36610392",
+      "11124902",
+      "8896452",
+      "9405152",
+      "28835592",
+      "36066346",
+      "37214964",
+      "37517693",
+      "25662603",
+      "9531546",
+      "19435463",
+      "32165536",
+      "22334665",
+      "42190066",
+      "26523678",
+      "15542834",
+      "42066049",
+      "36468865",
+      "35870650",
+      "41542470",
+      "18028944",
+      "18305100"
+    ],
+    "review": [
+      "42790418",
+      "41736444",
+      "11423015",
+      "27098855",
+      "21029753",
+      "24823279",
+      "36659983",
+      "42044761",
+      "33300986",
+      "42190066"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "identity": {
+    "pmid": "42786417",
+    "doi": "10.1002/prot.70180",
+    "title": "Decoding RNA-Dependent Protein Phase Separation Using an Ensemble-Based Deep Learning Framework Integrating ProtBERT Embeddings With Physicochemical Features."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) drives the formation of membraneless biomolecular condensates that regulate essential cellular processes including gene expression, stress response, and signal transduction. A critical challenge in this field is distinguishing RNA-dependent from RNA-independent condensates, a distinction central to the pathology of neurodegenerative disorders. Current computational approaches typically overlook this separation. Here, we introduce an interpretable two-stage deep learning framework that first predicts the likelihood of a protein sequence undergoing phase separation, and subsequently determines whether condensate formation is RNA-dependent. Our framework integrates deep contextual embeddings obtained from ProtBERT, a pretrained protein language transformer with 66 handcrafted sequence-derived features. These representations are processed using an ensemble of machine learning classifiers, and their outputs are combined using a stacked artificial neural network, capturing both local sequence traits and global contextual information. Interpretability analyses like SHAP and feature correlation demonstrate that the most predictive ProtBERT embedding dimensions are associated with sequence-derived hallmarks of LLPS, including descriptors related to intrinsic disorder and multivalent interaction motifs. Benchmarking shows that our framework achieves superior performance compared to the existing predictors on the external test set with 96.5% accuracy, F1-score of 0.965, and MCC of 0.931. It also shows superior performance over the sole existing RNA-dependent LLPS predictor. Structural analysis of representative misclassifications further reveals how spatial constraints and topology modulate phase separation beyond sequence features. This study offers a unified approach for modeling RNA-mediated phase separation from protein sequence and establishes a foundation for bridging sequence-based prediction with structural understanding of biomolecular condensates.",
+    "keywords": [
+      "ProtBERT",
+      "RNA-dependent condensation",
+      "intrinsically disordered regions",
+      "liquid-liquid phase separation (LLPS)",
+      "machine learning (ML)",
+      "protein-RNA interactions"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chatterjee, Sonali",
+        "Saha, Tanujay",
+        "Bahadur, Ranjit Prasad"
+      ],
+      "short_names": [
+        "Chatterjee S",
+        "Saha T",
+        "Bahadur RP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1319-6941",
+        "ORCID: 0000-0002-0187-9884",
+        "ORCID: 0000-0002-6705-1713"
+      ],
+      "affiliations": [
+        "Computational Structural Biology Laboratory, Department of Bioscience and Biotechnology, Indian Institute of Technology Kharagpur, Kharagpur, India.",
+        "Department of Electrical and Computer Engineering, Princeton University, Princeton, New Jersey, USA.",
+        "Computational Structural Biology Laboratory, Department of Bioscience and Biotechnology, Indian Institute of Technology Kharagpur, Kharagpur, India.",
+        "Bioinformatics Center, Department of Bioscience and Biotechnology, Indian Institute of Technology Kharagpur, Kharagpur, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chatterjee, Sonali",
+        "short_name": "Chatterjee S",
+        "identifiers": [
+          "0000-0002-1319-6941"
+        ],
+        "affiliations": [
+          "Computational Structural Biology Laboratory, Department of Bioscience and Biotechnology, Indian Institute of Technology Kharagpur, Kharagpur, India."
+        ]
+      },
+      {
+        "full_name": "Saha, Tanujay",
+        "short_name": "Saha T",
+        "identifiers": [
+          "0000-0002-0187-9884"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Princeton University, Princeton, New Jersey, USA."
+        ]
+      },
+      {
+        "full_name": "Bahadur, Ranjit Prasad",
+        "short_name": "Bahadur RP",
+        "identifiers": [
+          "0000-0002-6705-1713"
+        ],
+        "affiliations": [
+          "Computational Structural Biology Laboratory, Department of Bioscience and Biotechnology, Indian Institute of Technology Kharagpur, Kharagpur, India.",
+          "Bioinformatics Center, Department of Bioscience and Biotechnology, Indian Institute of Technology Kharagpur, Kharagpur, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2026 Sep 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/25 05:31",
+    "fetched_at": "2026-09-27 07:48:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42786417",
+      "42475469",
+      "42153320",
+      "40632496",
+      "41241351",
+      "41405960",
+      "42716909",
+      "42628918",
+      "42214054",
+      "41977286",
+      "42281397",
+      "42286075",
+      "39067723",
+      "41480717",
+      "40794947",
+      "33827920",
+      "42634172",
+      "40616404",
+      "38231854",
+      "41807480",
+      "29511089",
+      "37609923",
+      "42437078",
+      "42243951",
+      "33081049",
+      "41337585",
+      "42105592",
+      "41587927",
+      "42450121",
+      "42402023",
+      "39434494",
+      "42383738",
+      "40588121",
+      "40618698",
+      "38526948",
+      "42380674",
+      "42464502",
+      "42184109",
+      "42428990",
+      "41731742",
+      "41905267",
+      "41457474",
+      "36920190",
+      "38322526",
+      "42599984",
+      "41000164",
+      "33535034",
+      "28924037",
+      "38446881",
+      "33139563",
+      "42723829",
+      "42228714",
+      "41902287",
+      "36524527",
+      "35481633",
+      "42675502",
+      "41527527",
+      "42106138",
+      "40629388",
+      "40943143",
+      "40291420",
+      "35168563",
+      "41497175",
+      "35142991",
+      "37459437",
+      "42177842",
+      "42310761",
+      "40799657",
+      "36471564",
+      "32371601",
+      "41575805",
+      "41053545",
+      "28245811",
+      "33913240",
+      "39947751",
+      "42432495",
+      "31911439",
+      "42635213",
+      "31237369",
+      "41524628",
+      "38380794",
+      "41092354",
+      "42503799",
+      "32405004",
+      "41206632",
+      "42054815",
+      "42315359",
+      "39866853",
+      "42126444",
+      "36350034",
+      "41354216",
+      "41677811",
+      "22574904",
+      "32696384",
+      "41169547",
+      "36009025",
+      "35883530",
+      "39006762",
+      "41535729",
+      "40811205"
+    ],
+    "review": [
+      "42786417",
+      "41480717",
+      "40616404",
+      "42437078",
+      "42243951",
+      "41587927",
+      "42184109",
+      "36524527",
+      "42675502",
+      "40943143",
+      "41497175",
+      "35142991",
+      "41575805",
+      "33913240",
+      "39947751",
+      "31911439",
+      "31237369",
+      "41206632",
+      "36350034"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

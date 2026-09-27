@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "42785438",
+    "doi": "10.1016/j.jbc.2026.113607",
+    "title": "Tubulin C-terminal tails are pH sensors that regulate microtubule function."
+  },
+  "content": {
+    "abstract": "Changes in intracellular pH are critical for maintaining homeostasis, mediating signaling pathways, and enabling cellular responses to stress, injury, and disease. There is increasing evidence that clusters of acidic residues, primarily glutamates, are both highly prevalent and conserved in disordered regions of proteins and can play an important role in cellular pH response. Tubulin C-terminal tails (CTTs) are glutamate rich regions which protrude from the microtubule surface. These tails are a primary site of for both post-translational modifications and binding of microtubule-associated proteins. Motivated by these observations, we measured the pH response of tubulin CTTs using NMR spectroscopy, circular dichroism, and computational simulations. We find that glutamate residues in CTTs taken from organisms across eukaryotes exhibit a robust upshift in their pK(a) values, that the sequential context of glutamate residues creates hot spots for protonation, and that hydrogen bonding between side chains stabilizes interactions that alter the conformation of the CTT. To determine whether the CTT pH response plays a potentially important role in microtubule interactions, we measured the pH dependence of the binding of the yeast kinesin-5, Cin8, to microtubules. We find that Cin8 binding is modulated by pH in a CTT-dependent manner. Our results demonstrate that acidic clusters are important mediators of cellular pH response and establish that pH can regulate interactions at the microtubule surface.",
+    "keywords": [
+      "acidic residues",
+      "intrinsically disordered regions",
+      "pH-dependence",
+      "tubulin"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Whited, A M",
+        "DeLear, Patrick",
+        "Thomas, Ezekiel C",
+        "Allen, Jeffre",
+        "Ferrer-Imbert, Genesis",
+        "Acharya, Nirbhik",
+        "Castaneda, Carlos A",
+        "Sept, David",
+        "Moore, Jeffrey K",
+        "Hough, Loren E"
+      ],
+      "short_names": [
+        "Whited AM",
+        "DeLear P",
+        "Thomas EC",
+        "Allen J",
+        "Ferrer-Imbert G",
+        "Acharya N",
+        "Castaneda CA",
+        "Sept D",
+        "Moore JK",
+        "Hough LE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA.",
+        "Department of Biophysics, University of Michigan, Ann Arbor, MI, USA.",
+        "University of Colorado Anschutz Medical Campus, Aurora, CO, USA.",
+        "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA.",
+        "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA; , University of California Berkeley, CA, USA.",
+        "Departments of Biology and Chemistry, Syracuse University, NY, USA.",
+        "Departments of Biology and Chemistry, Syracuse University, NY, USA.",
+        "Department of Biophysics, University of Michigan, Ann Arbor, MI, USA; Department of Biomedical Engineering, University of Michigan, Ann Arbor, MI, USA.",
+        "University of Colorado Anschutz Medical Campus, Aurora, CO, USA.",
+        "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA. Electronic address: loren.hough@colorado.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Whited, A M",
+        "short_name": "Whited AM",
+        "identifiers": [],
+        "affiliations": [
+          "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA."
+        ]
+      },
+      {
+        "full_name": "DeLear, Patrick",
+        "short_name": "DeLear P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Thomas, Ezekiel C",
+        "short_name": "Thomas EC",
+        "identifiers": [],
+        "affiliations": [
+          "University of Colorado Anschutz Medical Campus, Aurora, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Allen, Jeffre",
+        "short_name": "Allen J",
+        "identifiers": [],
+        "affiliations": [
+          "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Ferrer-Imbert, Génesis",
+        "short_name": "Ferrer-Imbert G",
+        "identifiers": [],
+        "affiliations": [
+          "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA; , University of California Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Acharya, Nirbhik",
+        "short_name": "Acharya N",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Biology and Chemistry, Syracuse University, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Castañeda, Carlos A",
+        "short_name": "Castañeda CA",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Biology and Chemistry, Syracuse University, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Sept, David",
+        "short_name": "Sept D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, University of Michigan, Ann Arbor, MI, USA; Department of Biomedical Engineering, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Moore, Jeffrey K",
+        "short_name": "Moore JK",
+        "identifiers": [],
+        "affiliations": [
+          "University of Colorado Anschutz Medical Campus, Aurora, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Hough, Loren E",
+        "short_name": "Hough LE",
+        "identifiers": [],
+        "affiliations": [
+          "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA. Electronic address: loren.hough@colorado.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2026 Sep 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/24 23:52",
+    "fetched_at": "2026-09-27 07:48:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42785438",
+      "41867850",
+      "33137305",
+      "24835459",
+      "42168523",
+      "40281262",
+      "27541566",
+      "38479245",
+      "37499261",
+      "17993481",
+      "30992364",
+      "25307498",
+      "41040367",
+      "40920139",
+      "41662400",
+      "29777059",
+      "28701465",
+      "37189368",
+      "40074328",
+      "37519241",
+      "42746985",
+      "37345829",
+      "32245812",
+      "14976555",
+      "21905119",
+      "20071331",
+      "41002034",
+      "30079401",
+      "39688542",
+      "42179625",
+      "39386529",
+      "42381291",
+      "28300595",
+      "11864572",
+      "34022132",
+      "40489183",
+      "22674872",
+      "30968464",
+      "17692336",
+      "25805498",
+      "42427032",
+      "31896752",
+      "42489236",
+      "28290671",
+      "26165356",
+      "17563362",
+      "24633327",
+      "24995158",
+      "10339593",
+      "17611012",
+      "36472095",
+      "42690079",
+      "33865866",
+      "29127738",
+      "32462384",
+      "30770469",
+      "42374736",
+      "24227885",
+      "8703922",
+      "42405052",
+      "22296162",
+      "19074767",
+      "40894690",
+      "9880330",
+      "27872189",
+      "19778897",
+      "35511030",
+      "16113108",
+      "41422841",
+      "42475469",
+      "30655442",
+      "11747426",
+      "37074962",
+      "28483842",
+      "22467876",
+      "27551082",
+      "40593209",
+      "9406432",
+      "19913027",
+      "20423510",
+      "26055718",
+      "28710275",
+      "31953325",
+      "30980604",
+      "25720490",
+      "2138610",
+      "31699899",
+      "27353867",
+      "41503815",
+      "7664757",
+      "29963657",
+      "19619244",
+      "9415375",
+      "37572662",
+      "23973083",
+      "24927501",
+      "41519300",
+      "26306046",
+      "41933762",
+      "36866642"
+    ],
+    "review": [
+      "42785438",
+      "25307498",
+      "24995158",
+      "40593209"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(26)02479-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

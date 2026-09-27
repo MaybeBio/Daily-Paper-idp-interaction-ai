@@ -1,0 +1,252 @@
+{
+  "identity": {
+    "pmid": "42789225",
+    "doi": "10.1140/epje/s10189-026-00634-3",
+    "title": "A Brownian dynamics study of liquid-liquid phase separation in multiscale chromatin networks."
+  },
+  "content": {
+    "abstract": "In living cells, proteins involved in specialized biochemical functions are often spatially organized within biomolecular condensates. Increasing evidence suggests that some of these condensates, including DNA repair condensates, emerge through liquid-liquid phase separation (LLPS). In the nucleus, however, condensates form within a highly heterogeneous environment composed of chromatin fibers, RNA, and additional protein scaffolds such as PAR chains, all of which may interact with phase-separating proteins. Moreover, condensate formation is frequently associated with specific chromatin conformations; for instance, loop extrusion has been proposed as a mechanism promoting DNA repair condensates. Here, we investigate how the surrounding fibrous environment controls the morphology and spatial organization of phase-separated condensates. Using Brownian dynamics simulations of minimal models combining Lennard-Jones particles with fixed fibrous substrates, we examine the respective roles of local fiber geometry and large-scale network organization, reflecting the multiscale architecture of chromatin. We show that protein-fiber interactions strongly influence droplet positioning relative to the substrate, in a manner analogous to wetting transitions in soft condensed matter systems. Both local geometric constraints and global network organization markedly affect droplet size, morphology, and multiplicity. In addition, large-scale asymmetries in fiber organization can induce robust spatial localization of the dense phase. Our results thus highlight how multiscale structural heterogeneity of the nuclear environment can regulate the emergence and organization of biomolecular condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phase Separation",
+      "*Chromatin/chemistry/metabolism",
+      "Biomolecular Condensates/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Beaules, Lea",
+        "Mine-Hattab, Judith",
+        "Illien, Pierre",
+        "Dahirel, Vincent"
+      ],
+      "short_names": [
+        "Beaules L",
+        "Mine-Hattab J",
+        "Illien P",
+        "Dahirel V"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9997-3344"
+      ],
+      "affiliations": [
+        "Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (PHENIX), CNRS, Sorbonne Universite, 4 Place Jussieu, 75005, Paris, France.",
+        "Laboratory of Computational, Quantitative and Synthetic Biology (CQSB), CNRS, Institut de Biologie Paris-Seine, Sorbonne Universite, 4 Place Jussieu, 75005, Paris, France.",
+        "Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (PHENIX), CNRS, Sorbonne Universite, 4 Place Jussieu, 75005, Paris, France.",
+        "Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (PHENIX), CNRS, Sorbonne Universite, 4 Place Jussieu, 75005, Paris, France. vincent.dahirel@sorbonne-universite.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Beaulès, Léa",
+        "short_name": "Beaulès L",
+        "identifiers": [],
+        "affiliations": [
+          "Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (PHENIX), CNRS, Sorbonne Université, 4 Place Jussieu, 75005, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Miné-Hattab, Judith",
+        "short_name": "Miné-Hattab J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational, Quantitative and Synthetic Biology (CQSB), CNRS, Institut de Biologie Paris-Seine, Sorbonne Université, 4 Place Jussieu, 75005, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Illien, Pierre",
+        "short_name": "Illien P",
+        "identifiers": [],
+        "affiliations": [
+          "Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (PHENIX), CNRS, Sorbonne Université, 4 Place Jussieu, 75005, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Dahirel, Vincent",
+        "short_name": "Dahirel V",
+        "identifiers": [
+          "0000-0001-9997-3344"
+        ],
+        "affiliations": [
+          "Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (PHENIX), CNRS, Sorbonne Université, 4 Place Jussieu, 75005, Paris, France. vincent.dahirel@sorbonne-universite.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The European physical journal. E, Soft matter"
+    ],
+    "journal_abbrev": [
+      "Eur Phys J E Soft Matter"
+    ],
+    "pub_date": "2026 Sep 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/25 17:33",
+    "fetched_at": "2026-09-27 07:48:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42789225",
+      "40645941",
+      "39976773",
+      "41343645",
+      "41587927",
+      "35881789",
+      "40954121",
+      "41074186",
+      "33765580",
+      "39168125",
+      "40661408",
+      "23912807",
+      "40661423",
+      "40848932",
+      "39704952",
+      "42126444",
+      "40327693",
+      "41480717",
+      "38547652",
+      "30514760",
+      "38446881",
+      "42580406",
+      "41692248",
+      "35727989",
+      "40098319",
+      "34129784",
+      "32487073",
+      "40515902",
+      "39987501",
+      "41657248",
+      "34271007",
+      "42474060",
+      "40527409",
+      "37470705",
+      "37307918",
+      "42081454",
+      "41535729",
+      "42595027",
+      "42692763",
+      "41721403",
+      "42064063",
+      "41354071",
+      "40507965",
+      "34767801",
+      "42315359",
+      "40748104",
+      "37806293",
+      "34311273",
+      "34182258",
+      "36524527",
+      "36993212",
+      "40291420",
+      "37489654",
+      "39413416",
+      "41360394",
+      "36883003",
+      "41524628",
+      "34303933",
+      "41860722",
+      "41700935",
+      "40616404",
+      "39121161",
+      "41575805",
+      "36227474",
+      "40791163",
+      "38526948",
+      "42754322",
+      "41904596",
+      "34772789",
+      "42288240",
+      "36227470",
+      "42161866",
+      "34830152",
+      "34916288",
+      "42065721",
+      "38251748",
+      "42674539",
+      "37925283",
+      "42383738",
+      "36412795",
+      "36106018",
+      "32548680",
+      "39075031",
+      "39964249",
+      "37239436",
+      "41039633",
+      "39947751",
+      "42554499",
+      "35803926",
+      "38621751",
+      "37293933",
+      "40381401",
+      "40557772",
+      "33672806",
+      "31543265",
+      "33864415",
+      "39591652",
+      "33938164",
+      "42056202",
+      "31754043"
+    ],
+    "review": [
+      "42789225",
+      "39976773",
+      "41587927",
+      "33765580",
+      "41480717",
+      "38547652",
+      "41692248",
+      "34129784",
+      "34271007",
+      "42474060",
+      "40527409",
+      "42595027",
+      "41721403",
+      "42064063",
+      "41354071",
+      "40507965",
+      "34767801",
+      "37806293",
+      "34311273",
+      "34182258",
+      "36524527",
+      "34303933",
+      "41860722",
+      "40616404",
+      "41575805",
+      "42754322",
+      "41904596",
+      "34772789",
+      "42161866",
+      "34830152",
+      "42065721",
+      "37925283",
+      "36106018",
+      "32548680",
+      "39964249",
+      "37239436",
+      "39947751",
+      "42554499",
+      "35803926",
+      "38621751",
+      "40381401",
+      "40557772",
+      "33938164"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

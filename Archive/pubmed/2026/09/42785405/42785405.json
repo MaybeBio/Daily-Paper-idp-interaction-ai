@@ -1,0 +1,219 @@
+{
+  "identity": {
+    "pmid": "42785405",
+    "doi": "10.1016/j.ijbiomac.2026.154380",
+    "title": "ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction identification."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions (PPIs) are molecular lego which define the physical states of cells. Accurately identifying PPIs remains challenging due to the interplay of several factors ranging from electrostatic to molecular geometry, topology, and physics. Existing computational approaches capture only fragments of this orchestra, limiting their generalizability across protein families and interaction types. Here, we present ProMaya, a hierarchical multi-scale Graph-transformer framework which has learned the 3D atomic geometry, electronic distribution, residue-level structure and disorder, surface mass-density signatures, and large protein language-model embeddings of interacting proteins. Highly comprehensively benchmarked across nine species and 47 GB experimentally validated data, ProMaya achieved consistently >95% average accuracy, outperforming state-of-the-art tools by >12%. Its in-built explainability provides clear mechanistic reasoning for the observed interactions. The first time introduced atomic and protein language learning has dramatically made it attain an outstanding level for PPI discovery in absolutely universal manner which can deal any species and potent to even bypass costly experiments.",
+    "keywords": [
+      "Atomic structure",
+      "Deep learning",
+      "Hierarchical geometric graph transformer",
+      "Intrinsically disordered regions",
+      "Protein language model",
+      "Protein-protein interaction",
+      "Surface mass distribution"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bhati, Umesh",
+        "Gupta, Sagar",
+        "Kesarwani, Veerbhan",
+        "Shankar, Ravi"
+      ],
+      "short_names": [
+        "Bhati U",
+        "Gupta S",
+        "Kesarwani V",
+        "Shankar R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur (HP), 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, 201002, India. Electronic address: bhatiumesh007@gmail.com.",
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur (HP), 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, 201002, India. Electronic address: sagargupta47321@gmail.com.",
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur (HP), 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, 201002, India. Electronic address: veerbhan8586@gmail.com.",
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur (HP), 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, 201002, India. Electronic address: ravish@ihbt.res.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bhati, Umesh",
+        "short_name": "Bhati U",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur (HP), 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, 201002, India. Electronic address: bhatiumesh007@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Gupta, Sagar",
+        "short_name": "Gupta S",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur (HP), 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, 201002, India. Electronic address: sagargupta47321@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Kesarwani, Veerbhan",
+        "short_name": "Kesarwani V",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur (HP), 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, 201002, India. Electronic address: veerbhan8586@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Shankar, Ravi",
+        "short_name": "Shankar R",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur (HP), 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, 201002, India. Electronic address: ravish@ihbt.res.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Sep 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/24 23:52",
+    "fetched_at": "2026-09-27 07:48:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42785405",
+      "42475469",
+      "41596767",
+      "41257586",
+      "41276805",
+      "23912807",
+      "40119464",
+      "41495146",
+      "42691127",
+      "40174317",
+      "42645779",
+      "36841846",
+      "39848362",
+      "33719344",
+      "41206398",
+      "41749211",
+      "39102976",
+      "38536676",
+      "40754535",
+      "41094395",
+      "40883823",
+      "36088285",
+      "40275540",
+      "41967848",
+      "41564068",
+      "42587290",
+      "41031876",
+      "42157243",
+      "42050415",
+      "42390120",
+      "42228714",
+      "41436386",
+      "39484977",
+      "38783112",
+      "40845562",
+      "41023600",
+      "41816949",
+      "41570305",
+      "41536689",
+      "38564358",
+      "40748800",
+      "31787089",
+      "42743972",
+      "40943585",
+      "42767002",
+      "42391908",
+      "41534519",
+      "32144844",
+      "42119874",
+      "41284811",
+      "40745316",
+      "41902842",
+      "41648466",
+      "31245182",
+      "41021316",
+      "41864877",
+      "38097937",
+      "40306096",
+      "32693790",
+      "41053908",
+      "41677811",
+      "42223886",
+      "40600339",
+      "42508236",
+      "40961942",
+      "42670852",
+      "42619905",
+      "41968747",
+      "37932352",
+      "38241104",
+      "40795814",
+      "40524427",
+      "39707457",
+      "35758793",
+      "34236667",
+      "36623437",
+      "42351902",
+      "28245811",
+      "38064959",
+      "42599200",
+      "41255828",
+      "41946231",
+      "42555322",
+      "41134148",
+      "42500992",
+      "42192491",
+      "41978770",
+      "38166858",
+      "41280851",
+      "42636031",
+      "42526193",
+      "41977286",
+      "40315433",
+      "41002412",
+      "41199760",
+      "42635221",
+      "36576775",
+      "39520116",
+      "39763873",
+      "41896911"
+    ],
+    "review": [
+      "42785405",
+      "41968747"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(26)04326-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

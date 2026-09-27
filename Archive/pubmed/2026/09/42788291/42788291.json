@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "42788291",
+    "doi": "10.1002/anie.1070299",
+    "title": "Molecular Details of RNA Interactions With FUS Condensates Altering Assembly, Dynamics, and Aggregation."
+  },
+  "content": {
+    "abstract": "Fused in sarcoma (FUS) is an RNA-binding protein that undergoes phase separation with RNA and other cellular components, forming ribonucleoprotein (RNP) granules. While recent advances in the study of biomolecular phase separation have focused on protein-protein interactions, information on the molecular details of protein-RNA interactions within condensates remains limited. Here, we demonstrate how RNA modulates the phase separation of the low-complexity (LC) and arginine-glycine-glycine motif (RGG1) domains of FUS-low RNA concentrations enhance protein phase separation and excess RNA disrupts it. Integrating biochemical assays, NMR spectroscopy, and molecular dynamics simulations, we show that RNA incorporates into FUS condensates, reducing condensate density, drawing in water and ions, and enhancing local and diffusional motion. Whereas RNA binding in the dispersed phase primarily involves RGG1, within the condensed phase both LC and RGG1 contribute to RNA interactions. A diverse set of interactions between amino acids and RNA moieties, including prominent glutamine contacts, contributes to FUS-RNA co-condensates. RNA displaces RGG-mediated protein contacts while enhancing LC-LC interactions, providing a molecular basis for RNA-driven condensate interaction network remodeling. Furthermore, RNA accelerates the liquid-to-solid transition of FUS LC-RGG1 condensates. Together, these results provide mechanistic insight into how RNA regulates condensate assembly, dynamics, and maturation.",
+    "keywords": [
+      "NMR spectroscopy",
+      "intrinsically disordered protein",
+      "molecular dynamics simulation",
+      "phase separation",
+      "protein-RNA interaction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Tongyin",
+        "Sojitra, Kandarp A",
+        "Cummings, Samara",
+        "Chen, Qizan",
+        "Mohanty, Priyesh",
+        "Mittal, Jeetain",
+        "Fawzi, Nicolas L"
+      ],
+      "short_names": [
+        "Zheng T",
+        "Sojitra KA",
+        "Cummings S",
+        "Chen Q",
+        "Mohanty P",
+        "Mittal J",
+        "Fawzi NL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5132-6436",
+        "ORCID: 0009-0002-8801-699X",
+        "ORCID: 0009-0003-7605-4099",
+        "ORCID: 0009-0002-0058-1952",
+        "ORCID: 0000-0003-3919-3527",
+        "ORCID: 0000-0002-9725-6402",
+        "ORCID: 0000-0001-5483-0577"
+      ],
+      "affiliations": [
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, Rhode Island, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, Rhode Island, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA.",
+        "Department of Chemistry, Texas A&M University, College Station, Texas, USA.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas, USA.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, Rhode Island, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Tongyin",
+        "short_name": "Zheng T",
+        "identifiers": [
+          "0000-0002-5132-6436"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, Rhode Island, USA."
+        ]
+      },
+      {
+        "full_name": "Sojitra, Kandarp A",
+        "short_name": "Sojitra KA",
+        "identifiers": [
+          "0009-0002-8801-699X"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Cummings, Samara",
+        "short_name": "Cummings S",
+        "identifiers": [
+          "0009-0003-7605-4099"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, Rhode Island, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Qizan",
+        "short_name": "Chen Q",
+        "identifiers": [
+          "0009-0002-0058-1952"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Mohanty, Priyesh",
+        "short_name": "Mohanty P",
+        "identifiers": [
+          "0000-0003-3919-3527"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA.",
+          "Department of Chemistry, Texas A&M University, College Station, Texas, USA.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Fawzi, Nicolas L",
+        "short_name": "Fawzi NL",
+        "identifiers": [
+          "0000-0001-5483-0577"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, Rhode Island, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Angewandte Chemie (International ed. in English)"
+    ],
+    "journal_abbrev": [
+      "Angew Chem Int Ed Engl"
+    ],
+    "pub_date": "2026 Sep 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/25 11:45",
+    "fetched_at": "2026-09-27 07:48:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42788291",
+      "41415473",
+      "37890778",
+      "40794831",
+      "34759379",
+      "41278651",
+      "40281357",
+      "31270472",
+      "34862761",
+      "41794289",
+      "41535729",
+      "29677513",
+      "33547841",
+      "34487489",
+      "37961424",
+      "42790799",
+      "35709363",
+      "40857360",
+      "35943083",
+      "28942918",
+      "23912807",
+      "37211763",
+      "38492239",
+      "37720552",
+      "40654645",
+      "32426986",
+      "33302617",
+      "38029395",
+      "29677515",
+      "34156864",
+      "36993212",
+      "28924037",
+      "33307683",
+      "31805282",
+      "40981365",
+      "26455390",
+      "29961577",
+      "40842365",
+      "38279531",
+      "35297101",
+      "39486437",
+      "37231298",
+      "40516596",
+      "39495179",
+      "37134270",
+      "33184287",
+      "40102453",
+      "33991007",
+      "35930639",
+      "36883003",
+      "36453011",
+      "34074792",
+      "37549257",
+      "38157426",
+      "37399327",
+      "37735186",
+      "39591652",
+      "33515602",
+      "38347806",
+      "41865079",
+      "34648275",
+      "29358076",
+      "28790177",
+      "35911965",
+      "36798393",
+      "39372747",
+      "40291420",
+      "33982350",
+      "37155880",
+      "36657879",
+      "41360394",
+      "41933903",
+      "41433062",
+      "35333653",
+      "37523989",
+      "40748104",
+      "30397184",
+      "35203243",
+      "38462838",
+      "37386790",
+      "39535884",
+      "42335378",
+      "30791483",
+      "34018649",
+      "42207631",
+      "40321778",
+      "40291709",
+      "32577653",
+      "41187075",
+      "37205474",
+      "40782375",
+      "39920231",
+      "35918061",
+      "33607084",
+      "37287829",
+      "31188823",
+      "38070499",
+      "38405719",
+      "41524628",
+      "33262375"
+    ],
+    "review": [
+      "42788291",
+      "42790799",
+      "37720552",
+      "38029395",
+      "37399327"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}
