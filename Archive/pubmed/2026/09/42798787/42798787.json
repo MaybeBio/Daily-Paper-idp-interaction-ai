@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "42798787",
+    "doi": "10.3389/fmolb.2026.1941622",
+    "title": "Beyond structures: solution NMR as the quantitative engine of integrated structural biology."
+  },
+  "content": {
+    "abstract": "Structural biology is moving beyond the determination of static molecular structures toward quantitative descriptions of biomolecular mechanisms. Modern questions increasingly focus on conformational heterogeneity, exchange kinetics, weak and transient interactions, allostery, disorder, assembly, and phase behavior. These properties are often difficult to infer from crystallography, cryo-electron microscopy, scattering, imaging, mass spectrometry, molecular simulations, or structural prediction alone. Solution NMR spectroscopy occupies a distinctive position in this integrated landscape because it provides residue- and atom-specific observables that report on structure, dynamics, populations, kinetics, and interactions directly in solution. Here, we review the role of solution NMR in integrated structural biology from a question-centered perspective. Rather than organizing the discussion around individual NMR experiments, we ask how NMR can be used with complementary approaches to address recurring mechanistic problems: What is the structure of a biomolecule in solution? What conformational states are populated, and how rapidly do they interconvert? How do ligands, nucleic acids, membranes, surfaces, or partner proteins bind? How are allosteric signals transmitted? How do disorder, large assemblies, and biomolecular condensates regulate function? How can NMR observables be integrated with simulations and other structural restraints to build testable models? The future of solution NMR lies not primarily in isolated structure determination, but in its ability to transform structural models into dynamic, quantitative, and experimentally constrained descriptions of biomolecular mechanism.",
+    "keywords": [
+      "allostery",
+      "biomolecular dynamics",
+      "biomolecular mechanisms",
+      "integrated structural biology",
+      "solution NMR"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Purslow, Jeffrey A",
+        "Venditti, Vincenzo"
+      ],
+      "short_names": [
+        "Purslow JA",
+        "Venditti V"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, United States.",
+        "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, United States.",
+        "Department of Chemistry, Iowa State University, Ames, IA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Purslow, Jeffrey A",
+        "short_name": "Purslow JA",
+        "identifiers": [],
+        "affiliations": [
+          "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, United States."
+        ]
+      },
+      {
+        "full_name": "Venditti, Vincenzo",
+        "short_name": "Venditti V",
+        "identifiers": [],
+        "affiliations": [
+          "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, United States.",
+          "Department of Chemistry, Iowa State University, Ames, IA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/27 02:27",
+    "fetched_at": "2026-10-04 07:56:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42798787",
+      "42475469",
+      "24687405",
+      "23912807",
+      "31311710",
+      "36641211",
+      "28315749",
+      "24656085",
+      "33525784",
+      "18275162",
+      "32199983",
+      "29911185",
+      "33655754",
+      "30840442",
+      "26068746",
+      "34218543",
+      "31416261",
+      "26269925",
+      "28847507",
+      "37572958",
+      "21318479",
+      "33915352",
+      "24924266",
+      "23836693",
+      "41428274",
+      "32155847",
+      "28056362",
+      "27888840",
+      "32097611",
+      "42406548",
+      "31838649",
+      "40043838",
+      "40857152",
+      "41851975",
+      "39803829",
+      "40562354",
+      "38496243",
+      "24656076",
+      "38801229",
+      "26282197",
+      "24474795",
+      "25152957",
+      "20023721",
+      "40484343",
+      "42081454",
+      "36624049",
+      "27668215",
+      "30617821",
+      "30875725",
+      "29704666",
+      "26952192",
+      "36496256",
+      "29934841",
+      "28809779",
+      "34056803",
+      "10698632",
+      "26761154",
+      "32818875",
+      "41651429",
+      "23868852",
+      "38428364",
+      "25171396",
+      "33545034",
+      "26857803",
+      "39273672",
+      "34845611",
+      "18818721",
+      "38351219",
+      "40849410",
+      "18078545",
+      "30084394",
+      "39837113",
+      "23132077",
+      "34159782",
+      "28428246",
+      "31327528",
+      "23831435",
+      "41652167",
+      "30638533",
+      "27553233",
+      "42610615",
+      "25936778",
+      "18412346",
+      "40912403",
+      "36657879",
+      "19325801",
+      "38490206",
+      "41979917",
+      "34285781",
+      "33351212",
+      "23496894",
+      "21073878",
+      "35849063",
+      "31345771",
+      "42153788",
+      "32088185",
+      "10944756",
+      "29450991",
+      "34074792",
+      "42551069"
+    ],
+    "review": [
+      "42798787",
+      "24687405",
+      "31311710",
+      "36641211",
+      "28315749",
+      "24656085",
+      "18275162",
+      "32199983",
+      "33655754",
+      "30840442",
+      "34218543",
+      "31416261",
+      "26269925",
+      "28847507",
+      "37572958",
+      "21318479",
+      "33915352",
+      "24924266",
+      "23836693",
+      "41428274",
+      "32155847",
+      "28056362",
+      "27888840",
+      "32097611",
+      "31838649",
+      "40043838",
+      "40857152",
+      "39803829",
+      "40562354",
+      "24656076",
+      "26282197",
+      "25152957",
+      "20023721",
+      "40484343",
+      "36624049",
+      "27668215",
+      "30617821",
+      "30875725",
+      "29704666",
+      "26952192",
+      "36496256",
+      "28809779",
+      "34056803",
+      "41651429",
+      "38428364",
+      "25171396",
+      "33545034",
+      "26857803",
+      "39273672",
+      "18078545",
+      "30084394",
+      "39837113",
+      "31327528",
+      "23831435",
+      "41652167",
+      "30638533",
+      "25936778",
+      "40912403",
+      "41979917",
+      "34285781",
+      "23496894",
+      "35849063",
+      "31345771",
+      "32088185",
+      "29450991",
+      "42551069"
+    ],
+    "pmc": [
+      "13613019"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42798787/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2026.1941622",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

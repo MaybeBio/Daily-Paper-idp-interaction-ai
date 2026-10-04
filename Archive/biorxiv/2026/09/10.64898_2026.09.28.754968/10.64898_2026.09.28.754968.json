@@ -1,0 +1,633 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.09.28.754968",
+  "title": "Defining redundancy in the stickers and spacers of the cell-cell junction protein Canoe’s intrinsically disordered region",
+  "doi": "10.64898/2026.09.28.754968",
+  "abstract": "Cell-cell adherens junctions (AJs) and their dynamic cytoskeletal linkage power morphogenesis. AJs are enormous complexes with hundreds of proteins linked by multivalent interactions. Like other biomolecular condensates, intrinsically disordered regions (IDRs) in junctional proteins play important roles in AJ assembly and function, using spacer elements to span distances, and stickers to engage targets. To define molecular mechanisms, we need to define the functional units within IDRs. Drosophila Canoe, homolog of human Afadin, is our model. Canoe mediates morphogenesis and has an extensive IDR, with two conserved F-actin-binding stickers and two poorly conserved spacers. We combined biochemical, genetic and cell biological approaches to define the function of these IDR elements. While no single element is essential, deleting the full IDR essentially eliminates Canoe function. By scrambling the amino acid sequence of the spacers, we find that length and composition are more important than amino acid sequences, though sequences in the C-terminal spacer affect Canoe localization. Finally, we test redundancy of the F-actin-binding stickers. Deleting both reduces but does not eliminate viability, and sensitized assays reveal their redundant roles. These data reveal the robustness of IDRs.",
+  "authors": [
+    "Corbin C. Jensen",
+    "Renick Wiltshire",
+    "Sarah E. Clark",
+    "Jeremy Lamb",
+    "Kevin C. Slep",
+    "Mark Peifer"
+  ],
+  "published_date": "2026-09-29",
+  "updated_date": "2026-09-29T09:00:28Z",
+  "journal": "bioRxiv",
+  "category": "Cell Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754968",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754968.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Cell Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Cell Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            3
+          ]
+        ],
+        "date-time": "2026-10-03T19:53:49Z",
+        "timestamp": 1791057229512,
+        "version": "4.1.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ]
+      },
+      "group-title": "Cell Biology",
+      "reference-count": 63,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                29
+              ]
+            ],
+            "date-time": "2026-09-29T00:00:00Z",
+            "timestamp": 1790640000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "National Institutes of Health",
+          "award": [
+            "NIH R35 GM118096"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "NIH R35 GM118096"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Cell-cell adherens junctions (AJs) and their dynamic cytoskeletal linkage power morphogenesis. AJs are enormous complexes with hundreds of proteins linked by multivalent interactions. Like other biomolecular condensates, intrinsically disordered regions (IDRs) in junctional proteins play important roles in AJ assembly and function, using spacer elements to span distances, and stickers to engage targets. To define molecular mechanisms, we need to define the functional units within IDRs. Drosophila Canoe, homolog of human Afadin, is our model. Canoe mediates morphogenesis and has an extensive IDR, with two conserved F-actin-binding stickers and two poorly conserved spacers. We combined biochemical, genetic and cell biological approaches to define the function of these IDR elements. While no single element is essential, deleting the full IDR essentially eliminates Canoe function. By scrambling the amino acid sequence of the spacers, we find that length and composition are more important than amino acid sequences, though sequences in the C-terminal spacer affect Canoe localization. Finally, we test redundancy of the F-actin-binding stickers. Deleting both reduces but does not eliminate viability, and sensitized assays reveal their redundant roles. These data reveal the robustness of IDRs.</jats:p>",
+      "DOI": "10.64898/2026.09.28.754968",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2026-09-29T09:00:28Z",
+        "timestamp": 1790672428000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Defining redundancy in the stickers and spacers of the cell-cell junction protein Canoe’s intrinsically disordered region"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Corbin C.",
+          "family": "Jensen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Renick",
+          "family": "Wiltshire",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sarah E.",
+          "family": "Clark",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jeremy",
+          "family": "Lamb",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kevin C.",
+          "family": "Slep",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mark",
+          "family": "Peifer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA"
+            },
+            {
+              "name": "Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599 USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2023.102734"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/genetics/165.1.159"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bonello, T. T. , Perez-Vale, K. Z. , Sumigray, K. D. and Peifer, M . (2018). Rap1 acts via multiple mechanisms to position Canoe and adherens junctions and mediate apical-basal polarity establishment. Development 145, dev157941.",
+          "DOI": "10.1242/dev.157941"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2023.01.004"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "7",
+          "DOI": "10.1186/s13064-020-00144-8",
+          "article-title": "The first quarter of the C-terminal domain of Abelson regulates the WAVE regulatory complex and Enabled in axon guidance",
+          "volume": "15",
+          "year": "2020",
+          "journal-title": "Neural Dev"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0189338",
+          "DOI": "10.1371/journal.pone.0189338",
+          "article-title": "Long disordered regions of the C-terminal domain of Abelson tyrosine kinase have specific and additive functions in regulation and axon localization",
+          "volume": "12",
+          "year": "2017",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E12-10-0736"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2020.11.023"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.119.4.1359"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.134.1.133"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D5CC04777C"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2023.09.018"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "95",
+          "DOI": "10.1007/978-1-0716-2663-4_4",
+          "article-title": "An Introduction to the Stickers-and-Spacers Framework as Applied to Biomolecular Condensates",
+          "volume": "2563",
+          "year": "2023",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gong, R. , Reynolds, M. J. , Sun, X. and Alushin, G. M . (2025). Afadin mediates cadherin-catenin complex clustering on F-actin linked to cooperative binding and filament curvature. Sci Adv 11, eadu0989.",
+          "DOI": "10.1126/sciadv.adu0989"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0289224"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.200406024"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2024.12.021"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-023-00673-0"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.146.5.1117"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jensen, C. C. , Gurley, N. J. , Mathias, A. J. , Wolfsberg, L. R. , Xiao, Y. , Zhou, Z. , Bischoff, M. C. , Clark, S. E. , Slep, K. C. and Peifer, M . (2025). A key role of Canoe’s intrinsically disordered region in linking cell junctions to the cytoskeleton. J Cell Biol 224.",
+          "DOI": "10.1083/jcb.202505135"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ydbio.2021.07.004"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0007008"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Koyama, T. , Iso, N. , Norizoe, Y. , Sakaue, T. and Yoshimura, S. H . (2024). Charge block-driven liquid-liquid phase separation - mechanism and biological roles. J Cell Sci 137.",
+          "DOI": "10.1242/jcs.261394"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "115335",
+          "DOI": "10.1016/j.celrep.2025.115335",
+          "article-title": "Multivalent afadin interaction promotes IDR-mediated condensate formation and junctional separation of epithelial cells",
+          "volume": "44",
+          "year": "2025",
+          "journal-title": "Cell reports"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E15-07-0515"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.111.133280"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.91.17.8263"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.11.05.622168"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E19-04-0209"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s004410050062"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.200812146"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "McParland, E. D. , Butcher, T. A. , Gurley, N. J. , Johnson, R. I. , Slep, K. C. and Peifer, M . (2024a). The Dilute domain in Canoe is not essential for linking cell junctions to the cytoskeleton but supports morphogenesis robustness. J Cell Sci 137.",
+          "DOI": "10.1242/jcs.261734"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "McParland, E. D. , Gurley, N. J. , Wolfsberg, L. R. , Butcher, T. A. , Bhattarai, A. , Jensen, C. C. , Johnson, R. I. , Slep, K. C. and Peifer, M . (2024b). The dual Ras Association (RA) Domains of Drosophila Canoe have differential roles in linking cell junctions to the cytoskeleton during morphogenesis. Journal of Cell Science in press.",
+          "DOI": "10.1101/2024.07.29.605598"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Perez-Vale, K. Z. and Peifer, M . (2020). Orchestrating morphogenesis: building the body plan by cell shape changes and movements. Development 147, dev191049.",
+          "DOI": "10.1242/dev.191049"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.202104087"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BST0360141"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E10-11-0871"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12964-020-00703-w"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E16-05-0292"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "183399",
+          "DOI": "10.1016/j.bbamem.2020.183399",
+          "article-title": "Scaffolding proteins of vertebrate apical junctions: structure, functions and biophysics",
+          "volume": "1862",
+          "year": "2020",
+          "journal-title": "Biochim Biophys Acta Biomembr"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rubin, A. J. , Dao, T. T. , Schueppert, A. V. , Choi, S. , Groves, J. T. , Regev, A. and Shalek, A. K . (2026). Disordered protein LAT encodes relative levels of signaling pathways in T cell activation. Science 392, eads6847.",
+          "DOI": "10.1126/science.ads6847"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E11-05-0411"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.200904001"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schmidt, A. , Finegan, T. , Haring, M. , Kong, D. , Fletcher, A. G. , Alam, Z. , Grosshans, J. , Wolf, F. and Peifer, M . (2023). Polychaetoid/ZO-1 strengthens cell junctions under tension while localizing differently than core adherens junction proteins. Mol Biol Cell 34, ar81.",
+          "DOI": "10.1101/2023.03.01.530634"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.278.5335.120"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.13.10.1309"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a007898"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2144/00286ir01"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ceb.2022.102089"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0110549"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2022.08.007"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Walther, R. F. , Burki, M. , Pinal, N. , Rogerson, C. and Pichaud, F . (2018). Rap1, Canoe and Mbt cooperate with Bazooka to promote zonula adherens assembly in the fly photoreceptor. J Cell Sci 131, jcs207779.",
+          "DOI": "10.1242/jcs.207779"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.54",
+          "unstructured": "Wieschaus, E. and Nüsslein-Volhard, C . (1986). Looking at embryos. In Drosophila, A Practical Approach (ed. D. B. Roberts ), pp. 199–228. Oxford, England: IRL Press."
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E12-01-0045"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0080356"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.57",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, Y. , Mu, J. Y. W. and Lai, L . Protein IDR linkers regulate overall protein conformation and phase separation. Cell Reports Physical Science 6, 102964",
+          "DOI": "10.1016/j.xcrp.2025.102964"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.087957"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a028761"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2015.09.012"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yu, H. H. and Zallen, J. A . (2020). Abl and Canoe/Afadin mediate mechanotransduction at tricellular junctions. Science 370, eaba5528.",
+          "DOI": "10.1126/science.aba5528"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0960-9822(99)80392-3"
+        },
+        {
+          "key": "2026100312300521000_2026.09.28.754968v2.63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zheng, Ǫ. H ., Zhang, C. , Wang, M. X. , Xiang, X. , Zhang, S. , Wang, Y. and Yu, H. H. (2026). Edge-vertex flow enables rapid adhesion reinforcement under tension. J Cell Biol 225.",
+          "DOI": "10.1083/jcb.202601182"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.09.28.754968",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            3
+          ]
+        ],
+        "date-time": "2026-10-03T19:30:16Z",
+        "timestamp": 1791055816000
+      },
+      "score": 88.65348,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.09.28.754968"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ]
+      },
+      "references-count": 63,
+      "URL": "https://doi.org/10.64898/2026.09.28.754968",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

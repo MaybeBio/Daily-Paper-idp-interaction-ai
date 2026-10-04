@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "42825680",
+    "doi": "10.1002/wrna.70061",
+    "title": "RNA-Protein Assemblies: A Review of Biophysical Principles and Coarse-Grained Modeling Approaches."
+  },
+  "content": {
+    "abstract": "RNA-protein assemblies are fundamental organizers of eukaryotic cell biology, participating in diverse processes such as ribosome biogenesis in nucleoli, mRNA sequestration in nuclear speckles, and genome packaging in viral ribonucleoprotein (vRNP) complexes. Across these systems, multivalent RNA-protein interactions promote self-organization, contributing directly to liquid-liquid phase separation (LLPS) in nucleoli and nuclear speckles, while facilitating assembly and intermediate states in mature structurally organized vRNPs. This review critically examines the molecular grammar underlying these three paradigmatic systems, focusing on how sequence-encoded RNA-IDR chemistry determines condensate morphology, compositional selectivity, and material properties. We then evaluate the experimental and computational approaches used to characterize RNA-protein assemblies, with particular focus on coarse-grained (CG) forcefield development across HPS, Mpipi, CALVADOS, and 1BPA families. We also discuss how emerging multi-domain protein (MDP) models and RNA-compatible forcefields are optimizing the predictive accuracy of molecular simulations. Finally, we explore physics-based and data-driven predictors of LLPS, and reiterate the need for a framework that can predict sequence-based heterotypic IDR-RNA co-phase separation.",
+    "keywords": [
+      "RNA-protein assemblies",
+      "nuclear speckles",
+      "nucleoli",
+      "vRNP"
+    ],
+    "mesh_terms": [
+      "*RNA/chemistry/metabolism",
+      "*Ribonucleoproteins/chemistry/metabolism",
+      "Humans",
+      "Models, Molecular",
+      "*RNA-Binding Proteins/chemistry/metabolism",
+      "Phase Separation",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Iqbal, Muhammad Waleed",
+        "Onck, Patrick R"
+      ],
+      "short_names": [
+        "Iqbal MW",
+        "Onck PR"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-8479-2054",
+        "ORCID: 0000-0001-5632-9727"
+      ],
+      "affiliations": [
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Iqbal, Muhammad Waleed",
+        "short_name": "Iqbal MW",
+        "identifiers": [
+          "0009-0001-8479-2054"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Onck, Patrick R",
+        "short_name": "Onck PR",
+        "identifiers": [
+          "0000-0001-5632-9727"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Wiley interdisciplinary reviews. RNA"
+    ],
+    "journal_abbrev": [
+      "Wiley Interdiscip Rev RNA"
+    ],
+    "pub_date": "2026 Sep-Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/02 13:24",
+    "fetched_at": "2026-10-04 07:56:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42825680",
+      "23912807",
+      "28315749",
+      "17547769",
+      "42064063",
+      "40759847",
+      "40172489",
+      "37988476",
+      "42283756",
+      "39366355",
+      "41652163",
+      "42475469",
+      "40664121",
+      "41575805",
+      "31324804",
+      "33264400",
+      "37292850",
+      "11162094",
+      "41699382",
+      "39804953",
+      "42450221",
+      "40804711",
+      "21851628",
+      "36227470",
+      "33352065",
+      "29364893",
+      "42223083",
+      "30099026",
+      "33453922",
+      "34772789",
+      "40675030",
+      "31437398",
+      "9115444",
+      "34706978",
+      "35019720",
+      "34718734",
+      "41478913",
+      "36227472",
+      "37003559",
+      "39456178",
+      "35795820",
+      "41433062",
+      "12358435",
+      "15251957",
+      "42290014",
+      "30933978",
+      "39956358",
+      "40009520",
+      "41158057",
+      "8676373",
+      "32405004",
+      "35108264",
+      "42126444",
+      "26455390",
+      "27251291",
+      "26540053",
+      "26068746",
+      "27911723",
+      "12096904",
+      "39589885",
+      "40140581",
+      "31752575",
+      "23807439",
+      "41868013",
+      "21846771",
+      "42383738",
+      "26068748",
+      "41506147",
+      "9164463",
+      "33200826",
+      "33934416",
+      "42159288",
+      "30521520",
+      "42243951",
+      "34099940",
+      "42462360",
+      "41305495",
+      "11003644",
+      "17381311",
+      "15853794",
+      "24756571",
+      "42589422",
+      "27888840",
+      "29650703",
+      "34706979",
+      "34291921",
+      "37145883",
+      "41524628",
+      "15257761",
+      "40661408",
+      "11278705",
+      "30777481",
+      "15643449",
+      "42786417",
+      "24891509",
+      "39324618",
+      "34772786",
+      "40961942",
+      "42358691",
+      "40819486"
+    ],
+    "review": [
+      "42825680",
+      "28315749",
+      "42064063",
+      "40759847",
+      "40172489",
+      "39366355",
+      "41652163",
+      "40664121",
+      "41575805",
+      "41699382",
+      "42450221",
+      "40804711",
+      "30099026",
+      "34772789",
+      "40675030",
+      "34706978",
+      "37003559",
+      "39456178",
+      "42290014",
+      "41158057",
+      "26540053",
+      "27911723",
+      "31752575",
+      "23807439",
+      "41506147",
+      "42243951",
+      "34099940",
+      "42462360",
+      "17381311",
+      "15853794",
+      "24756571",
+      "42589422",
+      "27888840",
+      "34706979",
+      "34291921",
+      "30777481",
+      "15643449",
+      "39324618",
+      "34772786"
+    ],
+    "pmc": [
+      "13632684"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

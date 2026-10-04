@@ -1,0 +1,140 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.09.27.754145",
+  "title": "De novo design of flexible protein interactions with GuideFlip",
+  "doi": "10.64898/2026.09.27.754145",
+  "abstract": "De novo design of protein binders requires a target structure. However, for flexible targets, such as intrinsically disordered proteins, this structure does not exist until the binder has stabilized the interaction. Such targets are therefore difficult for methods that separate structure generation from sequence design. We introduce GuideFlip, which co-designs structure and sequence through guided discrete flow matching: binder residues are assigned progressively while the complex is re-predicted at each step, allowing the evolving interface to affect the design process. GuideFlip reduces the hydrophobic bias of direct AlphaFold optimization and improves in silico success rates over existing approaches. We release a database of binder candidates for 177 human disordered proteins. Experimentally, we obtain de novo binders to the carboxy terminus of α -synuclein and the disordered amino terminus of RBX1 with hit rates of 13.5% and 41.7%, respectively, and we confirm the epitopes of selected binders by NMR and mutagenesis. Applying GuideFlip to flexibility on the binder side, we design a nanobody that binds the agonist-bound β 1 -adrenergic receptor in its active state, but not the receptor in its inactive state, with a 75% hit rate and a cryo-EM structure confirming the design. GuideFlip enables protein design where bound structures emerge only upon binding.",
+  "authors": [
+    "Yi K",
+    "Chen Q",
+    "Zhang D",
+    "Tian P",
+    "Wagstaff JL",
+    "McLaughlin SH",
+    "Tate CG",
+    "Jamali K",
+    "Scheres SHW"
+  ],
+  "published_date": "2026-09-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754145",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754145.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1330824",
+    "raw_record": {
+      "id": "PPR1330824",
+      "source": "PPR",
+      "doi": "10.64898/2026.09.27.754145",
+      "title": "De novo design of flexible protein interactions with GuideFlip",
+      "authorString": "Yi K, Chen Q, Zhang D, Tian P, Wagstaff JL, McLaughlin SH, Tate CG, Jamali K, Scheres SHW.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yi K",
+            "lastName": "Yi",
+            "firstName": "Kai",
+            "initials": "K"
+          },
+          {
+            "fullName": "Chen Q",
+            "lastName": "Chen",
+            "firstName": "Qingchao",
+            "initials": "Q"
+          },
+          {
+            "fullName": "Zhang D",
+            "lastName": "Zhang",
+            "firstName": "Dongqi",
+            "initials": "D"
+          },
+          {
+            "fullName": "Tian P",
+            "lastName": "Tian",
+            "firstName": "Pengfei",
+            "initials": "P"
+          },
+          {
+            "fullName": "Wagstaff JL",
+            "lastName": "Wagstaff",
+            "firstName": "Jane",
+            "initials": "JL"
+          },
+          {
+            "fullName": "McLaughlin SH",
+            "lastName": "McLaughlin",
+            "firstName": "Stephen",
+            "initials": "SH"
+          },
+          {
+            "fullName": "Tate CG",
+            "lastName": "Tate",
+            "firstName": "Christopher",
+            "initials": "CG"
+          },
+          {
+            "fullName": "Jamali K",
+            "lastName": "Jamali",
+            "firstName": "Kiarash",
+            "initials": "K"
+          },
+          {
+            "fullName": "Scheres SHW",
+            "lastName": "Scheres",
+            "firstName": "Sjors",
+            "initials": "SHW"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "De novo design of protein binders requires a target structure. However, for flexible targets, such as intrinsically disordered proteins, this structure does not exist until the binder has stabilized the interaction. Such targets are therefore difficult for methods that separate structure generation from sequence design. We introduce GuideFlip, which co-designs structure and sequence through guided discrete flow matching: binder residues are assigned progressively while the complex is re-predicted at each step, allowing the evolving interface to affect the design process. GuideFlip reduces the hydrophobic bias of direct AlphaFold optimization and improves  in silico success rates over existing approaches. We release a database of binder candidates for 177 human disordered proteins. Experimentally, we obtain de novo binders to the carboxy terminus of  α -synuclein and the disordered amino terminus of RBX1 with hit rates of 13.5% and 41.7%, respectively, and we confirm the epitopes of selected binders by NMR and mutagenesis. Applying GuideFlip to flexibility on the binder side, we design a nanobody that binds the agonist-bound  β 1 -adrenergic receptor in its active state, but not the receptor in its inactive state, with a 75% hit rate and a cryo-EM structure confirming the design. GuideFlip enables protein design where bound structures emerge only upon binding.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.09.27.754145"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-09-30",
+      "firstPublicationDate": "2026-09-28",
+      "firstIndexDate": "2026-09-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

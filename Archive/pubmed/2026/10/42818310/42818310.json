@@ -1,0 +1,200 @@
+{
+  "identity": {
+    "pmid": "42818310",
+    "doi": "10.64898/2026.09.05.749622",
+    "title": "Mesoscale Heterogeneity Shapes Molecular Selectivity and Transport in Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "Growing experimental and computational evidence suggests that many condensates exhibit heterogeneous internal organization at mesoscopic length scales. How such mesoscale organization influences client selectivity and transport, however, remains poorly understood. Here, we use coarsegrained molecular dynamics simulations to compare homogeneous and heterogeneous sticker-spacer condensates with matched scaffold density, sticker fraction, and sticker-sticker interaction strength. We find that the two condensates exhibit markedly different client partitioning profiles and transport dynamics. In the heterogeneous condensate, clients sample distinct local microenvironments in a size-dependent manner, leading to pronounced differences in their transfer free energy compared with the homogeneous condensate. The heterogeneous internal organization also generates local environments with different mobilities and constraints, giving rise to transient subdiffusion and non-Gaussian displacement distributions in client motion. Our results identify mesoscale organization as an important physical factor controlling both molecular selectivity and transport in biomolecular condensates, with implications for the biochemical functions of both natural and engineered systems.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Grigorev, Vladimir",
+        "Zhang, Yaojun"
+      ],
+      "short_names": [
+        "Grigorev V",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-1041-0778",
+        "ORCID: 0000-0003-4587-6834"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Grigorev, Vladimir",
+        "short_name": "Grigorev V",
+        "identifiers": [
+          "0009-0002-1041-0778"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Yaojun",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0003-4587-6834"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Sep 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/01 11:37",
+    "fetched_at": "2026-10-04 07:56:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42818310",
+      "42465321",
+      "42620391",
+      "40954121",
+      "42055532",
+      "40661423",
+      "42182309",
+      "41342450",
+      "37194953",
+      "42081454",
+      "40196628",
+      "39636939",
+      "39866835",
+      "42475469",
+      "39674888",
+      "42133743",
+      "38363841",
+      "39071308",
+      "37468629",
+      "37489654",
+      "38591689",
+      "35881789",
+      "42789225",
+      "42266718",
+      "40229261",
+      "42497855",
+      "39386700",
+      "36883003",
+      "40195119",
+      "38637545",
+      "35198903",
+      "40672301",
+      "40747072",
+      "36397514",
+      "41292919",
+      "39320949",
+      "37873097",
+      "42126123",
+      "41667469",
+      "39610751",
+      "38766065",
+      "39185151",
+      "40093099",
+      "42610615",
+      "41991555",
+      "37461689",
+      "37546778",
+      "41863073",
+      "23912807",
+      "36004748",
+      "31017394",
+      "33672806",
+      "39227569",
+      "42600397",
+      "40985078",
+      "40782375",
+      "41662498",
+      "37470705",
+      "40661408",
+      "42244763",
+      "42290133",
+      "36747818",
+      "41670285",
+      "42407334",
+      "38424273",
+      "38579181",
+      "41481439",
+      "34129784",
+      "40455990",
+      "34785657",
+      "40645941",
+      "41739144",
+      "38383656",
+      "42358691",
+      "42059155",
+      "39386612",
+      "42551042",
+      "40972943",
+      "37781612",
+      "39184067",
+      "41169543",
+      "42517612",
+      "40481268",
+      "40162127",
+      "40791470",
+      "41705673",
+      "38832749",
+      "40521608",
+      "34767801",
+      "41877182",
+      "40172489",
+      "41990454",
+      "41867831",
+      "39005320",
+      "39398199",
+      "40136009",
+      "41279444",
+      "40327693",
+      "38649740",
+      "37252985"
+    ],
+    "review": [
+      "42818310",
+      "42600397",
+      "42407334",
+      "34129784",
+      "42059155",
+      "42551042",
+      "34767801",
+      "40172489",
+      "41990454"
+    ],
+    "pmc": [
+      "13622558"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.64898/2026.09.05.749622",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

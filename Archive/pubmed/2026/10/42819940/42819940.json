@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "42819940",
+    "doi": "10.1021/acsomega.6c04138",
+    "title": "Screening of Xeroprotectants for Efficient Mammalian Cell Structural Preservation in Dry Conditions."
+  },
+  "content": {
+    "abstract": "Anhydrobiosis, the ability of organisms to survive extreme conditions such as desiccation, may represent a sustainable alternative to liquid-nitrogen (liquid nitrogen)-based cryopreservation once it can be induced in mammalian cells and germplasm. While natural xeroprotectants (e.g., signature peptides of Late Embryogenesis Abundant proteins and tardigrade disordered proteins, and vitamin E) can stabilize cells under drying, their use is limited to the laboratory level due to the high cost of extraction and the incomplete understanding of the molecular mechanisms. Here we employed a multiscale modeling framework spanning quantum mechanics (QM) and molecular dynamics to investigate how these representative xeroprotectants interact with mammalian model membranes (POPC/DMPC) under desiccation and thermal cycling. We found that peptide-based xeroprotectants remain near headgroups and form dehydration-enhanced hydrogen bonds, whereas vitamin E partitions into the acyl chain region. This is consistent with suppressed pore formation in oxidized membranes. Across dry states, xeroprotectants generally increase acyl chain order and membrane rigidity, attenuate area shrinkage, and preserve bilayer thickness homogeneity. Notably, at higher peptide concentrations, chain overordering is mitigated, suggesting a tunable window for formulation. These results provide physicochemical guidelines for designing cost-effective, eco-friendly, and energy-efficient formulations of xeroprotectants and support the rational development of room-temperature preservation strategies with improved translational potential.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Diez-Cabanes, Valentin",
+        "Kikawada, Takahiro",
+        "Loi, Pasqualino",
+        "Aparicio, Santiago"
+      ],
+      "short_names": [
+        "Diez-Cabanes V",
+        "Kikawada T",
+        "Loi P",
+        "Aparicio S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6234-2749",
+        "ORCID: 0000-0001-9996-2426"
+      ],
+      "affiliations": [
+        "International Research Center in Critical Raw Materials for Advanced Industrial Technologies (ICCRAM), University of Burgos, Burgos 09001, Spain. RINGGOLD: 16725",
+        "Department of Chemistry, University of Burgos, Burgos 09001, Spain.",
+        "Department of Integrated Biosciences, Graduate School of Frontier Science, The University of Tokyo, Kashiwa 277-8562, Chiba, Japan.",
+        "Division of Biomaterial Sciences, Institute of Agrobiological Sciences, National Agriculture and Food Research Organization, Tsukuba, Ibaraki 305-8634, Japan.",
+        "Department of Veterinary Medicine, University of Teramo, Teramo 64100, Italy. RINGGOLD: 19031",
+        "International Research Center in Critical Raw Materials for Advanced Industrial Technologies (ICCRAM), University of Burgos, Burgos 09001, Spain. RINGGOLD: 16725",
+        "Department of Chemistry, University of Burgos, Burgos 09001, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Diez-Cabanes, Valentin",
+        "short_name": "Diez-Cabanes V",
+        "identifiers": [
+          "0000-0002-6234-2749"
+        ],
+        "affiliations": [
+          "International Research Center in Critical Raw Materials for Advanced Industrial Technologies (ICCRAM), University of Burgos, Burgos 09001, Spain.",
+          "Department of Chemistry, University of Burgos, Burgos 09001, Spain."
+        ]
+      },
+      {
+        "full_name": "Kikawada, Takahiro",
+        "short_name": "Kikawada T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrated Biosciences, Graduate School of Frontier Science, The University of Tokyo, Kashiwa 277-8562, Chiba, Japan.",
+          "Division of Biomaterial Sciences, Institute of Agrobiological Sciences, National Agriculture and Food Research Organization, Tsukuba, Ibaraki 305-8634, Japan."
+        ]
+      },
+      {
+        "full_name": "Loi, Pasqualino",
+        "short_name": "Loi P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Veterinary Medicine, University of Teramo, Teramo 64100, Italy."
+        ]
+      },
+      {
+        "full_name": "Aparicio, Santiago",
+        "short_name": "Aparicio S",
+        "identifiers": [
+          "0000-0001-9996-2426"
+        ],
+        "affiliations": [
+          "International Research Center in Critical Raw Materials for Advanced Industrial Technologies (ICCRAM), University of Burgos, Burgos 09001, Spain.",
+          "Department of Chemistry, University of Burgos, Burgos 09001, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS omega"
+    ],
+    "journal_abbrev": [
+      "ACS Omega"
+    ],
+    "pub_date": "2026 Sep 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/02 03:09",
+    "fetched_at": "2026-10-04 07:56:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42819940",
+      "34904892",
+      "42475469",
+      "31952948",
+      "36941331",
+      "30508788",
+      "22814234",
+      "39566968",
+      "36321557",
+      "23912807",
+      "20562279",
+      "38769676",
+      "25614183",
+      "39150724",
+      "16706583",
+      "40944443",
+      "34358222",
+      "40521613",
+      "24169600",
+      "38114424",
+      "9017202",
+      "39560655",
+      "20637181",
+      "21868145",
+      "25292264",
+      "39229830",
+      "24892900",
+      "19894755",
+      "33085409",
+      "28846268",
+      "33460594",
+      "19576903",
+      "28306513",
+      "7696506",
+      "30144288",
+      "28711675",
+      "38921485",
+      "33760451",
+      "15222757",
+      "42509752",
+      "34737320",
+      "30592870",
+      "42554988",
+      "22500755",
+      "42282079",
+      "38796644",
+      "38464187",
+      "26518519",
+      "21782434",
+      "40334073",
+      "40909648",
+      "24378240",
+      "42390092",
+      "12397675",
+      "27207249",
+      "38236500",
+      "41956054",
+      "40560253",
+      "23764528",
+      "42501887",
+      "12119034",
+      "25868548",
+      "36693101",
+      "31564102",
+      "23415813",
+      "21222117",
+      "34241050",
+      "37851522",
+      "24506488",
+      "33077592",
+      "1592177",
+      "25398135",
+      "33034537",
+      "35793147",
+      "29934654",
+      "35593869",
+      "21293974",
+      "34713805",
+      "42069654",
+      "33148259",
+      "33997315",
+      "16042398",
+      "30525930",
+      "38873396",
+      "34576869",
+      "41510243",
+      "28587835",
+      "28901557",
+      "37132487",
+      "41797144",
+      "42022390",
+      "40764824",
+      "32846182",
+      "42300503",
+      "36982242",
+      "21443857",
+      "41755745",
+      "20028138",
+      "15198596",
+      "42045390"
+    ],
+    "review": [
+      "42819940",
+      "30508788",
+      "22814234",
+      "36321557",
+      "39150724",
+      "40521613",
+      "24169600",
+      "30144288",
+      "42509752",
+      "42282079",
+      "12397675",
+      "40560253",
+      "42501887",
+      "25868548",
+      "35793147",
+      "33148259",
+      "30525930",
+      "38873396",
+      "28901557",
+      "37132487",
+      "42045390"
+    ],
+    "pmc": [
+      "13625561"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/acsodf/article-lookup/doi/10.1021/acsomega.6c04138",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

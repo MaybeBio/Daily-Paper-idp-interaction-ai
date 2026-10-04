@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "42815640",
+    "doi": "10.1016/j.jbc.2026.113614",
+    "title": "Intrinsically disordered regions of Src and Abl kinases contribute to membrane binding."
+  },
+  "content": {
+    "abstract": "Membrane targeting regulates protein localization and function. Abl and Src kinase feature an N-terminal myristoylation site followed by an intrinsically disordered region (IDR) of positive net charge, suggesting these regions contribute to membrane targeting. We investigated the interplay of myristoylation and IDR binding to phosphatidylinositol-4,5-bisphosphate (PIP(2))-containing membranes using atomistic equilibrium and non-equilibrium molecular dynamics (MD) simulations. After having established Charmm36m-TIP4P-fb as a force field combination of choice for the challenging IDR-membrane systems of interest, we assessed the binding propensities of Abl and Src's IDRs to lipid bilayers, and observed strong binding only when PIP(2) was present, as also quantified by significant increases in detachment forces and unbinding free energies when including 10 mol% PIP(2). Interactions were mediated by saltbridges between the IDR's basic residues and PIP(2) headgroups, and largely unaffected by cholesterol. On this basis, we designed Src and Abl mutants with deficient PIP(2) binding, and confirmed impaired membrane binding using liposomal-binding assays and atomic force microscopy experiments. Simulations and experiments of further variants corroborated that both a myristoylation site and the charged IDR are required for firm PIP(2)-membrane interactions. Our results establish myristoylated IDRs in kinases - and potentially beyond - as important regulators of PIP(2)-specific membrane targeting. STATEMENT OF SIGNIFICANCE: Abl and Src kinase are key cell signalling proteins that feature myristoylated long disordered regions, but their mechanism of membrane-anchoring remains unclear. Both feature a long disordered region with many basic residues, akin to PIP(2)-recognizing basic patches in PH or FERM domains, such as in Focal Adhesion Kinase, which is activated when pulled away from a PIP(2) membrane. Using a combined simulation and experimental approach, we here show for Src and Abl kinase that membrane targeting and high-stability binding to PIP(2)-containing membranes can be achieved, providing that myristoylation and basic residues along the basic disordered region can synergistically stabilize the protein-membrane interaction. Myristoylated disordered regions might play similar roles in other proteins.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Buhr, Svenja de",
+        "Steringer, Julia P",
+        "Demir, Irem",
+        "Boushehri, Saber",
+        "Ray, Ankita",
+        "Goss, Christina",
+        "Adler, Andrea M",
+        "Muller, Hans-Michael",
+        "Goetz, Rabea",
+        "Aponte-Santamaria, Camilo",
+        "Brugger, Britta",
+        "Alsteens, David",
+        "Nickel, Walter",
+        "Grater, Frauke"
+      ],
+      "short_names": [
+        "Buhr S",
+        "Steringer JP",
+        "Demir I",
+        "Boushehri S",
+        "Ray A",
+        "Goss C",
+        "Adler AM",
+        "Muller HM",
+        "Goetz R",
+        "Aponte-Santamaria C",
+        "Brugger B",
+        "Alsteens D",
+        "Nickel W",
+        "Grater F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Interdisciplinary Center for Scientific Computing, Heidelberg University, Im Neuenheimer Feld 205, 69120 Heidelberg, Germany; Department of Infectious Diseases, Parasitology, Heidelberg University Hospital, Im Neuenheimer Feld 324, 69120 Heidelberg, Germany.",
+        "Heidelberg University Biochemistry Center, Im Neuenheimer Feld 328, 69120 Heidelberg, Germany.",
+        "Louvain Institute of Biomolecular Science and Technology, Universite Catholique de Louvain, Louvain-la-Neuve, Belgium.",
+        "Interdisciplinary Center for Scientific Computing, Heidelberg University, Im Neuenheimer Feld 205, 69120 Heidelberg, Germany; Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+        "Louvain Institute of Biomolecular Science and Technology, Universite Catholique de Louvain, Louvain-la-Neuve, Belgium; School of Mathematical and Physical Sciences, University of Sheffield, UK.",
+        "Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+        "Heidelberg University Biochemistry Center, Im Neuenheimer Feld 328, 69120 Heidelberg, Germany.",
+        "Heidelberg University Biochemistry Center, Im Neuenheimer Feld 328, 69120 Heidelberg, Germany.",
+        "Heidelberg University Biochemistry Center, Im Neuenheimer Feld 328, 69120 Heidelberg, Germany.",
+        "Interdisciplinary Center for Scientific Computing, Heidelberg University, Im Neuenheimer Feld 205, 69120 Heidelberg, Germany; Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+        "Heidelberg University Biochemistry Center, Im Neuenheimer Feld 328, 69120 Heidelberg, Germany.",
+        "Louvain Institute of Biomolecular Science and Technology, Universite Catholique de Louvain, Louvain-la-Neuve, Belgium.",
+        "Heidelberg University Biochemistry Center, Im Neuenheimer Feld 328, 69120 Heidelberg, Germany.",
+        "Interdisciplinary Center for Scientific Computing, Heidelberg University, Im Neuenheimer Feld 205, 69120 Heidelberg, Germany; Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Buhr, Svenja de",
+        "short_name": "Buhr S",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Center for Scientific Computing, Heidelberg University, Im Neuenheimer Feld 205, 69120 Heidelberg, Germany; Department of Infectious Diseases, Parasitology, Heidelberg University Hospital, Im Neuenheimer Feld 324, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Steringer, Julia P",
+        "short_name": "Steringer JP",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg University Biochemistry Center, Im Neuenheimer Feld 328, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Demir, Irem",
+        "short_name": "Demir I",
+        "identifiers": [],
+        "affiliations": [
+          "Louvain Institute of Biomolecular Science and Technology, Université Catholique de Louvain, Louvain-la-Neuve, Belgium."
+        ]
+      },
+      {
+        "full_name": "Boushehri, Saber",
+        "short_name": "Boushehri S",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Center for Scientific Computing, Heidelberg University, Im Neuenheimer Feld 205, 69120 Heidelberg, Germany; Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Ray, Ankita",
+        "short_name": "Ray A",
+        "identifiers": [],
+        "affiliations": [
+          "Louvain Institute of Biomolecular Science and Technology, Université Catholique de Louvain, Louvain-la-Neuve, Belgium; School of Mathematical and Physical Sciences, University of Sheffield, UK."
+        ]
+      },
+      {
+        "full_name": "Goss, Christina",
+        "short_name": "Goss C",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Adler, Andrea M",
+        "short_name": "Adler AM",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg University Biochemistry Center, Im Neuenheimer Feld 328, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Müller, Hans-Michael",
+        "short_name": "Müller HM",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg University Biochemistry Center, Im Neuenheimer Feld 328, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Goetz, Rabea",
+        "short_name": "Goetz R",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg University Biochemistry Center, Im Neuenheimer Feld 328, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Aponte-Santamaria, Camilo",
+        "short_name": "Aponte-Santamaria C",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Center for Scientific Computing, Heidelberg University, Im Neuenheimer Feld 205, 69120 Heidelberg, Germany; Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Brügger, Britta",
+        "short_name": "Brügger B",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg University Biochemistry Center, Im Neuenheimer Feld 328, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Alsteens, David",
+        "short_name": "Alsteens D",
+        "identifiers": [],
+        "affiliations": [
+          "Louvain Institute of Biomolecular Science and Technology, Université Catholique de Louvain, Louvain-la-Neuve, Belgium."
+        ]
+      },
+      {
+        "full_name": "Nickel, Walter",
+        "short_name": "Nickel W",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg University Biochemistry Center, Im Neuenheimer Feld 328, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Gräter, Frauke",
+        "short_name": "Gräter F",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Center for Scientific Computing, Heidelberg University, Im Neuenheimer Feld 205, 69120 Heidelberg, Germany; Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2026 Sep 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/30 23:30",
+    "fetched_at": "2026-10-04 07:56:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42815640",
+      "36814382",
+      "36814383",
+      "33627133",
+      "25219456",
+      "28124908",
+      "12712500",
+      "31339036",
+      "23912807",
+      "34473496",
+      "38942776",
+      "8798768",
+      "20584982",
+      "34411575",
+      "29434596",
+      "26638178",
+      "25019684",
+      "40246223",
+      "34999732",
+      "18647648",
+      "36863659",
+      "38712287",
+      "36005688",
+      "26331250",
+      "41163390",
+      "24892900",
+      "40012203",
+      "35216357",
+      "33984230",
+      "42585785",
+      "37443299",
+      "29694864",
+      "7622521",
+      "11451957",
+      "26992353",
+      "28089450",
+      "25779975",
+      "15041659",
+      "12515538",
+      "42475469",
+      "9193783",
+      "16236797",
+      "31204251",
+      "18772133",
+      "23393142",
+      "29700916",
+      "41365991",
+      "33277360",
+      "31591270",
+      "25406390",
+      "39621780",
+      "26429913",
+      "40631955",
+      "40081987",
+      "34179096",
+      "32639874",
+      "26186725",
+      "42273644",
+      "29341226",
+      "35524411",
+      "33779503",
+      "38560754",
+      "39453744",
+      "42645201",
+      "39978121",
+      "7527558",
+      "27088923",
+      "31973069",
+      "25838123",
+      "27224309",
+      "31877324",
+      "34825861",
+      "37028700",
+      "27119641",
+      "30792310",
+      "1846663",
+      "14660555",
+      "38142298",
+      "36747616",
+      "39952269",
+      "19369548",
+      "34081910",
+      "18835981",
+      "9533686",
+      "9485361",
+      "40776445",
+      "31820037",
+      "8981371",
+      "36552204",
+      "27028646",
+      "24001034",
+      "7744811",
+      "8910575",
+      "37337213",
+      "23712549",
+      "27933776",
+      "24440472",
+      "26544178",
+      "8798548",
+      "37540843"
+    ],
+    "review": [
+      "42815640",
+      "35216357",
+      "39952269",
+      "8981371"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(26)02486-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1776",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

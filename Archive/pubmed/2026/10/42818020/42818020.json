@@ -1,0 +1,237 @@
+{
+  "identity": {
+    "pmid": "42818020",
+    "doi": "10.64898/2026.09.15.751913",
+    "title": "A unified intermediate-resolution framework for modeling biomolecular condensates at near-cellular complexity."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates, formed through phase separation of multivalent biomolecules, are central to cellular organization and function. Here, we present a unified, physics-based intermediate-resolution framework for efficient and quantitative simulation of biomolecular phase separation at near-cellular complexity. The framework integrates the HyRes protein and iConNA nucleic acid models to explicitly describe major driving forces and capture transient local and global structural features underlying phase transitions. With well-balanced hydrogen bonding, electrostatic, cation-pi, and hydrophobic interactions, as well as nucleic acid base stacking, base pairing, and ion-mediated effects, the framework accurately predicts saturation concentrations of over 60 disordered proteins (within tenfold) and phase diagrams of homotypic RNA and heterotypic protein-nucleic acid condensates. We further introduce iConMetabolome, a machine learning-enabled library of cellular metabolites that captures metabolite-driven phase separation and reproduces experimental partitioning trends across condensates. This unified platform enables the dissection of the mechanisms and regulation of condensation in biology and disease.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shanlong",
+        "Ng, Jessica Fong",
+        "Chen, Jianhan"
+      ],
+      "short_names": [
+        "Li S",
+        "Ng JF",
+        "Chen J"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shanlong",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ng, Jessica Fong",
+        "short_name": "Ng JF",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Jianhan",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Sep 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/01 11:37",
+    "fetched_at": "2026-10-04 07:56:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42818020",
+      "39605385",
+      "41129218",
+      "36993212",
+      "41979049",
+      "42786417",
+      "41480717",
+      "40970906",
+      "41187075",
+      "42475469",
+      "37205474",
+      "42531022",
+      "30926670",
+      "41337585",
+      "37684240",
+      "36227469",
+      "31634364",
+      "42474060",
+      "39042834",
+      "40009520",
+      "36993371",
+      "31199001",
+      "39826709",
+      "32696384",
+      "42790799",
+      "42420726",
+      "29509422",
+      "42580188",
+      "23912807",
+      "30471685",
+      "32004090",
+      "34179888",
+      "36009025",
+      "39937084",
+      "36164646",
+      "38804888",
+      "41481439",
+      "40028356",
+      "33302617",
+      "31604601",
+      "40616404",
+      "35795820",
+      "41909144",
+      "38252962",
+      "40570844",
+      "36595668",
+      "40962203",
+      "37161095",
+      "40672301",
+      "41587927",
+      "37359769",
+      "40804711",
+      "34772786",
+      "33653957",
+      "39366355",
+      "38446881",
+      "40291420",
+      "39660892",
+      "39964249",
+      "42395354",
+      "40028898",
+      "36463407",
+      "36227480",
+      "42425985",
+      "40748104",
+      "37720552",
+      "36227470",
+      "40664121",
+      "36657879",
+      "42059155",
+      "42689411",
+      "38949285",
+      "41279136",
+      "33139563",
+      "38251748",
+      "39146259",
+      "34737230",
+      "41169543",
+      "33496264",
+      "42290133",
+      "41351266",
+      "41902470",
+      "37438363",
+      "39568893",
+      "33376791",
+      "42816535",
+      "40136009",
+      "36972455",
+      "35108264",
+      "37090622",
+      "41700935",
+      "38112495",
+      "35484036",
+      "39227569",
+      "42537606",
+      "41191214",
+      "32405004",
+      "42608397",
+      "40954121",
+      "40381401"
+    ],
+    "review": [
+      "42818020",
+      "41979049",
+      "41480717",
+      "42474060",
+      "42790799",
+      "29509422",
+      "42580188",
+      "32004090",
+      "34179888",
+      "36164646",
+      "31604601",
+      "40616404",
+      "40962203",
+      "41587927",
+      "37359769",
+      "40804711",
+      "34772786",
+      "39366355",
+      "39660892",
+      "39964249",
+      "37720552",
+      "40664121",
+      "42059155",
+      "42689411",
+      "39146259",
+      "41902470",
+      "35484036",
+      "42537606",
+      "41191214",
+      "42608397",
+      "40381401"
+    ],
+    "pmc": [
+      "13621984"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.09.15.751913",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}
