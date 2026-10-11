@@ -1,0 +1,233 @@
+{
+  "identity": {
+    "pmid": "42847424",
+    "doi": "10.1002/bies.70195",
+    "title": "Protein-Ratio Rheostats: Integrating Stoichiometry, Abundance, and Binding Affinity in Cellular Function."
+  },
+  "content": {
+    "abstract": "Cellular function is frequently interpreted in terms of gene presence, protein abundance, and dose-response relationships. Yet interacting proteins operate within binding and assembly regimes in which relative abundance can alter which molecular complexes predominate. We propose a protein-ratio rheostat framework in which functional output depends jointly on component ratios, absolute concentrations relative to binding affinities, interaction stoichiometry, and in multivalent systems, valency and cooperativity. The same protein ratio can therefore generate different molecular and functional states under different concentration or affinity regimes. We develop testable predictions of this framework, illustrate its application to competitive protein interactions and biomolecular condensates, and outline experimental strategies for identifying composition-sensitive behavior within defined abundance and affinity regimes.",
+    "keywords": [
+      "binding affinity",
+      "molecular assembly",
+      "protein stoichiometry",
+      "protein-ratio rheostat",
+      "protein-protein interactions",
+      "relative protein abundance"
+    ],
+    "mesh_terms": [
+      "Protein Binding",
+      "*Proteins/metabolism/chemistry",
+      "Animals",
+      "Humans",
+      "Models, Biological"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Subramanian, Subbaya",
+        "Kartha, Reena V"
+      ],
+      "short_names": [
+        "Subramanian S",
+        "Kartha RV"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2544-480X",
+        "ORCID: 0000-0002-1692-1539"
+      ],
+      "affiliations": [
+        "Department of Surgery, University of Minnesota Medical School, Minneapolis, Minnesota, USA.",
+        "Masonic Cancer Center, University of Minnesota, Minneapolis, Minnesota, USA.",
+        "Center For Immunology, University of Minnesota, Minneapolis, Minnesota, USA.",
+        "Department of Experimental & Clinical Pharmacology, College of Pharmacy, University of Minnesota, Minneapolis, Minnesota, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Subramanian, Subbaya",
+        "short_name": "Subramanian S",
+        "identifiers": [
+          "0000-0002-2544-480X"
+        ],
+        "affiliations": [
+          "Department of Surgery, University of Minnesota Medical School, Minneapolis, Minnesota, USA.",
+          "Masonic Cancer Center, University of Minnesota, Minneapolis, Minnesota, USA.",
+          "Center For Immunology, University of Minnesota, Minneapolis, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Kartha, Reena V",
+        "short_name": "Kartha RV",
+        "identifiers": [
+          "0000-0002-1692-1539"
+        ],
+        "affiliations": [
+          "Department of Experimental & Clinical Pharmacology, College of Pharmacy, University of Minnesota, Minneapolis, Minnesota, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioEssays : news and reviews in molecular, cellular and developmental biology"
+    ],
+    "journal_abbrev": [
+      "Bioessays"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/08 17:35",
+    "fetched_at": "2026-10-11 08:29:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42847424",
+      "42475469",
+      "23912807",
+      "34706978",
+      "33672806",
+      "28667619",
+      "31634364",
+      "18479705",
+      "24768922",
+      "38336297",
+      "41311232",
+      "28242011",
+      "28361672",
+      "17192587",
+      "40825156",
+      "40243574",
+      "31923382",
+      "23001996",
+      "26681483",
+      "1897976",
+      "33838354",
+      "26119061",
+      "12853464",
+      "26370248",
+      "27483215",
+      "35196613",
+      "39558674",
+      "20487511",
+      "22022247",
+      "20011507",
+      "734692",
+      "21648484",
+      "31776263",
+      "12470214",
+      "1856719",
+      "31442477",
+      "12016056",
+      "15929793",
+      "30174150",
+      "29779789",
+      "28069340",
+      "39616716",
+      "24648146",
+      "36179193",
+      "40962203",
+      "21071205",
+      "39660955",
+      "25615855",
+      "28318252",
+      "17084700",
+      "8985375",
+      "26471944",
+      "27018856",
+      "30648560",
+      "26214104",
+      "27989231",
+      "38224813",
+      "24184177",
+      "21213247",
+      "33313775",
+      "9129317",
+      "12962498",
+      "27866112",
+      "27586327",
+      "24736836",
+      "21133453",
+      "10527731",
+      "20624397",
+      "25563825",
+      "33550810",
+      "36924867",
+      "23711722",
+      "26073257",
+      "29318668",
+      "29954286",
+      "31980533",
+      "12096128",
+      "19193052",
+      "21472560",
+      "39478454",
+      "3493243",
+      "36916901",
+      "17267609",
+      "19735544",
+      "24314076",
+      "28593376",
+      "2077938",
+      "40017034",
+      "42322777",
+      "15563178",
+      "34888728",
+      "34505429",
+      "29505559",
+      "37881092",
+      "41319044",
+      "27116218",
+      "1856861",
+      "23235262",
+      "42691127",
+      "41392472"
+    ],
+    "review": [
+      "42847424",
+      "34706978",
+      "38336297",
+      "41311232",
+      "12853464",
+      "27483215",
+      "12470214",
+      "28069340",
+      "39616716",
+      "40962203",
+      "21071205",
+      "30648560",
+      "27866112",
+      "33550810",
+      "26073257",
+      "42322777",
+      "34888728",
+      "34505429"
+    ],
+    "pmc": [
+      "13647476"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/bies.70195",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

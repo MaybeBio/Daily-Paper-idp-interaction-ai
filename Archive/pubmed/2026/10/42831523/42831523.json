@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "42831523",
+    "doi": "10.1063/5.0348493",
+    "title": "Polymer-residue accessibility shapes sequence dependence of critical temperatures for phase separation."
+  },
+  "content": {
+    "abstract": "Biological polymers, such as intrinsically disordered proteins, play a central role in cellular biology, including mediating phase separation and controlling activity of biological condensates. The physical properties and functions of biopolymers are determined by their residue sequence. Recently, significant computational and theoretical efforts have been devoted to characterizing the combinatorially complex sequence dependence of biopolymer phase diagrams. Here, we quantitatively show that monomer accessibility is central to determining the strength of pair interactions. We formulate an analytical perturbative approach, phenomenologically precluding two polymers' centers of mass from overlapping within a correlation hole. This theory yields the correction to the strength of mean-field interactions in terms of a residue-accessibility parameter (RAP), which accounts for the limited availability of inner monomers to interactions. RAP rationalizes the variations in critical temperatures found in extensive Monte Carlo simulations for thousands of two-letter polymer solutions of varying lengths and sequences. RAP may thus be effective for deciphering the polymer-sequence dependence of phase diagrams given any polymer length, set of monomer types, and polymer mixtures.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "de Souza, J Pedro",
+        "Sorkin, Benjamin",
+        "Akkiraju, Amala",
+        "Panagiotopoulos, Athanassios Z",
+        "Stone, Howard A"
+      ],
+      "short_names": [
+        "de Souza JP",
+        "Sorkin B",
+        "Akkiraju A",
+        "Panagiotopoulos AZ",
+        "Stone HA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3634-4991",
+        "ORCID: 0000-0003-2799-3797",
+        "ORCID: 0009-0002-1630-1265",
+        "ORCID: 0000-0002-8152-6615",
+        "ORCID: 0000-0002-9670-0639"
+      ],
+      "affiliations": [
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Department of Chemical and Biomolecular Engineering, University of California, Los Angeles, Los Angeles, California 90095, USA.",
+        "Princeton Center for Theoretical Science, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, New Jersey 08544, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "de Souza, J Pedro",
+        "short_name": "de Souza JP",
+        "identifiers": [
+          "0000-0003-3634-4991"
+        ],
+        "affiliations": [
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey 08544, USA.",
+          "Department of Chemical and Biomolecular Engineering, University of California, Los Angeles, Los Angeles, California 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Sorkin, Benjamin",
+        "short_name": "Sorkin B",
+        "identifiers": [
+          "0000-0003-2799-3797"
+        ],
+        "affiliations": [
+          "Princeton Center for Theoretical Science, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Akkiraju, Amala",
+        "short_name": "Akkiraju A",
+        "identifiers": [
+          "0009-0002-1630-1265"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Panagiotopoulos, Athanassios Z",
+        "short_name": "Panagiotopoulos AZ",
+        "identifiers": [
+          "0000-0002-8152-6615"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Stone, Howard A",
+        "short_name": "Stone HA",
+        "identifiers": [
+          "0000-0002-9670-0639"
+        ],
+        "affiliations": [
+          "Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2026 Oct 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/05 11:31",
+    "fetched_at": "2026-10-11 08:29:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42831523",
+      "23912807",
+      "29397728",
+      "36227468",
+      "19530783",
+      "38884406",
+      "32619404",
+      "37161095",
+      "34965250",
+      "31041391",
+      "42475469",
+      "35562982",
+      "36343363",
+      "32357776",
+      "28338151",
+      "41527808",
+      "33704061",
+      "29509422",
+      "36993371",
+      "31139718",
+      "28483149",
+      "38252962",
+      "21389454",
+      "26772587",
+      "42161313",
+      "29364893",
+      "40748104",
+      "34716273",
+      "22493682",
+      "41481439",
+      "34598580",
+      "37645312",
+      "16229620",
+      "40631837",
+      "39319382",
+      "38243474",
+      "40080692",
+      "36181270",
+      "30397688",
+      "36272811",
+      "34506124",
+      "19045314",
+      "15268058",
+      "42607174",
+      "20441304",
+      "16494421",
+      "38526948",
+      "22612112",
+      "28926068",
+      "15945661",
+      "33139563",
+      "36227467",
+      "31869935",
+      "25240374",
+      "32312191",
+      "33069007",
+      "23635166",
+      "32007034",
+      "33629837",
+      "38139962",
+      "22225187",
+      "41504268",
+      "38351888",
+      "40970906",
+      "40590540",
+      "34074792",
+      "40781776",
+      "37252985",
+      "38546977",
+      "37489654",
+      "32776023",
+      "38874369",
+      "21391628",
+      "40093361",
+      "38308651",
+      "33078839",
+      "16035870",
+      "37079924",
+      "30471685",
+      "23320720",
+      "32639157",
+      "40727229",
+      "41969255",
+      "39605385",
+      "33507757",
+      "40911789",
+      "12225127",
+      "18783771",
+      "30384718",
+      "30193467",
+      "36993212",
+      "34566189",
+      "32087632",
+      "39610751",
+      "38690757",
+      "21709352",
+      "36771812",
+      "42101119",
+      "40944421",
+      "37964343"
+    ],
+    "review": [
+      "42831523",
+      "29509422",
+      "32312191",
+      "33069007"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0348493",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

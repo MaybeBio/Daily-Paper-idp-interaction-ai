@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "42855095",
+    "doi": "10.1016/j.ijbiomac.2026.154807",
+    "title": "Multispectroscopic and molecular simulation insights into the interaction between casein and key aroma compounds in yogurt."
+  },
+  "content": {
+    "abstract": "The molecular mechanisms governing interactions between casein (CS) and key yogurt aromas remain insufficiently elucidated. This study systematically investigated the interactions of CS with acetoin, diacetyl, and acetaldehyde through multispectroscopic techniques and integrated molecular simulations. Fluorescence quenching analysis confirmed the formation of stable ground-state complexes via static quenching (K(q)  approximately  10(11) L.mol(-1).s(-1)), with binding affinities following the order: acetoin > diacetyl > acetaldehyde (K(a) ranging from 1.12 x 10(3) to 2.82 x 10(3) L.mol(-1) at 298-310 K). Thermodynamic evaluation (DeltaG < 0, DeltaH > 0, DeltaS > 0) revealed a spontaneous, endothermic binding process driven predominantly by hydrophobic interactions. Notably, spectroscopic and morphological characterizations demonstrated divergent, ligand-dependent structural remodeling within the intrinsically disordered CS matrix. Ketone ligands (acetoin and diacetyl) triggered significant structural uncoiling and granular aggregation, whereas acetaldehyde promoted compact intermolecular cross-linking. Furthermore, molecular docking and 100-ns molecular dynamics simulations identified beta-CS as the primary binding subunit, which utilizes its highly flexible N-terminal domain to dynamically encapsulate aroma molecules via a hydrophobic collapse mechanism. These findings offer atomic-level insights into dairy protein-flavor interactions, providing a robust theoretical foundation for targeted flavor regulation and retention in fermented dairy matrices.",
+    "keywords": [
+      "Flavor retention",
+      "Protein-flavor interactions",
+      "Yogurt aroma"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Can",
+        "Yang, Chang",
+        "Li, Hui",
+        "Chen, Chen",
+        "Yu, Haiyan",
+        "Lou, Xinman",
+        "Pan, Xin",
+        "Tian, Huaixiang",
+        "Yuan, Haibin",
+        "Li, Hongliang"
+      ],
+      "short_names": [
+        "Tang C",
+        "Yang C",
+        "Li H",
+        "Chen C",
+        "Yu H",
+        "Lou X",
+        "Pan X",
+        "Tian H",
+        "Yuan H",
+        "Li H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China.",
+        "Inner Mongolia Mengniu Dairy (Group) Co., Ltd., Hohhot, 011500, China; Mengniu Hi-Tech Dairy Product Beijing Co., Ltd., Beijing, 101100, China.",
+        "Inner Mongolia Mengniu Dairy (Group) Co., Ltd., Hohhot, 011500, China.",
+        "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China.",
+        "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China.",
+        "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China.",
+        "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China.",
+        "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China.",
+        "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China. Electronic address: yuanhb@sit.edu.cn.",
+        "Inner Mongolia Mengniu Dairy (Group) Co., Ltd., Hohhot, 011500, China; Mengniu Hi-Tech Dairy Product Beijing Co., Ltd., Beijing, 101100, China. Electronic address: lihongliang@mengniu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Can",
+        "short_name": "Tang C",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chang",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Mengniu Dairy (Group) Co., Ltd., Hohhot, 011500, China; Mengniu Hi-Tech Dairy Product Beijing Co., Ltd., Beijing, 101100, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hui",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Mengniu Dairy (Group) Co., Ltd., Hohhot, 011500, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chen",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Haiyan",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China."
+        ]
+      },
+      {
+        "full_name": "Lou, Xinman",
+        "short_name": "Lou X",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Xin",
+        "short_name": "Pan X",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Huaixiang",
+        "short_name": "Tian H",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Haibin",
+        "short_name": "Yuan H",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Flavour Fragrance and Cosmetics, Shanghai Institute of Technology, Shanghai, 201418, China. Electronic address: yuanhb@sit.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Hongliang",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Mengniu Dairy (Group) Co., Ltd., Hohhot, 011500, China; Mengniu Hi-Tech Dairy Product Beijing Co., Ltd., Beijing, 101100, China. Electronic address: lihongliang@mengniu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Oct 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/09 23:31",
+    "fetched_at": "2026-10-11 08:29:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42855095",
+      "32684481",
+      "39478354",
+      "39779109",
+      "42475469",
+      "39002877",
+      "38331185",
+      "42662572",
+      "42740546",
+      "23912807",
+      "40724356",
+      "40685056",
+      "33251341",
+      "40719576",
+      "42083166",
+      "41453268",
+      "41457568",
+      "42376624",
+      "32816469",
+      "41990534",
+      "41349817",
+      "41964337",
+      "41166805",
+      "41703869",
+      "41980691",
+      "42659865",
+      "21108074",
+      "42679549",
+      "41848846",
+      "38064964",
+      "41380878",
+      "40582665",
+      "28097462",
+      "39948258",
+      "39733711",
+      "42449203",
+      "41681149",
+      "41617668",
+      "39500200",
+      "34443680",
+      "42421348",
+      "30215193",
+      "31608476",
+      "41738367",
+      "40848345",
+      "23674486",
+      "40533629",
+      "30124142",
+      "41688405",
+      "40495580",
+      "41939139",
+      "42431456",
+      "40871588",
+      "32743632",
+      "40639255",
+      "42501437",
+      "42004332",
+      "42296687",
+      "31280128",
+      "30703686",
+      "40503524",
+      "40882445",
+      "41765909",
+      "34749259",
+      "39987803",
+      "42407126",
+      "42214953",
+      "41229954",
+      "40632195",
+      "38761495",
+      "40943500",
+      "42763635",
+      "41621295",
+      "40055448",
+      "42492646",
+      "42258935",
+      "41185318",
+      "41297469",
+      "42165692",
+      "40252367",
+      "28595073",
+      "42043606",
+      "41616883",
+      "24911269",
+      "23973780",
+      "27049867",
+      "39952066",
+      "27838419",
+      "41267313",
+      "40627932",
+      "41596871",
+      "35479994",
+      "37935297",
+      "40592428",
+      "38395276",
+      "39799681",
+      "26331959",
+      "41138359",
+      "39029202",
+      "42629089"
+    ],
+    "review": [
+      "42855095",
+      "21108074"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

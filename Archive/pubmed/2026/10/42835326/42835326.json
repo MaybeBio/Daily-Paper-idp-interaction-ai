@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "42835326",
+    "doi": "10.1016/j.yjsbx.2026.100165",
+    "title": "Phosphorylation in the dynein light intermediate chain 2 isoform enables Pin1 binding and modulates cargo-adaptor interactions."
+  },
+  "content": {
+    "abstract": "The cytoplasmic dynein motor relies on cargo-specific adaptors that bind the C-terminal domain of dynein Light Intermediate Chain (LIC-C), yet how LIC-C phosphorylation regulates adaptor engagement remains unclear. LIC-C of both LIC1 and LIC2 isoforms are largely intrinsically disordered, containing only two regions of alpha-helical propensity (Helix-1 and Helix-2) near their C-termini. Here, using in vitro phosphorylation and NMR-based analyses, we show that CDK1/Cyclin B extensively phosphorylates LIC-C of LIC2 (LIC2-C) without altering its overall secondary structural propensity. Phosphorylation modulates long-range intramolecular contacts, especially in the segment spanning the Helices including the interhelical region. Consequently, the engagement of cargo adaptors BICD2 but not SPDL1 or HOOK3 is altered. Phosphorylation of LIC2-C selectively enhances BICD2 contacts with Helix-2 but does not significantly change adaptor affinity. In contrast, phosphorylation enables high-affinity binding of the peptidyl-prolyl isomerase Pin1, reducing BICD2's binding affinity while leaving SPDL1 and HOOK3 largely unaffected. These findings reveal a phosphorylation-dependent, Pin1-mediated mechanism that alters the conformational ensembles sampled by LIC2, selectively tuning dynein-adaptor interactions and facilitating the cell's dynamic spatiotemporal transport requirements.",
+    "keywords": [
+      "DLIC2",
+      "Dynein light intermediate chain",
+      "Motor adaptors",
+      "Phosphorylation",
+      "Pin1"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Warchol, Michael",
+        "Kroft, Charles W",
+        "Krall, Jeffrey B",
+        "Bevers, Shaun",
+        "Welty, Robb",
+        "Henen, Morkos A",
+        "Vogeli, Beat"
+      ],
+      "short_names": [
+        "Warchol M",
+        "Kroft CW",
+        "Krall JB",
+        "Bevers S",
+        "Welty R",
+        "Henen MA",
+        "Vogeli B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+        "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+        "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+        "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+        "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+        "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+        "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Warchol, Michael",
+        "short_name": "Warchol M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Kroft, Charles W",
+        "short_name": "Kroft CW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Krall, Jeffrey B",
+        "short_name": "Krall JB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Bevers, Shaun",
+        "short_name": "Bevers S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Welty, Robb",
+        "short_name": "Welty R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Henen, Morkos A",
+        "short_name": "Henen MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Vögeli, Beat",
+        "short_name": "Vögeli B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of structural biology: X"
+    ],
+    "journal_abbrev": [
+      "J Struct Biol X"
+    ],
+    "pub_date": "2026 Dec",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/06 11:31",
+    "fetched_at": "2026-10-11 08:29:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42835326",
+      "30615611",
+      "37476506",
+      "34709360",
+      "33173051",
+      "38525916",
+      "36416224",
+      "34014309",
+      "29515126",
+      "40501990",
+      "11838236",
+      "27482052",
+      "28003657",
+      "37105961",
+      "42620343",
+      "38903077",
+      "25272277",
+      "10893222",
+      "41334889",
+      "21169557",
+      "32413290",
+      "27441562",
+      "37892127",
+      "11340075",
+      "34273400",
+      "28162951",
+      "40462900",
+      "32467330",
+      "41880324",
+      "25866209",
+      "20964624",
+      "32378283",
+      "23762412",
+      "19061245",
+      "11940573",
+      "38556551",
+      "25576383",
+      "30674581",
+      "27365401",
+      "36150379",
+      "39356418",
+      "41699082",
+      "40388619",
+      "12686540",
+      "15581372",
+      "36125250",
+      "19540120",
+      "38829892",
+      "36496344",
+      "16452477",
+      "40925371",
+      "42702615",
+      "11536324",
+      "31306018",
+      "39416085",
+      "40021125",
+      "31320392",
+      "30068656",
+      "16949604",
+      "35229716",
+      "32256312",
+      "11212339",
+      "17931657",
+      "40661615",
+      "40546013",
+      "33667600",
+      "21931160",
+      "31591892",
+      "29225075",
+      "33472938",
+      "36602690",
+      "36107127",
+      "37234853",
+      "28196890",
+      "17551010",
+      "10893223",
+      "26253171",
+      "17965411",
+      "36071160",
+      "28320824",
+      "32619477",
+      "39803430",
+      "42645201",
+      "30261098",
+      "16570247",
+      "40713938",
+      "28962834",
+      "29695509",
+      "26242913",
+      "24265246",
+      "39868132",
+      "11208058",
+      "41134888",
+      "38240798",
+      "40475460",
+      "16227615",
+      "41401008",
+      "22235120",
+      "27194325",
+      "40093101"
+    ],
+    "review": [
+      "42835326",
+      "11838236",
+      "38556551",
+      "25576383",
+      "11212339"
+    ],
+    "pmc": [
+      "13635249"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2590-1524(26)00023-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3863",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "42838973",
+    "doi": "10.1038/s41467-026-78050-6",
+    "title": "Near-atomistic simulations reveal the molecular principles that control chromatin structure and phase separation."
+  },
+  "content": {
+    "abstract": "Understanding how chromatin's physicochemical properties shape its emergent organization is central to deciphering genome function. To address this, we present OpenCGChromatin, a high-performance coarse-grained model that achieves near-atomistic simulations of chromatin systems an order of magnitude larger than previously possible, spanning biomolecular condensates and fibers tens of kilobases in length. OpenCGChromatin simulations independently predict, from physicochemical principles, the linker-DNA-dependent chromatin structures observed by cryo-ET and the relative thermodynamic stability of condensates inferred from biochemical assays. Crucially, OpenCGChromatin resolves histone-tail dynamics and interaction networks that remain inaccessible experimentally, explaining how linker-DNA length controls histone tail accessibility and the resulting multiscale structure of chromatin condensates. Extending simulations to 108-nucleosome fibers shows that acetylation disrupts chromatin compaction in a pattern-specific manner by weakening key tail-mediated interactions, with H4K16 and H3K9 emerging as the most energetically disruptive modifications. These results position OpenCGChromatin as a powerful framework for linking molecular detail to emergent chromatin organization.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin/chemistry/metabolism",
+      "Phase Separation",
+      "Histones/chemistry/metabolism",
+      "Nucleosomes/chemistry/metabolism",
+      "DNA/chemistry/metabolism",
+      "Acetylation",
+      "Molecular Dynamics Simulation",
+      "Thermodynamics",
+      "Biomolecular Condensates/chemistry",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Russell, Kieran",
+        "Chen, Yifang",
+        "Espinosa, Jorge R",
+        "Farre-Gil, David",
+        "Zhou, Huabin",
+        "Maristany, M Julia",
+        "Perez-Lopez, Jose Ignacio",
+        "Huertas, Jan",
+        "Orozco, Modesto",
+        "Rosen, Michael K",
+        "Collepardo-Guevara, Rosana"
+      ],
+      "short_names": [
+        "Russell K",
+        "Chen Y",
+        "Espinosa JR",
+        "Farre-Gil D",
+        "Zhou H",
+        "Maristany MJ",
+        "Perez-Lopez JI",
+        "Huertas J",
+        "Orozco M",
+        "Rosen MK",
+        "Collepardo-Guevara R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8988-7626",
+        "ORCID: 0009-0009-6922-5332",
+        "ORCID: 0000-0001-9530-2658",
+        "ORCID: 0000-0002-7282-3204",
+        "ORCID: 0000-0002-7788-0806",
+        "ORCID: 0009-0009-8875-9225",
+        "ORCID: 0009-0003-7163-8925",
+        "ORCID: 0000-0003-2607-5214",
+        "ORCID: 0000-0002-8608-3278",
+        "ORCID: 0000-0002-0775-7917",
+        "ORCID: 0000-0003-1781-7351"
+      ],
+      "affiliations": [
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Madrid, Spain.",
+        "PhAsIca Biosciences S.L., Madrid, Spain.",
+        "Instituto Pluridisciplinar, Universidad Complutense de Madrid, Madrid, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Department of Mathematics and Computer Science, University of Barcelona, Barcelona, Spain.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Department of Biophysics and Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Department of Genetics, University of Cambridge, Cambridge, UK.",
+        "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Spain. modesto.orozco@irbbarcelona.org.",
+        "Department of Biochemistry and Biomedicine, University of Barcelona, Barcelona, Spain. modesto.orozco@irbbarcelona.org.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA. Michael.Rosen@UTSouthwestern.edu.",
+        "Department of Biophysics and Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA. Michael.Rosen@UTSouthwestern.edu.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK. rc597@cam.ac.uk.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA. rc597@cam.ac.uk.",
+        "PhAsIca Biosciences S.L., Madrid, Spain. rc597@cam.ac.uk.",
+        "Department of Genetics, University of Cambridge, Cambridge, UK. rc597@cam.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Russell, Kieran",
+        "short_name": "Russell K",
+        "identifiers": [
+          "0000-0002-8988-7626"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Yifang",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0009-0009-6922-5332"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [
+          "0000-0001-9530-2658"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Madrid, Spain.",
+          "PhAsIca Biosciences S.L., Madrid, Spain.",
+          "Instituto Pluridisciplinar, Universidad Complutense de Madrid, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Farré-Gil, David",
+        "short_name": "Farré-Gil D",
+        "identifiers": [
+          "0000-0002-7282-3204"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+          "Department of Mathematics and Computer Science, University of Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huabin",
+        "short_name": "Zhou H",
+        "identifiers": [
+          "0000-0002-7788-0806"
+        ],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+          "Department of Biophysics and Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Maristany, M Julia",
+        "short_name": "Maristany MJ",
+        "identifiers": [
+          "0009-0009-8875-9225"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Perez-Lopez, Jose Ignacio",
+        "short_name": "Perez-Lopez JI",
+        "identifiers": [
+          "0009-0003-7163-8925"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Huertas, Jan",
+        "short_name": "Huertas J",
+        "identifiers": [
+          "0000-0003-2607-5214"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+          "Department of Genetics, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Orozco, Modesto",
+        "short_name": "Orozco M",
+        "identifiers": [
+          "0000-0002-8608-3278"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Spain. modesto.orozco@irbbarcelona.org.",
+          "Department of Biochemistry and Biomedicine, University of Barcelona, Barcelona, Spain. modesto.orozco@irbbarcelona.org."
+        ]
+      },
+      {
+        "full_name": "Rosen, Michael K",
+        "short_name": "Rosen MK",
+        "identifiers": [
+          "0000-0002-0775-7917"
+        ],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA. Michael.Rosen@UTSouthwestern.edu.",
+          "Department of Biophysics and Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA. Michael.Rosen@UTSouthwestern.edu."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [
+          "0000-0003-1781-7351"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK. rc597@cam.ac.uk.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA. rc597@cam.ac.uk.",
+          "PhAsIca Biosciences S.L., Madrid, Spain. rc597@cam.ac.uk.",
+          "Department of Genetics, University of Cambridge, Cambridge, UK. rc597@cam.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Oct 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/07 05:31",
+    "fetched_at": "2026-10-11 08:29:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42838973",
+      "41332608",
+      "41343645",
+      "40029962",
+      "40776446",
+      "32017651",
+      "34001913",
+      "27698366",
+      "41657248",
+      "33667509",
+      "42186817",
+      "26699921",
+      "42441420",
+      "33309853",
+      "39413416",
+      "27748599",
+      "40628730",
+      "26192632",
+      "39596203",
+      "33597548",
+      "33096105",
+      "17142268",
+      "33181171",
+      "41644720",
+      "24847063",
+      "19298048",
+      "30373774",
+      "42173878",
+      "34399316",
+      "33080019",
+      "41957285",
+      "25418099",
+      "32664941",
+      "28855255",
+      "28475873",
+      "28304160",
+      "41786717",
+      "29018282",
+      "16460006",
+      "40058308",
+      "33888707",
+      "30968131",
+      "25122771",
+      "39116133",
+      "28973435",
+      "31176328",
+      "40898625",
+      "38865599",
+      "16717183",
+      "26262925",
+      "27262190",
+      "42789225",
+      "40766493",
+      "27931745",
+      "41316707",
+      "32958761",
+      "27276249",
+      "40047512",
+      "26750377",
+      "33383034",
+      "33589918",
+      "29506273",
+      "33432055",
+      "16001076",
+      "42152683",
+      "20709077",
+      "39293192",
+      "33856458",
+      "22990522",
+      "39443461",
+      "29548294",
+      "29655483",
+      "40616262",
+      "33460684",
+      "33957053",
+      "30883217",
+      "39757199",
+      "12927539",
+      "37915169",
+      "23150245",
+      "40327693",
+      "32512172",
+      "35158124",
+      "31015385",
+      "28934465",
+      "40815652",
+      "26872330",
+      "42686850",
+      "34081696",
+      "31876274",
+      "22051513",
+      "17996059",
+      "10611231",
+      "12697747",
+      "34184895",
+      "12581654",
+      "26789756",
+      "19843447",
+      "12853645",
+      "25564155"
+    ],
+    "review": [
+      "42838973",
+      "32017651",
+      "33309853",
+      "29018282",
+      "40058308",
+      "27262190",
+      "39293192",
+      "33460684",
+      "33957053",
+      "30883217",
+      "39757199",
+      "23150245",
+      "31015385",
+      "26872330",
+      "31876274"
+    ],
+    "pmc": [
+      "13642264"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-78050-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

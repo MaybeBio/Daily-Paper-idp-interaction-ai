@@ -1,0 +1,233 @@
+{
+  "identity": {
+    "pmid": "42833149",
+    "doi": "10.1016/j.bmc.2026.118817",
+    "title": "Selective PTP1B inhibition by A-1331852: Uncompetitive kinetics and computational evidence for C-terminal engagement."
+  },
+  "content": {
+    "abstract": "Selective inhibition of protein tyrosine phosphatase 1B (PTP1B), a well-established target in metabolic and oncological signaling pathways, is limited by its 74% active-site identity with the closely related phosphatase TCPTP. Repurposing the clinical-stage Bcl-xL BH3 mimetic A-1331852, we identify it as a potent PTP1B inhibitor demonstrating a selectivity margin of at least 50-fold over TCPTP (IC(5)(0) = 4.0 muM vs >200 muM). Kinetic analysis reveals uncompetitive inhibition consistent with recognition of a substrate-induced binding site. Docking and 500 ns molecular dynamics simulations (MD) of full-length PTP1B support a putative multisite model that primarily engages the catalytic domain, with secondary stabilizing contacts at the intrinsically disordered C-terminus (DeltaG(bind) = -42.95 kcal/mol). Comparative MD of Bcl-xL reveals a structurally distinct binding footprint, indicating that dual inhibition is driven by target-specific recognition rather than the engagement of a shared structural motif. In silico modeling of a predicted PTP1B-Bcl-xL complex suggests a coupled disorder-to-order interface bridging the PTP1B C-terminus and the Bcl-xL BH3-binding groove. Together, these results highlight A-1331852 as a promising starting point for developing PTP1B inhibitors designed to exploit transient, substrate-induced binding states.",
+    "keywords": [
+      "Bcl-xL",
+      "Drug repurposing",
+      "Intrinsically disordered region",
+      "Molecular dynamics",
+      "PTP1B inhibitors",
+      "Protein-protein interaction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vasquez-Martinez, Nathaly",
+        "Sosa-Peinado, Alejandro",
+        "Cortes-Benitez, Francisco",
+        "Gonzalez-Andrade, Martin"
+      ],
+      "short_names": [
+        "Vasquez-Martinez N",
+        "Sosa-Peinado A",
+        "Cortes-Benitez F",
+        "Gonzalez-Andrade M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratorio de Biosensores y Modelaje Molecular, Departamento de Bioquimica, Facultad de Medicina, Universidad Nacional Autonoma de Mexico, Ciudad de Mexico 04510, Mexico.",
+        "Laboratorio de Fisicoquimica e Ingenieria de Proteinas, Departamento de Bioquimica, Facultad de Medicina, Universidad Nacional Autonoma de Mexico, Ciudad de Mexico 04510, Mexico.",
+        "Laboratorio de Sintesis y Aislamiento de Sustancias Bioactivas, Departamento de Sistemas Biologicos, Division de Ciencias Biologicas y de la Salud, Universidad Autonoma Metropolitana - Unidad Xochimilco, Ciudad de Mexico 04960, Mexico.",
+        "Laboratorio de Biosensores y Modelaje Molecular, Departamento de Bioquimica, Facultad de Medicina, Universidad Nacional Autonoma de Mexico, Ciudad de Mexico 04510, Mexico. Electronic address: martin@bq.unam.mx."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vasquez-Martínez, Nathaly",
+        "short_name": "Vasquez-Martínez N",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Biosensores y Modelaje Molecular, Departamento de Bioquímica, Facultad de Medicina, Universidad Nacional Autónoma de México, Ciudad de México 04510, Mexico."
+        ]
+      },
+      {
+        "full_name": "Sosa-Peinado, Alejandro",
+        "short_name": "Sosa-Peinado A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Fisicoquímica e Ingeniería de Proteínas, Departamento de Bioquímica, Facultad de Medicina, Universidad Nacional Autónoma de México, Ciudad de México 04510, Mexico."
+        ]
+      },
+      {
+        "full_name": "Cortés-Benítez, Francisco",
+        "short_name": "Cortés-Benítez F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Síntesis y Aislamiento de Sustancias Bioactivas, Departamento de Sistemas Biológicos, División de Ciencias Biológicas y de la Salud, Universidad Autónoma Metropolitana - Unidad Xochimilco, Ciudad de México 04960, Mexico."
+        ]
+      },
+      {
+        "full_name": "González-Andrade, Martín",
+        "short_name": "González-Andrade M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Biosensores y Modelaje Molecular, Departamento de Bioquímica, Facultad de Medicina, Universidad Nacional Autónoma de México, Ciudad de México 04510, Mexico. Electronic address: martin@bq.unam.mx."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioorganic & medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Bioorg Med Chem"
+    ],
+    "pub_date": "2026 Oct 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/05 23:30",
+    "fetched_at": "2026-10-11 08:29:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42833149",
+      "42445032",
+      "41726330",
+      "30238851",
+      "38109128",
+      "31451955",
+      "40449325",
+      "30729132",
+      "39100322",
+      "29608303",
+      "42619025",
+      "41831381",
+      "24000798",
+      "42494928",
+      "29912965",
+      "34521197",
+      "40946227",
+      "36223525",
+      "16332678",
+      "34735946",
+      "28395151",
+      "29031618",
+      "32569626",
+      "16364216",
+      "38189304",
+      "27353889",
+      "23604820",
+      "28279820",
+      "40610244",
+      "36573409",
+      "18831546",
+      "37729547",
+      "37131728",
+      "28511130",
+      "38029632",
+      "39411941",
+      "24845231",
+      "36399709",
+      "40668333",
+      "29745030",
+      "30714526",
+      "12193602",
+      "11341829",
+      "31446553",
+      "40484072",
+      "26027757",
+      "41847642",
+      "29048995",
+      "26865097",
+      "34384957",
+      "16363874",
+      "31221555",
+      "40537845",
+      "14516196",
+      "24831294",
+      "33857515",
+      "38007892",
+      "24012873",
+      "41684097",
+      "15632081",
+      "29289892",
+      "21216966",
+      "35013194",
+      "28903561",
+      "33992895",
+      "12547827",
+      "31743023",
+      "24418013",
+      "42179932",
+      "42780598",
+      "35782627",
+      "32643532",
+      "30501963",
+      "15866871",
+      "34946519",
+      "31490104",
+      "42610746",
+      "26373204",
+      "27798765",
+      "32888269",
+      "41528000",
+      "34246920",
+      "41935149",
+      "41995262",
+      "40549293",
+      "30910462",
+      "17199293",
+      "11352902",
+      "27649447",
+      "26294069",
+      "31208312",
+      "34563877",
+      "19380334",
+      "38692532",
+      "35809481",
+      "21708098",
+      "23680104",
+      "40007349",
+      "19670908",
+      "29235148"
+    ],
+    "review": [
+      "42833149",
+      "27353889",
+      "30714526"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0968-0896(26)00273-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BCL2L1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

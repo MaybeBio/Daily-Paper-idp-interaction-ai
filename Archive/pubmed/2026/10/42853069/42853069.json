@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "42853069",
+    "doi": "10.7554/eLife.111124",
+    "title": "Role of desolvation on biomolecular liquid-liquid phase separation."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates play essential roles in cellular organization and are implicated in diverse pathological processes. Their formation is driven by liquid-liquid phase separation (LLPS), a process that requires coordinated multistep desolvation of biomolecular chains and multivalent inter-chain interactions. Although coarse-grained (CG) models with implicit solvent are widely used to probe LLPS thermodynamics and kinetics, they typically neglect water-mediated desolvation effects, limiting their accuracy and mechanistic interpretability. Here, guided by all-atom simulations and experimental measurements, we develop a desolvation-aware implicit-solvent CG model by incorporating residue-level desolvation terms directly into the pairwise energy function, and apply it to investigate LLPS of intrinsically disordered proteins. Incorporating these desolvation interactions reshapes the phase diagram, alleviating dense-phase overcompaction. Notably, we observe an approximately linear correlation between the temperature gap (simulation temperature relative to the critical point) and the extent of conformational expansion accompanying the dilute-to-dense phase transition, a result further supported by theoretical analysis. We also find that desolvation barriers slow early density-fluctuation growth and shorten transient kinetic arrest, whereas solvent-separated contact interactions exert the opposite effects. Both terms further modulate chain mobility within mature condensates through competing packing and energy-landscape effects. Together, this framework enables an efficient representation of desolvation in CG simulations and reveals how desolvation energetics shape both the thermodynamic landscape and kinetic properties of biomolecular LLPS.",
+    "keywords": [
+      "biomolecular condensates",
+      "coarse-grained model",
+      "computational biology",
+      "desolvation effect",
+      "liquid-liquid phase separation",
+      "none",
+      "systems biology"
+    ],
+    "mesh_terms": [
+      "*Phase Separation",
+      "Thermodynamics",
+      "*Solvents/chemistry",
+      "*Biomolecular Condensates/chemistry",
+      "Kinetics",
+      "Phase Transition",
+      "*Intrinsically Disordered Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Kai",
+        "Peng, Zhiyu",
+        "Li, Wenfei",
+        "Wang, Wei"
+      ],
+      "short_names": [
+        "Zhang K",
+        "Peng Z",
+        "Li W",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-1486-7206",
+        "ORCID: 0009-0000-3125-0211",
+        "ORCID: 0000-0003-2679-4075",
+        "ORCID: 0000-0001-5441-0302"
+      ],
+      "affiliations": [
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, China.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, China.",
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, China.",
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, China.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, China.",
+        "Jiangsu Key Laboratory for Cardiovascular Information and Health Engineering Medicine, Department of Cardiology, Nanjing Drum Tower Hospital, Medical School, Nanjing University, Nanjing, China.",
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Kai",
+        "short_name": "Zhang K",
+        "identifiers": [
+          "0009-0002-1486-7206"
+        ],
+        "affiliations": [
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, China.",
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Zhiyu",
+        "short_name": "Peng Z",
+        "identifiers": [
+          "0009-0000-3125-0211"
+        ],
+        "affiliations": [
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenfei",
+        "short_name": "Li W",
+        "identifiers": [
+          "0000-0003-2679-4075"
+        ],
+        "affiliations": [
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, China.",
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, China.",
+          "Jiangsu Key Laboratory for Cardiovascular Information and Health Engineering Medicine, Department of Cardiology, Nanjing Drum Tower Hospital, Medical School, Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0001-5441-0302"
+        ],
+        "affiliations": [
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2026 Oct 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/09 11:40",
+    "fetched_at": "2026-10-11 08:29:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42853069",
+      "40748104",
+      "39225535",
+      "40439464",
+      "41480717",
+      "41575805",
+      "34716273",
+      "39947751",
+      "33139563",
+      "39987501",
+      "42283756",
+      "31237369",
+      "42517612",
+      "41524628",
+      "38979955",
+      "33076213",
+      "36524527",
+      "40098319",
+      "39042834",
+      "40278867",
+      "42475469",
+      "41700935",
+      "36657879",
+      "39964249",
+      "36227468",
+      "35293386",
+      "41206632",
+      "40616404",
+      "32312191",
+      "33890467",
+      "42126444",
+      "41790295",
+      "42692763",
+      "37191808",
+      "33930220",
+      "36444977",
+      "42243951",
+      "37735186",
+      "33453922",
+      "38251748",
+      "33302617",
+      "40009520",
+      "40515902",
+      "39804953",
+      "40028898",
+      "33684117",
+      "41609052",
+      "23912807",
+      "32696386",
+      "40058249",
+      "37815389",
+      "34206440",
+      "42350353",
+      "36350034",
+      "40664121",
+      "37222424",
+      "33515602",
+      "37735903",
+      "39833115",
+      "38252962",
+      "38982922",
+      "41272974",
+      "42790799",
+      "41587927",
+      "35883530",
+      "35802394",
+      "37662293",
+      "40291420",
+      "40690668",
+      "33069007",
+      "40373290",
+      "41944040",
+      "29511089",
+      "40943143",
+      "41457474",
+      "32087632",
+      "37988476",
+      "36004748",
+      "34110175",
+      "41804277",
+      "41662498",
+      "41739144",
+      "41307542",
+      "41759853",
+      "32393642",
+      "34598583",
+      "42464491",
+      "37468629",
+      "40970906",
+      "29509422",
+      "36758221",
+      "40131954",
+      "35179885",
+      "40588121",
+      "42589422",
+      "34371110",
+      "38546977",
+      "40324711",
+      "38348795",
+      "42789225"
+    ],
+    "review": [
+      "42853069",
+      "41480717",
+      "41575805",
+      "39947751",
+      "31237369",
+      "38979955",
+      "36524527",
+      "39964249",
+      "41206632",
+      "40616404",
+      "32312191",
+      "41790295",
+      "33930220",
+      "42243951",
+      "40058249",
+      "36350034",
+      "40664121",
+      "37735903",
+      "38982922",
+      "42790799",
+      "41587927",
+      "35802394",
+      "33069007",
+      "40943143",
+      "41307542",
+      "29509422",
+      "35179885",
+      "42589422",
+      "34371110"
+    ],
+    "pmc": [
+      "13652542"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

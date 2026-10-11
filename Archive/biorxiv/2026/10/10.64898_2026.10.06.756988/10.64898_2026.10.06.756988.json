@@ -1,0 +1,288 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.10.06.756988",
+  "title": "An intrinsically disordered proline-rich domain acts in synergy with AGP-type glycosylation to control the protein fate of FLA4",
+  "doi": "10.64898/2026.10.06.756988",
+  "abstract": "The functional roles of glycans attached to the proline (Pro) rich region of arabinogalactan proteins are largely elusive. We have tested the possibility of type II arabinogalactans acting as protein fate determinants for the FASCICLIN LIKE ARABINOGALACTAN PROTEIN 4 (FLA4). Pro-to-Ala substitutions in the carboxy-terminal region caused in planta protein destabilization in an ECHIDNA-dependent trans-Golgi compartment and plasma membrane shedding in an aspartate protease-dependent manner. The introduction of diverse glycomodules to the FLA4 carboxy-terminus counteracted the stability loss, with AGP type glycosylation motifs more efficient than N-glycosylation signals and extensin structures. The resistance of FLA4 stability and localization to genetic interference with O-glycosylation suggested that additional protein properties, such as intrinsic disorder and secondary structure were crucial for FLA4 stability. Consistently, disorder-maintaining site directed mutants maintained FLA4 stability in a glycosylation-independent manner. Our data support a role for proline-rich regions in determining protein fate by generating intrinsically disordered domains in the peptide chain and providing acceptor sites for O-glycosylation.",
+  "authors": [
+    "Chaitra Hiremath",
+    "Hui Xue",
+    "Tuba Acet",
+    "Georg J Seifert"
+  ],
+  "published_date": "2026-10-07",
+  "updated_date": "2026-10-07T08:30:17Z",
+  "journal": "bioRxiv",
+  "category": "Plant Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.10.06.756988",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.06.756988.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Plant Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Plant Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            7
+          ]
+        ],
+        "date-time": "2026-10-07T08:52:47Z",
+        "timestamp": 1791363167471,
+        "version": "4.3.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            7
+          ]
+        ]
+      },
+      "group-title": "Plant Biology",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                7
+              ]
+            ],
+            "date-time": "2026-10-07T00:00:00Z",
+            "timestamp": 1791331200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "P 32332-B"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "P 32332-B"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/013tf3c58",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "P 36778-B"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "P 36778-B"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/013tf3c58",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "name": "TUBITAK",
+          "award": [
+            "1059B192400105"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1059B192400105"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:p>The functional roles of glycans attached to the proline (Pro) rich region of arabinogalactan proteins are largely elusive. We have tested the possibility of type II arabinogalactans acting as protein fate determinants for the FASCICLIN LIKE ARABINOGALACTAN PROTEIN 4 (FLA4). Pro-to-Ala substitutions in the carboxy-terminal region caused in planta protein destabilization in an ECHIDNA-dependent trans-Golgi compartment and plasma membrane shedding in an aspartate protease-dependent manner. The introduction of diverse glycomodules to the FLA4 carboxy-terminus counteracted the stability loss, with AGP type glycosylation motifs more efficient than N-glycosylation signals and extensin structures. The resistance of FLA4 stability and localization to genetic interference with O-glycosylation suggested that additional protein properties, such as intrinsic disorder and secondary structure were crucial for FLA4 stability. Consistently, disorder-maintaining site directed mutants maintained FLA4 stability in a glycosylation-independent manner. Our data support a role for proline-rich regions in determining protein fate by generating intrinsically disordered domains in the peptide chain and providing acceptor sites for O-glycosylation.</jats:p>",
+      "DOI": "10.64898/2026.10.06.756988",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            7
+          ]
+        ],
+        "date-time": "2026-10-07T08:30:17Z",
+        "timestamp": 1791361817000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "An intrinsically disordered proline-rich domain acts in synergy with AGP-type glycosylation to control the protein fate of FLA4"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0009-8729-7698",
+          "authenticated-orcid": false,
+          "given": "Chaitra",
+          "family": "Hiremath",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute of Plant Biotechnology and Cell Biology, BOKU University, Vienna; Muthgasse 18 1190-Vienna, Austria;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-0635-7080",
+          "authenticated-orcid": false,
+          "given": "Hui",
+          "family": "Xue",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Gregor Mendel Institute of Plant Biology, Vienna;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0981-9413",
+          "authenticated-orcid": false,
+          "given": "Tuba",
+          "family": "Acet",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Occupational Health and Safety, Faculty of Health Sciences, Gumushane University, Gumushane, Turkiye;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4245-791X",
+          "authenticated-orcid": false,
+          "given": "Georg J",
+          "family": "Seifert",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Plant Biotechnology and Cell Biology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.10.06.756988",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            7
+          ]
+        ],
+        "date-time": "2026-10-07T08:30:17Z",
+        "timestamp": 1791361817000
+      },
+      "score": 86.505806,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.10.06.756988"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            7
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.64898/2026.10.06.756988",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}
