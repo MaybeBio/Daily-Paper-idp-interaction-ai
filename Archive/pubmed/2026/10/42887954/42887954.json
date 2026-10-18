@@ -1,0 +1,109 @@
+{
+  "identity": {
+    "pmid": "42887954",
+    "doi": "10.1016/j.aca.2026.346196",
+    "title": "Mechanisms and applications of condensed RNA-based molecular crowding on enhancing RNA aptamer performance."
+  },
+  "content": {
+    "abstract": "BACKGROUND: RNA aptamers represent promising recognition bioreceptors for biosensing, yet practical applications are severely hampered by limited binding affinity, poor thermal stability and high susceptibility to nuclease-mediated degradation. Intracellular molecular crowding environments driven by liquid-liquid phase separation can remodel RNA conformation and improve biomolecular function, inspiring the construction of artificial condensed RNA systems to address the performance bottlenecks of RNA aptamers for foodborne pathogen detection. In this work, we engineered a CUG-trinucleotide-repeat-based condensed RNA platform coordinated with cationic Poly-l-lysine (Poly-L-Lys) to enhance the detection performance of an RNA aptamer targeting Staphylococcus aureus (S. aureus), a critical food-contaminating pathogen. RESULTS: Non-hollow RNA condensates with heterogeneous spatial architecture were successfully formed in vitro. Compared with non-condensed aptamers, the condensed RNA achieved 22.04% higher binding affinity, an 11.63% elevated melting temperature, and improved nuclease resistance. Mechanistic investigations revealed that molecular crowding rearranged aptamer secondary-structure, switched binding thermodynamics from entropy-driven to enthalpy-driven, and accelerated target-binding kinetics. After integration into a pH-sensitive colorimetric assay, key analytical performance metrics including sensitivity, linear dynamic range, limit of detection, and reproducibility were comprehensively characterized. The sensor exhibited a sensitivity of 0.06 absorbance per log(10)(CFU.mL(-1)), a linear dynamic range spanning 10(2)-10(8) CFU mL(-1), with a limit of detection of 236 +/- 43 CFU mL(-1). Satisfactory assay selectivity, good reproducibility, and acceptable recoveries ranging from 80% to 120% were achieved across multiple complex food matrices including pork, oilseed rape, milk and apple juice. SIGNIFICANCE: This work establishes a feasible molecular crowding engineering strategy for boosting RNA aptamer performance. The condensed RNA sensing platform provides a reliable analytical tool for food-safety monitoring and opens new avenues for designing next-generation nucleic-acid-based biosensors.",
+    "keywords": [
+      "Biosensors",
+      "Condensed RNA",
+      "Foodborne pathogen",
+      "Molecular crowding",
+      "RNA aptamer"
+    ],
+    "mesh_terms": [
+      "*Aptamers, Nucleotide/chemistry",
+      "*Biosensing Techniques/methods",
+      "*Staphylococcus aureus/isolation & purification",
+      "*RNA/chemistry",
+      "Colorimetry",
+      "Limit of Detection",
+      "Polylysine/chemistry",
+      "Thermodynamics",
+      "Nucleic Acid Conformation",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Siqi",
+        "Jiao, Yuru",
+        "Zhang, Hongyan"
+      ],
+      "short_names": [
+        "Wang S",
+        "Jiao Y",
+        "Zhang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shandong Province Key Laboratory of Emerging Contaminants Risk Prevention and Control, College of Life Sciences, Shandong Normal University, Jinan, 250014, PR China.",
+        "Shandong Province Key Laboratory of Emerging Contaminants Risk Prevention and Control, College of Life Sciences, Shandong Normal University, Jinan, 250014, PR China.",
+        "Shandong Province Key Laboratory of Emerging Contaminants Risk Prevention and Control, College of Life Sciences, Shandong Normal University, Jinan, 250014, PR China. Electronic address: zhanghongyan@sdnu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Siqi",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Province Key Laboratory of Emerging Contaminants Risk Prevention and Control, College of Life Sciences, Shandong Normal University, Jinan, 250014, PR China."
+        ]
+      },
+      {
+        "full_name": "Jiao, Yuru",
+        "short_name": "Jiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Province Key Laboratory of Emerging Contaminants Risk Prevention and Control, College of Life Sciences, Shandong Normal University, Jinan, 250014, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hongyan",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Province Key Laboratory of Emerging Contaminants Risk Prevention and Control, College of Life Sciences, Shandong Normal University, Jinan, 250014, PR China. Electronic address: zhanghongyan@sdnu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Analytica chimica acta"
+    ],
+    "journal_abbrev": [
+      "Anal Chim Acta"
+    ],
+    "pub_date": "2026 Nov 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/16 23:33",
+    "fetched_at": "2026-10-18 07:04:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42887954"
+    ],
+    "review": [
+      "42887954"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

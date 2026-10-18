@@ -1,0 +1,443 @@
+{
+  "identity": {
+    "pmid": "42864345",
+    "doi": "10.1038/s41467-026-77696-6",
+    "title": "Mapping high resolution, multidimensional phase diagrams of near-physiological protein condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are membraneless compartments, crucial for organising and regulating diverse cellular processes. Current approaches to study condensate biology either use simplified recombinant protein systems with limited physiological relevance, or complex live-cell models with restricted experimental control and scalability. Here, we present ExVivo PhaseScan, a droplet microfluidics platform that couples mammalian lysate-based reconstitution with scalable analysis to generate high-resolution phase diagrams of compositionally complex protein condensates. We apply this approach to study two multicomponent condensate systems, stress granules and nucleoli, and dissect the physicochemical interactions that influence their stability. We further developed a machine learning pipeline to analyse condensate morphology which we use to reveal how mutations in the amyotrophic lateral sclerosis (ALS)-linked protein Fused in Sarcoma (FUS) remodels condensate properties. We identify liquid-to-solid transitions of mutant FUS within stress granules and nucleoli, and show that these transitions can be reversed by RNA aptamer-based interventions. Together, these findings establish ExVivo PhaseScan as a versatile tool for dissecting the physicochemical and pathological regulation of condensates, with potential to inform therapeutic strategies for diseases driven by aberrant phase transitions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*RNA-Binding Protein FUS/genetics/metabolism/chemistry",
+      "*Biomolecular Condensates/chemistry/metabolism",
+      "Cell Nucleolus/metabolism/chemistry",
+      "*Stress Granules/metabolism/chemistry",
+      "Animals",
+      "Mutation",
+      "Microfluidics/methods",
+      "Phase Separation",
+      "Machine Learning",
+      "Amyotrophic Lateral Sclerosis/genetics/metabolism",
+      "Aptamers, Nucleotide"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Agarwal, Tanushree",
+        "Sneideris, Tomas",
+        "Svara, Fabian",
+        "Jermakovs, Klavs",
+        "Coyle, Helena",
+        "Qamar, Seema",
+        "Kava, Emanuel",
+        "Scrutton, Rob",
+        "Pleschka, Nicole",
+        "Peres, Priyanka",
+        "Cereghetti, Gea",
+        "Andrzejewska, Ewa",
+        "Diaz-Barreiro, Alejandro",
+        "Palmer, Gaby",
+        "Costa-Filho, Antonio J",
+        "Krainer, Georg",
+        "Knowles, Tuomas Pj",
+        "Nixon-Abell, Jonathon"
+      ],
+      "short_names": [
+        "Agarwal T",
+        "Sneideris T",
+        "Svara F",
+        "Jermakovs K",
+        "Coyle H",
+        "Qamar S",
+        "Kava E",
+        "Scrutton R",
+        "Pleschka N",
+        "Peres P",
+        "Cereghetti G",
+        "Andrzejewska E",
+        "Diaz-Barreiro A",
+        "Palmer G",
+        "Costa-Filho AJ",
+        "Krainer G",
+        "Knowles TP",
+        "Nixon-Abell J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5285-871X",
+        "ORCID: 0009-0008-0012-0703",
+        "ORCID: 0000-0001-7732-9435",
+        "ORCID: 0000-0001-7567-1798",
+        "ORCID: 0000-0001-6730-8737",
+        "ORCID: 0000-0002-7879-0140",
+        "ORCID: 0000-0003-4169-0012"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK.",
+        "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK.",
+        "ariadne.ai ag, Buchrain, Switzerland.",
+        "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK.",
+        "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, University of Cambridge, Cambridge, UK.",
+        "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, University of Cambridge, Cambridge, UK.",
+        "Department of Physics, Ribeirao Preto School of Philosophy, Science and Literature, University of Sao Paulo and National Institute of Science and Technology in Innovative Research in Health Sciences: from Nanotechnology to Artificial Intelligence, Ribeirao Preto, Brazil.",
+        "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK.",
+        "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, University of Cambridge, Cambridge, UK.",
+        "Angiomed GmbH, Karlsruhe, Germany.",
+        "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, University of Cambridge, Cambridge, UK.",
+        "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK.",
+        "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK.",
+        "Division of Rheumatology, Department of Medicine, Faculty of Medicine, University of Geneva, Geneva, Switzerland.",
+        "Department of Pathology and Immunology, Faculty of Medicine, University of Geneva, Geneva, Switzerland; Geneva Centre for Inflammation Research, Geneva, Switzerland.",
+        "Division of Rheumatology, Department of Medicine, Faculty of Medicine, University of Geneva, Geneva, Switzerland.",
+        "Department of Pathology and Immunology, Faculty of Medicine, University of Geneva, Geneva, Switzerland; Geneva Centre for Inflammation Research, Geneva, Switzerland.",
+        "Department of Physics, Ribeirao Preto School of Philosophy, Science and Literature, University of Sao Paulo and National Institute of Science and Technology in Innovative Research in Health Sciences: from Nanotechnology to Artificial Intelligence, Ribeirao Preto, Brazil.",
+        "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK. georg.krainer@uni-graz.at.",
+        "Biophysics, Institute of Molecular Biosciences (IMB), University of Graz, NAWI Graz, Graz, Austria; Field of Excellence BioHealth, University of Graz, Graz, Austria; BioTechMed-Graz, Graz, Austria. georg.krainer@uni-graz.at.",
+        "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK. tpjk2@cam.ac.uk.",
+        "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, University of Cambridge, Cambridge, UK. jjn36@cam.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Agarwal, Tanushree",
+        "short_name": "Agarwal T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Sneideris, Tomas",
+        "short_name": "Sneideris T",
+        "identifiers": [
+          "0000-0001-5285-871X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Svara, Fabian",
+        "short_name": "Svara F",
+        "identifiers": [],
+        "affiliations": [
+          "ariadne.ai ag, Buchrain, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Jermakovs, Klavs",
+        "short_name": "Jermakovs K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Coyle, Helena",
+        "short_name": "Coyle H",
+        "identifiers": [],
+        "affiliations": [
+          "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Qamar, Seema",
+        "short_name": "Qamar S",
+        "identifiers": [],
+        "affiliations": [
+          "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Kava, Emanuel",
+        "short_name": "Kava E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Ribeirão Preto School of Philosophy, Science and Literature, University of São Paulo and National Institute of Science and Technology in Innovative Research in Health Sciences: from Nanotechnology to Artificial Intelligence, Ribeirão Preto, Brazil."
+        ]
+      },
+      {
+        "full_name": "Scrutton, Rob",
+        "short_name": "Scrutton R",
+        "identifiers": [
+          "0009-0008-0012-0703"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Pleschka, Nicole",
+        "short_name": "Pleschka N",
+        "identifiers": [],
+        "affiliations": [
+          "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, University of Cambridge, Cambridge, UK.",
+          "Angiomed GmbH, Karlsruhe, Germany."
+        ]
+      },
+      {
+        "full_name": "Peres, Priyanka",
+        "short_name": "Peres P",
+        "identifiers": [],
+        "affiliations": [
+          "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Cereghetti, Gea",
+        "short_name": "Cereghetti G",
+        "identifiers": [
+          "0000-0001-7732-9435"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Andrzejewska, Ewa",
+        "short_name": "Andrzejewska E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Diaz-Barreiro, Alejandro",
+        "short_name": "Diaz-Barreiro A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology, Department of Medicine, Faculty of Medicine, University of Geneva, Geneva, Switzerland.",
+          "Department of Pathology and Immunology, Faculty of Medicine, University of Geneva, Geneva, Switzerland; Geneva Centre for Inflammation Research, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Palmer, Gaby",
+        "short_name": "Palmer G",
+        "identifiers": [
+          "0000-0001-7567-1798"
+        ],
+        "affiliations": [
+          "Division of Rheumatology, Department of Medicine, Faculty of Medicine, University of Geneva, Geneva, Switzerland.",
+          "Department of Pathology and Immunology, Faculty of Medicine, University of Geneva, Geneva, Switzerland; Geneva Centre for Inflammation Research, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Costa-Filho, Antonio J",
+        "short_name": "Costa-Filho AJ",
+        "identifiers": [
+          "0000-0001-6730-8737"
+        ],
+        "affiliations": [
+          "Department of Physics, Ribeirão Preto School of Philosophy, Science and Literature, University of São Paulo and National Institute of Science and Technology in Innovative Research in Health Sciences: from Nanotechnology to Artificial Intelligence, Ribeirão Preto, Brazil."
+        ]
+      },
+      {
+        "full_name": "Krainer, Georg",
+        "short_name": "Krainer G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK. georg.krainer@uni-graz.at.",
+          "Biophysics, Institute of Molecular Biosciences (IMB), University of Graz, NAWI Graz, Graz, Austria; Field of Excellence BioHealth, University of Graz, Graz, Austria; BioTechMed-Graz, Graz, Austria. georg.krainer@uni-graz.at."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas Pj",
+        "short_name": "Knowles TP",
+        "identifiers": [
+          "0000-0002-7879-0140"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK. tpjk2@cam.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Nixon-Abell, Jonathon",
+        "short_name": "Nixon-Abell J",
+        "identifiers": [
+          "0000-0003-4169-0012"
+        ],
+        "affiliations": [
+          "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, University of Cambridge, Cambridge, UK. jjn36@cam.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Sep 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/13 05:31",
+    "fetched_at": "2026-10-18 07:04:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42864345",
+      "39756021",
+      "41840875",
+      "41238911",
+      "39455581",
+      "40516596",
+      "37268555",
+      "34129687",
+      "39494508",
+      "34772789",
+      "41656808",
+      "35943083",
+      "40794831",
+      "41535729",
+      "42262924",
+      "23474818",
+      "21856723",
+      "37720552",
+      "34487489",
+      "34862761",
+      "42816535",
+      "34706979",
+      "41772347",
+      "30455313",
+      "26317470",
+      "38029395",
+      "34624313",
+      "41203642",
+      "38971830",
+      "34915152",
+      "36543777",
+      "42207631",
+      "39366355",
+      "26795035",
+      "36690069",
+      "34772787",
+      "23257289",
+      "42065721",
+      "31595953",
+      "25444610",
+      "34767801",
+      "38593618",
+      "29677513",
+      "33159856",
+      "38632300",
+      "40164149",
+      "42790799",
+      "31630970",
+      "29723523",
+      "31242416",
+      "42072614",
+      "23046583",
+      "34290090",
+      "40291709",
+      "40321778",
+      "32426986",
+      "41789885",
+      "34059832",
+      "33311468",
+      "35568100",
+      "33753744",
+      "38987300",
+      "25216585",
+      "30806671",
+      "34772786",
+      "41360394",
+      "37549257",
+      "21965298",
+      "27033831",
+      "39303698",
+      "35445401",
+      "42240196",
+      "41979049",
+      "39112465",
+      "36696267",
+      "42190656",
+      "20699327",
+      "34156864",
+      "24090136",
+      "41191214",
+      "40468084",
+      "41034691",
+      "26253605",
+      "40542195",
+      "40381401",
+      "23172909",
+      "39937084",
+      "30948513",
+      "39311028",
+      "30442662",
+      "40768359",
+      "42475469",
+      "30150420",
+      "42242225",
+      "42196497",
+      "34475430",
+      "41794289",
+      "35858576",
+      "23587065",
+      "38866783"
+    ],
+    "review": [
+      "42864345",
+      "39756021",
+      "37268555",
+      "34772789",
+      "37720552",
+      "34706979",
+      "41772347",
+      "38029395",
+      "39366355",
+      "34772787",
+      "42065721",
+      "31595953",
+      "34767801",
+      "42790799",
+      "29723523",
+      "35568100",
+      "34772786",
+      "27033831",
+      "39303698",
+      "41979049",
+      "41191214",
+      "40381401",
+      "30948513",
+      "30150420",
+      "42196497",
+      "23587065"
+    ],
+    "pmc": [
+      "13658236"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-77696-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

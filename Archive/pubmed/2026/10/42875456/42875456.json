@@ -1,0 +1,140 @@
+{
+  "identity": {
+    "pmid": "42875456",
+    "doi": "10.1038/s41467-026-77871-9",
+    "title": "Molecular dynamics guided all-atom reconstruction of cryo-ET maps reveals mechanisms of histone tail mediated chromatin compaction."
+  },
+  "content": {
+    "abstract": "Dynamics and physical state of chromatin are crucial in regulating gene expression, DNA replication, and repair. Intrinsically disordered histone tails were previously recognized as key modulators of chromatin states. However, detailed atomistic mechanisms by which histone tail dynamics are associated with chromatin compaction and higher-order chromatin organization remain poorly understood. In this work, we combine extensive all-atom molecular dynamics simulations of tri-nucleosomes with varying linker lengths and cryo-electron tomography (cryo-ET) of native nucleosome arrays. Our approach offers distinct advantages as it elucidates realistic inter-nucleosomal interactions and tri-nucleosome orientations derived from physics-based MD simulations, enabling a more accurate and physically grounded interpretation of cryo-ET data. The results reveal that tri-nucleosome models can be successfully used for fitting and the near-atomistic interpretation of cryo-ET density maps of native human chromatin. Moreover, histone tails were shown to promote chromatin compaction via three major patterns: through histone-DNA interactions, histone H2A-H4 and H3-H4 tail-tail interactions. Notably, the distributions of MD-generated structural parameters of tri-nucleosomes were found to be in strong agreement with those of experimental condensed chromatin arrays.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Histones/metabolism/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*Nucleosomes/metabolism/chemistry/ultrastructure",
+      "Humans",
+      "*Chromatin/metabolism/chemistry/ultrastructure",
+      "Cryoelectron Microscopy/methods",
+      "Electron Microscope Tomography/methods",
+      "DNA/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shuxiang",
+        "Aristizabal, Maria J",
+        "Grigoryev, Sergei A",
+        "Panchenko, Anna R"
+      ],
+      "short_names": [
+        "Li S",
+        "Aristizabal MJ",
+        "Grigoryev SA",
+        "Panchenko AR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9538-7097",
+        "ORCID: 0000-0002-4491-6147",
+        "ORCID: 0000-0003-3104-1131"
+      ],
+      "affiliations": [
+        "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON, Canada.",
+        "Biology Department, Queen's University, Kingston, ON, Canada.",
+        "Department of Biomedical and Molecular Sciences, Queen's University, Kingston, ON, Canada.",
+        "Department of Molecular and Precision Medicine, College of Medicine, Penn State University, Hershey, PA, USA.",
+        "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON, Canada. anna.panchenko@queensu.ca.",
+        "Department of Biomedical and Molecular Sciences, Queen's University, Kingston, ON, Canada. anna.panchenko@queensu.ca.",
+        "School of Computing, Queen's University, Kingston, ON, Canada. anna.panchenko@queensu.ca.",
+        "Department of Physics, Engineering Physics & Astronomy, Queen's University, Kingston, ON, Canada. anna.panchenko@queensu.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shuxiang",
+        "short_name": "Li S",
+        "identifiers": [
+          "0000-0002-9538-7097"
+        ],
+        "affiliations": [
+          "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Aristizabal, Maria J",
+        "short_name": "Aristizabal MJ",
+        "identifiers": [
+          "0000-0002-4491-6147"
+        ],
+        "affiliations": [
+          "Biology Department, Queen's University, Kingston, ON, Canada.",
+          "Department of Biomedical and Molecular Sciences, Queen's University, Kingston, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Grigoryev, Sergei A",
+        "short_name": "Grigoryev SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Precision Medicine, College of Medicine, Penn State University, Hershey, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Panchenko, Anna R",
+        "short_name": "Panchenko AR",
+        "identifiers": [
+          "0000-0003-3104-1131"
+        ],
+        "affiliations": [
+          "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON, Canada. anna.panchenko@queensu.ca.",
+          "Department of Biomedical and Molecular Sciences, Queen's University, Kingston, ON, Canada. anna.panchenko@queensu.ca.",
+          "School of Computing, Queen's University, Kingston, ON, Canada. anna.panchenko@queensu.ca.",
+          "Department of Physics, Engineering Physics & Astronomy, Queen's University, Kingston, ON, Canada. anna.panchenko@queensu.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Sep 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/15 07:18",
+    "fetched_at": "2026-10-18 07:04:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42875456"
+    ],
+    "review": [
+      "42875456"
+    ],
+    "pmc": [
+      "13669341"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-77871-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

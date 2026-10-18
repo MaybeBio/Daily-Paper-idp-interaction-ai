@@ -1,0 +1,203 @@
+{
+  "identity": {
+    "pmid": "42883847",
+    "doi": "10.3390/ijms27198601",
+    "title": "Systematic Profiling Reveals Propensity of Human Ion Channels for Liquid-Liquid Phase Separation."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS), a fundamental biophysical process driven by multivalent weak interactions, regulates diverse cellular physiological functions. Ion channels are critical transmembrane protein complexes governing electrophysiological signaling, yet their phase separation characteristics remain largely uncharacterized. Here, we systematically assessed the phase-separation propensity of 140 human ion-channel proteins from the PhaSePred database, and 69 human ion channel proteins were predicted to have a high propensity for LLPS (prediction score >/= 0.5). Based on the self-assembling phase-separating (PS-Self) and partner-dependent phase-separating (PS-Part) scores of the proteins, we classified ion channel proteins with a ratio (PS-Self/PS-Part) > 1 into the PS-Self group and those with a ratio < 1 into the PS-Part group. Ultimately, 37 proteins were predicted to tend toward PS-Self, and 32 to tend toward PS-Part. Moreover, PS-Self candidates exhibited higher hydropathy and pi-pi contact scores, whereas predicted PS-Part candidates showed higher IDR, LCR, and phosphorylation-associated scores. Experimental analyses identified intracellular regions of Ca(V)1.2, Ca(V)1.3, Na(V)1.5, and K(Ca)2.2 that formed dynamic condensate-like assemblies when expressed in HeLa cells. Our findings elucidate the phase separation classification and core structural domains mediating LLPS in key ion channels and providing a molecular basis for understanding the pathophysiological roles of ion channel phase separation in cardiac and neurological disorders and may inform the development of phase-separation-targeted diagnostic and therapeutic strategies.",
+    "keywords": [
+      "LLPS",
+      "PS-Part propensity protein",
+      "PS-Self propensity protein",
+      "ion channel"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Phase Separation",
+      "*Ion Channels/chemistry/metabolism",
+      "HeLa Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jiamin",
+        "Yao, Yijing",
+        "Yu, Ran",
+        "Cui, Siyu",
+        "Dong, Yun",
+        "Lu, Yaqing",
+        "Chen, Ximing",
+        "Yang, Longkai",
+        "Liu, Xin",
+        "Wang, Ning"
+      ],
+      "short_names": [
+        "Li J",
+        "Yao Y",
+        "Yu R",
+        "Cui S",
+        "Dong Y",
+        "Lu Y",
+        "Chen X",
+        "Yang L",
+        "Liu X",
+        "Wang N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7243-6968"
+      ],
+      "affiliations": [
+        "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+        "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jiamin",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+          "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Yijing",
+        "short_name": "Yao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+          "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Ran",
+        "short_name": "Yu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+          "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Siyu",
+        "short_name": "Cui S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+          "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yun",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+          "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yaqing",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+          "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ximing",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+          "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Longkai",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+          "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xin",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+          "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ning",
+        "short_name": "Wang N",
+        "identifiers": [
+          "0000-0002-7243-6968"
+        ],
+        "affiliations": [
+          "Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin 150081, China.",
+          "State-Province Key Laboratories of Biomedicine-Pharmaceutics of China and Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin 150081, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Sep 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/16 05:33",
+    "fetched_at": "2026-10-18 07:04:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42883847"
+    ],
+    "review": [
+      "42883847"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

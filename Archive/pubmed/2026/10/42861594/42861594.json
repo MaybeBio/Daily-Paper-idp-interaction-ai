@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "42861594",
+    "doi": "10.1002/prot.70189",
+    "title": "AlphaFold3 and Intrinsically Disordered Proteins: Reliable Monomer Prediction, Unpredictable Multimer Performance."
+  },
+  "content": {
+    "abstract": "AlphaFold3 represents a major advance in protein structure prediction, yet its performance on intrinsically disordered proteins remains uncharacterized. We present the first systematic evaluation of AF3 on disordered systems, revealing a striking dichotomy. For monomers, AF3's pLDDT scores reliably predict disorder (MCC: 0.693), matching AlphaFold2 and rivaling dedicated predictors. This consistency across fundamentally different architectures confirms that disorder prediction emerges from training data, not model design. For multimers, the picture grows complex. Despite comparable aggregate performance (mean DockQ: 0.563 vs. 0.571), AF3 and AF2 achieve these results through fundamentally different mechanisms. Conventional structural features explain 58% of AF2's variance but only 42% of AF3's. Users cannot predict when AF3 will succeed or fail from interface properties alone. On disorder-to-order transitions (MFIB benchmark), both models perform equally well, successfully predicting final folded states. Yet seed variance analysis reveals that AF3 rarely converges reliably as most cases show substantial variance across independent runs, with occasional high-scoring outlier seeds within an otherwise low-scoring distribution, indicating the model can sometimes locate a correct solution without consistently identifying it. Our findings establish AF3 as reliable for the prediction of monomer disorder but unpredictable for multimers. Architectural innovation alone cannot overcome training data bias. Progress demands disorder-enriched datasets and ensemble sampling, not merely novel architectures.",
+    "keywords": [
+      "AlphaFold3",
+      "Folding-induced Binding",
+      "Intrinsically Disordered Proteins"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dao, Tuan Minh",
+        "Ghent, Sebastien",
+        "Uversky, Vladimir N",
+        "Rahman, Taseef"
+      ],
+      "short_names": [
+        "Dao TM",
+        "Ghent S",
+        "Uversky VN",
+        "Rahman T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4037-5857",
+        "ORCID: 0000-0001-8224-4401"
+      ],
+      "affiliations": [
+        "Bellini College of Artificial Intelligence, Cybersecurity and Computing, University of South Florida, Tampa, Florida, USA.",
+        "Bellini College of Artificial Intelligence, Cybersecurity and Computing, University of South Florida, Tampa, Florida, USA.",
+        "College of Molecular Medicine, University of South Florida, Tampa, Florida, USA.",
+        "Bellini College of Artificial Intelligence, Cybersecurity and Computing, University of South Florida, Tampa, Florida, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dao, Tuan Minh",
+        "short_name": "Dao TM",
+        "identifiers": [],
+        "affiliations": [
+          "Bellini College of Artificial Intelligence, Cybersecurity and Computing, University of South Florida, Tampa, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Ghent, Sebastien",
+        "short_name": "Ghent S",
+        "identifiers": [],
+        "affiliations": [
+          "Bellini College of Artificial Intelligence, Cybersecurity and Computing, University of South Florida, Tampa, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [
+          "0000-0002-4037-5857"
+        ],
+        "affiliations": [
+          "College of Molecular Medicine, University of South Florida, Tampa, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Rahman, Taseef",
+        "short_name": "Rahman T",
+        "identifiers": [
+          "0000-0001-8224-4401"
+        ],
+        "affiliations": [
+          "Bellini College of Artificial Intelligence, Cybersecurity and Computing, University of South Florida, Tampa, Florida, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2026 Oct 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/12 11:41",
+    "fetched_at": "2026-10-18 07:04:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42861594",
+      "41454828",
+      "42475469",
+      "41313605",
+      "41403459",
+      "37892124",
+      "38124369",
+      "42819252",
+      "41639320",
+      "40062613",
+      "40851426",
+      "38883239",
+      "40820259",
+      "40814020",
+      "42818193",
+      "42691505",
+      "38996889",
+      "39116039",
+      "41863177",
+      "40502139",
+      "36829461",
+      "42620036",
+      "42862223",
+      "23912807",
+      "41170922",
+      "18831774",
+      "33291838",
+      "38213902",
+      "40166350",
+      "28365882",
+      "42769622",
+      "42855451",
+      "36321557",
+      "32823616",
+      "39975279",
+      "42225645",
+      "40950156",
+      "40501681",
+      "37565699",
+      "42511621",
+      "42760289",
+      "39763873",
+      "40130805",
+      "41084281",
+      "31504193",
+      "37722056",
+      "40735632",
+      "38226524",
+      "41088961",
+      "37878721",
+      "38739602",
+      "41432299",
+      "41534519",
+      "42583324",
+      "37548092",
+      "35883444",
+      "39253449",
+      "35785970",
+      "38079339",
+      "35562983",
+      "35634782",
+      "40792461",
+      "40762404",
+      "41280756",
+      "40937679",
+      "40912020",
+      "29595057",
+      "38168383",
+      "39803493",
+      "23723000",
+      "42585785",
+      "42079733",
+      "42015301",
+      "36769074",
+      "40068324",
+      "39574676",
+      "32253236",
+      "39362060",
+      "42231907",
+      "36291675",
+      "32756939",
+      "42300078",
+      "41005302",
+      "39446390",
+      "39941016",
+      "32860044",
+      "40452318",
+      "39970826",
+      "22574904",
+      "40144455",
+      "42568581",
+      "42079070",
+      "42310771",
+      "41526649",
+      "42414572",
+      "40857166",
+      "42862171",
+      "32034199",
+      "29753880",
+      "35507260"
+    ],
+    "review": [
+      "42861594",
+      "38124369",
+      "41863177",
+      "33291838",
+      "36321557",
+      "41088961",
+      "32253236",
+      "39970826",
+      "42310771",
+      "32034199",
+      "29753880"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/prot.70189",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

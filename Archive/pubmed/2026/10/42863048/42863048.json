@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "42863048",
+    "doi": "10.1073/pnas.2611158123",
+    "title": "A water-pinning hot spot drives templated tau aggregation."
+  },
+  "content": {
+    "abstract": "Tau assembles into fibrillar aggregates that are pathological hallmarks of a group of neurodegenerative diseases collectively called tauopathies. Templated aggregation of naive tau to seeding-competent fibrils that proceed from cell to cell is a key driver of prion-like progression of tauopathies. This study tests the hypothesis that tau, an intrinsically disordered protein, achieves in-register stacking to form seed-competent fibrils by a pinning action of tau to each other and/or the seed surface via a single dominant hotspot to avoid mismatch in tau stacking to fibrils. Structured solvation water has been proposed to be a signature of such hot spots at both the tau fibril-end surface and soluble tau monomers. Although jR2R3-P301L tau exhibits a heterogeneous hydration landscape in its intrinsically disordered state, with enhanced water structuring near the P301L mutation site, it is unclear whether a localized hotspot exists at the fibril end surface and surface water facilitates the initial contacts in templated aggregation. Using rapid (1)H-(15)N SOFAST-HMQC NMR to track seed-induced aggregation of jR2R3-P301L in real time, complemented by molecular dynamics simulation of fibril surface hydration, we identify a residue-specific pinning hotspot that is prone to dewetting followed by sequential folding and incorporation of the remaining segment in a two-step dock-and-lock process. Site-specific spin labeling further demonstrates that blocking this pinning hotspot disrupts templated aggregation, leading to shorter fibrils. The identification of a dominant pinning site will facilitate the rational design of binders to effectively disrupt fibril extension or serve as diagnostic or therapeutic strategies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*tau Proteins/chemistry/metabolism/genetics",
+      "*Water/chemistry",
+      "Humans",
+      "*Protein Aggregates",
+      "*Tauopathies/metabolism/genetics",
+      "Mutation",
+      "*Protein Aggregation, Pathological/metabolism",
+      "Magnetic Resonance Spectroscopy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Han, Chung-Ta",
+        "Tsay, Karen",
+        "Lobo, Samuel",
+        "Najafi, Saeed",
+        "Monahan, Kieran",
+        "Hong, Erica",
+        "Shell, M Scott",
+        "Shea, Joan-Emma",
+        "Han, Songi"
+      ],
+      "short_names": [
+        "Han CT",
+        "Tsay K",
+        "Lobo S",
+        "Najafi S",
+        "Monahan K",
+        "Hong E",
+        "Shell MS",
+        "Shea JE",
+        "Han S"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-0924-3617",
+        "ORCID: 0000-0002-1162-8798",
+        "ORCID: 0009-0004-9227-7847",
+        "ORCID: 0000-0002-0439-1534",
+        "ORCID: 0000-0002-9801-9273",
+        "ORCID: 0000-0001-6489-6246"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Northwestern University, Evanston, IL 60208-3113.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Barbara, CA 93106-9510. ROR: https://ror.org/02t274463",
+        "Department of Chemical Engineering, University of California, Santa Barbara, CA 93106-5080. ROR: https://ror.org/02t274463",
+        "Department of Chemistry and Biochemistry, University of California, Santa Barbara, CA 93106-9510. ROR: https://ror.org/02t274463",
+        "Department of Chemistry, Northwestern University, Evanston, IL 60208-3113.",
+        "Department of Chemistry, Northwestern University, Evanston, IL 60208-3113.",
+        "Department of Chemical Engineering, University of California, Santa Barbara, CA 93106-5080. ROR: https://ror.org/02t274463",
+        "Department of Chemistry and Biochemistry, University of California, Santa Barbara, CA 93106-9510. ROR: https://ror.org/02t274463",
+        "Department of Physics, University of California, Santa Barbara, CA 93106-9530. ROR: https://ror.org/02t274463",
+        "Department of Chemistry, Northwestern University, Evanston, IL 60208-3113."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Han, Chung-Ta",
+        "short_name": "Han CT",
+        "identifiers": [
+          "0009-0006-0924-3617"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Northwestern University, Evanston, IL 60208-3113."
+        ]
+      },
+      {
+        "full_name": "Tsay, Karen",
+        "short_name": "Tsay K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Barbara, CA 93106-9510."
+        ]
+      },
+      {
+        "full_name": "Lobo, Samuel",
+        "short_name": "Lobo S",
+        "identifiers": [
+          "0000-0002-1162-8798"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, University of California, Santa Barbara, CA 93106-5080."
+        ]
+      },
+      {
+        "full_name": "Najafi, Saeed",
+        "short_name": "Najafi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Barbara, CA 93106-9510."
+        ]
+      },
+      {
+        "full_name": "Monahan, Kieran",
+        "short_name": "Monahan K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Northwestern University, Evanston, IL 60208-3113."
+        ]
+      },
+      {
+        "full_name": "Hong, Erica",
+        "short_name": "Hong E",
+        "identifiers": [
+          "0009-0004-9227-7847"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Northwestern University, Evanston, IL 60208-3113."
+        ]
+      },
+      {
+        "full_name": "Shell, M Scott",
+        "short_name": "Shell MS",
+        "identifiers": [
+          "0000-0002-0439-1534"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, University of California, Santa Barbara, CA 93106-5080."
+        ]
+      },
+      {
+        "full_name": "Shea, Joan-Emma",
+        "short_name": "Shea JE",
+        "identifiers": [
+          "0000-0002-9801-9273"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Barbara, CA 93106-9510.",
+          "Department of Physics, University of California, Santa Barbara, CA 93106-9530."
+        ]
+      },
+      {
+        "full_name": "Han, Songi",
+        "short_name": "Han S",
+        "identifiers": [
+          "0000-0001-6489-6246"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Northwestern University, Evanston, IL 60208-3113."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Oct 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/12 17:30",
+    "fetched_at": "2026-10-18 07:04:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42863048",
+      "42812174",
+      "40294272",
+      "38077065",
+      "40420425",
+      "42175841",
+      "40447946",
+      "26712030",
+      "27080260",
+      "29259137",
+      "39185239",
+      "42283695",
+      "35623497",
+      "38732197",
+      "42601641",
+      "32759167",
+      "38568974",
+      "39488204",
+      "28833749",
+      "25406315",
+      "41029842",
+      "39814228",
+      "31537646",
+      "25862635",
+      "19010781",
+      "31661961",
+      "34999006",
+      "25284680",
+      "33693528",
+      "41389844",
+      "30242125",
+      "34246750",
+      "41921971",
+      "32486218",
+      "41579116",
+      "40671476",
+      "40113250",
+      "29495325",
+      "23515417",
+      "41774688",
+      "34425874",
+      "28303942",
+      "35994024",
+      "34369377",
+      "37031392",
+      "32207466",
+      "31653695",
+      "39714208",
+      "29772786",
+      "27650389",
+      "42002168",
+      "28558799",
+      "39277689",
+      "33078207",
+      "33183222",
+      "33496017",
+      "34009955",
+      "40610078",
+      "39214304",
+      "41379030",
+      "28986461",
+      "36768484",
+      "34339733",
+      "36310204",
+      "39773263",
+      "31996674",
+      "37693456",
+      "26791207",
+      "34244499",
+      "41719130",
+      "33830330",
+      "32677995",
+      "29359764",
+      "40964862",
+      "39145409",
+      "26739002",
+      "29258615",
+      "29298892",
+      "27686274",
+      "27226637",
+      "32453948",
+      "37213134",
+      "27136595",
+      "40851193",
+      "29886548",
+      "40917003",
+      "40133414",
+      "22039833",
+      "40716749",
+      "32216967",
+      "28487370",
+      "37834443",
+      "36563857",
+      "26655600",
+      "40307419",
+      "39255305",
+      "33893219",
+      "41373058",
+      "38458997",
+      "28610892"
+    ],
+    "review": [
+      "42863048",
+      "38732197",
+      "28833749",
+      "40671476",
+      "40113250",
+      "29495325",
+      "34425874",
+      "35994024",
+      "37031392",
+      "27650389",
+      "28558799",
+      "33078207",
+      "40610078",
+      "33830330",
+      "29258615",
+      "27686274"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2611158123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

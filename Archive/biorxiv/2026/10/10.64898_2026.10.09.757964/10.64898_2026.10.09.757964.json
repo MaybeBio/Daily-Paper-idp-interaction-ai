@@ -1,0 +1,295 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.10.09.757964",
+  "title": "Intrinsically disordered regions influence protein motif usage in Drosophila Ubx and AbdA Hox proteins",
+  "doi": "10.64898/2026.10.09.757964",
+  "abstract": "Hox proteins are evolutionary conserved transcription factors guiding morphogenesis in all bilaterian animals. Conservation mainly concerns the homeodomain (HD), a helix-turn-helix DNA binding motif and flanking sequences close by. Besides, sequences are poorly conserved and disordered. Here we investigate how poorly conserved Intrinsically Disordered Regions (IDRs) influence Hox protein activity, focusing on a closely related Drosophila Hox pair and using a wide range of in vivo function. Studying Drosophila Ultrabithorax (Ubx) and AbdominalA (AbdA) proteins, we find that conserved protein motifs close to the HD are differently used in Ubx and AbdA. Coarse-grained molecular dynamics simulations identify a large set of intra-molecular interactions, notably involving poorly conserved disordered regions upstream and downstream the HD. Swapping these regions in Ubx and AbdA alters protein functions and switches motif dependency in some biological situations. This suggests that IDRs, predicted to mediate large and dynamic sets of intramolecular interactions, influence protein motif usage in a context dependent manner.",
+  "authors": [
+    "Corinne Maurel-Zaffran",
+    "Ilan Edelstein",
+    "Laurianne Michel",
+    "Meiggie Macchi",
+    "Nathalie Caruso",
+    "Andrew J Saurin",
+    "Yaakov Levy",
+    "Yacine Graba"
+  ],
+  "published_date": "2026-10-12",
+  "updated_date": "2026-10-12T21:40:14Z",
+  "journal": "bioRxiv",
+  "category": "Developmental Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757964",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757964.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Developmental Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Developmental Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ],
+        "date-time": "2026-10-12T21:51:19Z",
+        "timestamp": 1791841879638,
+        "version": "4.3.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ]
+      },
+      "group-title": "Developmental Biology",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                12
+              ]
+            ],
+            "date-time": "2026-10-12T00:00:00Z",
+            "timestamp": 1791763200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Hox proteins are evolutionary conserved transcription factors guiding morphogenesis in all bilaterian animals. Conservation mainly concerns the homeodomain (HD), a helix-turn-helix DNA binding motif and flanking sequences close by. Besides, sequences are poorly conserved and disordered. Here we investigate how poorly conserved Intrinsically Disordered Regions (IDRs) influence Hox protein activity, focusing on a closely related Drosophila Hox pair and using a wide range of in vivo function. Studying Drosophila Ultrabithorax (Ubx) and AbdominalA (AbdA) proteins, we find that conserved protein motifs close to the HD are differently used in Ubx and AbdA. Coarse-grained molecular dynamics simulations identify a large set of intra-molecular interactions, notably involving poorly conserved disordered regions upstream and downstream the HD. Swapping these regions in Ubx and AbdA alters protein functions and switches motif dependency in some biological situations. This suggests that IDRs, predicted to mediate large and dynamic sets of intramolecular interactions, influence protein motif usage in a context dependent manner.</jats:p>",
+      "DOI": "10.64898/2026.10.09.757964",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ],
+        "date-time": "2026-10-12T21:40:14Z",
+        "timestamp": 1791841214000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Intrinsically disordered regions influence protein motif usage in Drosophila Ubx and AbdA Hox proteins"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Corinne",
+          "family": "Maurel-Zaffran",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Aix-Marseille Univ, CNRS, Developmental Biology Institute of Marseille (IBDM), IBDM-UMR 7288, Case 907, Parc Scientifique de Luminy, Marseille Cedex 09 13288, France;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ilan",
+          "family": "Edelstein",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Laurianne",
+          "family": "Michel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Aix-Marseille Univ, CNRS, Developmental Biology Institute of Marseille (IBDM), IBDM-UMR 7288, Case 907, Parc Scientifique de Luminy, Marseille Cedex 09 13288, France;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Meiggie",
+          "family": "Macchi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Aix-Marseille Univ, CNRS, Developmental Biology Institute of Marseille (IBDM), IBDM-UMR 7288, Case 907, Parc Scientifique de Luminy, Marseille Cedex 09 13288, France;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nathalie",
+          "family": "Caruso",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Aix-Marseille Univ, CNRS, Developmental Biology Institute of Marseille (IBDM), IBDM-UMR 7288, Case 907, Parc Scientifique de Luminy, Marseille Cedex 09 13288, France;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrew J",
+          "family": "Saurin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Aix-Marseille Univ, CNRS, Developmental Biology Institute of Marseille (IBDM), IBDM-UMR 7288, Case 907, Parc Scientifique de Luminy, Marseille Cedex 09 13288, France;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yaakov",
+          "family": "Levy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yacine",
+          "family": "Graba",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Aix-Marseille Univ, CNRS, Developmental Biology Institute of Marseille (IBDM), IBDM-UMR 7288, Case 907, Parc Scientifique de Luminy, Marseille Cedex 09 13288, France;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.10.09.757964",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ],
+        "date-time": "2026-10-12T21:40:14Z",
+        "timestamp": 1791841214000
+      },
+      "score": 83.370964,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.10.09.757964"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.64898/2026.10.09.757964",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

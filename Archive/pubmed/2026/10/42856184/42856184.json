@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "42856184",
+    "doi": "10.64898/2026.09.25.754542",
+    "title": "Synapsin-1 and actin form ordered nanoscale assemblies."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation is a vital and ubiquitous principle of subcellular organization. Several actin-binding proteins have recently been shown to undergo liquid-liquid phase separation, forming micron-sized droplets that assemble actin into distinct network shapes. However, our knowledge of how these phase-separated proteins organize actin filaments at the nanoscale is rather limited. Here, we seek to address this knowledge gap by investigating synapsin-1 condensates through a combination of computational simulations and nanoscale imaging experiments. Our results show that while synapsin-1 condensates by themselves lack any special structural organization, the addition of actin filaments results in the generation of a regularly organized actin scaffold within the condensates. The organized scaffold forms both when actin and synapsin-1 are added simultaneously and when actin is added after the formation of synapsin condensates. Dissolving the condensates, by synapsin-1 removal, leaves the actin scaffold largely unaffected in both simulations and experiments, implying that this scaffold should guide droplet reformation when synapsin-1 is added back. Taken together, our findings suggest that the actin-rich component of the condensate retains a structural memory that promotes and guides the reassembly of synapsin-actin condensates. This structural memory may be important in the long-term maintenance of synaptic function in vivo .",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mansour, Daniel",
+        "Chowdhury, Rajdeep",
+        "Chandrasekaran, Aravind",
+        "Mimoso, Tiago",
+        "Krah, Donatus",
+        "Korobeinikov, Aleksandr",
+        "Chhabra, Akshita",
+        "Milovanovic, Dragomir",
+        "Koster, Sarah",
+        "Shaib, Ali H",
+        "Rizzoli, Silvio O",
+        "Rangamani, Padmini"
+      ],
+      "short_names": [
+        "Mansour D",
+        "Chowdhury R",
+        "Chandrasekaran A",
+        "Mimoso T",
+        "Krah D",
+        "Korobeinikov A",
+        "Chhabra A",
+        "Milovanovic D",
+        "Koster S",
+        "Shaib AH",
+        "Rizzoli SO",
+        "Rangamani P"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-0518-0407",
+        "ORCID: 0000-0001-5953-4347"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Mansour, Daniel",
+        "short_name": "Mansour D",
+        "identifiers": [
+          "0009-0004-0518-0407"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chowdhury, Rajdeep",
+        "short_name": "Chowdhury R",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chandrasekaran, Aravind",
+        "short_name": "Chandrasekaran A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Mimoso, Tiago",
+        "short_name": "Mimoso T",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Krah, Donatus",
+        "short_name": "Krah D",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Korobeinikov, Aleksandr",
+        "short_name": "Korobeinikov A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chhabra, Akshita",
+        "short_name": "Chhabra A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Milovanovic, Dragomir",
+        "short_name": "Milovanovic D",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Köster, Sarah",
+        "short_name": "Köster S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Shaib, Ali H",
+        "short_name": "Shaib AH",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Rizzoli, Silvio O",
+        "short_name": "Rizzoli SO",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Rangamani, Padmini",
+        "short_name": "Rangamani P",
+        "identifiers": [
+          "0000-0001-5953-4347"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Sep 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/11 05:07",
+    "fetched_at": "2026-10-18 07:04:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42856184",
+      "40813925",
+      "39071264",
+      "38405682",
+      "39914390",
+      "40661572",
+      "37425724",
+      "33774037",
+      "38826190",
+      "39520054",
+      "38207079",
+      "39171763",
+      "38605007",
+      "42627687",
+      "36709207",
+      "40667218",
+      "41730871",
+      "33672806",
+      "37250768",
+      "9517476",
+      "33087563",
+      "2536030",
+      "23912807",
+      "40030010",
+      "30514760",
+      "42124662",
+      "42789225",
+      "37318128",
+      "40782375",
+      "41017767",
+      "42607901",
+      "36993212",
+      "36640348",
+      "40291420",
+      "41983697",
+      "42475469",
+      "7931311",
+      "39801048",
+      "39079387",
+      "37872159",
+      "12756235",
+      "38693139",
+      "32661370",
+      "8305899",
+      "35858327",
+      "31268421",
+      "42681819",
+      "37862690",
+      "40386802",
+      "42336922",
+      "42102188",
+      "41673459",
+      "37782826",
+      "7876313",
+      "1899024",
+      "33202250",
+      "29632271",
+      "36106018",
+      "36412795",
+      "15047142",
+      "37756159",
+      "39630867",
+      "39520300",
+      "40848932",
+      "32571937",
+      "33653957",
+      "37503034",
+      "35001622",
+      "32101738",
+      "2497104",
+      "30523075",
+      "32679076",
+      "38270681",
+      "42556189",
+      "31484749",
+      "42383738",
+      "37497046",
+      "42094558",
+      "1671174",
+      "35959492",
+      "34975543",
+      "3115996",
+      "42819410",
+      "28279363",
+      "39856105",
+      "39211102",
+      "40194320",
+      "35275060",
+      "32482873",
+      "34890409",
+      "1739463",
+      "34044018",
+      "35293386",
+      "21798362",
+      "36524527",
+      "33982350",
+      "29813051",
+      "34655689",
+      "29976799",
+      "33144560"
+    ],
+    "review": [
+      "42856184",
+      "42681819",
+      "29632271",
+      "36106018",
+      "34975543",
+      "28279363",
+      "40194320",
+      "21798362"
+    ],
+    "pmc": [
+      "13648490"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.09.25.754542",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

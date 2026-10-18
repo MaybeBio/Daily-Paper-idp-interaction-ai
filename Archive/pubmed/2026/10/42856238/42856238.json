@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "42856238",
+    "doi": "10.64898/2026.09.28.753909",
+    "title": "MgATP/MgADP-dependent conformational dynamics and intrinsically disordered regions of vascular K (ATP) channels revealed by cryoEM."
+  },
+  "content": {
+    "abstract": "Vascular smooth muscle K (ATP) channels, composed of the pore-forming Kir6.1 and regulatory SUR2B subunits, control vascular tone, dysfunction of which causes systemic disease. Vascular K (ATP) is regulated by Mg-nucleotides, but the underlying structural mechanism has remained elusive. Here, we determined cryoEM structures of these channels in the presence of MgATP and MgADP. Two key structures captured, one showing the SUR2B-nucleotide binding domains (NBDs) separated and one showing the SUR2B-NBDs dimerized, reveal conformation-specific organization of intrinsically disordered regions (IDRs) found in both Kir6.1 and SUR2B. In the NBD-separated conformation, the Kir6.1-N terminal IDR (KNt) sits within the central cleft of SUR2B's ABC-core. In the NBD-dimerized conformation, KNt is excluded from the central cleft and instead forms contacts with an ED domain comprising 15 consecutive glutamate and aspartate residues within a SUR2B IDR, the N1-T2 linker connecting NBD1 (N1) to transmembrane domain 2 (T2). Moreover, within the N1-T2 linker a regulatory helix seen between the two NBDs in the NBD-separated conformation moves to outside the dimerized NBDs, interacting with the C-terminal residues unique to SUR2B, in the NBD-dimerized conformation. MD simulations further reveal that transient but frequent interactions mediated by the IDRs may facilitate Mg-nucleotide dependent conformational switch in vascular K (ATP) channels.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Driggers, Camden M",
+        "Kuo, Yi-Ying",
+        "Yang, Zhongying",
+        "Lee, Sun-Joo",
+        "Nichols, Colin G",
+        "Walczewska-Szewc, Katarzyna",
+        "Shyng, Show-Ling"
+      ],
+      "short_names": [
+        "Driggers CM",
+        "Kuo YY",
+        "Yang Z",
+        "Lee SJ",
+        "Nichols CG",
+        "Walczewska-Szewc K",
+        "Shyng SL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2105-7175",
+        "ORCID: 0000-0002-6876-8126",
+        "ORCID: 0000-0002-6302-7986",
+        "ORCID: 0000-0002-4929-2134",
+        "ORCID: 0000-0001-6422-6138",
+        "ORCID: 0000-0002-8230-8820"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Driggers, Camden M",
+        "short_name": "Driggers CM",
+        "identifiers": [
+          "0000-0002-2105-7175"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kuo, Yi-Ying",
+        "short_name": "Kuo YY",
+        "identifiers": [
+          "0000-0002-6876-8126"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yang, Zhongying",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lee, Sun-Joo",
+        "short_name": "Lee SJ",
+        "identifiers": [
+          "0000-0002-6302-7986"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Nichols, Colin G",
+        "short_name": "Nichols CG",
+        "identifiers": [
+          "0000-0002-4929-2134"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Walczewska-Szewc, Katarzyna",
+        "short_name": "Walczewska-Szewc K",
+        "identifiers": [
+          "0000-0001-6422-6138"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Shyng, Show-Ling",
+        "short_name": "Shyng SL",
+        "identifiers": [
+          "0000-0002-8230-8820"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Sep 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/11 05:07",
+    "fetched_at": "2026-10-18 07:04:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42856238",
+      "15978900",
+      "34711681",
+      "22348955",
+      "30273482",
+      "11093769",
+      "15258252",
+      "26198630",
+      "23078514",
+      "20553499",
+      "20352196",
+      "18522960",
+      "15102948",
+      "12169627",
+      "12015420",
+      "23739550",
+      "12746230",
+      "17457130",
+      "9755153",
+      "26556311",
+      "15023854",
+      "9458709",
+      "15596536",
+      "15380676",
+      "26725741",
+      "11574406",
+      "12934053",
+      "11809866",
+      "17395632",
+      "26163942",
+      "9692785",
+      "11751167",
+      "37330603",
+      "20624795",
+      "15749783",
+      "25153533",
+      "9714850",
+      "27783926",
+      "22972803",
+      "22089636",
+      "25354529",
+      "21714514",
+      "40716294",
+      "11585851",
+      "32054924",
+      "18471810",
+      "10220561",
+      "20847183",
+      "10825398",
+      "11073882",
+      "21806936",
+      "18663158",
+      "14724757",
+      "15159388",
+      "30179258",
+      "20361954",
+      "10893240",
+      "10615958",
+      "18323694",
+      "10531400",
+      "27693800",
+      "9130167",
+      "18299394",
+      "21216949",
+      "37577494",
+      "35964676",
+      "20876358",
+      "15485808",
+      "18945825",
+      "12145099",
+      "12023873",
+      "16226739",
+      "11825892",
+      "35074919",
+      "18048350",
+      "25302667",
+      "9618560",
+      "9763630",
+      "17428891",
+      "12562963",
+      "17001304",
+      "23665564",
+      "12237398",
+      "11408614",
+      "21328565",
+      "11567030",
+      "10962016",
+      "11350864",
+      "38302135",
+      "17101127",
+      "11264248",
+      "26416970",
+      "10674713",
+      "11714894",
+      "30587573",
+      "10347249",
+      "12359624",
+      "12604678",
+      "36746748",
+      "17510180"
+    ],
+    "review": [
+      "42856238",
+      "22348955",
+      "9458709",
+      "10674713"
+    ],
+    "pmc": [
+      "13648608"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.64898/2026.09.28.753909",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

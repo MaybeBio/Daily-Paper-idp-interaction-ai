@@ -1,0 +1,132 @@
+{
+  "identity": {
+    "pmid": "42878016",
+    "doi": "10.1042/BCJ20260251",
+    "title": "Recent advances in coarse-grained simulations of nucleic acid condensation."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates, formed through phase separation of multivalent biomolecules, play essential roles in cellular processes such as stress response, RNA processing, transcriptional control, and genome organization. Nucleic acids are increasingly recognized as important drivers and regulators of condensate formation and dynamics. This review examines recent advances in coarse-grained molecular simulations of dynamic nucleic acids and their phase transitions. We survey established computational frameworks validated against experimental data and discuss emerging applications that address increasingly complex systems. Existing studies reveal that base-mediated interactions emerge as dominant drivers in homotypic nucleic acid condensation and that simulation resolution fundamentally determines which physical phenomena are accessible and observable. We underscore that different modeling approaches at various resolutions provide complementary insights into nucleic acid condensation mechanisms and the driving forces. We emphasize the opportunities and challenges in extending these frameworks to capture the complexity of nucleic acid-mediated phase separation in biological contexts, while identifying important gaps in current modeling capabilities. Overall, molecular simulations at multiple scales have proven to be powerful tools for elucidating the mechanistic principles underlying nucleic acid condensates and their cellular functions.",
+    "keywords": [
+      "coarse-graining",
+      "dynamic structure",
+      "ion coordination",
+      "molecular simulation",
+      "phase transition"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Nucleic Acids/chemistry",
+      "Phase Separation",
+      "*RNA/chemistry",
+      "Nucleic Acid Conformation",
+      "Phase Transition",
+      "*Biomolecular Condensates/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fong Ng, Jessica",
+        "Li, Shanlong",
+        "Chen, Jianhan"
+      ],
+      "short_names": [
+        "Fong Ng J",
+        "Li S",
+        "Chen J"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-9464-8804",
+        "ORCID: 0000-0003-3713-2931",
+        "ORCID: 0000-0002-5281-1150"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, U.S.A .",
+        "Molecular and Cellular Biology Program, University of Massachusetts, Amherst, MA 01003, U.S.A.",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, U.S.A .",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, U.S.A .",
+        "Molecular and Cellular Biology Program, University of Massachusetts, Amherst, MA 01003, U.S.A."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fong Ng, Jessica",
+        "short_name": "Fong Ng J",
+        "identifiers": [
+          "0009-0009-9464-8804"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, U.S.A .",
+          "Molecular and Cellular Biology Program, University of Massachusetts, Amherst, MA 01003, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Li, Shanlong",
+        "short_name": "Li S",
+        "identifiers": [
+          "0000-0003-3713-2931"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, U.S.A ."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianhan",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0002-5281-1150"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, U.S.A .",
+          "Molecular and Cellular Biology Program, University of Massachusetts, Amherst, MA 01003, U.S.A."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Biochemical journal"
+    ],
+    "journal_abbrev": [
+      "Biochem J"
+    ],
+    "pub_date": "2026 Nov 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/15 17:38",
+    "fetched_at": "2026-10-18 07:04:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42878016"
+    ],
+    "review": [
+      "42878016"
+    ],
+    "pmc": [
+      "13673088"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://portlandpress.com/biochemj/article-lookup/doi/10.1042/BCJ20260251",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "identity": {
+    "pmid": "42867852",
+    "doi": "10.1063/5.0354094",
+    "title": "Modulators selectively reshape alpha-synuclein phase transitions."
+  },
+  "content": {
+    "abstract": "Protein phase transitions govern numerous diseases, including neurodegenerative disorders. In Parkinson's disease, distinct species of the protein alpha-synuclein undergo phase transitions from disordered to ordered beta-rich states. The emerging species and transitions between them can be reshaped by modulators, e.g., small molecules, peptides or antibodies. Here, we use coarse-grained simulations to understand the effect of modulators on the thermodynamics and kinetics of alpha-synuclein phase transitions. Each protein is represented as a morphing particle that transforms from a soft sphere (disordered) to a hard spherocylinder (beta-rich). Modulators are modeled as soft isotropic particles mimicking peptides. Purely repulsive modulators do not alter the final outcome; that is, fibrils form following the same mechanisms independently of the modulator concentration. Attractive interactions toward the disordered protein dose-dependently slow down fibrillization by stabilizing intermediate species, including persistent disordered heteroclusters. Specific attraction to the beta-rich state shortens fibrils through direct modulator surface \"capping\" that introduces kinetic barriers to monomer templating at the fibril ends and inhibits fibril elongation. Overall, these results link modulator properties and environmental conditions to nucleation, fibril elongation, and off-pathway trapping, providing a quantitative roadmap for designing interventions that redirect phase transitions toward desirable endpoints.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry",
+      "Phase Transition",
+      "Thermodynamics",
+      "Kinetics",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Masson, Holly",
+        "Paesani, Massimiliano",
+        "Ilie, Ioana M"
+      ],
+      "short_names": [
+        "Masson H",
+        "Paesani M",
+        "Ilie IM"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-4912-5498",
+        "ORCID: 0000-0002-5935-3332"
+      ],
+      "affiliations": [
+        "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Amsterdam, The Netherlands.",
+        "Amsterdam Center for Multiscale Modeling (ACMM), University of Amsterdam, Amsterdam, The Netherlands.",
+        "Computational Soft Matter (CSM), University of Amsterdam, Amsterdam, The Netherlands.",
+        "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Amsterdam, The Netherlands.",
+        "Amsterdam Center for Multiscale Modeling (ACMM), University of Amsterdam, Amsterdam, The Netherlands.",
+        "Computational Soft Matter (CSM), University of Amsterdam, Amsterdam, The Netherlands.",
+        "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Amsterdam, The Netherlands.",
+        "Amsterdam Center for Multiscale Modeling (ACMM), University of Amsterdam, Amsterdam, The Netherlands.",
+        "Computational Soft Matter (CSM), University of Amsterdam, Amsterdam, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Masson, Holly",
+        "short_name": "Masson H",
+        "identifiers": [],
+        "affiliations": [
+          "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Amsterdam, The Netherlands.",
+          "Amsterdam Center for Multiscale Modeling (ACMM), University of Amsterdam, Amsterdam, The Netherlands.",
+          "Computational Soft Matter (CSM), University of Amsterdam, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Paesani, Massimiliano",
+        "short_name": "Paesani M",
+        "identifiers": [
+          "0009-0006-4912-5498"
+        ],
+        "affiliations": [
+          "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Amsterdam, The Netherlands.",
+          "Amsterdam Center for Multiscale Modeling (ACMM), University of Amsterdam, Amsterdam, The Netherlands.",
+          "Computational Soft Matter (CSM), University of Amsterdam, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ilie, Ioana M",
+        "short_name": "Ilie IM",
+        "identifiers": [
+          "0000-0002-5935-3332"
+        ],
+        "affiliations": [
+          "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Amsterdam, The Netherlands.",
+          "Amsterdam Center for Multiscale Modeling (ACMM), University of Amsterdam, Amsterdam, The Netherlands.",
+          "Computational Soft Matter (CSM), University of Amsterdam, Amsterdam, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2026 Oct 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/13 23:36",
+    "fetched_at": "2026-10-18 07:04:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42867852"
+    ],
+    "review": [
+      "42867852"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0354094",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}
