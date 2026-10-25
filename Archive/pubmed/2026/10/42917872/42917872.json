@@ -1,0 +1,99 @@
+{
+  "identity": {
+    "pmid": "42917872",
+    "doi": "10.1021/acs.jpclett.6c02757",
+    "title": "Quantitative Model of Transcriptional Noise Regulation by mRNA Condensates."
+  },
+  "content": {
+    "abstract": "A fundamental biological process of transcription occurs in the cell nucleus, which is a complex medium that also contains multiple heterogeneous structures known as biomolecular condensates. Interestingly, some of these condensates contain mRNA molecules in addition to proteins, suggesting an important cellular role in transcription that is not yet well understood. In this work, we develop a minimal theoretical framework for quantitative investigation of the role of reversible mRNA condensation in transcription. Our discrete-state stochastic approach accounts for the most relevant processes, allowing us to explicitly evaluate the properties of the system and clarify the effects of condensation. Analytical calculations supported by computer simulations suggest that reversible mRNA condensation influences the transcription processes by maintaining a constant level of free mRNA in the nucleoplasm while lowering the degree of stochastic noise and increasing the robustness against external perturbations. Physicochemical arguments are presented to explain these observations. The proposed theoretical framework elucidates important microscopic aspects of transcription, providing a convenient quantitative tool for investigating complex biological phenomena.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription, Genetic",
+      "*RNA, Messenger/chemistry/genetics/metabolism",
+      "Stochastic Processes",
+      "*Biomolecular Condensates/chemistry",
+      "Cell Nucleus/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lanitis, Andreas",
+        "Kolomeisky, Anatoly B"
+      ],
+      "short_names": [
+        "Lanitis A",
+        "Kolomeisky AB"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5677-6690"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, Rice University, Houston, Texas77005, United States.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas77005, United States.",
+        "Department of Physics and Astronomy, Rice University, Houston, Texas77005, United States.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas77005, United States.",
+        "Department of Chemistry, Rice University, Houston, Texas77005, United States.",
+        "Department of Chemical and Biomolecular Engineering, Rice University, Houston, Texas77005, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lanitis, Andreas",
+        "short_name": "Lanitis A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, Rice University, Houston, Texas77005, United States.",
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas77005, United States."
+        ]
+      },
+      {
+        "full_name": "Kolomeisky, Anatoly B",
+        "short_name": "Kolomeisky AB",
+        "identifiers": [
+          "0000-0001-5677-6690"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Rice University, Houston, Texas77005, United States.",
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas77005, United States.",
+          "Department of Chemistry, Rice University, Houston, Texas77005, United States.",
+          "Department of Chemical and Biomolecular Engineering, Rice University, Houston, Texas77005, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2026 Sep 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/23 23:32",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42917872"
+    ],
+    "review": [
+      "42917872"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

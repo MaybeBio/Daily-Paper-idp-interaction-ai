@@ -1,0 +1,176 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.10.19.760300",
+  "title": "Design of synthetic activators for programmable gene expression",
+  "doi": "10.64898/2026.10.19.760300",
+  "abstract": "Transcription factors control gene expression by recruiting transcriptional coactivators through intrinsically disordered transcriptional activation domains (TADs), whose weak and promiscuous interactions make it difficult to establish quantitative relationships between coactivator recruitment and transcriptional output, and to precisely modulate gene expression. To overcome this limitation, we set out to design coactivator-recruiting proteins using AlphaFold3-predicted TAD-coactivator interactions as a guide. We developed a high-throughput functional screening platform in mammalian cells and identified over 300 well folded nanomolar affinity binders to the transcription coactivators Mediator (multiple subunits), BRD4, NCOA, and p300; targeted interface mutations enabled systematic tuning of their binding affinities. Using a panel of p300 binders spanning nanomolar to micromolar affinities, we found an ultrasensitive relationship between coactivator-binding affinity and transcriptional output, with a sharp transcriptional activation threshold at ∼500 nM. Incorporating p300 binder designs into CRISPRa yielded compact synthetic effectors that drove stronger activation than VPR across multiple genomic loci with minimal detectable cytotoxicity. Combining p300- and Mediator-specific binders further enhanced transcription, revealing functional synergy between these coactivators. Together, our work establishes a quantitative framework linking coactivator-binding affinity to transcriptional output and provides compact synthetic effectors for programmable gene activation.",
+  "authors": [
+    "Chen W",
+    "Jiao R",
+    "Coventry B",
+    "Qu X",
+    "Bauer M",
+    "Tran L",
+    "Tcheau T",
+    "Wu K",
+    "Song Z",
+    "Roullier N",
+    "Li X",
+    "Glasscock C",
+    "Hilton IB",
+    "Baker D"
+  ],
+  "published_date": "2026-10-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760300",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760300.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1347459",
+    "raw_record": {
+      "id": "PPR1347459",
+      "source": "PPR",
+      "doi": "10.64898/2026.10.19.760300",
+      "title": "Design of synthetic activators for programmable gene expression",
+      "authorString": "Chen W, Jiao R, Coventry B, Qu X, Bauer M, Tran L, Tcheau T, Wu K, Song Z, Roullier N, Li X, Glasscock C, Hilton IB, Baker D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chen W",
+            "lastName": "Chen",
+            "firstName": "Wei",
+            "initials": "W"
+          },
+          {
+            "fullName": "Jiao R",
+            "lastName": "Jiao",
+            "firstName": "Ruopu",
+            "initials": "R"
+          },
+          {
+            "fullName": "Coventry B",
+            "lastName": "Coventry",
+            "firstName": "Brian",
+            "initials": "B"
+          },
+          {
+            "fullName": "Qu X",
+            "lastName": "Qu",
+            "firstName": "Xiangli",
+            "initials": "X"
+          },
+          {
+            "fullName": "Bauer M",
+            "lastName": "Bauer",
+            "firstName": "Magnus",
+            "initials": "M"
+          },
+          {
+            "fullName": "Tran L",
+            "lastName": "Tran",
+            "firstName": "Long",
+            "initials": "L"
+          },
+          {
+            "fullName": "Tcheau T",
+            "lastName": "Tcheau",
+            "firstName": "Tabitha",
+            "initials": "T"
+          },
+          {
+            "fullName": "Wu K",
+            "lastName": "Wu",
+            "firstName": "Kejia",
+            "initials": "K"
+          },
+          {
+            "fullName": "Song Z",
+            "lastName": "Song",
+            "firstName": "Zihao",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Roullier N",
+            "lastName": "Roullier",
+            "firstName": "Nicole",
+            "initials": "N"
+          },
+          {
+            "fullName": "Li X",
+            "lastName": "Li",
+            "firstName": "Xinting",
+            "initials": "X"
+          },
+          {
+            "fullName": "Glasscock C",
+            "lastName": "Glasscock",
+            "firstName": "Cameron",
+            "initials": "C"
+          },
+          {
+            "fullName": "Hilton IB",
+            "lastName": "Hilton",
+            "firstName": "Isaac",
+            "initials": "IB"
+          },
+          {
+            "fullName": "Baker D",
+            "lastName": "Baker",
+            "firstName": "David",
+            "initials": "D"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Transcription factors control gene expression by recruiting transcriptional coactivators through intrinsically disordered transcriptional activation domains (TADs), whose weak and promiscuous interactions make it difficult to establish quantitative relationships between coactivator recruitment and transcriptional output, and to precisely modulate gene expression. To overcome this limitation, we set out to design coactivator-recruiting proteins using AlphaFold3-predicted TAD-coactivator interactions as a guide. We developed a high-throughput functional screening platform in mammalian cells and identified over 300 well folded nanomolar affinity binders to the transcription coactivators Mediator (multiple subunits), BRD4, NCOA, and p300; targeted interface mutations enabled systematic tuning of their binding affinities. Using a panel of p300 binders spanning nanomolar to micromolar affinities, we found an ultrasensitive relationship between coactivator-binding affinity and transcriptional output, with a sharp transcriptional activation threshold at ∼500 nM. Incorporating p300 binder designs into CRISPRa yielded compact synthetic effectors that drove stronger activation than VPR across multiple genomic loci with minimal detectable cytotoxicity. Combining p300- and Mediator-specific binders further enhanced transcription, revealing functional synergy between these coactivators. Together, our work establishes a quantitative framework linking coactivator-binding affinity to transcriptional output and provides compact synthetic effectors for programmable gene activation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.10.19.760300"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-10-22",
+      "firstPublicationDate": "2026-10-20",
+      "firstIndexDate": "2026-10-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

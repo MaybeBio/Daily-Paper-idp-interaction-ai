@@ -1,0 +1,143 @@
+{
+  "identity": {
+    "pmid": "42920332",
+    "doi": "10.1002/anie.7079393",
+    "title": "Liquid-Liquid Phase Separation Modulated Thylakoid-Enzyme Interfacial Coupling for Enhanced Light-Powered Biocatalysis."
+  },
+  "content": {
+    "abstract": "Thylakoid (TK) membranes serve as promising photosynthesis platforms for light-driven biocatalysis, yet their catalytic efficiency is largely restricted by poor coupling between photo-dependent NADPH regeneration and enzymatic conversion. Herein, we report a facile TK-anchored enzyme condensate strategy to overcome this bottleneck. Specifically, the UTX-derived intrinsically disordered region (IDR) fused with target enzymes mediates liquid-liquid phase separation to form enzyme-rich condensates, which then stably anchor on TK membranes and spatially confine catalysis at the NADPH-generating membrane interface. Taking carbonyl reductase SmCR(V4) and ene-reductase SsER(A314S) as model enzymes, the TK-enzyme hybrid condensates exhibit prominently improved catalytic performance, especially under NADPH regeneration-limited conditions, relative to freely dispersed enzyme systems. The TK-UTX-SmCR(V4) hybrid improves the total product yield up to 3.1-fold, and the TK-UTX-SsER(A314S) hybrid reaches a 2.9-fold higher conversion within 20 min. Coarse-grained molecular dynamics simulations validate a dynamic multivalent interfacial anchoring mode: the IDR domain mediates stable membrane binding via high-frequency residue-lipid interactions dominated by short-range Lennard-Jones forces (with auxiliary electrostatic contributions), while the enzyme domain remains solvent-exposed. This work establishes a feasible strategy that physically links light-driven NADPH recycling with enzymatic catalysis, offering a general approach for constructing high-efficiency artificial photosynthesis systems.",
+    "keywords": [
+      "artificial photosynthesis",
+      "cofactor recycling",
+      "enzyme catalysis",
+      "liquid-liquid phase separation",
+      "thylakoid"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jiayi",
+        "Ding, Chengtao",
+        "Zhang, Xiaoyan",
+        "Fan, Daidi",
+        "Liu, Jiaxu",
+        "Bai, Yunpeng"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Ding C",
+        "Zhang X",
+        "Fan D",
+        "Liu J",
+        "Bai Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2498-8012",
+        "ORCID: 0000-0001-9798-1674",
+        "ORCID: 0000-0002-6973-581X"
+      ],
+      "affiliations": [
+        "Shanghai Collaborative Innovation Center for Biomanufacturing, East China University of Science and Technology, Shanghai, China.",
+        "Shanghai Collaborative Innovation Center for Biomanufacturing, East China University of Science and Technology, Shanghai, China.",
+        "Shanghai Collaborative Innovation Center for Biomanufacturing, East China University of Science and Technology, Shanghai, China.",
+        "Shaanxi R&D Center of Biomaterials and Fermentation Engineering, School of Chemical Engineering, Northwest University, Xi'an, Shaanxi, China.",
+        "School of Food and Biological Engineering, Jingchu University of Technology, Jingmen, Hubei, China.",
+        "Shanghai Collaborative Innovation Center for Biomanufacturing, East China University of Science and Technology, Shanghai, China.",
+        "Shaanxi R&D Center of Biomaterials and Fermentation Engineering, School of Chemical Engineering, Northwest University, Xi'an, Shaanxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jiayi",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Collaborative Innovation Center for Biomanufacturing, East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Chengtao",
+        "short_name": "Ding C",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Collaborative Innovation Center for Biomanufacturing, East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaoyan",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0002-2498-8012"
+        ],
+        "affiliations": [
+          "Shanghai Collaborative Innovation Center for Biomanufacturing, East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Daidi",
+        "short_name": "Fan D",
+        "identifiers": [
+          "0000-0001-9798-1674"
+        ],
+        "affiliations": [
+          "Shaanxi R&D Center of Biomaterials and Fermentation Engineering, School of Chemical Engineering, Northwest University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiaxu",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Food and Biological Engineering, Jingchu University of Technology, Jingmen, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Yunpeng",
+        "short_name": "Bai Y",
+        "identifiers": [
+          "0000-0002-6973-581X"
+        ],
+        "affiliations": [
+          "Shanghai Collaborative Innovation Center for Biomanufacturing, East China University of Science and Technology, Shanghai, China.",
+          "Shaanxi R&D Center of Biomaterials and Fermentation Engineering, School of Chemical Engineering, Northwest University, Xi'an, Shaanxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Angewandte Chemie (International ed. in English)"
+    ],
+    "journal_abbrev": [
+      "Angew Chem Int Ed Engl"
+    ],
+    "pub_date": "2026 Oct 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/24 05:35",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42920332"
+    ],
+    "review": [
+      "42920332"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

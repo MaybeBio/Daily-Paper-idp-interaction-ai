@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "pmid": "42914710",
+    "doi": "10.1016/j.sbi.2026.103421",
+    "title": "Revealing protein structural transitions in the era of generative artificial intelligence."
+  },
+  "content": {
+    "abstract": "Recent advances in artificial intelligence and deep generative models have greatly accelerated the generation of protein conformational ensembles. Moving beyond isolated structural states to reconstruct continuous, physically realistic transition pathways further provides mechanistic understanding to guide molecular design but remains a significant challenge. This review examines emerging computational approaches for modeling protein conformational transitions, from classical molecular dynamics simulations to deep learning-based latent space interpolation. Recent developments in capturing natural molecular motions are discussed, particularly via internal coordinate representations and physics-informed models. We also examine the complexity of modeling highly dynamic systems, such as intrinsically disordered proteins, and the role of the cellular environment. Integrating experimental data with simulated structural ensembles represents a promising direction for future methodologies. Nonetheless, key challenges remain, including maintaining physical realism throughout transition trajectories, capturing environment-dependent energy landscapes, and predicting dynamically consistent pathways with accurate transition kinetics.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hung, Ta I",
+        "Venkatesan, Raghu",
+        "Chang, Chia-En A"
+      ],
+      "short_names": [
+        "Hung TI",
+        "Venkatesan R",
+        "Chang CA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, University of California, Riverside, CA 92521, USA.",
+        "Department of Chemistry, University of California, Riverside, CA 92521, USA.",
+        "Department of Chemistry, University of California, Riverside, CA 92521, USA. Electronic address: chiaenc@ucr.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hung, Ta I",
+        "short_name": "Hung TI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA 92521, USA."
+        ]
+      },
+      {
+        "full_name": "Venkatesan, Raghu",
+        "short_name": "Venkatesan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA 92521, USA."
+        ]
+      },
+      {
+        "full_name": "Chang, Chia-En A",
+        "short_name": "Chang CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA 92521, USA. Electronic address: chiaenc@ucr.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2026 Oct 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/23 23:31",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42914710"
+    ],
+    "review": [
+      "42914710"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

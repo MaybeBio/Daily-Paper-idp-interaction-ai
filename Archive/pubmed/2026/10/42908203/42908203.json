@@ -1,0 +1,114 @@
+{
+  "identity": {
+    "pmid": "42908203",
+    "doi": "10.1016/j.bpj.2026.10.018",
+    "title": "Determinants of centromeric nucleosome conformation."
+  },
+  "content": {
+    "abstract": "Centromeric chromatin is defined by the presence of the histone H3 variant CENP-A, which forms a specialized nucleosome required for kinetochore assembly. Compared to canonical H3 nucleosomes, CENP-A nucleosomes exhibit an open DNA conformation that leaves an additional 13 base pairs of DNA accessible at the entry and exit sites. While the CENP-A alphaN-helix has previously been implicated in promoting this enhanced DNA breathing, the contributions of the intrinsically disordered N-terminal tail and adjacent latch regions of CENP-A to nucleosome conformation remain unknown. The intrinsically disordered N-terminal regions of histone H3 are known to facilitate interactions with DNA to stabilize overall nucleosome conformation. Here, we utilized a combination of MNase digestion assays and coarse-grained molecular dynamics simulations of nucleosomes containing targeted swaps of the H3 and CENP-A tail, latch, and alphaN-helix regions to systematically test the contribution of each N-terminal histone region to nucleosomal DNA conformation. Substitution of individual H3 N-terminal regions with those of CENP-A opened the DNA at the entry/exit sites and increased DNA accessibility. While any single CENP-A N-terminal region was sufficient to open the canonical nucleosomal DNA conformation, replacement of any single CENP-A N-terminal region with its H3 counterpart was insufficient to restore the closed DNA conformation characteristic of canonical H3 nucleosomes. Instead, progressive incorporation of multiple H3-derived regions produced increasingly closed DNA conformations, demonstrating that the H3 tail, latch, and alphaN-helices act cooperatively to stabilize wrapped nucleosomal DNA. Taken together, these findings demonstrate that the more restricted DNA breathing of canonical nucleosomes arises from coordinated contributions across multiple N-terminal regions and suggest that the multi-region redundancy in the conformational flexibility of the centromeric nucleosome could emphasize the importance of retaining flexibility in the centromeric nucleosome, even upon post-translational modification and binding to structural proteins.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Paintsil, Emeleeta A",
+        "Lee, Joshua",
+        "Meidl Zahorodny, Sarah S",
+        "Wereszczynski, Jeff",
+        "Morrison, Emma A"
+      ],
+      "short_names": [
+        "Paintsil EA",
+        "Lee J",
+        "Meidl Zahorodny SS",
+        "Wereszczynski J",
+        "Morrison EA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, United States.",
+        "Department of Biology, Illinois Institute of Technology, Chicago, IL, United States.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, United States.",
+        "Department of Biology, Illinois Institute of Technology, Chicago, IL, United States; Department of Physics, Illinois Institute of Technology, Chicago, IL, United States. Electronic address: jwereszc@illinoistech.edu.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, United States. Electronic address: emorrison@mcw.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Paintsil, Emeleeta A",
+        "short_name": "Paintsil EA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, United States."
+        ]
+      },
+      {
+        "full_name": "Lee, Joshua",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Illinois Institute of Technology, Chicago, IL, United States."
+        ]
+      },
+      {
+        "full_name": "Meidl Zahorodny, Sarah S",
+        "short_name": "Meidl Zahorodny SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, United States."
+        ]
+      },
+      {
+        "full_name": "Wereszczynski, Jeff",
+        "short_name": "Wereszczynski J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Illinois Institute of Technology, Chicago, IL, United States; Department of Physics, Illinois Institute of Technology, Chicago, IL, United States. Electronic address: jwereszc@illinoistech.edu."
+        ]
+      },
+      {
+        "full_name": "Morrison, Emma A",
+        "short_name": "Morrison EA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, United States. Electronic address: emorrison@mcw.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Oct 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/23 05:32",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42908203"
+    ],
+    "review": [
+      "42908203"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

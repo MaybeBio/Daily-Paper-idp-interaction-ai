@@ -1,0 +1,157 @@
+{
+  "identity": {
+    "pmid": "42896247",
+    "doi": "10.1016/j.jmgm.2026.109610",
+    "title": "GeoSeq-EGNN: A geometry-sequence fused equivariant graph neural network for predicting short linear motifs within intrinsically disordered regions."
+  },
+  "content": {
+    "abstract": "Short linear motifs (SLiMs) located within intrinsically disordered regions (IDRs) are essential for mediating dynamic protein-protein interactions. However, their short length, sequence degeneracy, and the conformational heterogeneity of IDRs pose significant challenges for accurate computational identification. Traditional methods that rely exclusively on one-dimensional sequences or static three-dimensional structures may not adequately capture the intricate interplay between structure and sequence, while severe class imbalance often results in unacceptably high false-positive rates. To address these challenges, we introduce GeoSeq-EGNN, a Geometry-Sequence Fused Equivariant Graph Neural Network designed for dual-modality SLiMs prediction. This architecture effectively integrates Global-Local Hybrid Equivariant Message Passing Layers (GLH-EMPL) to model the three-dimensional spatial folding dynamics of IDRs, alongside Multi-Scale Geometry-Sequence Fusion Network Layers (MSGS-FNL) that utilize Bidirectional LSTMs to extract critical one-dimensional primary sequence topologies. We also incorporate an adaptive coordinate update mechanism to improve geometric stability in deeper layers and dynamic gate feature fusion to reduce representation over-smoothing. To address class imbalance, we use a confidence-aware focal loss that penalizes overconfident erroneous predictions. On the evaluated SLiMs dataset, GeoSeq-EGNN achieved an accuracy of 92.94% and an AUPRC of 82.17% under the final F6 feature configuration and outperformed the evaluated baseline models in the controlled one-hot comparison, with higher Precision and Matthews Correlation Coefficient (MCC). These results support GeoSeq-EGNN as a computational framework for SLiM prediction and provide a basis for future studies of SLiM-mediated regulatory networks.",
+    "keywords": [
+      "Dual-modality deep learning",
+      "Equivariant graph neural network",
+      "Imbalanced learning",
+      "Intrinsically disordered regions",
+      "Short linear motifs"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jun",
+        "Zhang, Jinming",
+        "Zheng, Liting",
+        "Ruan, Huiqiong",
+        "Li, Yuxiang",
+        "Li, Yi",
+        "Luo, Guilan"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Zhang J",
+        "Zheng L",
+        "Ruan H",
+        "Li Y",
+        "Li Y",
+        "Luo G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Information and Artificial Intelligence, Hefei University of Economics, Hefei, 230012, China; College of Mathematics and Computer Science, Dali University, Dali, 671003, China. Electronic address: zhangjun_siying@163.com.",
+        "College of Engineering, Dali University, Dali, 671003, China. Electronic address: jm_zhang0927@163.com.",
+        "College of Agriculture and Biological Science, Dali University, Dali, 671003, China. Electronic address: zlt42400326@163.com.",
+        "College of Engineering, Dali University, Dali, 671003, China. Electronic address: roy110817@163.com.",
+        "College of Mathematics and Computer Science, Dali University, Dali, 671003, China. Electronic address: 13386919677@163.com.",
+        "College of Mathematics and Computer Science, Dali University, Dali, 671003, China. Electronic address: liyigerry@163.com.",
+        "College of Mathematics and Computer Science, Dali University, Dali, 671003, China. Electronic address: yongxin_fly@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jun",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Artificial Intelligence, Hefei University of Economics, Hefei, 230012, China; College of Mathematics and Computer Science, Dali University, Dali, 671003, China. Electronic address: zhangjun_siying@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jinming",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Engineering, Dali University, Dali, 671003, China. Electronic address: jm_zhang0927@163.com."
+        ]
+      },
+      {
+        "full_name": "Zheng, Liting",
+        "short_name": "Zheng L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Agriculture and Biological Science, Dali University, Dali, 671003, China. Electronic address: zlt42400326@163.com."
+        ]
+      },
+      {
+        "full_name": "Ruan, Huiqiong",
+        "short_name": "Ruan H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Engineering, Dali University, Dali, 671003, China. Electronic address: roy110817@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Yuxiang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Mathematics and Computer Science, Dali University, Dali, 671003, China. Electronic address: 13386919677@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Yi",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Mathematics and Computer Science, Dali University, Dali, 671003, China. Electronic address: liyigerry@163.com."
+        ]
+      },
+      {
+        "full_name": "Luo, Guilan",
+        "short_name": "Luo G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Mathematics and Computer Science, Dali University, Dali, 671003, China. Electronic address: yongxin_fly@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular graphics & modelling"
+    ],
+    "journal_abbrev": [
+      "J Mol Graph Model"
+    ],
+    "pub_date": "2026 Oct 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/19 23:30",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42896247"
+    ],
+    "review": [
+      "42896247"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(26)00336-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

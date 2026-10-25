@@ -1,0 +1,156 @@
+{
+  "identity": {
+    "pmid": "42912615",
+    "doi": "10.1021/acs.biomac.6c01389",
+    "title": "Exploring the Mutual Effects of Excipients and Proteins in Complex Coacervation."
+  },
+  "content": {
+    "abstract": "Complex coacervation is a type of associative liquid-liquid phase separation driven by the electrostatic complexation of oppositely-charged macromolecules. Coacervate materials have shown significant potential for the formulation of proteins and viruses with improved thermal stability. We leveraged a combination of experiments and simulations to investigate how the presence of both proteins and small-molecule excipients common in stabilizing formulations would affect the partitioning of both protein and excipient in the coacervate phase. Although electrostatic interactions tend to dominate the incorporation of proteins into coacervates, our study highlights the balance of protein-water-excipient interactions as a critical parameter for understanding partitioning trends in these multi-component formulations. This work provides insight into the design of multi-component formulations that take advantage of complex coacervation and could serve as a basis for product design in the future.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Excipients/chemistry",
+      "Phase Separation",
+      "*Proteins/chemistry",
+      "Static Electricity",
+      "Water/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeng, Xianci",
+        "Sathyavageeswaran, Arvind",
+        "Zajac, Jonathan W P",
+        "Heldt, Caryn L",
+        "Sarupria, Sapna",
+        "Perry, Sarah L"
+      ],
+      "short_names": [
+        "Zeng X",
+        "Sathyavageeswaran A",
+        "Zajac JWP",
+        "Heldt CL",
+        "Sarupria S",
+        "Perry SL"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-3475-071X",
+        "ORCID: 0000-0002-2091-0189",
+        "ORCID: 0000-0002-2025-7896",
+        "ORCID: 0000-0002-0776-8763",
+        "ORCID: 0000-0001-7692-8313",
+        "ORCID: 0000-0003-2301-6710"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biomolecular Engineering, University of Massachusetts Amherst, Amherst, Massachusetts01003, United States.",
+        "Department of Chemical and Biomolecular Engineering, University of Massachusetts Amherst, Amherst, Massachusetts01003, United States.",
+        "Department of Chemistry, University of Minnesota, Minneapolis, Minnesota55455, United States.",
+        "Chemical Theory Center, University of Minnesota, Minneapolis, Minnesota55455, United States.",
+        "Department of Chemical Engineering, Michigan Technological University, Houghton, Michigan49931, United States.",
+        "Health Research Institute, Michigan Technological University, Houghton, Michigan49931, United States.",
+        "Department of Chemistry, University of Minnesota, Minneapolis, Minnesota55455, United States.",
+        "Chemical Theory Center, University of Minnesota, Minneapolis, Minnesota55455, United States.",
+        "Department of Chemical and Biomolecular Engineering, University of Massachusetts Amherst, Amherst, Massachusetts01003, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeng, Xianci",
+        "short_name": "Zeng X",
+        "identifiers": [
+          "0009-0005-3475-071X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Massachusetts Amherst, Amherst, Massachusetts01003, United States."
+        ]
+      },
+      {
+        "full_name": "Sathyavageeswaran, Arvind",
+        "short_name": "Sathyavageeswaran A",
+        "identifiers": [
+          "0000-0002-2091-0189"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Massachusetts Amherst, Amherst, Massachusetts01003, United States."
+        ]
+      },
+      {
+        "full_name": "Zajac, Jonathan W P",
+        "short_name": "Zajac JWP",
+        "identifiers": [
+          "0000-0002-2025-7896"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Minnesota, Minneapolis, Minnesota55455, United States.",
+          "Chemical Theory Center, University of Minnesota, Minneapolis, Minnesota55455, United States."
+        ]
+      },
+      {
+        "full_name": "Heldt, Caryn L",
+        "short_name": "Heldt CL",
+        "identifiers": [
+          "0000-0002-0776-8763"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Michigan Technological University, Houghton, Michigan49931, United States.",
+          "Health Research Institute, Michigan Technological University, Houghton, Michigan49931, United States."
+        ]
+      },
+      {
+        "full_name": "Sarupria, Sapna",
+        "short_name": "Sarupria S",
+        "identifiers": [
+          "0000-0001-7692-8313"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Minnesota, Minneapolis, Minnesota55455, United States.",
+          "Chemical Theory Center, University of Minnesota, Minneapolis, Minnesota55455, United States."
+        ]
+      },
+      {
+        "full_name": "Perry, Sarah L",
+        "short_name": "Perry SL",
+        "identifiers": [
+          "0000-0003-2301-6710"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Massachusetts Amherst, Amherst, Massachusetts01003, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2026 Oct 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/23 18:31",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42912615"
+    ],
+    "review": [
+      "42912615"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

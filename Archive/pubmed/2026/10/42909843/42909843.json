@@ -1,0 +1,113 @@
+{
+  "identity": {
+    "pmid": "42909843",
+    "doi": "10.1007/s12602-026-11267-5",
+    "title": "Nodule Cysteine-Rich (NCR) Peptides as Next-Generation Antimicrobials: A Computational Perspective on Structure, Mechanism, and Drug Design."
+  },
+  "content": {
+    "abstract": "The rapid escalation of antimicrobial resistance (AMR) has rendered conventional antibiotics increasingly ineffective, necessitating the exploration of alternative therapeutic strategies. Nodule-specific cysteine-rich (NCR) peptides, a diverse class of plant-derived antimicrobial peptides produced by legumes, have emerged as promising candidates due to their potent and multifaceted biological activity. Unlike traditional antibiotics that target a single cellular pathway, NCR peptides exhibit pleiotropic mechanisms, including membrane disruption, transporter-mediated internalization, intracellular targeting of essential regulatory proteins, and metabolic interference. Recent advances have revealed that their activity is governed not only by primary sequence but also by complex structural determinants such as disulfide bond topology and intrinsically disordered functional domains. Furthermore, their broad-spectrum efficacy, including activity against biofilms and cross-kingdom pathogens, highlights their therapeutic potential in combating multidrug-resistant infections. Computational approaches - molecular dynamics simulations, flexible docking algorithms, and artificial intelligence-based design frameworks - are increasingly proposed as a route to optimizing peptide structure, stability, and target specificity. These individual tools have each been validated in other peptide contexts and, in a small number of cases, directly on NCR peptides; their assembly into a single, discovery-to-validation pipeline for NCR engineering, however, is a synthesis proposed by this review rather than a workflow that has itself been experimentally validated end-to-end. This review provides a comprehensive synthesis of the structural features, multimodal mechanisms, and computational strategies associated with NCR peptides, explicitly distinguishing experimentally established findings from the proposed in silico pipeline and its current, largely untested assumptions. It also examines current challenges, including instability, unpredictable toxicity, assay-dependent variability, and the still-preliminary evidence for reduced resistance development, and outlines a moderated set of future directions for AI-driven peptide engineering. On present, largely preclinical evidence, NCR peptides represent a promising - but not yet clinically validated - platform warranting further mechanistic and computational investigation as part of the broader antimicrobial pipeline.",
+    "keywords": [
+      "Antimicrobial peptides",
+      "Antimicrobial resistance",
+      "Artificial intelligence",
+      "Biofilm inhibition",
+      "Drug design",
+      "Molecular dynamics",
+      "Nodule-specific cysteine-rich peptides",
+      "Peptide docking"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pawar, Yash",
+        "Bidvi, Sneha",
+        "Choure, Rajendra"
+      ],
+      "short_names": [
+        "Pawar Y",
+        "Bidvi S",
+        "Choure R"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-2232-4732",
+        "ORCID: 0009-0006-2416-0342",
+        "ORCID: 0009-0002-0542-4008"
+      ],
+      "affiliations": [
+        "Department of Microbiology, The Institute of Science, Dr. Homi Bhabha State University, Mumbai, Maharashtra, India.",
+        "Department of Microbiology, The Institute of Science, Dr. Homi Bhabha State University, Mumbai, Maharashtra, India.",
+        "Department of Microbiology, The Institute of Science, Dr. Homi Bhabha State University, Mumbai, Maharashtra, India. rajendra.choure@iscm.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pawar, Yash",
+        "short_name": "Pawar Y",
+        "identifiers": [
+          "0009-0004-2232-4732"
+        ],
+        "affiliations": [
+          "Department of Microbiology, The Institute of Science, Dr. Homi Bhabha State University, Mumbai, Maharashtra, India."
+        ]
+      },
+      {
+        "full_name": "Bidvi, Sneha",
+        "short_name": "Bidvi S",
+        "identifiers": [
+          "0009-0006-2416-0342"
+        ],
+        "affiliations": [
+          "Department of Microbiology, The Institute of Science, Dr. Homi Bhabha State University, Mumbai, Maharashtra, India."
+        ]
+      },
+      {
+        "full_name": "Choure, Rajendra",
+        "short_name": "Choure R",
+        "identifiers": [
+          "0009-0002-0542-4008"
+        ],
+        "affiliations": [
+          "Department of Microbiology, The Institute of Science, Dr. Homi Bhabha State University, Mumbai, Maharashtra, India. rajendra.choure@iscm.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Probiotics and antimicrobial proteins"
+    ],
+    "journal_abbrev": [
+      "Probiotics Antimicrob Proteins"
+    ],
+    "pub_date": "2026 Oct 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/23 18:31",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42909843"
+    ],
+    "review": [
+      "42909843"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "identity": {
+    "pmid": "42900526",
+    "doi": "10.1080/20008066.2026.2735202",
+    "title": "Complex post-traumatic stress disorder in refugees, asylum seekers, and internally displaced people: a systematic review and meta-analysis."
+  },
+  "content": {
+    "abstract": "Background: Forcibly displaced populations, including refugees, asylum seekers, and internally displaced persons, are frequently exposed to severe, prolonged and repeated trauma from which escape is difficult or impossible. Such exposures increase the risk for complex post-traumatic stress disorder (CPTSD), defined by core PTSD symptoms alongside disturbances in self-organisation (DSO), including affective dysregulation, negative self-concept, and relational difficulties. However, the prevalence of CPTSD in forcibly displaced populations has not yet been quantitatively synthesised, and the added value of the CPTSD construct over PTSD in this population has not been examined.Methods: This systematic review and meta-analysis searched five databases from inception to January 2026. A random-effects meta-analysis was conducted to estimate pooled CPTSD prevalence, with pre-specified subgroup analyses, meta-regression, and sensitivity analyses.Results: Twenty studies met inclusion criteria, representing 17 independent samples (n = 12,504). Reported CPTSD prevalence varied from 3.0% to 74.6%. The random-effects pooled prevalence, retained as a descriptive summary of the included studies, was 20.9% (95% CI [12.6%, 32.6%]), the 95% prediction interval was [1.7%, 80.3%]. Between-study heterogeneity was very high (I(2) = 98.3%). Recruitment context was strongly associated with prevalence: estimates averaged 10.6% in community-based samples and 55.2% in treatment-seeking samples. Asylum seekers exhibited markedly higher prevalence than refugees. Across four studies, post-migration living difficulties, including legal insecurity, poverty, and marginalisation, were more strongly associated with DSO symptoms than with core PTSD symptoms, suggesting that ongoing structural adversity actively perpetuates complex trauma psychopathology beyond pre-migration trauma alone.Conclusion: Available evidence indicates marked variation in CPTSD prevalence across forcibly displaced populations rather than a single generalisable prevalence rate. Recruitment context accounts for part of this variation, but the limited and geographically uneven evidence base prevents global population-level inference. Future studies should use representative sampling and consistently report displacement, trauma, and post-migration characteristics to permit more informative explanations of between-population variation.",
+    "keywords": [
+      "CPTSD",
+      "IDPs",
+      "PTSD",
+      "TEPT",
+      "TEPT-C",
+      "asylum seekers",
+      "conflict-affected areas",
+      "personas desplazadas internamente",
+      "personas que buscan asilo",
+      "refugees",
+      "refugiados",
+      "areas afectadas por conflicto"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Prevalence",
+      "*Refugees/psychology/statistics & numerical data",
+      "*Stress Disorders, Post-Traumatic/epidemiology/psychology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Systematic Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Melkam, Mamaru",
+        "Xu, Cheng",
+        "Maccallum, Fiona",
+        "Oestreich, Lena"
+      ],
+      "short_names": [
+        "Melkam M",
+        "Xu C",
+        "Maccallum F",
+        "Oestreich L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3006-0712",
+        "ORCID: 0000-0002-4978-7794"
+      ],
+      "affiliations": [
+        "School of Psychology, The University of Queensland, Brisbane, Australia.",
+        "Department of Psychiatry, College of Medicine and Health Science, University of Gondar, Gondar, Ethiopia.",
+        "School of Psychology, The University of Queensland, Brisbane, Australia.",
+        "School of Psychology and Cognitive Science, East China Normal University, Shanghai, People's Republic of China.",
+        "School of Psychology, The University of Queensland, Brisbane, Australia.",
+        "School of Psychology, The University of Queensland, Brisbane, Australia.",
+        "Australian Institute for Bioengineering and Nanotechnology, The University of Queensland, Brisbane, Australia, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Melkam, Mamaru",
+        "short_name": "Melkam M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Psychology, The University of Queensland, Brisbane, Australia.",
+          "Department of Psychiatry, College of Medicine and Health Science, University of Gondar, Gondar, Ethiopia."
+        ]
+      },
+      {
+        "full_name": "Xu, Cheng",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Psychology, The University of Queensland, Brisbane, Australia.",
+          "School of Psychology and Cognitive Science, East China Normal University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Maccallum, Fiona",
+        "short_name": "Maccallum F",
+        "identifiers": [
+          "0000-0002-3006-0712"
+        ],
+        "affiliations": [
+          "School of Psychology, The University of Queensland, Brisbane, Australia."
+        ]
+      },
+      {
+        "full_name": "Oestreich, Lena",
+        "short_name": "Oestreich L",
+        "identifiers": [
+          "0000-0002-4978-7794"
+        ],
+        "affiliations": [
+          "School of Psychology, The University of Queensland, Brisbane, Australia.",
+          "Australian Institute for Bioengineering and Nanotechnology, The University of Queensland, Brisbane, Australia, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of psychotraumatology"
+    ],
+    "journal_abbrev": [
+      "Eur J Psychotraumatol"
+    ],
+    "pub_date": "2026 Dec",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Systematic Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/20 17:34",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42900526"
+    ],
+    "review": [
+      "42900526"
+    ],
+    "pmc": [
+      "13686194"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/20008066.2026.2735202?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/posttraumaticstressdisorder.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Post-Traumatic Stress Disorder"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1496",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

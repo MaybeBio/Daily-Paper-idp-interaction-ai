@@ -1,0 +1,200 @@
+{
+  "identity": {
+    "pmid": "42918906",
+    "doi": "10.1007/s00018-026-06329-4",
+    "title": "Membrane orientation regulates GAPR-1 oligomerization that is suitable for interaction with beclin 1."
+  },
+  "content": {
+    "abstract": "Golgi-associated plant pathogenesis-related protein 1 (GAPR-1) is a beclin 1-interacting peripheral membrane protein that is anchored to the Golgi complex via an N-myristoyl-group and ionic interactions. Here we investigated the determinants of GAPR-1 membrane binding using molecular dynamics (MD) simulations and applied the results to investigate the subsequent oligomerization into biomolecular condensates and interaction with beclin 1. MD simulations revealed a specific orientation of GAPR-1 upon docking to a negatively charged lipid bilayer involving lysines at position 7 and 33 (Lys7 and Lys33). Substitution of these lysines with glutamine changed the preferred membrane orientation of GAPR-1. Upon deletion of the myristoyl-group, GAPR-1 remained docked to the lipid bilayer, but lost its preferred orientation, suggesting that myristoylation constrained the dynamics of the protein at the membrane surface. Upon mutation of Lys7 to glutamine and expression in Saccharomyces cerevisiae, [K7Q]GAPR-1 was prevented from myristoylation and condensate formation was severely impaired. Similar results were obtained when N-terminal myristoylation of GAPR-1 was prevented by mutating amino acid Gly2. However, in contrast to [G2A]GAPR-1, [K7Q]GAPR-1 could not interact with beclin 1 anymore upon co-expression in yeast cells, and failed to interfere with beclin 1-dependent autophagy in human cells. Our combined data show that GAPR-1 requires a defined orientation at the membrane to control protein homo-and hetero-oligomerization and to execute its function. We revealed a novel function of protein myristoylation in which it determines the motional freedom of specific protein orientations, which may have relevance for the entire myristoylated proteome.",
+    "keywords": [
+      "Autophagy",
+      "CAP superfamily of proteins",
+      "N-myristoylation",
+      "Protein oligomerization",
+      "Protein-lipid interactions",
+      "Protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "*Beclin-1/metabolism/chemistry",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*Membrane Proteins/metabolism/chemistry",
+      "Protein Multimerization",
+      "Myristic Acid/metabolism",
+      "Saccharomyces cerevisiae/metabolism",
+      "Lipid Bilayers/metabolism/chemistry",
+      "*Cell Membrane/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shen, Ziying",
+        "Corey, Robin A",
+        "van Doorne, Hidde",
+        "Verhoek, Iris",
+        "Koopman, Renee",
+        "Huitema, Daniel S",
+        "Sardana, Samiksha",
+        "Baggelaar, Marc P",
+        "Stansfeld, Phillip J",
+        "Kaloyanova, Dora V",
+        "Helms, J Bernd"
+      ],
+      "short_names": [
+        "Shen Z",
+        "Corey RA",
+        "van Doorne H",
+        "Verhoek I",
+        "Koopman R",
+        "Huitema DS",
+        "Sardana S",
+        "Baggelaar MP",
+        "Stansfeld PJ",
+        "Kaloyanova DV",
+        "Helms JB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Cell Biology, Metabolism and Cancer, Faculty of Veterinary Medicine, Utrecht University, Utrecht, The Netherlands.",
+        "Department of Laboratory Animal Center, General Hospital of Northern Theater Command, 83 Wenhua Road, Shenhe District, Shenyang, Liaoning, 110016, China.",
+        "School of Physiology, Pharmacology & Neuroscience, Biomedical Sciences Building University Walk, Bristol, BS8 1TD, UK.",
+        "Division of Cell Biology, Metabolism and Cancer, Faculty of Veterinary Medicine, Utrecht University, Utrecht, The Netherlands.",
+        "Division of Cell Biology, Metabolism and Cancer, Faculty of Veterinary Medicine, Utrecht University, Utrecht, The Netherlands.",
+        "Protein Research Centre, Department of Chemistry, Faculty of Science, Utrecht University, Utrecht, The Netherlands.",
+        "Biomolecular Mass Spectrometry & Proteomics, Faculty of Science, Utrecht University, Utrecht, The Netherlands.",
+        "Biomolecular Mass Spectrometry & Proteomics, Faculty of Science, Utrecht University, Utrecht, The Netherlands.",
+        "Biomolecular Mass Spectrometry & Proteomics, Faculty of Science, Utrecht University, Utrecht, The Netherlands.",
+        "School of Life Sciences, Department of Chemistry, University of Warwick, Coventry, CV4 7AL, UK.",
+        "Division of Cell Biology, Metabolism and Cancer, Faculty of Veterinary Medicine, Utrecht University, Utrecht, The Netherlands.",
+        "Division of Cell Biology, Metabolism and Cancer, Faculty of Veterinary Medicine, Utrecht University, Utrecht, The Netherlands. J.B.Helms@uu.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shen, Ziying",
+        "short_name": "Shen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cell Biology, Metabolism and Cancer, Faculty of Veterinary Medicine, Utrecht University, Utrecht, The Netherlands.",
+          "Department of Laboratory Animal Center, General Hospital of Northern Theater Command, 83 Wenhua Road, Shenhe District, Shenyang, Liaoning, 110016, China."
+        ]
+      },
+      {
+        "full_name": "Corey, Robin A",
+        "short_name": "Corey RA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physiology, Pharmacology & Neuroscience, Biomedical Sciences Building University Walk, Bristol, BS8 1TD, UK."
+        ]
+      },
+      {
+        "full_name": "van Doorne, Hidde",
+        "short_name": "van Doorne H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cell Biology, Metabolism and Cancer, Faculty of Veterinary Medicine, Utrecht University, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Verhoek, Iris",
+        "short_name": "Verhoek I",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cell Biology, Metabolism and Cancer, Faculty of Veterinary Medicine, Utrecht University, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Koopman, Renée",
+        "short_name": "Koopman R",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Research Centre, Department of Chemistry, Faculty of Science, Utrecht University, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Huitema, Daniel S",
+        "short_name": "Huitema DS",
+        "identifiers": [],
+        "affiliations": [
+          "Biomolecular Mass Spectrometry & Proteomics, Faculty of Science, Utrecht University, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Sardana, Samiksha",
+        "short_name": "Sardana S",
+        "identifiers": [],
+        "affiliations": [
+          "Biomolecular Mass Spectrometry & Proteomics, Faculty of Science, Utrecht University, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Baggelaar, Marc P",
+        "short_name": "Baggelaar MP",
+        "identifiers": [],
+        "affiliations": [
+          "Biomolecular Mass Spectrometry & Proteomics, Faculty of Science, Utrecht University, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Stansfeld, Phillip J",
+        "short_name": "Stansfeld PJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Department of Chemistry, University of Warwick, Coventry, CV4 7AL, UK."
+        ]
+      },
+      {
+        "full_name": "Kaloyanova, Dora V",
+        "short_name": "Kaloyanova DV",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cell Biology, Metabolism and Cancer, Faculty of Veterinary Medicine, Utrecht University, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Helms, J Bernd",
+        "short_name": "Helms JB",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cell Biology, Metabolism and Cancer, Faculty of Veterinary Medicine, Utrecht University, Utrecht, The Netherlands. J.B.Helms@uu.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cellular and molecular life sciences : CMLS"
+    ],
+    "journal_abbrev": [
+      "Cell Mol Life Sci"
+    ],
+    "pub_date": "2026 Jul 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/23 23:32",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42918906"
+    ],
+    "review": [
+      "42918906"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

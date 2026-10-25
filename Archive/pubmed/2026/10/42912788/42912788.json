@@ -1,0 +1,170 @@
+{
+  "identity": {
+    "pmid": "42912788",
+    "doi": "10.1073/pnas.2605059123",
+    "title": "Capillary physics links HIV capsid geometry to nuclear pore translocation."
+  },
+  "content": {
+    "abstract": "The protective capsid encasing the genetic material of HIV can traverse the nuclear pore complex (NPC) intact, despite being far larger than conventional passive cargo. This is attributed to the properties of the capsid surface, which promote partitioning into cohesive assemblies of the disordered proteins that form the NPC's permeability barrier: phenylalanine-glycine nucleoporins (FG-Nups). The implication, at the mesoscale, is that capsid-NPC interactions are characterized by the interfacial physics of wetting and capillarity. To capture this, we develop a minimal theory that reduces to an interplay between capsid geometry, effective cytoplasmic and nucleoplasmic contact angles, and a ratio of interfacial tensions. By combining analytical calculations, sharp- and diffuse-interface numerics, we make several predictions: A geometry-dependent trade-off between penetration depth and the wetting transition; asymmetric capillary forces that generate torques and lead to metastable \"stalled\" states that are tilted; a topological classification of the possible mechanisms underlying the largest energetic barrier; and spontaneous symmetry breaking of displaced FG-Nups. These behaviors connect capsid shape and orientation to the topology and symmetry of FG-Nup displacement, and to the molecular compositions on each side of the pore. They are consistent with published cryoelectron tomography orientations, which provide an initial estimate of the cytoplasmic contact angle. Crucially, our results identify a capillary advantage for the HIV capsid's characteristic broken-symmetry geometry.",
+    "keywords": [
+      "HIV",
+      "capillarity",
+      "capsid",
+      "geometry",
+      "wetting"
+    ],
+    "mesh_terms": [
+      "*Nuclear Pore/metabolism",
+      "*Capsid/metabolism/chemistry",
+      "Nuclear Pore Complex Proteins/metabolism/chemistry",
+      "*HIV/physiology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Brown, Alexander W",
+        "Al-Izzi, Sami C",
+        "Parker, Jack L",
+        "Hertel, Sophie",
+        "Jacques, David A",
+        "Kusumaatmaja, Halim",
+        "Morris, Richard G"
+      ],
+      "short_names": [
+        "Brown AW",
+        "Al-Izzi SC",
+        "Parker JL",
+        "Hertel S",
+        "Jacques DA",
+        "Kusumaatmaja H",
+        "Morris RG"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4764-1457",
+        "ORCID: 0000-0002-6426-4510",
+        "ORCID: 0000-0002-3392-9479",
+        "ORCID: 0000-0002-8544-7658"
+      ],
+      "affiliations": [
+        "Department of Physics, Durham University, Durham DH1 3LE, United Kingdom. ROR: https://ror.org/01v29qb04",
+        "Department of Applied Mathematics, School of Mathematics and Statistics, University of New South Wales, Sydney, NSW 2052, Australia. ROR: https://ror.org/03r8z3t63",
+        "School of Physics, University of New South Wales, Sydney, NSW 2052, Australia. ROR: https://ror.org/03r8z3t63",
+        "Australian Research Council Centre of Excellence for the Mathematical Analysis of Cellular Systems, University of New South Wales Node, Sydney, NSW 2052, Australia. ROR: https://ror.org/03r8z3t63",
+        "Department of Physics, Durham University, Durham DH1 3LE, United Kingdom. ROR: https://ror.org/01v29qb04",
+        "Department of Biotechnology and Biomedicine, DTU Bioengineering, Danmarks Tekniske Universitet, Kgs. Lyngby 2800, Denmark. ROR: https://ror.org/04qtj9h94",
+        "School of Biomedical Sciences, European Molecular Biology Laboratory Australia Node in Single Molecule Science, University of New South Wales, Sydney, NSW 2052, Australia. ROR: https://ror.org/03r8z3t63",
+        "Department of Physics, Durham University, Durham DH1 3LE, United Kingdom. ROR: https://ror.org/01v29qb04",
+        "School of Engineering, Institute for Multiscale Thermofluids, University of Edinburgh, Edinburgh EH9 3FB, United Kingdom. ROR: https://ror.org/01nrxwf90",
+        "School of Physics, University of New South Wales, Sydney, NSW 2052, Australia. ROR: https://ror.org/03r8z3t63",
+        "Australian Research Council Centre of Excellence for the Mathematical Analysis of Cellular Systems, University of New South Wales Node, Sydney, NSW 2052, Australia. ROR: https://ror.org/03r8z3t63",
+        "School of Biomedical Sciences, European Molecular Biology Laboratory Australia Node in Single Molecule Science, University of New South Wales, Sydney, NSW 2052, Australia. ROR: https://ror.org/03r8z3t63"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Brown, Alexander W",
+        "short_name": "Brown AW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Durham University, Durham DH1 3LE, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Al-Izzi, Sami C",
+        "short_name": "Al-Izzi SC",
+        "identifiers": [
+          "0000-0003-4764-1457"
+        ],
+        "affiliations": [
+          "Department of Applied Mathematics, School of Mathematics and Statistics, University of New South Wales, Sydney, NSW 2052, Australia.",
+          "School of Physics, University of New South Wales, Sydney, NSW 2052, Australia.",
+          "Australian Research Council Centre of Excellence for the Mathematical Analysis of Cellular Systems, University of New South Wales Node, Sydney, NSW 2052, Australia."
+        ]
+      },
+      {
+        "full_name": "Parker, Jack L",
+        "short_name": "Parker JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Durham University, Durham DH1 3LE, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Hertel, Sophie",
+        "short_name": "Hertel S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, DTU Bioengineering, Danmarks Tekniske Universitet, Kgs. Lyngby 2800, Denmark."
+        ]
+      },
+      {
+        "full_name": "Jacques, David A",
+        "short_name": "Jacques DA",
+        "identifiers": [
+          "0000-0002-6426-4510"
+        ],
+        "affiliations": [
+          "School of Biomedical Sciences, European Molecular Biology Laboratory Australia Node in Single Molecule Science, University of New South Wales, Sydney, NSW 2052, Australia."
+        ]
+      },
+      {
+        "full_name": "Kusumaatmaja, Halim",
+        "short_name": "Kusumaatmaja H",
+        "identifiers": [
+          "0000-0002-3392-9479"
+        ],
+        "affiliations": [
+          "Department of Physics, Durham University, Durham DH1 3LE, United Kingdom.",
+          "School of Engineering, Institute for Multiscale Thermofluids, University of Edinburgh, Edinburgh EH9 3FB, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Morris, Richard G",
+        "short_name": "Morris RG",
+        "identifiers": [
+          "0000-0002-8544-7658"
+        ],
+        "affiliations": [
+          "School of Physics, University of New South Wales, Sydney, NSW 2052, Australia.",
+          "Australian Research Council Centre of Excellence for the Mathematical Analysis of Cellular Systems, University of New South Wales Node, Sydney, NSW 2052, Australia.",
+          "School of Biomedical Sciences, European Molecular Biology Laboratory Australia Node in Single Molecule Science, University of New South Wales, Sydney, NSW 2052, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Oct 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/23 18:31",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42912788"
+    ],
+    "review": [
+      "42912788"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

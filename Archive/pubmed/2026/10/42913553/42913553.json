@@ -1,0 +1,118 @@
+{
+  "identity": {
+    "pmid": "42913553",
+    "doi": "10.1021/jacs.6c05891",
+    "title": "Binding without Docking: Small-Molecule Binding Paths on Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Disordered proteins are challenging targets for drug design because they lack well-defined binding pockets. Small molecules can bind them, but when the bound state remains conformationally heterogeneous, these interactions are not readily characterized in terms of conventional binding pockets. Here, we use the concept of binding paths to describe how small molecules interact with disordered proteins. A binding path is a stochastic sequence of transient residue clusters that a ligand engages as it diffuses across a disordered protein, with each cluster forming and breaking up on time scales comparable to the overall residence time. We formalize this approach using a Markov state model (MSM), in which each state corresponds to a set of residues simultaneously contacting the ligand and the transition probabilities capture how the ligand moves between these sets. We apply this framework to the interactions of 10074-G5 with Abeta42 and of fasudil with alpha-synuclein, two disordered proteins associated with Alzheimer's disease and Parkinson's disease, respectively. The MSM enables both a dynamic mapping of transient binding sites and a calculation of dissociation constants consistent with experimental measurements. By generalizing the concept of static binding pockets to dynamic binding paths, this approach provides a quantitative framework for characterizing small-molecule binding by disordered proteins and for identifying druggable regions on these challenging targets.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "Protein Binding",
+      "*Amyloid beta-Peptides/chemistry/metabolism",
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*1-(5-Isoquinolinesulfonyl)-2-Methylpiperazine/analogs & derivatives/chemistry/metabolism",
+      "Ligands",
+      "Markov Chains",
+      "*Small Molecule Libraries/chemistry/metabolism",
+      "*Peptide Fragments/chemistry/metabolism",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Humans",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Louet, Adelie",
+        "Hummer, Gerhard",
+        "Vendruscolo, Michele"
+      ],
+      "short_names": [
+        "Louet A",
+        "Hummer G",
+        "Vendruscolo M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7768-746X",
+        "ORCID: 0000-0002-3616-1610"
+      ],
+      "affiliations": [
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, 60438Germany.",
+        "Institute of Biophysics, Goethe University Frankfurt, Frankfurt am Main60438, Germany.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, CambridgeCB2 1EW, U.K.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, 60438Germany.",
+        "Institute of Biophysics, Goethe University Frankfurt, Frankfurt am Main60438, Germany.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, CambridgeCB2 1EW, U.K."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Louet, Adelie",
+        "short_name": "Louet A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, 60438Germany.",
+          "Institute of Biophysics, Goethe University Frankfurt, Frankfurt am Main60438, Germany.",
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, CambridgeCB2 1EW, U.K."
+        ]
+      },
+      {
+        "full_name": "Hummer, Gerhard",
+        "short_name": "Hummer G",
+        "identifiers": [
+          "0000-0001-7768-746X"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, 60438Germany.",
+          "Institute of Biophysics, Goethe University Frankfurt, Frankfurt am Main60438, Germany."
+        ]
+      },
+      {
+        "full_name": "Vendruscolo, Michele",
+        "short_name": "Vendruscolo M",
+        "identifiers": [
+          "0000-0002-3616-1610"
+        ],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, CambridgeCB2 1EW, U.K."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2026 Oct 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/23 23:31",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42913553"
+    ],
+    "review": [
+      "42913553"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

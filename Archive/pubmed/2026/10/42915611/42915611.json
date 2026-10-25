@@ -1,0 +1,180 @@
+{
+  "identity": {
+    "pmid": "42915611",
+    "doi": "10.1021/acssynbio.5c00682",
+    "title": "Structure-Guided Terminal Modifications Enhance the Efficiency of PET Degradation."
+  },
+  "content": {
+    "abstract": "Poly(ethylene terephthalate) (PET) is a widely used plastic whose persistence and improper disposal pose serious environmental and health risks. In this study, three novel PET hydrolases TbPETase, AbPETase, and AfPETase were identified from Thermoanaerobacterales, Acidimicrobiales, and Actinokineospora fastidiosa, respectively. Among these, TbPETase exhibited the highest enzymatic activity and thermostability. Based on structural analysis, we performed semirational truncations targeting the intrinsically disordered N- and C-terminal regions of TbPETase, generating two improved variants DeltaN36 and DeltaC4. The double mutant, TbPETaseDeltaN36/DeltaC4, demonstrated a 2.3-fold increase in overall enzymatic activity and a 2.6-fold improvement in catalytic efficiency (kcat/Km) compared to the wild-type enzyme, along with significantly enhanced thermal stability. Molecular dynamics simulations revealed that the removal of flexible terminal regions increased the overall structural rigidity of TbPETaseDeltaN36/DeltaC4. This structural stabilization was associated with the formation of a hydrogen bond at T215 and a pi-pi stacking interaction at W193. In a 100 mL one-pot reaction system, the combination of TbPETaseDeltaN36/DeltaC4 with an engineered BMHETase variant, BMHETase6M, achieved 81.2% degradation of semicrystalline PET powder at 60  degrees C over 60 h, yielding terephthalic acid as the major product. These findings demonstrate the potential of TbPETaseDeltaN36/DeltaC4 as a highly efficient and industrially applicable biocatalyst for PET degradation.",
+    "keywords": [
+      "PETase engineering",
+      "biocatalytic recycling",
+      "enzyme thermostability",
+      "molecular dynamics simulation",
+      "poly(ethylene terephthalate) degradation",
+      "synergistic enzyme system"
+    ],
+    "mesh_terms": [
+      "*Polyethylene Terephthalates/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Hydrolases/metabolism/chemistry/genetics",
+      "Bacterial Proteins/metabolism/chemistry/genetics",
+      "Enzyme Stability"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Lin",
+        "Chen, Keyan",
+        "Xi, Zhiwen",
+        "Tian, Zhuo",
+        "Wei, Xuyang",
+        "Aqma, Wan Syaidatul",
+        "Guo, Zhiguo",
+        "Wang, Qi",
+        "Niu, Qiuhong"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Chen K",
+        "Xi Z",
+        "Tian Z",
+        "Wei X",
+        "Aqma WS",
+        "Guo Z",
+        "Wang Q",
+        "Niu Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5814-5283",
+        "ORCID: 0000-0003-1695-7117"
+      ],
+      "affiliations": [
+        "College of Life Science, Research Center of Henan Provincial Agricultural Biomass Resource Engineering and Technology, Nanyang Normal University, Nanyang473061, P. R. China.",
+        "College of Life Science, Research Center of Henan Provincial Agricultural Biomass Resource Engineering and Technology, Nanyang Normal University, Nanyang473061, P. R. China.",
+        "College of Life Science, Research Center of Henan Provincial Agricultural Biomass Resource Engineering and Technology, Nanyang Normal University, Nanyang473061, P. R. China.",
+        "College of Life Science, Research Center of Henan Provincial Agricultural Biomass Resource Engineering and Technology, Nanyang Normal University, Nanyang473061, P. R. China.",
+        "College of Life Science, Research Center of Henan Provincial Agricultural Biomass Resource Engineering and Technology, Nanyang Normal University, Nanyang473061, P. R. China.",
+        "Department of Biological Sciences and Biotechnology, Faculty of Science and Technology, Universiti Kebangsaan Malaysia, 43600Bangi, Selangor, Malaysia.",
+        "Department of Biological Sciences and Biotechnology, Faculty of Science and Technology, Universiti Kebangsaan Malaysia, 43600Bangi, Selangor, Malaysia.",
+        "Xinjiang Tianwu Ecological Environmental Protection Co.,Ltd., 830000Urumqi, P. R. China.",
+        "Department of Plant Pathology, College of Plant Protection, China Agricultural University, Beijing100193, China.",
+        "College of Life Science, Research Center of Henan Provincial Agricultural Biomass Resource Engineering and Technology, Nanyang Normal University, Nanyang473061, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Lin",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Research Center of Henan Provincial Agricultural Biomass Resource Engineering and Technology, Nanyang Normal University, Nanyang473061, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Keyan",
+        "short_name": "Chen K",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Research Center of Henan Provincial Agricultural Biomass Resource Engineering and Technology, Nanyang Normal University, Nanyang473061, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xi, Zhiwen",
+        "short_name": "Xi Z",
+        "identifiers": [
+          "0000-0002-5814-5283"
+        ],
+        "affiliations": [
+          "College of Life Science, Research Center of Henan Provincial Agricultural Biomass Resource Engineering and Technology, Nanyang Normal University, Nanyang473061, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Tian, Zhuo",
+        "short_name": "Tian Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Research Center of Henan Provincial Agricultural Biomass Resource Engineering and Technology, Nanyang Normal University, Nanyang473061, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wei, Xuyang",
+        "short_name": "Wei X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Research Center of Henan Provincial Agricultural Biomass Resource Engineering and Technology, Nanyang Normal University, Nanyang473061, P. R. China.",
+          "Department of Biological Sciences and Biotechnology, Faculty of Science and Technology, Universiti Kebangsaan Malaysia, 43600Bangi, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Aqma, Wan Syaidatul",
+        "short_name": "Aqma WS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences and Biotechnology, Faculty of Science and Technology, Universiti Kebangsaan Malaysia, 43600Bangi, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhiguo",
+        "short_name": "Guo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Xinjiang Tianwu Ecological Environmental Protection Co.,Ltd., 830000Urumqi, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qi",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Pathology, College of Plant Protection, China Agricultural University, Beijing100193, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Qiuhong",
+        "short_name": "Niu Q",
+        "identifiers": [
+          "0000-0003-1695-7117"
+        ],
+        "affiliations": [
+          "College of Life Science, Research Center of Henan Provincial Agricultural Biomass Resource Engineering and Technology, Nanyang Normal University, Nanyang473061, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS synthetic biology"
+    ],
+    "journal_abbrev": [
+      "ACS Synth Biol"
+    ],
+    "pub_date": "2026 Sep 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/23 23:31",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42915611"
+    ],
+    "review": [
+      "42915611"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "pmid": "42917467",
+    "doi": "10.1021/acs.jctc.6c01009",
+    "title": "Convergence Mechanisms of Generative Models in Molecular Conformational Sampling."
+  },
+  "content": {
+    "abstract": "Characterizing equilibrium conformational ensembles with deep generative models requires understanding whether a model reproduces a target distribution and how it reaches that distribution. Here, we compare two generative routes to molecular conformational sampling, stochastic relaxation and deterministic transport, using denoising diffusion probabilistic models and rectified-flow models across systems of increasing complexity: a multimodal two-dimensional potential, the folded miniprotein Trp-cage, and a high-dimensional dihedral representation of an intrinsically disordered protein. We show that these paradigms differ in end point fidelity and in how distributional error is resolved during sampling. Diffusion models converge through pronounced late-stage stochastic relaxation and robustly recover the configurational breadth across neural architectures. Rectified flow approaches the target distribution through deterministic transport and therefore depends more strongly on architectural expressivity, particularly in heterogeneous, high-dimensional landscapes. Entropy and moment-evolution analyses further show that diffusion more reliably restores the ensemble location and fluctuation structure, whereas rectified flow requires Transformer-level feature mixing to represent transport geometry accurately. These results establish the convergence mechanism as a practical design principle for molecular generative sampling, clarifying when stochastic diffusion provides robustness and when deterministic transport requires higher representational capacity.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "B E, Nagesh",
+        "Mondal, Jagannath"
+      ],
+      "short_names": [
+        "B E N",
+        "Mondal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1090-5199"
+      ],
+      "affiliations": [
+        "Tata Institute of Fundamental Research , 36/P, Gopanpally Village, Serilingampally Mandal, Ranga Reddy District, Hyderabad500046, Telangana, India.",
+        "Tata Institute of Fundamental Research , 36/P, Gopanpally Village, Serilingampally Mandal, Ranga Reddy District, Hyderabad500046, Telangana, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "B E, Nagesh",
+        "short_name": "B E N",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research , 36/P, Gopanpally Village, Serilingampally Mandal, Ranga Reddy District, Hyderabad500046, Telangana, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [
+          "0000-0003-1090-5199"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research , 36/P, Gopanpally Village, Serilingampally Mandal, Ranga Reddy District, Hyderabad500046, Telangana, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2026 Sep 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/23 23:32",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42917467"
+    ],
+    "review": [
+      "42917467"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2610.30627v1",
+  "title": "Emergent Entropic Forces Drive Inverse and Reentrant Phase Transitions in Condensates of Intrinsically Disordered Proteins",
+  "doi": "",
+  "abstract": "We present a phenomenological, mean-field model for condensates of intrinsically disordered proteins that describes inverse phase transitions and qualitatively predicts reentrant phase behavior as a function of salt concentration. The model is based on a matrix-based formulation of the Flory-Huggins free energy, in which the enthalpic interaction parameter and the protein valence, defined here as the number of effective \"sticky patches\", are treated as free parameters. Its central insight is that integrating out dynamics of fast-moving molecular species generates an effective entropic force that increases the free-energy barrier to mixing, even within a mean-field description. We account for this by linking Gaussian integration of co-solutes to the Schur complement of the matrix-based Flory-Huggins free energy. This provides a general thermodynamic framework illustrating how enthalpic interactions that increase the number of available microstates necessarily induce effective entropic forces. We demonstrate the expressiveness and predictive power of the model by qualitatively reproducing recent experimental observations on the rabies virus phosphoprotein.",
+  "authors": [
+    "David A. Herrera-Martí",
+    "Marc Jamin"
+  ],
+  "published_date": "2026-10-22T02:50:45Z",
+  "updated_date": "2026-10-22T02:50:45Z",
+  "journal": "",
+  "category": "cond-mat.soft, physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2610.30627v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.30627v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft",
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2610.30627v1",
+    "raw_categories": [
+      "cond-mat.soft",
+      "physics.bio-ph"
+    ],
+    "journal_ref": ""
+  }
+}

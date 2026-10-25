@@ -1,0 +1,164 @@
+{
+  "identity": {
+    "pmid": "42917213",
+    "doi": "10.1021/acsnano.6c06413",
+    "title": "Origin of the Anomalous Guest Polymer Selectivity in Complex Coacervates."
+  },
+  "content": {
+    "abstract": "Complex coacervates horizontal line liquid condensates resulting from liquid-liquid phase separation of oppositely charged polymers horizontal line have attracted broad interest in artificial cells, drug delivery vehicles, and smart nanoreactors. The functionality of these applications is significantly influenced by the coacervate's ability to encapsulate guest macromolecules, where the guest interactions determine their loading efficiency and activity. Using MD simulations, analytical theory, and experiments, we demonstrate that the intrinsic electrostatic correlations within the coacervate matrix significantly modify the effective interactions of guest polymers in the dense phase, resulting in the strong dependence of encapsulation on guest chain length, charge density, and charge sequence observed experimentally. Even in the absence of chemical incompatibility, neutral polymers are strongly excluded from the coacervate phase as a result of disrupting electrostatic correlations within coacervates. Consequently, the encapsulation efficiency of neutral polymers exponentially decays with increasing guest chain length. For polyampholyte-like intrinsically disordered proteins (IDPs), their effective interaction within coacervates is largely determined by charge sequence: IDPs with more-disordered sequences experience strict rejection from the dense phase, whereas those with more blocky charges are dispersed within coacervates. Interestingly, for all the guest species tested, their effective interactions are opposite to those observed in dilute solutions, where the sign of the effective two-body interaction reverses when going from the dilute phase to the dense coacervate phase. We elucidate that the non-trivial guest selectivity in complex coacervates originates from the disruption of polycation-polyanion electrostatic correlations by the guest, which combines an energetic penalty (dilution of charge density) with an entropic penalty (loss of chain conformational freedom of the host). These findings have significant implications for understanding guest behavior in coacervate and biocondensate systems.",
+    "keywords": [
+      "electrostatic correlations",
+      "electrostatic exclusion",
+      "guest encapsulation",
+      "guest polymer interaction",
+      "liquid-liquid phase separation",
+      "polyelectrolyte complex coacervates"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Zongpei",
+        "Sabadini, Julia Bonesso",
+        "Walker, Pierre J",
+        "Loh, Watson",
+        "Wang, Zhen-Gang",
+        "Perry, Sarah L",
+        "Chen, Shensheng"
+      ],
+      "short_names": [
+        "Wu Z",
+        "Sabadini JB",
+        "Walker PJ",
+        "Loh W",
+        "Wang ZG",
+        "Perry SL",
+        "Chen S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5966-8609",
+        "ORCID: 0000-0001-8628-6561",
+        "ORCID: 0000-0002-8049-3321",
+        "ORCID: 0000-0002-3361-6114",
+        "ORCID: 0000-0003-2301-6710",
+        "ORCID: 0000-0002-6427-935X"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong999077, China.",
+        "Institute of Chemistry, University of Campinas (UNICAMP), P.O. Box 6154, 13083-970Campinas, Sao Paulo, Brazil.",
+        "Department of Chemical and Biomolecular Engineering, University of Massachusetts Amherst, Amherst, Massachusetts01003, United States.",
+        "Division of Chemistry and Chemical Engineering, California Institute of Technology, Pasadena, California91125, United States.",
+        "Institute of Chemistry, University of Campinas (UNICAMP), P.O. Box 6154, 13083-970Campinas, Sao Paulo, Brazil.",
+        "Division of Chemistry and Chemical Engineering, California Institute of Technology, Pasadena, California91125, United States.",
+        "Department of Chemical and Biomolecular Engineering, University of Massachusetts Amherst, Amherst, Massachusetts01003, United States.",
+        "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong999077, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Zongpei",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong999077, China."
+        ]
+      },
+      {
+        "full_name": "Sabadini, Júlia Bonesso",
+        "short_name": "Sabadini JB",
+        "identifiers": [
+          "0000-0002-5966-8609"
+        ],
+        "affiliations": [
+          "Institute of Chemistry, University of Campinas (UNICAMP), P.O. Box 6154, 13083-970Campinas, São Paulo, Brazil.",
+          "Department of Chemical and Biomolecular Engineering, University of Massachusetts Amherst, Amherst, Massachusetts01003, United States."
+        ]
+      },
+      {
+        "full_name": "Walker, Pierre J",
+        "short_name": "Walker PJ",
+        "identifiers": [
+          "0000-0001-8628-6561"
+        ],
+        "affiliations": [
+          "Division of Chemistry and Chemical Engineering, California Institute of Technology, Pasadena, California91125, United States."
+        ]
+      },
+      {
+        "full_name": "Loh, Watson",
+        "short_name": "Loh W",
+        "identifiers": [
+          "0000-0002-8049-3321"
+        ],
+        "affiliations": [
+          "Institute of Chemistry, University of Campinas (UNICAMP), P.O. Box 6154, 13083-970Campinas, São Paulo, Brazil."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhen-Gang",
+        "short_name": "Wang ZG",
+        "identifiers": [
+          "0000-0002-3361-6114"
+        ],
+        "affiliations": [
+          "Division of Chemistry and Chemical Engineering, California Institute of Technology, Pasadena, California91125, United States."
+        ]
+      },
+      {
+        "full_name": "Perry, Sarah L",
+        "short_name": "Perry SL",
+        "identifiers": [
+          "0000-0003-2301-6710"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Massachusetts Amherst, Amherst, Massachusetts01003, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Shensheng",
+        "short_name": "Chen S",
+        "identifiers": [
+          "0000-0002-6427-935X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong999077, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS nano"
+    ],
+    "journal_abbrev": [
+      "ACS Nano"
+    ],
+    "pub_date": "2026 Oct 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/23 23:31",
+    "fetched_at": "2026-10-25 07:24:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42917213"
+    ],
+    "review": [
+      "42917213"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

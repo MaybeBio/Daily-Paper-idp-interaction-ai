@@ -1,0 +1,160 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.10.13.758914",
+  "title": "So similar, yet so different: α-synuclein recognition of the isoform-specific VDAC protein–lipid interface",
+  "doi": "10.64898/2026.10.13.758914",
+  "abstract": "1. In mammals, VDAC exists as three isoforms – VDAC1, VDAC2, and VDAC3 – each characterized by a distinct tissue-dependent distribution and physiologic role. Isoform-specific knockout studies in cells and mice demonstrate distinct physiological roles for each VDAC isoform. The isoforms share about 70% sequence homology and a conserved β-barrel structure and, when reconstituted into planar lipid membranes, form similar highly conductive, anion-selective, voltage-gated channels. A natural question, then, is how relatively minor differences in isoform sequences lead to striking differences in their interactions with protein partners and, consequently, in their physiological functions. To address this question, we used a small, intrinsically disordered cytosolic protein α-synuclein (αSyn) as a sensitive molecular probe. A comparative study with recombinant VDACs reconstituted into planar lipid membranes shows that, depending on the isoform, the αSyn-induced blockage exhibits up to 100-fold differences in on-rates and equilibrium constants. The isoforms also display distinct translocation regimes for αSyn, as evidenced by altered dependences of the off-rates on the applied voltage. Deletion of cysteine residues has a significant effect on αSyn binding. Combined with corresponding data obtained for VDAC2 substates – which show an order of magnitude variation in on-rates while maintaining the conserved equilibrium constants – and the results of molecular dynamics simulations, these findings point to a previously unrecognized step in VDAC inhibition by αSyn: an isoform-specific αSyn interaction with the VDAC protein-lipid interface. This finding opens a new paradigm for understanding VDAC isoform functions and developing isoform-specific therapeutics. <h4>New & Noteworthy</h4> Comparative analysis of α-synuclein interaction with three mammalian VDAC isoforms, complemented by corresponding data for VDAC2 substates and results from molecular dynamics simulations, reveals a new step in the chain of events leading to VDAC blockage. Specifically, our findings point to the isoform-specific interaction of αSyn with VDAC protein-lipid interface, thereby guiding a new strategy in the search for VDAC-targeting drugs.",
+  "authors": [
+    "Rostovtseva TK",
+    "Rajendran M",
+    "Rosencrans WM",
+    "Queralt-Martín M",
+    "Wolfe MS",
+    "Bautista NA",
+    "Beyene BG",
+    "Larimi MG",
+    "Sodt AJ",
+    "Bezrukov SM"
+  ],
+  "published_date": "2026-10-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758914",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758914.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1346480",
+    "raw_record": {
+      "id": "PPR1346480",
+      "source": "PPR",
+      "doi": "10.64898/2026.10.13.758914",
+      "title": "So similar, yet so different: α-synuclein recognition of the isoform-specific VDAC protein–lipid interface",
+      "authorString": "Rostovtseva TK, Rajendran M, Rosencrans WM, Queralt-Martín M, Wolfe MS, Bautista NA, Beyene BG, Larimi MG, Sodt AJ, Bezrukov SM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Rostovtseva TK",
+            "lastName": "Rostovtseva",
+            "firstName": "Tatiana",
+            "initials": "TK"
+          },
+          {
+            "fullName": "Rajendran M",
+            "lastName": "Rajendran",
+            "firstName": "Megha",
+            "initials": "M"
+          },
+          {
+            "fullName": "Rosencrans WM",
+            "lastName": "Rosencrans",
+            "firstName": "William",
+            "initials": "WM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1461-8891"
+            }
+          },
+          {
+            "fullName": "Queralt-Martín M",
+            "lastName": "Queralt-Martín",
+            "firstName": "María",
+            "initials": "M"
+          },
+          {
+            "fullName": "Wolfe MS",
+            "lastName": "Wolfe",
+            "firstName": "Mya",
+            "initials": "MS"
+          },
+          {
+            "fullName": "Bautista NA",
+            "lastName": "Bautista",
+            "firstName": "Nina",
+            "initials": "NA"
+          },
+          {
+            "fullName": "Beyene BG",
+            "lastName": "Beyene",
+            "firstName": "Bethel",
+            "initials": "BG"
+          },
+          {
+            "fullName": "Larimi MG",
+            "lastName": "Larimi",
+            "firstName": "Motahareh",
+            "initials": "MG"
+          },
+          {
+            "fullName": "Sodt AJ",
+            "lastName": "Sodt",
+            "firstName": "Alexander",
+            "initials": "AJ"
+          },
+          {
+            "fullName": "Bezrukov SM",
+            "lastName": "Bezrukov",
+            "firstName": "Sergey",
+            "initials": "SM"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1461-8891"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "1. In mammals, VDAC exists as three isoforms – VDAC1, VDAC2, and VDAC3 – each characterized by a distinct tissue-dependent distribution and physiologic role. Isoform-specific knockout studies in cells and mice demonstrate distinct physiological roles for each VDAC isoform. The isoforms share about 70% sequence homology and a conserved β-barrel structure and, when reconstituted into planar lipid membranes, form similar highly conductive, anion-selective, voltage-gated channels. A natural question, then, is how relatively minor differences in isoform sequences lead to striking differences in their interactions with protein partners and, consequently, in their physiological functions. To address this question, we used a small, intrinsically disordered cytosolic protein α-synuclein (αSyn) as a sensitive molecular probe. A comparative study with recombinant VDACs reconstituted into planar lipid membranes shows that, depending on the isoform, the αSyn-induced blockage exhibits up to 100-fold differences in on-rates and equilibrium constants. The isoforms also display distinct translocation regimes for αSyn, as evidenced by altered dependences of the off-rates on the applied voltage. Deletion of cysteine residues has a significant effect on αSyn binding. Combined with corresponding data obtained for VDAC2 substates – which show an order of magnitude variation in on-rates while maintaining the conserved equilibrium constants – and the results of molecular dynamics simulations, these findings point to a previously unrecognized step in VDAC inhibition by αSyn: an isoform-specific αSyn interaction with the VDAC protein-lipid interface. This finding opens a new paradigm for understanding VDAC isoform functions and developing isoform-specific therapeutics. <h4>New & Noteworthy</h4>  Comparative analysis of α-synuclein interaction with three mammalian VDAC isoforms, complemented by corresponding data for VDAC2 substates and results from molecular dynamics simulations, reveals a new step in the chain of events leading to VDAC blockage. Specifically, our findings point to the isoform-specific interaction of αSyn with VDAC protein-lipid interface, thereby guiding a new strategy in the search for VDAC-targeting drugs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.10.13.758914"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc0",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-10-21",
+      "firstPublicationDate": "2026-10-19",
+      "firstIndexDate": "2026-10-21",
+      "hasEvaluations": "N"
+    }
+  }
+}
