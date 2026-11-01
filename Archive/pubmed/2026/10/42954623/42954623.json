@@ -1,0 +1,126 @@
+{
+  "identity": {
+    "pmid": "42954623",
+    "doi": "10.1021/acs.jpcb.6c05200",
+    "title": "Valency-Limited Molecular Dynamics Simulations of Stickers-and-Spacers Polymers Reveal a Trade-Off between Condensation and Organization."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates formed by intrinsically disordered proteins (IDPs) are often described using stickers-and-spacers models, in which specific sticker motifs form reversible cross-links and spacer regions modulate phase behavior. Recent theory predicts that heterogeneous nonspecific spacer interactions can promote condensation but may also disrupt sticker-mediated organization. Here, we develop an off-lattice coarse-grained stickers-and-spacers polymer model for continuous molecular dynamics simulations and implement it in the GPU-accelerated OpenABC package. The model uses a directional sticker-sticker interaction to encode limited valency through interaction geometry, producing effectively one-to-one sticker binding without explicit bond assignment. Simulations of one-component systems show that sticker affinity and multivalency promote porous, network-like condensates, while nonspecific spacer interactions can also drive phase separation but produce more compact, spacer-dominated dense phases. When both interaction types are present, strong spacer heterogeneity reduces sticker conversion, suppresses sticker mobility, and disrupts the sticker-mediated network. In two-component systems, specific sticker interactions buffer client recruitment into host condensates, while nonspecific spacer interactions produce reservoir-dependent uptake. These results support a trade-off in which spacer heterogeneity promotes condensation at the cost of condensate organization and compositional robustness, providing a physical rationale for the suppression of promiscuous spacer interactions in low-complexity IDP regions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Polymers/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yumeng",
+        "Sood, Amogh",
+        "Athreya, Advait",
+        "Zhang, Bin"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Sood A",
+        "Athreya A",
+        "Zhang B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6405-8362",
+        "ORCID: 0000-0001-7931-3568",
+        "ORCID: 0000-0002-3685-7503"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts02139, United States.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts02139, United States.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts02139, United States.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts02139, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yumeng",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-6405-8362"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts02139, United States."
+        ]
+      },
+      {
+        "full_name": "Sood, Amogh",
+        "short_name": "Sood A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts02139, United States."
+        ]
+      },
+      {
+        "full_name": "Athreya, Advait",
+        "short_name": "Athreya A",
+        "identifiers": [
+          "0000-0001-7931-3568"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts02139, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bin",
+        "short_name": "Zhang B",
+        "identifiers": [
+          "0000-0002-3685-7503"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts02139, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Oct 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/29 15:20",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42954623"
+    ],
+    "review": [
+      "42954623"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.6c05200",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

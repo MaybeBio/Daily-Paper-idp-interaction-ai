@@ -1,0 +1,149 @@
+{
+  "identity": {
+    "pmid": "42937157",
+    "doi": "10.1063/5.0354024",
+    "title": "Calculation of salt solubility in aqueous electrolyte solutions based on a thermodynamic ion-aggregation model."
+  },
+  "content": {
+    "abstract": "Based on a thermodynamic self-association model in salt solutions, new attempts have been made to predict salt solubility in NaCl solutions and other electrolyte solutions by incorporating potential of mean force (PMF) analysis from molecular dynamics (MD) simulations. It was demonstrated that salt solubility is closely associated with critical ion aggregation concentration (CIAC) in the thermodynamic ion aggregation process. The CIAC is determined by estimating effective binding energy between a cation and an anion or a mean equilibrium constant in ion association process. The calculated salt solubilities in various alkali halide solutions are consistent with the experimentally measured values. Combined MD simulations and graph-theoretical analysis revealed that, in NaCl solutions, most ions remain isolated at lower salt concentrations, whereas various-sized ion aggregates emerge as the salt concentration increases. As the salt concentration rises beyond the CIAC, large aggregates are formed, eventually leading to liquid-solid phase separation in NaCl-water mixtures. It is anticipated that this salt solubility prediction approach, based on the thermodynamic ion self-association model, may also contribute to estimating the solubility limit of various solute molecules in aqueous solutions, such as alcohols, osmolytes, and peptides.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tun, Lykoung",
+        "Ryu, Jonghyuk",
+        "Choi, Kanghyeon",
+        "Kim, Chanhui",
+        "Hwang, Seungeui",
+        "Choi, Jun-Ho"
+      ],
+      "short_names": [
+        "Tun L",
+        "Ryu J",
+        "Choi K",
+        "Kim C",
+        "Hwang S",
+        "Choi JH"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-3346-0727",
+        "ORCID: 0009-0008-7868-2693",
+        "ORCID: 0009-0004-5460-873X",
+        "ORCID: 0009-0002-8417-6064",
+        "ORCID: 0000-0001-5237-5566"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea.",
+        "Department of Chemistry, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea.",
+        "Department of Chemistry, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea.",
+        "Department of Chemistry, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea.",
+        "Department of Chemistry, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea.",
+        "Department of Chemistry, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tun, Lykoung",
+        "short_name": "Tun L",
+        "identifiers": [
+          "0009-0002-3346-0727"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ryu, Jonghyuk",
+        "short_name": "Ryu J",
+        "identifiers": [
+          "0009-0008-7868-2693"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Choi, Kanghyeon",
+        "short_name": "Choi K",
+        "identifiers": [
+          "0009-0004-5460-873X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Chanhui",
+        "short_name": "Kim C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hwang, Seungeui",
+        "short_name": "Hwang S",
+        "identifiers": [
+          "0009-0002-8417-6064"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Choi, Jun-Ho",
+        "short_name": "Choi JH",
+        "identifiers": [
+          "0000-0001-5237-5566"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2026 Oct 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/27 11:31",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42937157"
+    ],
+    "review": [
+      "42937157"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0354024",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

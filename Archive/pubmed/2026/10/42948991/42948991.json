@@ -1,0 +1,110 @@
+{
+  "identity": {
+    "pmid": "42948991",
+    "doi": "10.1039/d6sm00103c",
+    "title": "Charge density effect of micelles on liquid-liquid phase separation."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is central to the organization of biological and synthetic soft matter systems, yet how electrostatic interactions control condensation remains incompletely understood. Using coarse-grained molecular dynamics (MD) simulations, we investigate LLPS in charged micelle-polymer mixtures, focusing on how micelle charge affects phase behavior. We adopt a mapping from zeta potential (zeta) to the reduced Yukawa charge (q*), calibrated to experiments within a model oligomer-micelle mixture patterned on peptide amphiphile assemblies in the presence of dasiglucagon (DG). After identifying q(DG)  approximately  -6e as the effective DG charge required for LLPS, systematic variation of the micellar charge reveals a finite charge window bounded by lower and upper critical charges: increasing charge initially enhances micelle-polymer attraction and densifies the liquid complex, but at high charge, growing micelle-micelle repulsion destabilizes the dense phase. The predicted window overlaps the experimentally measured zeta values, and the zeta of glucose-associated PA-PBA lies within the island-like pocket, underscoring the dual regulatory role of electrostatics.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Farshad, Mohsen",
+        "Baksi, Atanu",
+        "Whitmer, Jonathan K"
+      ],
+      "short_names": [
+        "Farshad M",
+        "Baksi A",
+        "Whitmer JK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5095-4361",
+        "ORCID: 0000-0002-0656-8532",
+        "ORCID: 0000-0003-0370-0873"
+      ],
+      "affiliations": [
+        "Thomas Lord Department of Mechanical Engineering and Materials Science, Duke University, Durham, North Carolina 27708, USA.",
+        "Department of Chemical and Biomolecular Engineering, University of Notre Dame, Notre Dame, IN 46556, USA. jwhitme1@nd.edu.",
+        "Department of Chemical and Biomolecular Engineering, University of Notre Dame, Notre Dame, IN 46556, USA. jwhitme1@nd.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Farshad, Mohsen",
+        "short_name": "Farshad M",
+        "identifiers": [
+          "0000-0001-5095-4361"
+        ],
+        "affiliations": [
+          "Thomas Lord Department of Mechanical Engineering and Materials Science, Duke University, Durham, North Carolina 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Baksi, Atanu",
+        "short_name": "Baksi A",
+        "identifiers": [
+          "0000-0002-0656-8532"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Notre Dame, Notre Dame, IN 46556, USA. jwhitme1@nd.edu."
+        ]
+      },
+      {
+        "full_name": "Whitmer, Jonathan K",
+        "short_name": "Whitmer JK",
+        "identifiers": [
+          "0000-0003-0370-0873"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Notre Dame, Notre Dame, IN 46556, USA. jwhitme1@nd.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2026 Oct 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/28 11:36",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42948991"
+    ],
+    "review": [
+      "42948991"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d6sm00103c",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

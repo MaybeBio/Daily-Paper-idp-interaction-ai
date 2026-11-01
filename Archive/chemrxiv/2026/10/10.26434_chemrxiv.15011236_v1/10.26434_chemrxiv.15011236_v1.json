@@ -1,0 +1,164 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv.15011236/v1",
+  "title": "Foldability Is an Intrinsic Property of Protein Sequences: A Lattice Model Study with Information-Theoretic Approach and Unsupervised Machine Learning",
+  "doi": "10.26434/chemrxiv.15011236/v1",
+  "abstract": "Protein structure prediction has been largely solved, but why a given sequence is foldable has not. We address this question for 27-, 48- and 64-residue lattice heteropolymers with statistical thermodynamics, the informationtheoretic approach (ITA) and a variational autoencoder (VAE). Native populations, folding probabilities and freeenergy surfaces are reproducible and independent of the initial denatured ensemble, so foldability is an intrinsic property of the sequence at a given temperature and solvent. We then ask where the observed regularities come from. Stability is governed by an information balance: the information content (self-information) of the native energy relative to the maximum-entropy description of compact alternatives, ℐtail, must exceed their Shannon entropy, 𝑆c = ln𝛺c. This is the random-energy-model condition for a folding transition, and ℐtail/𝑆c fixes the ratio of folding to glass temperatures, recasting minimal frustration in information units. Foldable sequences have smooth funnels, minimal Shannon entropy and minimal Fisher information in the native state, and a single sharp maximum of Fisher information at melting (cooperativity). Mutual and conditional information show that stability is an approximately sufficient statistic for kinetic accessibility of compact 27-mers. No hierarchical folding order is found. Variational autoencoders trained without labels distinguish sequences by their folding ensembles, supply a six-variable reaction coordinate that retains 91% of the kinetic information in the full native-contact map, and rediscover the native energy gap from the density of compact states.",
+  "authors": [
+    "Shubin Liu"
+  ],
+  "published_date": "2026-10-29",
+  "updated_date": "2026-10-29T07:35:58Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv.15011236/v1",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15011236/v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "1",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ],
+        "date-time": "2026-10-29T08:31:56Z",
+        "timestamp": 1793262716006,
+        "version": "4.5.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Protein structure prediction has been largely solved, but why a given sequence is foldable has not. We address this question for 27-, 48- and 64-residue lattice heteropolymers with statistical thermodynamics, the informationtheoretic approach (ITA) and a variational autoencoder (VAE). Native populations, folding probabilities and freeenergy surfaces are reproducible and independent of the initial denatured ensemble, so foldability is an intrinsic property of the sequence at a given temperature and solvent. We then ask where the observed regularities come from. Stability is governed by an information balance: the information content (self-information) of the native energy relative to the maximum-entropy description of compact alternatives, ℐtail, must exceed their Shannon entropy, 𝑆c = ln𝛺c. This is the random-energy-model condition for a folding transition, and ℐtail/𝑆c fixes the ratio of folding to glass temperatures, recasting minimal frustration in information units. Foldable sequences have smooth funnels, minimal Shannon entropy and minimal Fisher information in the native state, and a single sharp maximum of Fisher information at melting (cooperativity). Mutual and conditional information show that stability is an approximately sufficient statistic for kinetic accessibility of compact 27-mers. No hierarchical folding order is found. Variational autoencoders trained without labels distinguish sequences by their folding ensembles, supply a six-variable reaction coordinate that retains 91% of the kinetic information in the full native-contact map, and rediscover the native energy gap from the density of compact states.</jats:p>",
+      "DOI": "10.26434/chemrxiv.15011236/v1",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ],
+        "date-time": "2026-10-29T07:35:58Z",
+        "timestamp": 1793259358000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Foldability Is an Intrinsic Property of Protein Sequences: A Lattice Model Study with Information-Theoretic Approach and Unsupervised Machine Learning"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9331-0427",
+          "authenticated-orcid": true,
+          "given": "Shubin",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Research Computing Center",
+              "place": [
+                "Chapel Hill"
+              ]
+            },
+            {
+              "name": "University of North Carolina",
+              "place": [
+                "Chapel Hill"
+              ]
+            },
+            {
+              "name": "Department of Chemistry",
+              "place": [
+                "Chapel Hill"
+              ]
+            },
+            {
+              "name": "University of North Carolina",
+              "place": [
+                "Chapel Hill"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15011236/v1",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ],
+        "date-time": "2026-10-29T07:35:58Z",
+        "timestamp": 1793259358000
+      },
+      "score": 52.071045,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15011236/v1"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv.15011236/v1",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

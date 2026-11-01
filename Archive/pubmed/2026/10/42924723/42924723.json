@@ -1,0 +1,99 @@
+{
+  "identity": {
+    "pmid": "42924723",
+    "doi": "10.3390/epigenomes10040064",
+    "title": "Targeting m6A Reader Phase Separation in Synaptic Plasticity: A Hypothesis-Generating Framework for Epitranscriptomic Drug Discovery."
+  },
+  "content": {
+    "abstract": "Epitranscriptomic drug discovery has mostly targeted the catalytic \"writers\" (METTL3/METTL14) and \"erasers\" (FTO, ALKBH5) that deposit and remove N6-methyladenosine (m6A). That strategy just hit clinical validation: STC-15, a METTL3 inhibitor, has measurable anti-tumor activity from a first-in-human oncology trial, but the same structural features that made these enzymes attractive also limit them. Inhibition shifts m6A stoichiometry globally, while an m6A mark's functional impact depends almost entirely on cellular context. YTHDF family reader proteins offer another angle. Their low-complexity domains drive liquid-liquid phase separation (LLPS). m6A binding stimulates this condensation across YTHDF paralogs-a property that matters for therapeutic selectivity. We propose a Phase Transition Threshold model in which YTHDF2's condensation concentration decides whether synaptic mRNAs are degraded or maintained in translation-competent, FMRP-associated states. Recent evidence has established YTHDF2 synaptic localization, FMRP condensate formation in neurons, and functional antagonism between the two proteins. The central unresolved question is whether condensation in living cells is nucleation-driven rather than bulk-concentration-driven. If so, concentration-centered pharmacology misses the point. We present falsifiable predictions and a staged experimental program. A more fundamental risk is that YTHDF2-mediated decay may not require condensate formation at all. If that is the case, the therapeutic premise of this Perspective collapses.",
+    "keywords": [
+      "FMRP",
+      "YTHDF2",
+      "condensate pharmacology",
+      "epitranscriptomic drug discovery",
+      "liquid-liquid phase separation",
+      "m6A RNA methylation",
+      "synaptic plasticity"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rastmanesh, Reza"
+      ],
+      "short_names": [
+        "Rastmanesh R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6221-9062"
+      ],
+      "affiliations": [
+        "Independent Researcher, Tehran 1939793694, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rastmanesh, Reza",
+        "short_name": "Rastmanesh R",
+        "identifiers": [
+          "0000-0002-6221-9062"
+        ],
+        "affiliations": [
+          "Independent Researcher, Tehran 1939793694, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Epigenomes"
+    ],
+    "journal_abbrev": [
+      "Epigenomes"
+    ],
+    "pub_date": "2026 Oct 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/25 03:36",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42924723"
+    ],
+    "review": [
+      "42924723"
+    ],
+    "pmc": [
+      "13692545"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=epigenomes10040064",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42924723/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "identity": {
+    "pmid": "42956877",
+    "doi": "10.1016/j.ijbiomac.2026.155056",
+    "title": "Heterogeneity-aware structure-sequence expert collaboration for RNA-binding site prediction with evidence-grounded interpretation."
+  },
+  "content": {
+    "abstract": "RNA-binding proteins (RBPs) play central roles in post-transcriptional regulation. However, accurately predicting their RNA-binding sites remains challenging due to two issues. First, pronounced heterogeneity between structured domains and intrinsically disordered regions (IDRs) within RBP sequences makes residue-level binding site prediction difficult. Second, existing methods fail to provide candidate RNA ligands and their biological annotations for the query protein alongside predicted binding sites, leaving researchers without reference molecules for experimental follow-up. To address these two challenges, we propose a heterogeneity-aware structure-sequence expert collaboration framework with evidence-grounded interpretation for RNA-binding site prediction. Specifically, the proposed framework addresses the heterogeneity between structured domains and IDRs by training a Structural Expert and a Sequence Expert in a multi-stage manner to learn complementary structural and sequential representations for residue-level RNA-binding site prediction. In parallel, the proposed protein-RNA knowledge graph addresses the lack of biological evidence in existing methods by identifying proteins similar to the query protein and transferring their experimentally validated RNA ligands and associated biological annotations as candidate evidence for the query protein. Experiments on multiple benchmark datasets demonstrate improvements over representative baselines including MPBind, GPSite, and DeepPROBind, across several evaluation metrics. Together, the proposed framework combines heterogeneity-aware residue modeling with evidence-grounded interpretation, improving predictive performance while providing biologically supported candidate RNA ligands for downstream functional analysis and experimental validation. The source code is available at: https://github.com/MiJia-ID/KG-RNA.",
+    "keywords": [
+      "Dynamic gating mechanism",
+      "Intrinsically disordered regions",
+      "Knowledge graph",
+      "Mixture of experts",
+      "Protein-RNA binding site prediction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mi, Jia",
+        "Wang, Han",
+        "Li, Jing",
+        "Wan, Jing",
+        "Wang, Kunfeng"
+      ],
+      "short_names": [
+        "Mi J",
+        "Wang H",
+        "Li J",
+        "Wan J",
+        "Wang K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Information Science and Technology, Beijing University of Chemical Technology, Beijing, China. Electronic address: mijia@mail.buct.edu.cn.",
+        "State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China; Artificial Intelligence Biomedical Center, Zhangjiang Institute for Advanced Study, Shanghai Jiao Tong University, Shanghai, China. Electronic address: wanghan1998@sjtu.edu.cn.",
+        "Medical Center of Hematology, Xinqiao Hospital, Army Medical University, Chongqing, China. Electronic address: frostli@163.com.",
+        "College of Information Science and Technology, Beijing University of Chemical Technology, Beijing, China. Electronic address: wanj@mail.buct.edu.cn.",
+        "College of Information Science and Technology, Beijing University of Chemical Technology, Beijing, China. Electronic address: wangkf@mail.buct.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mi, Jia",
+        "short_name": "Mi J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Science and Technology, Beijing University of Chemical Technology, Beijing, China. Electronic address: mijia@mail.buct.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Han",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China; Artificial Intelligence Biomedical Center, Zhangjiang Institute for Advanced Study, Shanghai Jiao Tong University, Shanghai, China. Electronic address: wanghan1998@sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Center of Hematology, Xinqiao Hospital, Army Medical University, Chongqing, China. Electronic address: frostli@163.com."
+        ]
+      },
+      {
+        "full_name": "Wan, Jing",
+        "short_name": "Wan J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Science and Technology, Beijing University of Chemical Technology, Beijing, China. Electronic address: wanj@mail.buct.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Kunfeng",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Science and Technology, Beijing University of Chemical Technology, Beijing, China. Electronic address: wangkf@mail.buct.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Oct 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/29 23:28",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42956877"
+    ],
+    "review": [
+      "42956877"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(26)05008-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.10.26.762062",
+  "title": "Building synthetic cell-cell synapses using engineered scaffold protein condensates",
+  "doi": "10.64898/2026.10.26.762062",
+  "abstract": "Synaptic assemblies that form at cell-cell junctions are often organized by multivalent scaffold proteins with condensate forming properties. An emerging hypothesis is that these scaffolds provide a thresholding mechanism whereby small increases in the density of cell-cell recognition receptors can trigger all-or-none assembly selectively at the correct partner cell interface. We test this hypothesis by engineering synthetic scaffolded synapses. Coarse-grained simulations suggest that properly-tuned scaffold interactions can yield a sharp condensation threshold. Guided by these simulations, we designed modular scaffold proteins consisting of PDZ domains and intrinsically disordered regions (IDRs) of different molecular grammars. Within a specific region of parameter space, controlled by valency, receptor binding affinity and IDR-driven condensation, the synthetic scaffold proteins exhibit switch-like condensation behaviors, where co-condensates of receptor and scaffold selectively form only at interfaces with the proper partner cell. Notably, orthogonal receptor-scaffold pairs enable a single receiver cell to form multiple distinct interfaces, each associated with a different partner cell. We demonstrate that these synthetic synapse assemblies can recruit different client proteins to enhance intercellular signaling, orient cell division, or sculpt complex synaptic morphologies. Our results illustrate how the ultrasensitive condensation properties of modular scaffold proteins can be harnessed to create novel and highly specific cell-cell interfaces.",
+  "authors": [
+    "Shin NY",
+    "Mitra G",
+    "Grodsky AM",
+    "Ruff KM",
+    "Chauhan G",
+    "Pappu RV",
+    "Lim WA"
+  ],
+  "published_date": "2026-10-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762062",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762062.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1353397",
+    "raw_record": {
+      "id": "PPR1353397",
+      "source": "PPR",
+      "doi": "10.64898/2026.10.26.762062",
+      "title": "Building synthetic cell-cell synapses using engineered scaffold protein condensates",
+      "authorString": "Shin NY, Mitra G, Grodsky AM, Ruff KM, Chauhan G, Pappu RV, Lim WA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shin NY",
+            "lastName": "Shin",
+            "firstName": "Nick",
+            "initials": "NY"
+          },
+          {
+            "fullName": "Mitra G",
+            "lastName": "Mitra",
+            "firstName": "Gaurav",
+            "initials": "G"
+          },
+          {
+            "fullName": "Grodsky AM",
+            "lastName": "Grodsky",
+            "firstName": "Ania",
+            "initials": "AM"
+          },
+          {
+            "fullName": "Ruff KM",
+            "lastName": "Ruff",
+            "firstName": "Kiersten",
+            "initials": "KM"
+          },
+          {
+            "fullName": "Chauhan G",
+            "lastName": "Chauhan",
+            "firstName": "Gaurav",
+            "initials": "G"
+          },
+          {
+            "fullName": "Pappu RV",
+            "lastName": "Pappu",
+            "firstName": "Rohit",
+            "initials": "RV"
+          },
+          {
+            "fullName": "Lim WA",
+            "lastName": "Lim",
+            "firstName": "Wendell",
+            "initials": "WA"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Synaptic assemblies that form at cell-cell junctions are often organized by multivalent scaffold proteins with condensate forming properties. An emerging hypothesis is that these scaffolds provide a thresholding mechanism whereby small increases in the density of cell-cell recognition receptors can trigger all-or-none assembly selectively at the correct partner cell interface. We test this hypothesis by engineering synthetic scaffolded synapses. Coarse-grained simulations suggest that properly-tuned scaffold interactions can yield a sharp condensation threshold. Guided by these simulations, we designed modular scaffold proteins consisting of PDZ domains and intrinsically disordered regions (IDRs) of different molecular grammars. Within a specific region of parameter space, controlled by valency, receptor binding affinity and IDR-driven condensation, the synthetic scaffold proteins exhibit switch-like condensation behaviors, where co-condensates of receptor and scaffold selectively form only at interfaces with the proper partner cell. Notably, orthogonal receptor-scaffold pairs enable a single receiver cell to form multiple distinct interfaces, each associated with a different partner cell. We demonstrate that these synthetic synapse assemblies can recruit different client proteins to enhance intercellular signaling, orient cell division, or sculpt complex synaptic morphologies. Our results illustrate how the ultrasensitive condensation properties of modular scaffold proteins can be harnessed to create novel and highly specific cell-cell interfaces.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.10.26.762062"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-10-30",
+      "firstPublicationDate": "2026-10-29",
+      "firstIndexDate": "2026-10-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

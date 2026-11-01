@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "pmid": "42953606",
+    "doi": "10.1021/jacsau.6c01044",
+    "title": "Single-Chain Conformational Fluctuation Regulates Phase Separation of Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) form biomolecular condensates through weak multivalent interactions, but the ensemble variables that control condensate stability and material properties remain incompletely defined. Most current descriptions emphasize sequence features or mean single-chain descriptors, such as the radius of gyration R (g). Here, we ask whether the breadth of the single-chain ensemble can regulate liquid-liquid phase separation when the amino-acid sequence and mean chain size are fixed. We develop an all-atom-informed maximum-entropy coarse-grained model of the low-complexity domain of Fused in sarcoma (FUS-LCD) that preserves atomistic contact propensities while tuning the width of the isolated-chain R (g) distribution. This design yields dynamically quenched (Qch), middle (Mid), and flexible (Flx) models with nearly identical ⟨R (g)⟩ but increasing conformational fluctuation. Increasing fluctuation produces chains that are locally compact yet globally extensible, and decouples condensate density from thermodynamic stability: Flx forms a dense low-temperature phase but has lower critical temperature and surface tension. Flx condensates also show faster diffusion, shorter contact lifetimes, accelerated stress relaxation, delayed early nucleation, and faster late-stage coalescence. This more dynamic state also exhibits weaker orientational organization, with Flx showing the lowest orientational order among the three models. Our results identify single-chain conformational fluctuation as an ensemble-level control variable that links local IDP organization to condensate thermodynamics, transport, viscoelasticity, assembly, and mesoscopic order.",
+    "keywords": [
+      "coarse-grained model",
+      "conformational fluctuation.",
+      "intrinsically disordered protein",
+      "liquid-liquid phase separation",
+      "molecular dynamics simulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Cibo",
+        "Xu, Shiqinrui",
+        "Su, Haibin",
+        "Chu, Xiakun"
+      ],
+      "short_names": [
+        "Feng C",
+        "Xu S",
+        "Su H",
+        "Chu X"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-5480-546X",
+        "ORCID: 0000-0001-9760-6567",
+        "ORCID: 0000-0003-3166-7070"
+      ],
+      "affiliations": [
+        "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511453, China. RINGGOLD: 567841",
+        "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511453, China. RINGGOLD: 567841",
+        "Department of Chemistry, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR 999077, China.",
+        "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511453, China. RINGGOLD: 567841",
+        "Guangzhou Municipal Key Laboratory of Materials Informatics, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511453, China.",
+        "Division of Life Science, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR 999077, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Cibo",
+        "short_name": "Feng C",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511453, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shiqinrui",
+        "short_name": "Xu S",
+        "identifiers": [
+          "0009-0000-5480-546X"
+        ],
+        "affiliations": [
+          "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511453, China."
+        ]
+      },
+      {
+        "full_name": "Su, Haibin",
+        "short_name": "Su H",
+        "identifiers": [
+          "0000-0001-9760-6567"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR 999077, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Xiakun",
+        "short_name": "Chu X",
+        "identifiers": [
+          "0000-0003-3166-7070"
+        ],
+        "affiliations": [
+          "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511453, China.",
+          "Guangzhou Municipal Key Laboratory of Materials Informatics, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511453, China.",
+          "Division of Life Science, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR 999077, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2026 Oct 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/29 15:20",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42953606"
+    ],
+    "review": [
+      "42953606"
+    ],
+    "pmc": [
+      "13714856"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.6c01044",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

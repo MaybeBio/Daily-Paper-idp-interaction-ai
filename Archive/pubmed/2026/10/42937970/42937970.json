@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "pmid": "42937970",
+    "doi": "10.1021/jacs.6c10169",
+    "title": "Negative Interfacial Tension Driven by Intrinsic Molecular Disorder."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered molecular systems, such as random copolymers and intrinsically disordered proteins, exhibit scale-invariant, power-law cluster distributions that cannot be explained by conventional mean-field theories. A fundamental challenge is to understand how sequence randomness, which cannot be averaged into effective parameters, drives the formation of such polydisperse assemblies. Using a minimal coupled field theory that explicitly links a conserved density field to a nonconserved \"junction\" field representing stochastic binding site density, we show that the attraction between two fields chi, together with the fluctuations in the junction field Tϵ, renormalizes the effective interfacial tension to negative values: Deltagamma  approximately  -Tϵchi2. This negative interfacial tension suppresses coalescence and stabilizes a scale-invariant ensemble of clusters with a power-law size distribution, as confirmed by both numerical calculations and coarse-grained simulations of sequence-disordered biomolecules, and are consistent with diverse experimental observations. Our work reveals a general physicochemical mechanism by which intrinsic molecular disorder and fluctuations jointly govern phase separation in systems with built-in randomness, providing a unifying, chemistry-oriented framework for understanding and engineering heterogeneous soft matter systems.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Chuan",
+        "Huang, Yifan",
+        "Ren, Chun-Lai",
+        "Tang, Qiyun",
+        "Ma, Yu-Qiang"
+      ],
+      "short_names": [
+        "Tang C",
+        "Huang Y",
+        "Ren CL",
+        "Tang Q",
+        "Ma YQ"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-8773-7360",
+        "ORCID: 0000-0003-0244-082X",
+        "ORCID: 0000-0002-6339-7207",
+        "ORCID: 0000-0002-5433-3199"
+      ],
+      "affiliations": [
+        "School of Physics and Key Laboratory of Quantum Materials and Devices of Ministry of Education, Southeast University, Nanjing211189, China.",
+        "School of Physics and Key Laboratory of Quantum Materials and Devices of Ministry of Education, Southeast University, Nanjing211189, China.",
+        "School of Physics and National Laboratory of Solid State Microstructures, Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing210093, China.",
+        "School of Physics and Key Laboratory of Quantum Materials and Devices of Ministry of Education, Southeast University, Nanjing211189, China.",
+        "School of Physics and National Laboratory of Solid State Microstructures, Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing210093, China.",
+        "Jiangsu Physical Science Research Center, Nanjing210093, China.",
+        "Hefei National Laboratory, Hefei230088, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Chuan",
+        "short_name": "Tang C",
+        "identifiers": [
+          "0009-0000-8773-7360"
+        ],
+        "affiliations": [
+          "School of Physics and Key Laboratory of Quantum Materials and Devices of Ministry of Education, Southeast University, Nanjing211189, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yifan",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics and Key Laboratory of Quantum Materials and Devices of Ministry of Education, Southeast University, Nanjing211189, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Chun-Lai",
+        "short_name": "Ren CL",
+        "identifiers": [
+          "0000-0003-0244-082X"
+        ],
+        "affiliations": [
+          "School of Physics and National Laboratory of Solid State Microstructures, Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing210093, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Qiyun",
+        "short_name": "Tang Q",
+        "identifiers": [
+          "0000-0002-6339-7207"
+        ],
+        "affiliations": [
+          "School of Physics and Key Laboratory of Quantum Materials and Devices of Ministry of Education, Southeast University, Nanjing211189, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yu-Qiang",
+        "short_name": "Ma YQ",
+        "identifiers": [
+          "0000-0002-5433-3199"
+        ],
+        "affiliations": [
+          "School of Physics and National Laboratory of Solid State Microstructures, Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing210093, China.",
+          "Jiangsu Physical Science Research Center, Nanjing210093, China.",
+          "Hefei National Laboratory, Hefei230088, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2026 Oct 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/27 11:31",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42937970"
+    ],
+    "review": [
+      "42937970"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.6c10169",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

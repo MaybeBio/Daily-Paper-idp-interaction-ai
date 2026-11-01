@@ -1,0 +1,143 @@
+{
+  "identity": {
+    "pmid": "42949963",
+    "doi": "10.1073/pnas.2618489123",
+    "title": "Cooperative nature of residue interactions in biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Cooperativity of residue interactions is prevalent in proteins and plays an essential role in protein folding. However, whether cooperativity exists in intrinsically disordered proteins (IDPs) and their assembled biomolecular condensates remains elusive. Here, we reveal the presence of residue interaction cooperativity in various IDP condensates using atomistic molecular dynamics simulations. In all these condensates, cooperative residue interactions manifest as packing between finite residue motifs (3 to 5 residues) with lifetimes three orders of magnitude longer than residue contacts. Notably, these higher-order interactions (HOIs) exhibit a significant nonadditive free energy, which originates from a local low-dielectric environment. The underlying sequence patterns like \"Y-X-Q\", \"D-X-R\", and \"S-Y-X\" are identified. Furthermore, HOIs dominate the cohesive energy of IDPs and condensates can be treated as HOI-crosslinked networks. This model can successfully reproduce experimental results of condensate physical properties, including saturation concentration, viscoelasticity, and interfacial tension.",
+    "keywords": [
+      "atomistic simulation",
+      "biomolecular condensate",
+      "cooperativity",
+      "higher-order residue interactions",
+      "physical property"
+    ],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*Biomolecular Condensates/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Folding",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Le",
+        "Wu, Xiangyu",
+        "Hu, Guorong",
+        "Zeng, Xiangze",
+        "Li, Jingyuan"
+      ],
+      "short_names": [
+        "Chen L",
+        "Wu X",
+        "Hu G",
+        "Zeng X",
+        "Li J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9848-3033",
+        "ORCID: 0000-0003-2926-1864"
+      ],
+      "affiliations": [
+        "School of Physics, Zhejiang University, Hangzhou 310058, China. ROR: https://ror.org/00a2xv884",
+        "School of Physics, Zhejiang University, Hangzhou 310058, China. ROR: https://ror.org/00a2xv884",
+        "School of Physics, Zhejiang University, Hangzhou 310058, China. ROR: https://ror.org/00a2xv884",
+        "Department of Physics, Hong Kong Baptist University, Kowloon Tong, Hong Kong 999077, China. ROR: https://ror.org/0145fw131",
+        "School of Physics, Zhejiang University, Hangzhou 310058, China. ROR: https://ror.org/00a2xv884",
+        "Institute for Advanced Study in Physics, Zhejiang University, Hangzhou 310058, China. ROR: https://ror.org/00a2xv884"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Le",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiangyu",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Guorong",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Xiangze",
+        "short_name": "Zeng X",
+        "identifiers": [
+          "0000-0002-9848-3033"
+        ],
+        "affiliations": [
+          "Department of Physics, Hong Kong Baptist University, Kowloon Tong, Hong Kong 999077, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingyuan",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0003-2926-1864"
+        ],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, China.",
+          "Institute for Advanced Study in Physics, Zhejiang University, Hangzhou 310058, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Nov 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/28 17:31",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42949963"
+    ],
+    "review": [
+      "42949963"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2618489123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

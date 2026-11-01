@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "pmid": "42952416",
+    "doi": "10.1093/jxb/erag546",
+    "title": "Proteases and proteolysis in biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Proteases have long been conceptualised as enzymes operating in dilute aqueous environments. Yet many localise to biomolecular condensates, which arise through phase separation. We argue that protease behaviour is governed by the condensate's physical regime: a dynamic liquid-like state, a surface-associated wetting layer, a slowed gel-like state, or a kinetically arrested solid. Each regime constrains protease kinetics, for example by slowing diffusion of protease and substrate. Activity can also be dictated by condensate composition rather than protease concentration alone: the local environment can alter substrate affinities, reshape enzyme conformational equilibria beyond bulk mass-action predictions, and buffer pH. Proteolysis need not occur in the dense phase; the interface can be an additional reaction compartment. Recent evidence suggests that condensates can hydrolyse substrates even without an enzyme, so cleavage attributed to a resident protease needs a catalytically inactive control to separate enzyme-catalysed proteolysis from condensate-mediated hydrolysis. Examining plant proteases through these lenses, we argue that the regimes themselves can be a consequence of proteolysis. Direct evidence linking proteases to condensate regulation, and vice versa, remains limited. Closing this gap will require regime-aware kinetics, phase-resolved measurements of dense-phase concentration, mobility and turnover, and falsifiable models integrating proteolysis with condensate physics.",
+    "keywords": [
+      "Biomolecular condensates",
+      "crowding paradox",
+      "enzyme kinetics",
+      "liquid-liquid phase separation",
+      "membrane wetting",
+      "metacaspases",
+      "phase transitions",
+      "protease regulation",
+      "proteasome",
+      "stress granules"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Moschou, Panagiotis N",
+        "Bozhkov, Peter V"
+      ],
+      "short_names": [
+        "Moschou PN",
+        "Bozhkov PV"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7212-0595"
+      ],
+      "affiliations": [
+        "Department of Biology, University of Crete, Heraklion 70013, Greece.",
+        "Institute of Molecular Biology and Biotechnology, Foundation for Research and Technology-Hellas (IMBB-FORTH), Heraklion 70013, Greece.",
+        "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Centre for Plant Biology, SE-75007 Uppsala, Sweden.",
+        "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Centre for Plant Biology, SE-75007 Uppsala, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Moschou, Panagiotis N",
+        "short_name": "Moschou PN",
+        "identifiers": [
+          "0000-0001-7212-0595"
+        ],
+        "affiliations": [
+          "Department of Biology, University of Crete, Heraklion 70013, Greece.",
+          "Institute of Molecular Biology and Biotechnology, Foundation for Research and Technology-Hellas (IMBB-FORTH), Heraklion 70013, Greece.",
+          "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Centre for Plant Biology, SE-75007 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Bozhkov, Peter V",
+        "short_name": "Bozhkov PV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Centre for Plant Biology, SE-75007 Uppsala, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental botany"
+    ],
+    "journal_abbrev": [
+      "J Exp Bot"
+    ],
+    "pub_date": "2026 Oct 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/29 05:30",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42952416"
+    ],
+    "review": [
+      "42952416"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/jxb/article-lookup/doi/10.1093/jxb/erag546",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

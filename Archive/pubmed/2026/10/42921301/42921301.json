@@ -1,0 +1,170 @@
+{
+  "identity": {
+    "pmid": "42921301",
+    "doi": "10.1021/acsbiomedchemau.6c00101",
+    "title": "N6-Methyladenosine RNA Modifications Influence the Stability of FUS-Dependent Biological Condensate Formation."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is a process in which proteins and nucleic acids organize into dynamic, membrane-less structures within cells. These structures help regulate cellular processes such as gene expression, molecular storage, and stress responses through weak interactions between disordered protein regions and RNA. Emerging evidence highlights a regulatory role for epitranscriptomic modifications, particularly N6-methyladenosine (m(6)A), though the underlying mechanisms remain unclear. Here, we investigated the relationship between m(6)A RNA nucleotide modification and LLPS by identifying proteins that selectively bind methylated RNA. An RNA pull-down assay enriched 106 proteins, including 53 known RNA-binding proteins and several proteins that support LLPS, including FUS (Fused in sarcoma). FUS, a well-characterized phase-separating RNA-binding protein, showed a 2-fold higher binding affinity for m(6)A-modified hairpin RNA than for its unmodified counterpart. Cloud-point analysis and coherent anti-Stokes Raman scattering (CARS) microscopy revealed enhanced thermodynamic stability at higher m(6)A levels in total RNA extracts. Quantitative CARS imaging revealed that, although the overall RNA-to-protein ratio within condensates remains largely unchanged, larger droplets under high-m(6)A conditions exhibit increased RNA content, suggesting that m(6)A strengthens RNA-protein interactions without significantly altering the stoichiometry. Collectively, these findings indicate that while protein-protein interactions may initiate LLPS, m(6)A-modulated RNA-protein interactions govern condensate growth and stability. Furthermore, these results provide a mechanistic insight into how epitranscriptomic modifications regulate biomolecular condensation and influence cellular organization, gene regulation, and disease processes.",
+    "keywords": [
+      "CARS microscopy",
+      "FUS",
+      "LLPS",
+      "m6A",
+      "post-transcriptional modifications"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Thalagaha Mudiyanselage, Chamali",
+        "Pandey, Milan",
+        "Abedeera, Sudeshi M",
+        "Ekanayake, Chathurani",
+        "Mollah, Aftab U",
+        "Anwaar, Nadia",
+        "Konar, Arkaprabha",
+        "Abeysirigunawardena, Sanjaya C"
+      ],
+      "short_names": [
+        "Thalagaha Mudiyanselage C",
+        "Pandey M",
+        "Abedeera SM",
+        "Ekanayake C",
+        "Mollah AU",
+        "Anwaar N",
+        "Konar A",
+        "Abeysirigunawardena SC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States. RINGGOLD: 4229",
+        "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States. RINGGOLD: 4229",
+        "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States. RINGGOLD: 4229",
+        "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States. RINGGOLD: 4229",
+        "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States. RINGGOLD: 4229",
+        "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States. RINGGOLD: 4229",
+        "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States. RINGGOLD: 4229",
+        "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States. RINGGOLD: 4229"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Thalagaha Mudiyanselage, Chamali",
+        "short_name": "Thalagaha Mudiyanselage C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States."
+        ]
+      },
+      {
+        "full_name": "Pandey, Milan",
+        "short_name": "Pandey M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States."
+        ]
+      },
+      {
+        "full_name": "Abedeera, Sudeshi M",
+        "short_name": "Abedeera SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States."
+        ]
+      },
+      {
+        "full_name": "Ekanayake, Chathurani",
+        "short_name": "Ekanayake C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States."
+        ]
+      },
+      {
+        "full_name": "Mollah, Aftab U",
+        "short_name": "Mollah AU",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States."
+        ]
+      },
+      {
+        "full_name": "Anwaar, Nadia",
+        "short_name": "Anwaar N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States."
+        ]
+      },
+      {
+        "full_name": "Konar, Arkaprabha",
+        "short_name": "Konar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States."
+        ]
+      },
+      {
+        "full_name": "Abeysirigunawardena, Sanjaya C",
+        "short_name": "Abeysirigunawardena SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS bio & med chem Au"
+    ],
+    "journal_abbrev": [
+      "ACS Bio Med Chem Au"
+    ],
+    "pub_date": "2026 Oct 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/25 03:36",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42921301"
+    ],
+    "review": [
+      "42921301"
+    ],
+    "pmc": [
+      "13692731"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42921301/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/abmcb8/article-lookup/doi/10.1021/acsbiomedchemau.6c00101",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "identity": {
+    "pmid": "42922462",
+    "doi": "10.64898/2026.08.30.748146",
+    "title": "Scaffold Affinity Tunes Biomolecular Condensate Function."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates (BMCs) organize cellular biochemistry by concentrating selected molecules into dynamic membrane-free compartments. Yet the molecular parameters that determine not only whether condensates form, but also how they behave and what they do, remain poorly defined. Here we show that scaffold binding affinity (K (d) ) is a quantitative determinant of condensate phase behavior, internal dynamics and biochemical output. Using a modular SUMO-SIM system in which scaffold valency was held constant while binding affinity was systematically varied, we found that affinity governs the phase boundary, resistance to chemical perturbation, and molecular mobility of condensates in vitro and in human cells. In multicomponent mixtures, the highest-affinity scaffold dominated dense-phase composition and dynamics, revealing a hierarchical rule for condensate organization. Finally, affinity-dependent changes in condensate dynamics translated into tunable enzyme activity, establishing binding energetics as an engineerable parameter for programming condensate biochemistry.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Reyna, Andres",
+        "Briggs, Madyson O",
+        "Russell, Alexander F",
+        "Phan, Tien M",
+        "Wang, Ryan J",
+        "Allen, Reuben",
+        "Hinds, Thomas R",
+        "Zheng, Ning",
+        "Mittal, Jeetain",
+        "Chatterjee, Champak"
+      ],
+      "short_names": [
+        "Reyna A",
+        "Briggs MO",
+        "Russell AF",
+        "Phan TM",
+        "Wang RJ",
+        "Allen R",
+        "Hinds TR",
+        "Zheng N",
+        "Mittal J",
+        "Chatterjee C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3241-1336",
+        "ORCID: 0009-0006-1363-2893",
+        "ORCID: 0009-0006-2995-9276",
+        "ORCID: 0000-0002-8608-7359",
+        "ORCID: 0009-0003-1257-890X",
+        "ORCID: 0009-0009-9038-7985",
+        "ORCID: 0009-0007-5694-8924",
+        "ORCID: 0000-0002-1039-1581",
+        "ORCID: 0000-0002-9725-6402",
+        "ORCID: 0000-0001-5772-4438"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Reyna, Andres",
+        "short_name": "Reyna A",
+        "identifiers": [
+          "0000-0002-3241-1336"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Briggs, Madyson O",
+        "short_name": "Briggs MO",
+        "identifiers": [
+          "0009-0006-1363-2893"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Russell, Alexander F",
+        "short_name": "Russell AF",
+        "identifiers": [
+          "0009-0006-2995-9276"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Phan, Tien M",
+        "short_name": "Phan TM",
+        "identifiers": [
+          "0000-0002-8608-7359"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Ryan J",
+        "short_name": "Wang RJ",
+        "identifiers": [
+          "0009-0003-1257-890X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Allen, Reuben",
+        "short_name": "Allen R",
+        "identifiers": [
+          "0009-0009-9038-7985"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hinds, Thomas R",
+        "short_name": "Hinds TR",
+        "identifiers": [
+          "0009-0007-5694-8924"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zheng, Ning",
+        "short_name": "Zheng N",
+        "identifiers": [
+          "0000-0002-1039-1581"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chatterjee, Champak",
+        "short_name": "Chatterjee C",
+        "identifiers": [
+          "0000-0001-5772-4438"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Sep 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/25 03:36",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42922462"
+    ],
+    "review": [
+      "42922462"
+    ],
+    "pmc": [
+      "13684435"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42922462/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.08.30.748146",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

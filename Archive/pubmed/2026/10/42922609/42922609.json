@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "pmid": "42922609",
+    "doi": "10.64898/2026.09.01.748708",
+    "title": "Beyond Equilibrium Ensembles: Time Rescaling in Coarse-Grained Simulations across Single-Molecule and Condensate Regimes."
+  },
+  "content": {
+    "abstract": "Residue-level coarse-grained simulations provide a powerful route for modeling biomolecular condensates over length and time scales that are difficult to access with atomistic molecular dynamics. Coarse-grained models have been shown to reproduce many aspects of equilibrium phase behavior. However, it remains unclear to what extent such models can reproduce the relative timescales of molecular dynamics. Here, we examine this question for complex coacervates with markedly different dynamics, formed by the highly acidic intrinsically disordered protein prothymosin alpha with four cationic partners: linker histone H1, protamine, polylysine, and polyarginine. Coexistence simulations using a residue-level coarse-grained model reproduce key equilibrium observables from experiments, including dense-phase concentrations, ionic-strength-dependent phase behavior, and chain dimensions in the dense and dilute phases. Dynamics are accelerated in these simulations, but a composition-specific time-rescaling factor captures the ionic-strength dependence of chain reconfiguration times within a given complex coacervate. In contrast, time rescaling is not transferable between dense and dilute phases or across condensate compositions and can depend on the chosen observable. These results show that agreement with measured equilibrium observables does not imply a universally transferable timescale for conformational dynamics in residue-level coarse-grained simulations. However, we find that the required time rescaling strongly correlates with the interaction energy of the protein chains, suggesting that the missing frictional effects arise from protein-protein interactions rather than solely from protein-solvent interactions, reminiscent of internal friction. Our findings highlight the need to combine thermodynamic validation with kinetic calibration when interpreting chain relaxation, molecular diffusion, and material properties from residue-level coarse-grained simulations of biomolecular condensates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gopi, Soundhararajan",
+        "Qin, Hanling",
+        "Best, Robert B",
+        "Schuler, Benjamin"
+      ],
+      "short_names": [
+        "Gopi S",
+        "Qin H",
+        "Best RB",
+        "Schuler B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7511-2571",
+        "ORCID: 0009-0009-1480-1398",
+        "ORCID: 0000-0002-7893-3543",
+        "ORCID: 0000-0002-5970-4251"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Department of Physics, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA.",
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Department of Physics, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gopi, Soundhararajan",
+        "short_name": "Gopi S",
+        "identifiers": [
+          "0000-0002-7511-2571"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Qin, Hanling",
+        "short_name": "Qin H",
+        "identifiers": [
+          "0009-0009-1480-1398"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+          "Department of Physics, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Best, Robert B",
+        "short_name": "Best RB",
+        "identifiers": [
+          "0000-0002-7893-3543"
+        ],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Schuler, Benjamin",
+        "short_name": "Schuler B",
+        "identifiers": [
+          "0000-0002-5970-4251"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+          "Department of Physics, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Sep 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/25 03:36",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42922609"
+    ],
+    "review": [
+      "42922609"
+    ],
+    "pmc": [
+      "13684552"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42922609/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.09.01.748708",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

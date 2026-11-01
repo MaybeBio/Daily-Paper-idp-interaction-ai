@@ -1,0 +1,137 @@
+{
+  "identity": {
+    "pmid": "42965002",
+    "doi": "10.1021/acscentsci.6c00933",
+    "title": "RNA Synthesis and Degradation Regulate Biomolecular Condensates through Nonequilibrium Feedback."
+  },
+  "content": {
+    "abstract": "Transcriptional condensates operate far from equilibrium, where continuous RNA synthesis and degradation dynamically reshape condensate composition. To investigate how RNA synthesis regulates condensate properties at submolecular resolution, we introduce REACT-RNA, a chemically specific coarse-grained molecular dynamics framework that explicitly couples RNA polymerization, degradation, and nucleotide fluxes to sequence-dependent protein-RNA phase behavior and apply it to FUS and MED1 condensates. We find that RNA polymerization occurs preferentially at condensate interfaces because interfaces promote a highly reactive microenvironment that combines nucleotide influx, enrichment of reactive RNA chain ends, and enhanced molecular dynamics. Interfacial RNA polymerization generates a spatially organized RNA population, with newly synthesized short RNAs enriched near the interface and longer RNAs partitioning toward the condensate core, which decreases the interfacial free energy and promotes multivalent RNA-protein interactions. As RNA concentration and chain length evolve over time, condensate composition, density, and stability change dynamically in response. Sustained RNA polymerization drives re-entrant condensate dissolution, even of aged gel-like condensates, whereas RNA degradation stabilizes long-lived nonequilibrium condensates containing elevated RNA content. Our results suggest that RNA synthesis, degradation, and nucleotide fluxes drive transcriptional condensates out of thermodynamic equilibrium, while condensates in turn promote reactive molecular configurations that favor RNA production, enabling transient accumulation of RNA-rich compositional imbalance during bursts of transcription.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sanchez-Burgos, Ignacio",
+        "Tejedor, Andres R",
+        "Ocana, Alberto",
+        "Espinosa, Jorge R",
+        "Collepardo-Guevara, Rosana"
+      ],
+      "short_names": [
+        "Sanchez-Burgos I",
+        "Tejedor AR",
+        "Ocana A",
+        "Espinosa JR",
+        "Collepardo-Guevara R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1160-3945",
+        "ORCID: 0000-0002-9437-6169",
+        "ORCID: 0000-0001-9530-2658",
+        "ORCID: 0000-0003-1781-7351"
+      ],
+      "affiliations": [
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom. RINGGOLD: 2152",
+        "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040 Madrid, Spain. RINGGOLD: 16734",
+        "PhAsIca Biosciences S.L., Calle Velazquez, 27, 28001 Madrid, Spain.",
+        "Multidisciplinary Institute, Complutense University of Madrid, Paseo Juan XXIII, 1, Madrid 28040, Spain.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom. RINGGOLD: 2152",
+        "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040 Madrid, Spain. RINGGOLD: 16734",
+        "PhAsIca Biosciences S.L., Calle Velazquez, 27, 28001 Madrid, Spain.",
+        "Multidisciplinary Institute, Complutense University of Madrid, Paseo Juan XXIII, 1, Madrid 28040, Spain.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom. RINGGOLD: 2152",
+        "Department of Genetics, University of Cambridge, Cambridge CB2 3EH, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sanchez-Burgos, Ignacio",
+        "short_name": "Sanchez-Burgos I",
+        "identifiers": [
+          "0000-0002-1160-3945"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Tejedor, Andrés R",
+        "short_name": "Tejedor AR",
+        "identifiers": [
+          "0000-0002-9437-6169"
+        ],
+        "affiliations": [
+          "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Ocana, Alberto",
+        "short_name": "Ocana A",
+        "identifiers": [],
+        "affiliations": [
+          "PhAsIca Biosciences S.L., Calle Velázquez, 27, 28001 Madrid, Spain.",
+          "Multidisciplinary Institute, Complutense University of Madrid, Paseo Juan XXIII, 1, Madrid 28040, Spain."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [
+          "0000-0001-9530-2658"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom.",
+          "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040 Madrid, Spain.",
+          "PhAsIca Biosciences S.L., Calle Velázquez, 27, 28001 Madrid, Spain.",
+          "Multidisciplinary Institute, Complutense University of Madrid, Paseo Juan XXIII, 1, Madrid 28040, Spain."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [
+          "0000-0003-1781-7351"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom.",
+          "Department of Genetics, University of Cambridge, Cambridge CB2 3EH, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS central science"
+    ],
+    "journal_abbrev": [
+      "ACS Cent Sci"
+    ],
+    "pub_date": "2026 Oct 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/31 23:24",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42965002"
+    ],
+    "review": [
+      "42965002"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "identity": {
+    "pmid": "42933777",
+    "doi": "10.1016/j.bbapap.2026.141195",
+    "title": "Inside biomolecular condensates: the interplay between physicochemical environments and molecular partitioning."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are protein- and nucleic acid-rich assemblies that compartmentalise cellular chemistry without a surrounding membrane. While much attention has focused on the molecular interactions driving their formation, condensates also establish distinct physicochemical microenvironments that influence their composition and function. In this mini-review we discuss how ions, solvent properties, small metabolites, and macromolecules shape condensate polarity, acidity, viscosity, hydration, electrochemical potential, and molecular mobility. We further discuss how these environments govern the selective partitioning of small molecules and macromolecules, and how recruited molecules can in turn reshape the condensate itself. An expanding experimental toolbox is beginning to quantify these reciprocal relationships and reveal condensates as crowded, chemically selective aqueous phases rather than passive compartments. Establishing quantitative relationships between condensate composition, microenvironment, and molecular partitioning may ultimately enable prediction of how these assemblies regulate biochemical processes in cells.",
+    "keywords": [
+      "Biomolecular condensates",
+      "Biophysics",
+      "Intrinsically disordered proteins"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Andre, Alain A M"
+      ],
+      "short_names": [
+        "Andre AAM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of molecular biology and genetics, Aarhus University, Aarhus, Denmark. Electronic address: alain.andre@mbg.au.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "André, Alain A M",
+        "short_name": "André AAM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of molecular biology and genetics, Aarhus University, Aarhus, Denmark. Electronic address: alain.andre@mbg.au.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. Proteins and proteomics"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Proteins Proteom"
+    ],
+    "pub_date": "2026 Oct 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/26 23:27",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42933777"
+    ],
+    "review": [
+      "42933777"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1570-9639(26)00072-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

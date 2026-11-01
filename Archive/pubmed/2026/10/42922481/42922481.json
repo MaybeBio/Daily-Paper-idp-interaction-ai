@@ -1,0 +1,105 @@
+{
+  "identity": {
+    "pmid": "42922481",
+    "doi": "10.64898/2026.09.02.748969",
+    "title": "Hydrophobic Patch Spacing Produces Nonmonotonic Compaction in Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "The conformational ensembles of intrinsically disordered proteins (IDPs) are encoded by the distribution of physicochemical interactions along their sequences. Although hydropathy-based descriptors capture average chain dimensions across diverse IDPs, the consequences of spacing localized hydrophobic patches remain poorly understood. Coarse-grained simulations of fixed-composition FUS-derived sequence variants reveal maximal compaction at an intermediate patch spacing. Analysis of simplified model peptides identifies this nonmonotonic behavior as one of three spacing responses: monotonic expansion, nonmonotonic compaction, and monotonic compaction. Their occurrence depends on interaction strength, effective interaction length scale, and patch architecture, with nonmonotonicity emerging only when hydrophobic attractions are sufficiently strong. A conformational-class decomposition resolves these responses into weighted patch-contact and patch-noncontact contributions to the ensemble-averaged chain dimensions. In attractive regimes, the contact contribution decreases with spacing while the noncontact contribution increases, and the changing balance between these opposing effects produces maximal compaction at an intermediate spacing. In the steric-dominated regime, separating the patches instead compacts the dominant noncontact conformations by relieving steric frustration. These steric-and attraction-dominated limits show that similar spacing responses can arise from distinct microscopic mechanisms. These findings establish a unified framework for understanding how interaction regime and hydrophobic patch spacing jointly shape IDP conformational ensembles.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Silvernail, Henry",
+        "Yang, Wangfei",
+        "Zheng, Wenwei"
+      ],
+      "short_names": [
+        "Silvernail H",
+        "Yang W",
+        "Zheng W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9603-009X"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Silvernail, Henry",
+        "short_name": "Silvernail H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yang, Wangfei",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zheng, Wenwei",
+        "short_name": "Zheng W",
+        "identifiers": [
+          "0000-0002-9603-009X"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Sep 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/25 03:36",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42922481"
+    ],
+    "review": [
+      "42922481"
+    ],
+    "pmc": [
+      "13684434"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42922481/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.09.02.748969",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

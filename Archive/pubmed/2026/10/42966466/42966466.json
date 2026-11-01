@@ -1,0 +1,197 @@
+{
+  "identity": {
+    "pmid": "42966466",
+    "doi": "10.1016/j.jare.2026.10.059",
+    "title": "Identifying phase separation modulators mediated by the SARS-CoV-2 nucleocapsid protein using a structure-based drug discovery approach."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: As severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) continues to evolve through mutations and acquire resistance to existing antiviral agents, the persistence of post-pandemic infections remains a significant global health concern. To address these challenges, it is crucial to develop novel therapeutic agents that target previously unexplored viral or host mechanisms. OBJECTIVES: The nucleocapsid (N) protein of SARS-CoV-2 plays a critical role in viral RNA replication and genome packaging through its ability to undergo liquid-liquid phase separation (LLPS). Targeting the condensation of N-RNA complex could potentially serve as an effective therapeutic strategy against coronavirus infections. The present study provides a successful exemplification of antiviral agent discovery by targeting the viral N protein on the basis of its structural characteristics. METHODS: A total of 23 virtual screening compounds and 16 hit derivatives were prepared. Their binding affinity and antiviral activities were evaluated using surface plasmon resonance and immunofluorescence assay, respectively. The impact of these compounds on condensate formation was verified through fluorescence recovery after photobleaching, as well as the inhibition of N condensate formation in cells. RESULTS: Structure-based virtual screening, target protein binding affinity quantification, and cell culture-based anti-SARS-CoV-2 assays enabled the identification a hit compound, D21. Subsequent structural optimization of series I and II yielded compound II8, which exhibits stronger binding affinity for the N protein and effectively inhibits the formation of N-RNA condensates, thereby demonstrating its potential to modulate LLPS, a mechanism underlying its antiviral activity. In vivo evaluation showed that II8 displays antiviral activity in a human ACE2-expressing mouse model when administered intranasally as a pre-incubated mixture with SARS-CoV-2. Due to the pharmacokinetic profile of compound II8, further structural modifications are still required. CONCLUSION: Our findings suggest that compound II8 may serve as a localized prophylactic nasal spray, providing valuable insights for further development of LLPS modulators as next-generation antiviral agents.",
+    "keywords": [
+      "Antiviral agents",
+      "LLPS modulator",
+      "Nucleocapsid",
+      "SARS-CoV-2",
+      "Structure-based virtual screening"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Du, Shaoqing",
+        "Jang, Yejin",
+        "Hu, Xueping",
+        "Li, Ping",
+        "Wang, Bo",
+        "Ra, Hyun Su",
+        "Kang, Dongwei",
+        "Wang, Xiaolong",
+        "Wang, Nonghan",
+        "Liu, Xinyong",
+        "Kim, Meehyein",
+        "Zhan, Peng"
+      ],
+      "short_names": [
+        "Du S",
+        "Jang Y",
+        "Hu X",
+        "Li P",
+        "Wang B",
+        "Ra HS",
+        "Kang D",
+        "Wang X",
+        "Wang N",
+        "Liu X",
+        "Kim M",
+        "Zhan P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medicinal Chemistry, State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shandong Key Laboratory of Druggability Optimization and Evaluation for Lead Compounds, Shandong Basic Science Special Academic Zone (Pharmacy), School of Pharmaceutical Sciences, Shandong University, Jinan, Shandong, China; College of Chemical Engineering, State Key Laboratory of Advanced Optical Polymer and Manufacturing Technology, Qingdao Key Laboratory of Biomacromolecular Drug Discovery and Development, Qingdao University of Science and Technology, Qingdao 266061, Shandong, China.",
+        "Infectious Diseases Therapeutic Research Center, Korea Research Institute of Chemical Technology (KRICT), Daejeon 34114, the Republic of Korea.",
+        "Institute of Frontier Chemistry, School of Chemistry and Chemical Engineering, Shandong University, Qingdao, Shandong, China.",
+        "Department of Medicinal Chemistry, School of Pharmacy, Qingdao University, Qingdao 266021, China.",
+        "Department of Medicinal Chemistry, State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shandong Key Laboratory of Druggability Optimization and Evaluation for Lead Compounds, Shandong Basic Science Special Academic Zone (Pharmacy), School of Pharmaceutical Sciences, Shandong University, Jinan, Shandong, China.",
+        "Infectious Diseases Therapeutic Research Center, Korea Research Institute of Chemical Technology (KRICT), Daejeon 34114, the Republic of Korea; Graduate School of New Drug Discovery and Development, Chungnam National University, Daejeon 34134, the Republic of Korea.",
+        "Department of Medicinal Chemistry, State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shandong Key Laboratory of Druggability Optimization and Evaluation for Lead Compounds, Shandong Basic Science Special Academic Zone (Pharmacy), School of Pharmaceutical Sciences, Shandong University, Jinan, Shandong, China.",
+        "Shandong University of Traditional Chinese Medicine, Jinan 250355, China.",
+        "Shandong University of Traditional Chinese Medicine, Jinan 250355, China.",
+        "Department of Medicinal Chemistry, State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shandong Key Laboratory of Druggability Optimization and Evaluation for Lead Compounds, Shandong Basic Science Special Academic Zone (Pharmacy), School of Pharmaceutical Sciences, Shandong University, Jinan, Shandong, China. Electronic address: xinyongl@sdu.edu.cn.",
+        "Infectious Diseases Therapeutic Research Center, Korea Research Institute of Chemical Technology (KRICT), Daejeon 34114, the Republic of Korea; Graduate School of New Drug Discovery and Development, Chungnam National University, Daejeon 34134, the Republic of Korea. Electronic address: mkim@krict.re.kr.",
+        "Department of Medicinal Chemistry, State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shandong Key Laboratory of Druggability Optimization and Evaluation for Lead Compounds, Shandong Basic Science Special Academic Zone (Pharmacy), School of Pharmaceutical Sciences, Shandong University, Jinan, Shandong, China. Electronic address: zhanpeng1982@sdu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Du, Shaoqing",
+        "short_name": "Du S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicinal Chemistry, State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shandong Key Laboratory of Druggability Optimization and Evaluation for Lead Compounds, Shandong Basic Science Special Academic Zone (Pharmacy), School of Pharmaceutical Sciences, Shandong University, Jinan, Shandong, China; College of Chemical Engineering, State Key Laboratory of Advanced Optical Polymer and Manufacturing Technology, Qingdao Key Laboratory of Biomacromolecular Drug Discovery and Development, Qingdao University of Science and Technology, Qingdao 266061, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Jang, Yejin",
+        "short_name": "Jang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Infectious Diseases Therapeutic Research Center, Korea Research Institute of Chemical Technology (KRICT), Daejeon 34114, the Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hu, Xueping",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Frontier Chemistry, School of Chemistry and Chemical Engineering, Shandong University, Qingdao, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ping",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicinal Chemistry, School of Pharmacy, Qingdao University, Qingdao 266021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bo",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicinal Chemistry, State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shandong Key Laboratory of Druggability Optimization and Evaluation for Lead Compounds, Shandong Basic Science Special Academic Zone (Pharmacy), School of Pharmaceutical Sciences, Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Ra, Hyun Su",
+        "short_name": "Ra HS",
+        "identifiers": [],
+        "affiliations": [
+          "Infectious Diseases Therapeutic Research Center, Korea Research Institute of Chemical Technology (KRICT), Daejeon 34114, the Republic of Korea; Graduate School of New Drug Discovery and Development, Chungnam National University, Daejeon 34134, the Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kang, Dongwei",
+        "short_name": "Kang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicinal Chemistry, State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shandong Key Laboratory of Druggability Optimization and Evaluation for Lead Compounds, Shandong Basic Science Special Academic Zone (Pharmacy), School of Pharmaceutical Sciences, Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaolong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, Jinan 250355, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Nonghan",
+        "short_name": "Wang N",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, Jinan 250355, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinyong",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicinal Chemistry, State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shandong Key Laboratory of Druggability Optimization and Evaluation for Lead Compounds, Shandong Basic Science Special Academic Zone (Pharmacy), School of Pharmaceutical Sciences, Shandong University, Jinan, Shandong, China. Electronic address: xinyongl@sdu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Kim, Meehyein",
+        "short_name": "Kim M",
+        "identifiers": [],
+        "affiliations": [
+          "Infectious Diseases Therapeutic Research Center, Korea Research Institute of Chemical Technology (KRICT), Daejeon 34114, the Republic of Korea; Graduate School of New Drug Discovery and Development, Chungnam National University, Daejeon 34134, the Republic of Korea. Electronic address: mkim@krict.re.kr."
+        ]
+      },
+      {
+        "full_name": "Zhan, Peng",
+        "short_name": "Zhan P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicinal Chemistry, State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shandong Key Laboratory of Druggability Optimization and Evaluation for Lead Compounds, Shandong Basic Science Special Academic Zone (Pharmacy), School of Pharmaceutical Sciences, Shandong University, Jinan, Shandong, China. Electronic address: zhanpeng1982@sdu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of advanced research"
+    ],
+    "journal_abbrev": [
+      "J Adv Res"
+    ],
+    "pub_date": "2026 Oct 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/31 23:53",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42966466"
+    ],
+    "review": [
+      "42966466"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

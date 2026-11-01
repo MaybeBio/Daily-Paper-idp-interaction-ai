@@ -1,0 +1,440 @@
+{
+  "identity": {
+    "pmid": "42934172",
+    "doi": "10.1093/nar/gkag1048",
+    "title": "PED in 2027: integrating experimental and predicted protein conformational ensembles at scale."
+  },
+  "content": {
+    "abstract": "The Protein Ensemble Database (PED; https://proteinensemble.org) is the primary deposition resource for structural ensembles of intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs). PED 2027 (released in September 2026) substantially expands its scope by integrating ensembles determined or refined using experimental data with clearly identified collections of computational predictions. The release introduces a multi-method collection targeting 3319 DisProt proteins and 2452 manually curated disordered regions, together with AlphaFlex ensembles for 10 022 human proteins containing IDRs. Alternative predictions for the same sequence are retained as independent records with method-specific provenance, enabling comparison across ensemble-generation approaches. A scalable deposition workflow accommodates individual experimental studies and proteome-scale collections while preserving quality control and curator oversight. The PED controlled vocabulary standardizes experimental data acquisition, computational generation, selection, and refinement. Precomputed IDPEnsembleTools and CIDER analyses provide structural and sequence-derived descriptors directly on ensemble pages. A redesigned interface and extended REST API support discovery, visualization, download and programmatic access. Interoperability with UniProt, DisProt, MobiDB, and experimental-data repositories connects ensembles with sequences, annotations, and supporting measurements. PED 2027 therefore provides an interoperable, analysis-ready platform for studying IDP/IDR conformational behaviour.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Monzon, Alexander Miguel",
+        "Ghafouri, Hamidreza",
+        "Castro, Ximena Aixa",
+        "Khezrian, Sina",
+        "Aspromonte, Maria Cristina",
+        "Singla, Kavita",
+        "Barethiya, Shrishti",
+        "Bernado, Pau",
+        "Bonomi, Massimiliano",
+        "Chen, Jianhan",
+        "Cordeiro, Tiago",
+        "Cortes, Juan",
+        "De Castro, Stefano",
+        "Emenecker, Ryan",
+        "Feig, Michael",
+        "Forman-Kay, Julie D",
+        "Head-Gordon, Teresa",
+        "Holehouse, Alex",
+        "Janson, Giacomo",
+        "Lindorff-Larsen, Kresten",
+        "Liu, Zi Hao",
+        "Longhi, Sonia",
+        "Pajkos, Matyas",
+        "Robustelli, Paul",
+        "Rodriguez, Santiago",
+        "Schnapka, Vincent",
+        "Sibille, Nathalie",
+        "Vendruscolo, Michele",
+        "Tosatto, Silvio C E"
+      ],
+      "short_names": [
+        "Monzon AM",
+        "Ghafouri H",
+        "Castro XA",
+        "Khezrian S",
+        "Aspromonte MC",
+        "Singla K",
+        "Barethiya S",
+        "Bernado P",
+        "Bonomi M",
+        "Chen J",
+        "Cordeiro T",
+        "Cortes J",
+        "De Castro S",
+        "Emenecker R",
+        "Feig M",
+        "Forman-Kay JD",
+        "Head-Gordon T",
+        "Holehouse A",
+        "Janson G",
+        "Lindorff-Larsen K",
+        "Liu ZH",
+        "Longhi S",
+        "Pajkos M",
+        "Robustelli P",
+        "Rodriguez S",
+        "Schnapka V",
+        "Sibille N",
+        "Vendruscolo M",
+        "Tosatto SCE"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0362-8218",
+        "ORCID: 0009-0002-8418-649X",
+        "ORCID: 0000-0002-4937-6952",
+        "ORCID: 0000-0001-7395-5922",
+        "ORCID: 0000-0002-5281-1150",
+        "ORCID: 0000-0002-4660-0306",
+        "ORCID: 0000-0001-7055-2773",
+        "ORCID: 0000-0003-0025-8987",
+        "ORCID: 0000-0002-4155-5729",
+        "ORCID: 0000-0002-4750-6039",
+        "ORCID: 0000-0002-8357-8507",
+        "ORCID: 0000-0002-3902-5462",
+        "ORCID: 0000-0001-8145-6795",
+        "ORCID: 0000-0002-3616-1610",
+        "ORCID: 0000-0003-4525-7793"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences, University of Padova, 35131 Padova, Italy.",
+        "Structural Biology and NMR Laboratory, Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, DK-2200Copenhagen, Denmark.",
+        "Department of Biomedical Sciences, University of Padova, 35131 Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, 35131 Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, 35131 Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, 35131 Padova, Italy.",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, United States.",
+        "Centre de Biologie Structurale (CBS), University of Montpellier, INSERM, CNRS, 34090France.",
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR3528, Computational Structural Biology Unit, F-75015 Paris, France.",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, United States.",
+        "Instituto de Tecnologia Quimica e Biologica Antonio Xavier, Universidade Nova de Lisboa, Avenida da Republica, 2780-157 Oeiras, Portugal.",
+        "Universite de Toulouse, CNRS, LAAS, 31400Toulouse, France.",
+        "Pitzer Theory Center and Department of Chemistry, University of California, Berkeley, CA 94720, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO 63110, United States.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, United States.",
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI48824, United States.",
+        "Molecular Medicine Program, The Hospital for Sick Children, M5G 1X8Toronto, Ontario, Canada.",
+        "Department of Biochemistry, University of Toronto, M5S 1A8Toronto, Ontario, Canada.",
+        "Pitzer Theory Center and Departments of Chemistry, Bioengineering, and Chemical and Biomolecular Engineering, University of California, Berkeley, CA 94720, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO 63110, United States.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, United States.",
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI48824, United States.",
+        "Structural Biology and NMR Laboratory, Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, DK-2200Copenhagen, Denmark.",
+        "Molecular Medicine Program, The Hospital for Sick Children, M5G 1X8Toronto, Ontario, Canada.",
+        "Department of Biochemistry, University of Toronto, M5S 1A8Toronto, Ontario, Canada.",
+        "Laboratoire Architecture et Fonction des Macromolecules Biologiques (AFMB), UMR 7257, Aix-Marseille Universite and CNRS, 13288Marseille, France.",
+        "CNRS, LAAS, 31400Toulouse, France.",
+        "Department of Chemistry, Dartmouth College, Hanover, NH 03755, United States.",
+        "Centre de Biologie Structurale (CBS), University of Montpellier, INSERM, CNRS, 34090France.",
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR3528, Computational Structural Biology Unit, F-75015 Paris, France.",
+        "University of Montpellier, CNRS, 34090Montpellier, France.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom.",
+        "Department of Biomedical Sciences, University of Padova, 35131 Padova, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Monzon, Alexander Miguel",
+        "short_name": "Monzon AM",
+        "identifiers": [
+          "0000-0003-0362-8218"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, 35131 Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Ghafouri, Hamidreza",
+        "short_name": "Ghafouri H",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, DK-2200Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Castro, Ximena Aixa",
+        "short_name": "Castro XA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, 35131 Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Khezrian, Sina",
+        "short_name": "Khezrian S",
+        "identifiers": [
+          "0009-0002-8418-649X"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, 35131 Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Aspromonte, Maria Cristina",
+        "short_name": "Aspromonte MC",
+        "identifiers": [
+          "0000-0002-4937-6952"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, 35131 Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Singla, Kavita",
+        "short_name": "Singla K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, 35131 Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Barethiya, Shrishti",
+        "short_name": "Barethiya S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, United States."
+        ]
+      },
+      {
+        "full_name": "Bernadó, Pau",
+        "short_name": "Bernadó P",
+        "identifiers": [
+          "0000-0001-7395-5922"
+        ],
+        "affiliations": [
+          "Centre de Biologie Structurale (CBS), University of Montpellier, INSERM, CNRS, 34090France."
+        ]
+      },
+      {
+        "full_name": "Bonomi, Massimiliano",
+        "short_name": "Bonomi M",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR3528, Computational Structural Biology Unit, F-75015 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianhan",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0002-5281-1150"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, United States."
+        ]
+      },
+      {
+        "full_name": "Cordeiro, Tiago",
+        "short_name": "Cordeiro T",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Tecnologia Química e Biológica António Xavier, Universidade Nova de Lisboa, Avenida da República, 2780-157 Oeiras, Portugal."
+        ]
+      },
+      {
+        "full_name": "Cortés, Juan",
+        "short_name": "Cortés J",
+        "identifiers": [
+          "0000-0002-4660-0306"
+        ],
+        "affiliations": [
+          "Université de Toulouse, CNRS, LAAS, 31400Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "De Castro, Stefano",
+        "short_name": "De Castro S",
+        "identifiers": [],
+        "affiliations": [
+          "Pitzer Theory Center and Department of Chemistry, University of California, Berkeley, CA 94720, United States."
+        ]
+      },
+      {
+        "full_name": "Emenecker, Ryan",
+        "short_name": "Emenecker R",
+        "identifiers": [
+          "0000-0001-7055-2773"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO 63110, United States.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, United States."
+        ]
+      },
+      {
+        "full_name": "Feig, Michael",
+        "short_name": "Feig M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI48824, United States."
+        ]
+      },
+      {
+        "full_name": "Forman-Kay, Julie D",
+        "short_name": "Forman-Kay JD",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine Program, The Hospital for Sick Children, M5G 1X8Toronto, Ontario, Canada.",
+          "Department of Biochemistry, University of Toronto, M5S 1A8Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Head-Gordon, Teresa",
+        "short_name": "Head-Gordon T",
+        "identifiers": [
+          "0000-0003-0025-8987"
+        ],
+        "affiliations": [
+          "Pitzer Theory Center and Departments of Chemistry, Bioengineering, and Chemical and Biomolecular Engineering, University of California, Berkeley, CA 94720, United States."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex",
+        "short_name": "Holehouse A",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO 63110, United States.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, United States."
+        ]
+      },
+      {
+        "full_name": "Janson, Giacomo",
+        "short_name": "Janson G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI48824, United States."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [
+          "0000-0002-4750-6039"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, DK-2200Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Liu, Zi Hao",
+        "short_name": "Liu ZH",
+        "identifiers": [
+          "0000-0002-8357-8507"
+        ],
+        "affiliations": [
+          "Molecular Medicine Program, The Hospital for Sick Children, M5G 1X8Toronto, Ontario, Canada.",
+          "Department of Biochemistry, University of Toronto, M5S 1A8Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Longhi, Sonia",
+        "short_name": "Longhi S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Architecture et Fonction des Macromolécules Biologiques (AFMB), UMR 7257, Aix-Marseille Université and CNRS, 13288Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Pajkos, Matyas",
+        "short_name": "Pajkos M",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, LAAS, 31400Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Robustelli, Paul",
+        "short_name": "Robustelli P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Dartmouth College, Hanover, NH 03755, United States."
+        ]
+      },
+      {
+        "full_name": "Rodriguez, Santiago",
+        "short_name": "Rodriguez S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Biologie Structurale (CBS), University of Montpellier, INSERM, CNRS, 34090France."
+        ]
+      },
+      {
+        "full_name": "Schnapka, Vincent",
+        "short_name": "Schnapka V",
+        "identifiers": [
+          "0000-0002-3902-5462"
+        ],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR3528, Computational Structural Biology Unit, F-75015 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sibille, Nathalie",
+        "short_name": "Sibille N",
+        "identifiers": [
+          "0000-0001-8145-6795"
+        ],
+        "affiliations": [
+          "University of Montpellier, CNRS, 34090Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Vendruscolo, Michele",
+        "short_name": "Vendruscolo M",
+        "identifiers": [
+          "0000-0002-3616-1610"
+        ],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [
+          "0000-0003-4525-7793"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, 35131 Padova, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Oct 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/27 05:29",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42934172"
+    ],
+    "review": [
+      "42934172"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag1048",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

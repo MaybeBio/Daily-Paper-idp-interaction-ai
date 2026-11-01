@@ -1,0 +1,159 @@
+{
+  "identity": {
+    "pmid": "42946500",
+    "doi": "10.26508/lsa.202603860",
+    "title": "Contribution of disordered regions of the essential protein GEMIN5 to RNA binding."
+  },
+  "content": {
+    "abstract": "GEMIN5 is emerging as a multifunctional RNA-binding protein (RBP) linked to human disease. This RBP comprises a WD40 repeat domain at the N terminus. The C-terminal region (G5C) includes a tetratricopeptide repeat (TPR)-like dimerization module, a non-canonical RNA-binding site (RBS), and an intrinsically disordered region (IDR). Understanding the molecular basis for RNA binding is critical to decipher how GEMIN5 pathological variants impact on their functions. Here we show that the RNA-binding domain consists of an extended binding surface comprising a serine-rich loop and an acidic cluster within the IDR. The RNA binding ability measured in vitro and in soluble cellular extracts indicated that individually, ser-rich motif and acidic cluster mutants diminished RNA binding intensity. However, in the absence of the RBS region, the TPR-extended protein is sufficient to facilitate RNA binding. AlphaFold modeling of the TPR-extended protein shows the assembly of an elongated dimer bound to RNA. The same RBS is observed in the G5C-RNA oligomer model. We propose that the elongated dimer forms an extended binding surface, fine-tuning the RNA binding ability of the G5C architecture.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Binding",
+      "*RNA/metabolism/chemistry",
+      "Binding Sites",
+      "*RNA-Binding Proteins/metabolism/chemistry/genetics",
+      "Humans",
+      "*SMN Complex Proteins/metabolism/chemistry/genetics",
+      "Models, Molecular",
+      "Protein Domains",
+      "Amino Acid Sequence",
+      "Tetratricopeptide Repeat",
+      "Mutation",
+      "Intrinsically Disordered Proteins/metabolism/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Francisco-Velilla, Rosario",
+        "Nahavandi Araghi, Azadeh",
+        "Ramajo, Jorge",
+        "Abellan, Salvador",
+        "Martinez-Salas, Encarnacion"
+      ],
+      "short_names": [
+        "Francisco-Velilla R",
+        "Nahavandi Araghi A",
+        "Ramajo J",
+        "Abellan S",
+        "Martinez-Salas E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4328-8732",
+        "ORCID: 0009-0007-1206-2128",
+        "ORCID: 0000-0002-1454-7416",
+        "ORCID: 0000-0002-8432-5587"
+      ],
+      "affiliations": [
+        "Centro de Biologia Molecular Severo Ochoa (CBM), CSIC-UAM, Madrid, Spain. ROR: https://ror.org/03v9e8t09",
+        "Centro de Biologia Molecular Severo Ochoa (CBM), CSIC-UAM, Madrid, Spain. ROR: https://ror.org/03v9e8t09",
+        "Escuela de Doctorado, Universidad Autonoma de Madrid (UAM), Madrid, Spain.",
+        "Centro de Biologia Molecular Severo Ochoa (CBM), CSIC-UAM, Madrid, Spain. ROR: https://ror.org/03v9e8t09",
+        "Centro de Biologia Molecular Severo Ochoa (CBM), CSIC-UAM, Madrid, Spain. ROR: https://ror.org/03v9e8t09",
+        "Centro de Biologia Molecular Severo Ochoa (CBM), CSIC-UAM, Madrid, Spain emartinez@cbm.csic.es. ROR: https://ror.org/03v9e8t09"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Francisco-Velilla, Rosario",
+        "short_name": "Francisco-Velilla R",
+        "identifiers": [
+          "0000-0002-4328-8732"
+        ],
+        "affiliations": [
+          "Centro de Biología Molecular Severo Ochoa (CBM), CSIC-UAM, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Nahavandi Araghi, Azadeh",
+        "short_name": "Nahavandi Araghi A",
+        "identifiers": [
+          "0009-0007-1206-2128"
+        ],
+        "affiliations": [
+          "Centro de Biología Molecular Severo Ochoa (CBM), CSIC-UAM, Madrid, Spain.",
+          "Escuela de Doctorado, Universidad Autónoma de Madrid (UAM), Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Ramajo, Jorge",
+        "short_name": "Ramajo J",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Biología Molecular Severo Ochoa (CBM), CSIC-UAM, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Abellan, Salvador",
+        "short_name": "Abellan S",
+        "identifiers": [
+          "0000-0002-1454-7416"
+        ],
+        "affiliations": [
+          "Centro de Biología Molecular Severo Ochoa (CBM), CSIC-UAM, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Martinez-Salas, Encarnacion",
+        "short_name": "Martinez-Salas E",
+        "identifiers": [
+          "0000-0002-8432-5587"
+        ],
+        "affiliations": [
+          "Centro de Biología Molecular Severo Ochoa (CBM), CSIC-UAM, Madrid, Spain emartinez@cbm.csic.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life science alliance"
+    ],
+    "journal_abbrev": [
+      "Life Sci Alliance"
+    ],
+    "pub_date": "2027 Jan",
+    "pub_year": "2027",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/27 23:28",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42946500"
+    ],
+    "review": [
+      "42946500"
+    ],
+    "pmc": [
+      "13714362"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.26508/lsa.202603860",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42946500/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

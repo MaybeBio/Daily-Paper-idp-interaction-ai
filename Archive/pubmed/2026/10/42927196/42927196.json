@@ -1,0 +1,109 @@
+{
+  "identity": {
+    "pmid": "42927196",
+    "doi": "10.1016/j.isci.2026.117855",
+    "title": "beta motifs and molecular flux promote fibril growth at condensate interfaces."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates can age into gel-like or solid-like states, and their interfaces can promote amyloid fibril formation. Yet the physical principles selecting distinct interfacial aging pathways remain unclear. Here, we develop flux-driven molecular dynamics (FD-MD), a coarse-grained framework to disentangle the roles of rigid beta-prone motifs, hydrophobic sequence patterning and molecular deposition rate. We show that rigid motifs can sustain orientational order that converts interfacial adsorption into directional fibrillar growth, whereas flexible chains form spreading surface aggregates. Furthermore for fixed molecular architecture, changing the rate and manner of molecular delivery redirects assembly between lateral spreading, outward fibrillar growth, and bridging between opposing interfaces. Counterinutively, stronger initial drift toward the interface accelerates surface coverage but slows axial fibril elongation, consistent with competition between interfacial accumulation, orientational ordering and outward growth. Molecular architecture thus provides the capacity for directional assembly, while molecular supply selects it morphological outcome. Our findings provide a minimal physical framework for distinct condensate-aging pathwasy and suggest routes to redirect aging through molecular delivery and tuning of interfacial properties of condensates.",
+    "keywords": [
+      "amyloids",
+      "biomolecular condensates",
+      "fibrillation",
+      "flux",
+      "non-equilibrium",
+      "nucleation kinetics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Biswas, Subhadip",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Biswas S",
+        "Potoyan DA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Iowa State University, Ames, IA 50011, USA.",
+        "Institut Charles Sadron, Universite de Strasbourg & CNRS, 23 rue du Loess, 67034 Strasbourg, Cedex, France.",
+        "Department of Chemistry, Iowa State University, Ames, IA 50011, USA.",
+        "Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA 50011, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Biswas, Subhadip",
+        "short_name": "Biswas S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011, USA.",
+          "Institut Charles Sadron, Université de Strasbourg & CNRS, 23 rue du Loess, 67034 Strasbourg, Cedex, France."
+        ]
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011, USA.",
+          "Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA 50011, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2026 Nov 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/25 11:32",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42927196"
+    ],
+    "review": [
+      "42927196"
+    ],
+    "pmc": [
+      "13694882"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(26)03236-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42927196/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

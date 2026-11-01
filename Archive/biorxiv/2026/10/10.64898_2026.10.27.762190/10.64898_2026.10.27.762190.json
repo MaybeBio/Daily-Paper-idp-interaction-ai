@@ -1,0 +1,212 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.10.27.762190",
+  "title": "De novo Protein Generating Model via Structure-Aware Graph Neural Networks",
+  "doi": "10.64898/2026.10.27.762190",
+  "abstract": "The focus of this paper is to create a protein conformation prediction model that is optimized for structural accuracy rather than sequence recovery. To achieve this goal, we created a graph neural network (GNN) [19] for the design of computational proteins that integrates differentiable structure prediction through ESMFold [13] via a structural loss function, allowing direct optimization of the 3D conformational accuracy. Our model takes protein backbone coordinates as input and predicts an amino acid sequence using a composite loss that heavily weights structural similarity. On a matched evaluation sample, our model achieves structural precision (RMSD, TM-score, and GDT-TS) that is statistically indistinguishable from ProteinMPNN, a leading sequence recovery-focused method, despite training with no direct sequence recovery supervision and substantially lower native sequence recovery. Our results demonstrate that sequence recovery is not necessary to achieve competitive structural accuracy and that proteins can possess multiple non-unique solutions, suggesting that protein sequence prediction models may perform comparably well under purely structural conformation training. This distinction in training data and model structure allows for the training of a protein-generating model on non-natural proteins. Creating a model designed for de novo protein generation.",
+  "authors": [
+    "Chance M Gammill",
+    "Lakshman Tamil"
+  ],
+  "published_date": "2026-10-28",
+  "updated_date": "2026-10-29T03:40:12Z",
+  "journal": "bioRxiv",
+  "category": "Genetics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762190",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762190.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Genetics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genetics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2026-11-01T01:34:23Z",
+        "timestamp": 1793496863654,
+        "version": "4.5.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "group-title": "Genetics",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                28
+              ]
+            ],
+            "date-time": "2026-10-28T00:00:00Z",
+            "timestamp": 1793145600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Eugene McDermott Fellowship.",
+          "award": [
+            "202204"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "202204"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "abstract": "<jats:p>The focus of this paper is to create a protein conformation prediction model that is optimized for structural accuracy rather than sequence recovery. To achieve this goal, we created a graph neural network (GNN) [19] for the design of computational proteins that integrates differentiable structure prediction through ESMFold [13] via a structural loss function, allowing direct optimization of the 3D conformational accuracy. Our model takes protein backbone coordinates as input and predicts an amino acid sequence using a composite loss that heavily weights structural similarity. On a matched evaluation sample, our model achieves structural precision (RMSD, TM-score, and GDT-TS) that is statistically indistinguishable from ProteinMPNN, a leading sequence recovery-focused method, despite training with no direct sequence recovery supervision and substantially lower native sequence recovery. Our results demonstrate that sequence recovery is not necessary to achieve competitive structural accuracy and that proteins can possess multiple non-unique solutions, suggesting that protein sequence prediction models may perform comparably well under purely structural conformation training. This distinction in training data and model structure allows for the training of a protein-generating model on non-natural proteins. Creating a model designed for de novo protein generation.</jats:p>",
+      "DOI": "10.64898/2026.10.27.762190",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ],
+        "date-time": "2026-10-29T03:40:12Z",
+        "timestamp": 1793245212000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "De novo Protein Generating Model via Structure-Aware Graph Neural Networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0002-6037-7371",
+          "authenticated-orcid": false,
+          "given": "Chance M",
+          "family": "Gammill",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Texas at Dallas"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4523-9376",
+          "authenticated-orcid": false,
+          "given": "Lakshman",
+          "family": "Tamil",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Texas at Dallas"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.10.27.762190",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ],
+        "date-time": "2026-10-29T03:40:12Z",
+        "timestamp": 1793245212000
+      },
+      "score": 60.48965,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.10.27.762190"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.64898/2026.10.27.762190",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

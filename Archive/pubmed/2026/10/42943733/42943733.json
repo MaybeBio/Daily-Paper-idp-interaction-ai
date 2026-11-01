@@ -1,0 +1,175 @@
+{
+  "identity": {
+    "pmid": "42943733",
+    "doi": "10.3390/molecules31203662",
+    "title": "The Disordome Paradigm: How Intrinsic Disorder Encodes Emergent Biological Function."
+  },
+  "content": {
+    "abstract": "Classical structural biology equates function with a fixed three-dimensional fold, a view challenged by intrinsically disordered proteins (IDPs) and regions (IDRs), which populate broad conformational ensembles rather than a unique structure. This article introduces the \"disordome\" paradigm, extending Uversky's \"unfoldome\" to describe how function emerges from electrostatic and hydration landscapes that reshape reversibly upon encounter with a partner. Using alpha-synuclein binding to ganglioside-enriched rafts and IDR-driven liquid-liquid phase separation, we argue that transient folding-upon-binding events, potentially entropically cheap, generate information-rich complexes and condensates that dissolve once conditions change, consistent with the second law of thermodynamics. We trace this logic to overlooked precursors: in 1957 Klotz invoked rubber elasticity to introduce entropy as the driver of protein \"disorientation\", while in 1962 Bernal described such proteins as chains \"coiled in different ways\" and formulated a \"two-atom rule\" whereby bonding constraints fix atomic geometry only up to two atoms apart. We argue that the local under-determination described by this two-atom rule, left unresolved in IDPs by any conserved network of contacts, helps explain why AlphaFold fails on IDPs. A quantum-mechanical pillar (dispersion, OH-pi contacts, tunneling) is proposed as underrepresented in IDP research. We discuss implications for the origin of life, cellular regulation via condensates, and a therapeutic logic (\"target the target, not the arrow\") illustrated by AmyP53, which occupies raft gangliosides rather than disordered amyloid proteins in Alzheimer's and Parkinson's diseases.",
+    "keywords": [
+      "Alzheimer",
+      "Parkinson",
+      "disordome",
+      "electrostatic potential",
+      "gangliosides",
+      "intrinsically disordered proteins",
+      "protein folding",
+      "proteome",
+      "quantum mechanisms",
+      "unfoldome"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Humans",
+      "alpha-Synuclein/chemistry/metabolism",
+      "Protein Folding",
+      "Thermodynamics",
+      "Protein Conformation",
+      "Protein Binding",
+      "Static Electricity",
+      "Gangliosides/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fantini, Jacques",
+        "Lefebvre, Marine",
+        "Aulas, Anais",
+        "Chahinian, Henri",
+        "Yahi, Nouara"
+      ],
+      "short_names": [
+        "Fantini J",
+        "Lefebvre M",
+        "Aulas A",
+        "Chahinian H",
+        "Yahi N"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8653-5521",
+        "ORCID: 0000-0002-9516-4168"
+      ],
+      "affiliations": [
+        "Unite de Recherche Microbes Evolution Phylogeny and Infections (MEPHI), IHU Mediterranee Infection, Aix-Marseille University (AMU), 13005 Marseille, France.",
+        "AmyPore, 13240 Septemes-les-Vallons, France.",
+        "AmyPore, 13240 Septemes-les-Vallons, France.",
+        "Unite de Recherche Microbes Evolution Phylogeny and Infections (MEPHI), IHU Mediterranee Infection, Aix-Marseille University (AMU), 13005 Marseille, France.",
+        "Unite de Recherche Microbes Evolution Phylogeny and Infections (MEPHI), IHU Mediterranee Infection, Aix-Marseille University (AMU), 13005 Marseille, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fantini, Jacques",
+        "short_name": "Fantini J",
+        "identifiers": [
+          "0000-0001-8653-5521"
+        ],
+        "affiliations": [
+          "Unité de Recherche Microbes Evolution Phylogeny and Infections (MEPHI), IHU Méditerranée Infection, Aix-Marseille University (AMU), 13005 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Lefebvre, Marine",
+        "short_name": "Lefebvre M",
+        "identifiers": [],
+        "affiliations": [
+          "AmyPore, 13240 Septèmes-les-Vallons, France."
+        ]
+      },
+      {
+        "full_name": "Aulas, Anaïs",
+        "short_name": "Aulas A",
+        "identifiers": [],
+        "affiliations": [
+          "AmyPore, 13240 Septèmes-les-Vallons, France."
+        ]
+      },
+      {
+        "full_name": "Chahinian, Henri",
+        "short_name": "Chahinian H",
+        "identifiers": [
+          "0000-0002-9516-4168"
+        ],
+        "affiliations": [
+          "Unité de Recherche Microbes Evolution Phylogeny and Infections (MEPHI), IHU Méditerranée Infection, Aix-Marseille University (AMU), 13005 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Yahi, Nouara",
+        "short_name": "Yahi N",
+        "identifiers": [],
+        "affiliations": [
+          "Unité de Recherche Microbes Evolution Phylogeny and Infections (MEPHI), IHU Méditerranée Infection, Aix-Marseille University (AMU), 13005 Marseille, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2026 Oct 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/10/27 11:32",
+    "fetched_at": "2026-11-01 08:54:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42943733"
+    ],
+    "review": [
+      "42943733"
+    ],
+    "pmc": [
+      "13707594"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules31203662",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42943733/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}
