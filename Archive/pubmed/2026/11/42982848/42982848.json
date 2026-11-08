@@ -1,0 +1,215 @@
+{
+  "identity": {
+    "pmid": "42982848",
+    "doi": "10.1038/s41467-026-77818-0",
+    "title": "Spatial control of karyopherin binding avidity within NPC mimics revealed by designer FG-nucleoporins."
+  },
+  "content": {
+    "abstract": "Nucleocytoplasmic transport occurs via nuclear pore complexes (NPCs), ~40-60 nm wide pores lined with intrinsically disordered proteins that are rich in Phe-Gly motifs (FG-Nups) that form a selective barrier. Molecules larger than ~50 kDa are increasingly blocked for transport unless they are bound to a nuclear transport receptor such as the karyopherin (Kap) family of proteins. How the amino acid sequence of FG-Nups contributes to this selectivity is not fully understood. Here, we present de novo designed artificial FG-Nups with a systematically varied FG-repeat spacing and charge-to-hydrophobicity ratio (C/H). Starting from a reference sequence termed NupY (with the average properties of yeast GLFG-Nups), we design, synthesize, and experimentally test a library of NupY variants using quartz crystal microbalance with dissipation monitoring and phase separation assays. We find that the spacing between FG-motifs governs Kap95 absorption into the FG-Nup phase, while increasing C/H results in higher avidity for Kap95 due to an increased accessibility of FG-motifs. Molecular dynamics simulations of transport through NupY-coated pores show a reduced barrier function for noncohesive variants and the highest transport selectivity for designs close to native GLFG-Nups. We postulate that a balance between steric hindrance and enthalpic gain from multivalent Kap-FG-Nup interactions drives the spatial and temporal partitioning of Kaps in the NPC.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nuclear Pore Complex Proteins/metabolism/chemistry/genetics",
+      "*Nuclear Pore/metabolism/chemistry",
+      "*Karyopherins/metabolism/chemistry",
+      "Active Transport, Cell Nucleus",
+      "Protein Binding",
+      "Saccharomyces cerevisiae/metabolism",
+      "Saccharomyces cerevisiae Proteins/metabolism/chemistry/genetics",
+      "Amino Acid Motifs",
+      "Amino Acid Sequence",
+      "Hydrophobic and Hydrophilic Interactions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "de Vries, Hendrik W",
+        "Barth, Anders",
+        "Fragasso, Alessio",
+        "Otto, Tegan A",
+        "van den Berg, Ashmiani",
+        "van der Sluis, Eli O",
+        "van der Giessen, Erik",
+        "Veenhoff, Liesbeth M",
+        "Dekker, Cees",
+        "Onck, Patrick R"
+      ],
+      "short_names": [
+        "de Vries HW",
+        "Barth A",
+        "Fragasso A",
+        "Otto TA",
+        "van den Berg A",
+        "van der Sluis EO",
+        "van der Giessen E",
+        "Veenhoff LM",
+        "Dekker C",
+        "Onck PR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9307-9015",
+        "ORCID: 0000-0003-3671-3072",
+        "ORCID: 0000-0001-8366-2998",
+        "ORCID: 0000-0002-3490-1136",
+        "ORCID: 0000-0002-8369-2254",
+        "ORCID: 0000-0002-0158-4728",
+        "ORCID: 0000-0001-6273-071X",
+        "ORCID: 0000-0001-5632-9727"
+      ],
+      "affiliations": [
+        "Zernike Institute for Advanced Materials, University of Groningen, Nijenborgh 3, 9474AG, Groningen, The Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, van der Maasweg 9, 2629HZ, Delft, The Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, van der Maasweg 9, 2629HZ, Delft, The Netherlands.",
+        "European Research Institute for the Biology of Ageing, University of Groningen, University Medical Center Groningen, Hanzeplein 1, 9713GZ, Groningen, The Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, van der Maasweg 9, 2629HZ, Delft, The Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, van der Maasweg 9, 2629HZ, Delft, The Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Nijenborgh 3, 9474AG, Groningen, The Netherlands.",
+        "European Research Institute for the Biology of Ageing, University of Groningen, University Medical Center Groningen, Hanzeplein 1, 9713GZ, Groningen, The Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, van der Maasweg 9, 2629HZ, Delft, The Netherlands. c.dekker@tudelft.nl.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Nijenborgh 3, 9474AG, Groningen, The Netherlands. p.r.onck@rug.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "de Vries, Hendrik W",
+        "short_name": "de Vries HW",
+        "identifiers": [
+          "0000-0002-9307-9015"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Nijenborgh 3, 9474AG, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Barth, Anders",
+        "short_name": "Barth A",
+        "identifiers": [
+          "0000-0003-3671-3072"
+        ],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, van der Maasweg 9, 2629HZ, Delft, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Fragasso, Alessio",
+        "short_name": "Fragasso A",
+        "identifiers": [
+          "0000-0001-8366-2998"
+        ],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, van der Maasweg 9, 2629HZ, Delft, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Otto, Tegan A",
+        "short_name": "Otto TA",
+        "identifiers": [
+          "0000-0002-3490-1136"
+        ],
+        "affiliations": [
+          "European Research Institute for the Biology of Ageing, University of Groningen, University Medical Center Groningen, Hanzeplein 1, 9713GZ, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "van den Berg, Ashmiani",
+        "short_name": "van den Berg A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, van der Maasweg 9, 2629HZ, Delft, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "van der Sluis, Eli O",
+        "short_name": "van der Sluis EO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, van der Maasweg 9, 2629HZ, Delft, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "van der Giessen, Erik",
+        "short_name": "van der Giessen E",
+        "identifiers": [
+          "0000-0002-8369-2254"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Nijenborgh 3, 9474AG, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Veenhoff, Liesbeth M",
+        "short_name": "Veenhoff LM",
+        "identifiers": [
+          "0000-0002-0158-4728"
+        ],
+        "affiliations": [
+          "European Research Institute for the Biology of Ageing, University of Groningen, University Medical Center Groningen, Hanzeplein 1, 9713GZ, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Dekker, Cees",
+        "short_name": "Dekker C",
+        "identifiers": [
+          "0000-0001-6273-071X"
+        ],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, van der Maasweg 9, 2629HZ, Delft, The Netherlands. c.dekker@tudelft.nl."
+        ]
+      },
+      {
+        "full_name": "Onck, Patrick R",
+        "short_name": "Onck PR",
+        "identifiers": [
+          "0000-0001-5632-9727"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Nijenborgh 3, 9474AG, Groningen, The Netherlands. p.r.onck@rug.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Sep 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/05 10:52",
+    "fetched_at": "2026-11-08 08:44:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42982848"
+    ],
+    "review": [
+      "42982848"
+    ],
+    "pmc": [
+      "13737079"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-77818-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

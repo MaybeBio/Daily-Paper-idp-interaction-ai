@@ -1,0 +1,173 @@
+{
+  "identity": {
+    "pmid": "42988912",
+    "doi": "10.1038/s41477-026-02444-z",
+    "title": "TSL-phosphorylated SGS3 shifts RDR6 from terminal nucleotidyltransferase to polymerase activity to promote RNAi and immunity."
+  },
+  "content": {
+    "abstract": "RNA-dependent RNA polymerase 6 (RDR6) and suppressor of gene silencing 3 (SGS3) form small interfering RNA (siRNA) bodies to synthesize double-stranded RNA, triggering RNA interference. Like viral RDRs, RDR6 not only has polymerase action but also has terminal nucleotidyltransferase activity that tails single-stranded RNA templates, causing their degradation. How the dual activities are controlled is unknown. Here we discovered that Arabidopsis Tousled (TSL) predominantly phosphorylates Ser65 and Ser68, located in the intrinsically disordered region of SGS3, to promote RNA interference. SGS3 phosphomimics trigger the formation of liquid-like siRNA bodies but have lower RNA-binding affinity, thereby enhancing RDR6 polymerase activity to synthesize double-stranded RNA for downstream processing by Dicer-like 2/4. Conversely, hypo-phosphorylated SGS3 forms larger and solid-like aggregates that hold RNA templates with stronger affinity, thereby prompting RDR6 terminal nucleotidyltransferase activity. Moreover, viral infection drives SGS3 hypo-phosphorylation and aggregation, suppressing viral siRNA production and host defence. Collectively, stoichiometric phosphorylation of SGS3 switches two distinct activities of RDR6 to tune RNA silencing and host anti-viral immunity.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Niankui",
+        "Athukorala, Kisalka",
+        "Oh, Tae Rin",
+        "Li, Changhao",
+        "Zhong, Songxiao",
+        "Yang, Yizhou",
+        "Choi, Suk Won",
+        "Peng, Xu",
+        "Zhang, Xiuren"
+      ],
+      "short_names": [
+        "Li N",
+        "Athukorala K",
+        "Oh TR",
+        "Li C",
+        "Zhong S",
+        "Yang Y",
+        "Choi SW",
+        "Peng X",
+        "Zhang X"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-4549-8322",
+        "ORCID: 0000-0001-8982-2999"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX, USA.",
+        "Molecular and Environmental Plant Sciences, Texas A&M University, College Station, TX, USA.",
+        "Department of Biology, Texas A&M University, College Station, TX, USA.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX, USA.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX, USA.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX, USA.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX, USA.",
+        "Department of Medical Physiology, College of Medicine, Texas A&M University, College Station, TX, USA.",
+        "Department of Medical Physiology, College of Medicine, Texas A&M University, College Station, TX, USA.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX, USA. xiuren.zhang@suat-sz.edu.cn.",
+        "Faculty of Synthetic Biology, Shenzhen University of Advanced Technology, Shenzhen, China. xiuren.zhang@suat-sz.edu.cn.",
+        "Institute of Emerging Agricultural Technology, Shenzhen University of Advanced Technology, Shenzhen, China. xiuren.zhang@suat-sz.edu.cn.",
+        "Institute of Synthetic Biomedicine and Advanced Therapeutics, Shenzhen University of Advanced Technology, Shenzhen, China. xiuren.zhang@suat-sz.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Niankui",
+        "short_name": "Li N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX, USA.",
+          "Molecular and Environmental Plant Sciences, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Athukorala, Kisalka",
+        "short_name": "Athukorala K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Oh, Tae Rin",
+        "short_name": "Oh TR",
+        "identifiers": [
+          "0009-0000-4549-8322"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Changhao",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Zhong, Songxiao",
+        "short_name": "Zhong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Yizhou",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Choi, Suk Won",
+        "short_name": "Choi SW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Physiology, College of Medicine, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Peng, Xu",
+        "short_name": "Peng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Physiology, College of Medicine, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiuren",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0001-8982-2999"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX, USA. xiuren.zhang@suat-sz.edu.cn.",
+          "Faculty of Synthetic Biology, Shenzhen University of Advanced Technology, Shenzhen, China. xiuren.zhang@suat-sz.edu.cn.",
+          "Institute of Emerging Agricultural Technology, Shenzhen University of Advanced Technology, Shenzhen, China. xiuren.zhang@suat-sz.edu.cn.",
+          "Institute of Synthetic Biomedicine and Advanced Therapeutics, Shenzhen University of Advanced Technology, Shenzhen, China. xiuren.zhang@suat-sz.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature plants"
+    ],
+    "journal_abbrev": [
+      "Nat Plants"
+    ],
+    "pub_date": "2026 Nov 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/06 07:12",
+    "fetched_at": "2026-11-08 08:44:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42988912"
+    ],
+    "review": [
+      "42988912"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

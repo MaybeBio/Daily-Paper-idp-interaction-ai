@@ -1,0 +1,162 @@
+{
+  "identity": {
+    "pmid": "42981135",
+    "doi": "10.1063/5.0354083",
+    "title": "Cancer-associated histone tail mutations reshape conformational ensembles and DNA-contact states in nucleosomes."
+  },
+  "content": {
+    "abstract": "Cancer-associated histone mutations can perturb chromatin regulation, yet how many noncanonical mutations in intrinsically disordered histone tails alter nucleosome dynamics remains poorly understood. Here, we combine pan-cancer histone mutation profiling with 31.5 mus of all-atom molecular dynamics simulations of complete nucleosomes to investigate recurrent mutations in the H2A, H2B, H3, and H4 tails. We identify recurrent and understudied mutation sites beyond canonical H3 oncohistones and characterize how selected substitutions perturb histone-tail conformational ensembles and DNA contacts in their nucleosomal context. The simulations reveal mutation-specific redistribution of tail-DNA contacts across the nucleosomal DNA surface, accompanied by changes in MM/GBSA-derived relative interaction-energy estimates. For selected systems, Markov state modeling further resolves metastable tail-DNA contact states and shows that mutations alter their structural characteristics and population distributions. These perturbations are not confined to the substituted residues but extend to neighboring interaction networks. Together, our results provide a molecular-level physical picture of how cancer-associated histone-tail mutations reshape conformational and interaction-state landscapes in nucleosomes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nucleosomes/chemistry/genetics/metabolism",
+      "*Histones/genetics/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Mutation",
+      "*DNA/chemistry/genetics",
+      "*Neoplasms/genetics",
+      "Humans",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Liujin",
+        "Zhang, Houfang",
+        "Yuan, Xupeng",
+        "Mai, Meiru",
+        "Zhao, Yunjie",
+        "Peng, Yunhui"
+      ],
+      "short_names": [
+        "Wang L",
+        "Zhang H",
+        "Yuan X",
+        "Mai M",
+        "Zhao Y",
+        "Peng Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-9136-1323",
+        "ORCID: 0009-0004-3308-5933",
+        "ORCID: 0000-0002-5256-9456",
+        "ORCID: 0000-0001-9768-4127"
+      ],
+      "affiliations": [
+        "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China.",
+        "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China.",
+        "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China.",
+        "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China.",
+        "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China.",
+        "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Liujin",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0009-0005-9136-1323"
+        ],
+        "affiliations": [
+          "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Houfang",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0009-0004-3308-5933"
+        ],
+        "affiliations": [
+          "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Xupeng",
+        "short_name": "Yuan X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China."
+        ]
+      },
+      {
+        "full_name": "Mai, Meiru",
+        "short_name": "Mai M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yunjie",
+        "short_name": "Zhao Y",
+        "identifiers": [
+          "0000-0002-5256-9456"
+        ],
+        "affiliations": [
+          "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yunhui",
+        "short_name": "Peng Y",
+        "identifiers": [
+          "0000-0001-9768-4127"
+        ],
+        "affiliations": [
+          "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2026 Nov 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/04 17:31",
+    "fetched_at": "2026-11-08 08:44:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42981135"
+    ],
+    "review": [
+      "42981135"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0354083",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

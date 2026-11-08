@@ -1,0 +1,119 @@
+{
+  "identity": {
+    "pmid": "42968559",
+    "doi": "10.1080/17576180.2026.2758030",
+    "title": "Switchable hydrophilicity solvents and biosolvents for green microextraction in bioanalysis."
+  },
+  "content": {
+    "abstract": "Sample preparation is critical in bioanalysis because of complex biological matrices and low analyte concentrations. Conventional liquid-liquid and solid-phase extraction are effective but often consume substantial organic solvents and resources. Green analytical chemistry has therefore promoted miniaturized microextraction approaches that reduce solvent use and waste while maintaining analytical performance. This review critically examines bioanalytical microextraction through two intersecting solvent-design perspectives: stimulus-responsive switchability and renewable/bio-derived solvent design, focusing on switchable-hydrophilicity solvents (SHSs) and bio-derived deep eutectic solvents (DESs)/natural deep eutectic solvents (NADESs). SHSs enable reversible changes in hydrophilicity or ionic character to facilitate extraction and phase separation, whereas bio-derived DES/NADES systems provide tunable alternatives to conventional petroleum-based solvents. Their analytical performance, matrix-related challenges, reproducibility, and greenness are critically assessed. Future developments are expected to emphasize automated and miniaturized platforms, life-cycle assessment, and computationally assisted solvent design. Although molecular simulations are increasingly used to support solvent selection, predictive COSMO-RS and artificial-intelligence approaches remain emerging directions in bioanalysis.",
+    "keywords": [
+      "Green analytical chemistry",
+      "bioanalysis",
+      "liquid-phase microextraction",
+      "microextraction",
+      "switchable-hydrophilicity"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nisyriou, Styliani",
+        "Ntorkou, Marianna",
+        "Patakidou, Christina",
+        "Zacharis, Constantinos K"
+      ],
+      "short_names": [
+        "Nisyriou S",
+        "Ntorkou M",
+        "Patakidou C",
+        "Zacharis CK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Pharmaceutical Analysis, Department of Pharmacy, Aristotle University of Thessaloniki, Thessaloniki, Greece.",
+        "Laboratory of Pharmaceutical Analysis, Department of Pharmacy, Aristotle University of Thessaloniki, Thessaloniki, Greece.",
+        "Laboratory of Pharmaceutical Analysis, Department of Pharmacy, Aristotle University of Thessaloniki, Thessaloniki, Greece.",
+        "Laboratory of Pharmaceutical Analysis, Department of Pharmacy, Aristotle University of Thessaloniki, Thessaloniki, Greece."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nisyriou, Styliani",
+        "short_name": "Nisyriou S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Pharmaceutical Analysis, Department of Pharmacy, Aristotle University of Thessaloniki, Thessaloniki, Greece."
+        ]
+      },
+      {
+        "full_name": "Ntorkou, Marianna",
+        "short_name": "Ntorkou M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Pharmaceutical Analysis, Department of Pharmacy, Aristotle University of Thessaloniki, Thessaloniki, Greece."
+        ]
+      },
+      {
+        "full_name": "Patakidou, Christina",
+        "short_name": "Patakidou C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Pharmaceutical Analysis, Department of Pharmacy, Aristotle University of Thessaloniki, Thessaloniki, Greece."
+        ]
+      },
+      {
+        "full_name": "Zacharis, Constantinos K",
+        "short_name": "Zacharis CK",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Pharmaceutical Analysis, Department of Pharmacy, Aristotle University of Thessaloniki, Thessaloniki, Greece."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioanalysis"
+    ],
+    "journal_abbrev": [
+      "Bioanalysis"
+    ],
+    "pub_date": "2026 Nov 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/02 05:29",
+    "fetched_at": "2026-11-08 08:44:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42968559"
+    ],
+    "review": [
+      "42968559"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/17576180.2026.2758030?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

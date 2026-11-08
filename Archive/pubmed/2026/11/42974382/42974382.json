@@ -1,0 +1,154 @@
+{
+  "identity": {
+    "pmid": "42974382",
+    "doi": "10.1039/d6sc03816f",
+    "title": "A compact generative language model learns the compositional grammar of phase-separating proteins."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) of intrinsically disordered proteins drives the formation of biomolecular condensates, yet the sequence-level grammar that promotes condensation remains difficult to specify from first principles. Existing protein language models are typically trained on large, folded-protein-rich sequence corpora and may not optimally capture the compositional biases of LLPS-prone disordered proteins. Here, we show that a compact generative language model, with an architecture and size ( approximately 17 M parameters) selected via systematic hyperparameter optimization and cross-validation, trained from scratch on a small set of phase-separating protein sequences, can learn sequence features associated with condensate formation. The model generates thousands of sequences that reproduce length-dependent trends in disorder, charge decoration, hydropathy patterning, and sequence entropy, with training and generative behavior stable across independent seeds. Homology analysis indicates that generated sequences are not full-length copies of known proteins, but instead combine short segments matching natural proteins with a novel, model-generated sequence. Descriptor-based screening of short generated sequences yielded a pool of disordered candidates, from which five synthetically feasible peptides were selected for experimental testing. Four of them show condensate-like signatures under near-physiological conditions, including droplet-like assemblies and increased turbidity. Coarse-grained phase-coexistence simulations of a subset of generated sequences with longer lengths show a broad range of phase-separation tendencies, with 12 of 89 sequences comparable to the strongly phase-separating hnRNPA1 low-complexity domain. These results suggest that compact, task-specific generative models can learn information-rich sequence grammars from small curated datasets and propose experimentally testable condensate-forming peptides.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wasim, Abdul",
+        "Pramanik, Ushasi",
+        "Das, Anirban",
+        "Latua, Pikaso",
+        "Rudra, Jai S",
+        "Mondal, Jagannath"
+      ],
+      "short_names": [
+        "Wasim A",
+        "Pramanik U",
+        "Das A",
+        "Latua P",
+        "Rudra JS",
+        "Mondal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2592-4862",
+        "ORCID: 0000-0002-7837-4980",
+        "ORCID: 0000-0003-1090-5199"
+      ],
+      "affiliations": [
+        "Tata Institute of Fundamental Research Hyderabad Telangana India wabdul@tifrh.res.in jmondal@tifrh.res.in.",
+        "Department of Biomedical Engineering, McKelvey School of Engineering, Washington University in St. Louis Missouri 63130 USA srudra22@wustl.edu.",
+        "Department of Biomedical Engineering, McKelvey School of Engineering, Washington University in St. Louis Missouri 63130 USA srudra22@wustl.edu.",
+        "Department of Chemistry, Washington University in St. Louis Missouri 63130 USA.",
+        "Tata Institute of Fundamental Research Hyderabad Telangana India wabdul@tifrh.res.in jmondal@tifrh.res.in.",
+        "Department of Biomedical Engineering, McKelvey School of Engineering, Washington University in St. Louis Missouri 63130 USA srudra22@wustl.edu.",
+        "Tata Institute of Fundamental Research Hyderabad Telangana India wabdul@tifrh.res.in jmondal@tifrh.res.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wasim, Abdul",
+        "short_name": "Wasim A",
+        "identifiers": [
+          "0000-0002-2592-4862"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad Telangana India wabdul@tifrh.res.in jmondal@tifrh.res.in."
+        ]
+      },
+      {
+        "full_name": "Pramanik, Ushasi",
+        "short_name": "Pramanik U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, McKelvey School of Engineering, Washington University in St. Louis Missouri 63130 USA srudra22@wustl.edu."
+        ]
+      },
+      {
+        "full_name": "Das, Anirban",
+        "short_name": "Das A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, McKelvey School of Engineering, Washington University in St. Louis Missouri 63130 USA srudra22@wustl.edu.",
+          "Department of Chemistry, Washington University in St. Louis Missouri 63130 USA."
+        ]
+      },
+      {
+        "full_name": "Latua, Pikaso",
+        "short_name": "Latua P",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad Telangana India wabdul@tifrh.res.in jmondal@tifrh.res.in."
+        ]
+      },
+      {
+        "full_name": "Rudra, Jai S",
+        "short_name": "Rudra JS",
+        "identifiers": [
+          "0000-0002-7837-4980"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, McKelvey School of Engineering, Washington University in St. Louis Missouri 63130 USA srudra22@wustl.edu."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [
+          "0000-0003-1090-5199"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad Telangana India wabdul@tifrh.res.in jmondal@tifrh.res.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2026 Oct 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/03 12:05",
+    "fetched_at": "2026-11-08 08:44:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42974382"
+    ],
+    "review": [
+      "42974382"
+    ],
+    "pmc": [
+      "13726131"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42974382/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d6sc03816f",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

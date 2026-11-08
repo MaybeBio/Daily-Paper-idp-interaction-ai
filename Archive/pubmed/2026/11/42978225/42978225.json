@@ -1,0 +1,111 @@
+{
+  "identity": {
+    "pmid": "42978225",
+    "doi": "10.1016/j.bpj.2026.10.030",
+    "title": "Molecular Grammar of Microtubule-Wetting Condensates."
+  },
+  "content": {
+    "abstract": "Microtubule-condensate interactions regulate cytoskeletal dynamics involved in cell division, vesicle transport and cellular locomotion. Due to the size of microtubules and the slow timescale of condensate structural relaxation, there has not been a systematic investigation at the molecular level as to what binding patterns (molecular grammar) enable condensate binding to microtubules. We provide a simulation protocol that is able to predict whether any given disordered protein sequence will bind to microtubules. This simulation setup is suitable for compound testing. Our pattern analysis allows us to establish two categories of strongly interacting subsequences that enable binding to microtubules: positively charged hydrophobic clusters and alternating charge sequences. Their overall optimal balance is analyzed and preferential regions of interaction on microtubules are identified and validated with known experimental results.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Muthachikavil, Aswin Vinod",
+        "Allolio, Christoph",
+        "Seal, Ayush",
+        "Kuhne, Thomas D"
+      ],
+      "short_names": [
+        "Muthachikavil AV",
+        "Allolio C",
+        "Seal A",
+        "Kuhne TD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Advanced Systems Understanding, Helmholtz-Zentrum, Dresden-Rosendorf, Conrad-Schiedt-Strasse 20, Gorlitz, 02826, Saxony, Germany; Department of Chemical Engineering, Birla Institute of Technology and Science Pilani, Hyderabad Campus, Jawahar Nagar, Medchal, Hyderabad 500078, India.",
+        "Center for Advanced Systems Understanding, Helmholtz-Zentrum, Dresden-Rosendorf, Conrad-Schiedt-Strasse 20, Gorlitz, 02826, Saxony, Germany; Faculty of Mathematics and Physics, Charles University, Ke Karlovu 3, Praha, 12116, Czech Republic. Electronic address: c.allolio@hzdr.de.",
+        "Center for Advanced Systems Understanding, Helmholtz-Zentrum, Dresden-Rosendorf, Conrad-Schiedt-Strasse 20, Gorlitz, 02826, Saxony, Germany; Institute of Artificial Intelligence, Technische Universitat Dresden, Helmholtzstrasse 10, Dresden, 01069, Germany.",
+        "Center for Advanced Systems Understanding, Helmholtz-Zentrum, Dresden-Rosendorf, Conrad-Schiedt-Strasse 20, Gorlitz, 02826, Saxony, Germany; Institute of Artificial Intelligence, Technische Universitat Dresden, Helmholtzstrasse 10, Dresden, 01069, Germany; Cluster of Excellence \"Physics of Life\", Technische Universitat Dresden, Arnoldstrasse 18, Dresden, 01307, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Muthachikavil, Aswin Vinod",
+        "short_name": "Muthachikavil AV",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Advanced Systems Understanding, Helmholtz-Zentrum, Dresden-Rosendorf, Conrad-Schiedt-Straße 20, Görlitz, 02826, Saxony, Germany; Department of Chemical Engineering, Birla Institute of Technology and Science Pilani, Hyderabad Campus, Jawahar Nagar, Medchal, Hyderabad 500078, India."
+        ]
+      },
+      {
+        "full_name": "Allolio, Christoph",
+        "short_name": "Allolio C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Advanced Systems Understanding, Helmholtz-Zentrum, Dresden-Rosendorf, Conrad-Schiedt-Straße 20, Görlitz, 02826, Saxony, Germany; Faculty of Mathematics and Physics, Charles University, Ke Karlovu 3, Praha, 12116, Czech Republic. Electronic address: c.allolio@hzdr.de."
+        ]
+      },
+      {
+        "full_name": "Seal, Ayush",
+        "short_name": "Seal A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Advanced Systems Understanding, Helmholtz-Zentrum, Dresden-Rosendorf, Conrad-Schiedt-Straße 20, Görlitz, 02826, Saxony, Germany; Institute of Artificial Intelligence, Technische Universität Dresden, Helmholtzstraße 10, Dresden, 01069, Germany."
+        ]
+      },
+      {
+        "full_name": "Kühne, Thomas D",
+        "short_name": "Kühne TD",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Advanced Systems Understanding, Helmholtz-Zentrum, Dresden-Rosendorf, Conrad-Schiedt-Straße 20, Görlitz, 02826, Saxony, Germany; Institute of Artificial Intelligence, Technische Universität Dresden, Helmholtzstraße 10, Dresden, 01069, Germany; Cluster of Excellence \"Physics of Life\", Technische Universität Dresden, Arnoldstraße 18, Dresden, 01307, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Nov 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/04 05:31",
+    "fetched_at": "2026-11-08 08:44:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42978225"
+    ],
+    "review": [
+      "42978225"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(26)00747-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

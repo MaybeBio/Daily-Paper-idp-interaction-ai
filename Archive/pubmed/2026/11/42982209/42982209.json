@@ -1,0 +1,194 @@
+{
+  "identity": {
+    "pmid": "42982209",
+    "doi": "10.1016/j.phrs.2026.109723",
+    "title": "Targeting P23 by PM534 suppresses glioblastoma via disruption of SFPQ-mediated phase separation."
+  },
+  "content": {
+    "abstract": "Glioblastoma (GBM) is one of the most lethal human malignancies, with a five-year survival rate of approximately 5% and limited effective therapeutic options beyond standard-of-care regimens, underscoring an urgent need for novel therapeutic agents and druggable targets. Here, we report that PM534, a marine sponge-derived synthetic compound, potently suppresses GBM malignancy in orthotopic patient-derived xenograft (PDX) models and in vitro, with IC(50) value of 1.86 nM in patient-derived GBM#P3 cells. Target identification via activity-based protein profiling (ABPP) revealed P23, a co-chaperone of HSP90, as the direct molecular target of PM534. Subsequent LC-MS/MS analysis, molecular dynamics simulation, and site-directed mutagenesis collectively demonstrated that PM534 covalently bond P23 at Cys58 and Cys75. P23 demonstrated significant upregulation in human GBM tissues and orthotopic PDX models, correlating with tumor progression. Mechanistic studies exhibited that P23 interacted with splicing factor proline- and glutamine-rich protein (SFPQ) to regulate liquid-liquid phase separation (LLPS). Covalent engagement of P23 by PM534 disrupted the interaction of SFPQ with the HSP90/P23 complex, thereby triggering proteasomal degradation of SFPQ and consequently abrogating SFPQ-driven LLPS and oncogenic condensate formation. These findings establish PM534 as a promising drug candidate for clinical GBM therapy and highlight P23 as a therapeutic target in GBM.",
+    "keywords": [
+      "Glioblastoma",
+      "Liquid-liquid phase separation",
+      "P23",
+      "PM534",
+      "SFPQ"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Xuxiu",
+        "Wang, Hui",
+        "Zhang, Aotong",
+        "Zhang, Qun",
+        "Cao, Qun",
+        "Hou, Chuanke",
+        "Li, Zhuo",
+        "Guo, Chenghui",
+        "Li, Ping",
+        "Fu, Yitong",
+        "Chen, Anjing"
+      ],
+      "short_names": [
+        "Lu X",
+        "Wang H",
+        "Zhang A",
+        "Zhang Q",
+        "Cao Q",
+        "Hou C",
+        "Li Z",
+        "Guo C",
+        "Li P",
+        "Fu Y",
+        "Chen A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Department of Medicine and Pharmacy and Department of Infectious Disease, Rizhao People's Hospital, Rizhao, Shandong 276800, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China.",
+        "Department of Medicine and Pharmacy and Department of Infectious Disease, Rizhao People's Hospital, Rizhao, Shandong 276800, China.",
+        "School of Integrative Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China.",
+        "Key Laboratory of Marine Drugs, Ministry of Education, School of Medicine and Pharmacy, Ocean University of China, Qingdao 266003, China.",
+        "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China.",
+        "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China.",
+        "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China.",
+        "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China.",
+        "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China.",
+        "Department of Medicine and Pharmacy and Department of Infectious Disease, Rizhao People's Hospital, Rizhao, Shandong 276800, China.",
+        "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China. Electronic address: chenaj@sdu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Xuxiu",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Department of Medicine and Pharmacy and Department of Infectious Disease, Rizhao People's Hospital, Rizhao, Shandong 276800, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hui",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and Pharmacy and Department of Infectious Disease, Rizhao People's Hospital, Rizhao, Shandong 276800, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Aotong",
+        "short_name": "Zhang A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrative Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qun",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Marine Drugs, Ministry of Education, School of Medicine and Pharmacy, Ocean University of China, Qingdao 266003, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Qun",
+        "short_name": "Cao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Chuanke",
+        "short_name": "Hou C",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhuo",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Chenghui",
+        "short_name": "Guo C",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ping",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yitong",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and Pharmacy and Department of Infectious Disease, Rizhao People's Hospital, Rizhao, Shandong 276800, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Anjing",
+        "short_name": "Chen A",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Key Laboratory of Brain Health and Function Remodeling, Department of Neurosurgery, Qilu Hospital of Shandong University, Jinan, Shandong 250012, China; Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong 250012, China. Electronic address: chenaj@sdu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmacological research"
+    ],
+    "journal_abbrev": [
+      "Pharmacol Res"
+    ],
+    "pub_date": "2026 Nov 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/04 23:28",
+    "fetched_at": "2026-11-08 08:44:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42982209"
+    ],
+    "review": [
+      "42982209"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1043-6618(26)01638-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

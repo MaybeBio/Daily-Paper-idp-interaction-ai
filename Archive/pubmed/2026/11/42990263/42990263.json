@@ -1,0 +1,140 @@
+{
+  "identity": {
+    "pmid": "42990263",
+    "doi": "10.64898/2026.10.26.762062",
+    "title": "Building synthetic cell-cell synapses using engineered scaffold protein condensates."
+  },
+  "content": {
+    "abstract": "Synaptic assemblies that form at cell-cell junctions are often organized by multivalent scaffold proteins with condensate forming properties. An emerging hypothesis is that these scaffolds provide a thresholding mechanism whereby small increases in the density of cell-cell recognition receptors can trigger all-or-none assembly selectively at the correct partner cell interface. We test this hypothesis by engineering synthetic scaffolded synapses. Coarse-grained simulations suggest that properly-tuned scaffold interactions can yield a sharp condensation threshold. Guided by these simulations, we designed modular scaffold proteins consisting of PDZ domains and intrinsically disordered regions (IDRs) of different molecular grammars. Within a specific region of parameter space, controlled by valency, receptor binding affinity and IDR-driven condensation, the synthetic scaffold proteins exhibit switch-like condensation behaviors, where co-condensates of receptor and scaffold selectively form only at interfaces with the proper partner cell. Notably, orthogonal receptor-scaffold pairs enable a single receiver cell to form multiple distinct interfaces, each associated with a different partner cell. We demonstrate that these synthetic synapse assemblies can recruit different client proteins to enhance intercellular signaling, orient cell division, or sculpt complex synaptic morphologies. Our results illustrate how the ultrasensitive condensation properties of modular scaffold proteins can be harnessed to create novel and highly specific cell-cell interfaces.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shin, Nick Y",
+        "Mitra, Gaurav",
+        "Grodsky, Ania M",
+        "Ruff, Kiersten M",
+        "Chauhan, Gaurav",
+        "Pappu, Rohit V",
+        "Lim, Wendell A"
+      ],
+      "short_names": [
+        "Shin NY",
+        "Mitra G",
+        "Grodsky AM",
+        "Ruff KM",
+        "Chauhan G",
+        "Pappu RV",
+        "Lim WA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3132-502X",
+        "ORCID: 0000-0001-8340-4016",
+        "ORCID: 0009-0007-4255-1838",
+        "ORCID: 0000-0003-3240-1856",
+        "ORCID: 0000-0003-2510-8635",
+        "ORCID: 0000-0003-2568-1378",
+        "ORCID: 0000-0003-4052-8056"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Shin, Nick Y",
+        "short_name": "Shin NY",
+        "identifiers": [
+          "0000-0003-3132-502X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Mitra, Gaurav",
+        "short_name": "Mitra G",
+        "identifiers": [
+          "0000-0001-8340-4016"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Grodsky, Ania M",
+        "short_name": "Grodsky AM",
+        "identifiers": [
+          "0009-0007-4255-1838"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ruff, Kiersten M",
+        "short_name": "Ruff KM",
+        "identifiers": [
+          "0000-0003-3240-1856"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chauhan, Gaurav",
+        "short_name": "Chauhan G",
+        "identifiers": [
+          "0000-0003-2510-8635"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lim, Wendell A",
+        "short_name": "Lim WA",
+        "identifiers": [
+          "0000-0003-4052-8056"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Oct 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/06 11:33",
+    "fetched_at": "2026-11-08 08:44:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42990263"
+    ],
+    "review": [
+      "42990263"
+    ],
+    "pmc": [
+      "13733939"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

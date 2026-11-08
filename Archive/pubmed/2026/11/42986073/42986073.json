@@ -1,0 +1,106 @@
+{
+  "identity": {
+    "pmid": "42986073",
+    "doi": "10.1021/acs.jpcb.6c04695",
+    "title": "FE65 Recognition Rewires the Dynamic Contact Network of the Amyloid Precursor Protein Intracellular Domain."
+  },
+  "content": {
+    "abstract": "The amyloid precursor protein intracellular domain (AICD) is a short, intrinsically disordered signaling fragment that mediates interactions with adaptor proteins involved in APP trafficking and transcription-associated regulation. Among these partners, FE65 recognizes the conserved YENPTY-containing region of AICD, yet the ensemble-level mechanism underlying this interaction remains unclear. Here, we use molecular dynamics simulations to compare unbound and bound AICD together with YENPTY-motif mutant variants. In the unbound state, AICD samples a heterogeneous conformational ensemble dominated by disordered states while retaining transient local structure and recurrent intramolecular contacts. Upon FE65 binding, AICD does not collapse into a single rigid conformation; instead, its conformational ensemble is redistributed toward interaction-compatible substates. Residue-resolved contact analyses identify localized interaction hotspots within and adjacent to the YENPTY region, including aromatic and polar residues that dominate the bound-state contact network. Mutations within the YENPTY motif alter the balance between compact and extended conformations while preserving the intrinsically disordered character of the peptide. Together, these results support a recognition mechanism in which FE65 binds a partially organized AICD ensemble via localized interaction hotspots and ensemble reweighting, rather than through complete disorder-to-order folding. This work provides a molecular framework for understanding APP intracellular-tail recognition and its regulation by sequence-localized perturbations. More broadly, these findings illustrate how intrinsically disordered motifs can achieve specific molecular recognition through redistribution of dynamic contact networks without undergoing complete disorder-to-order transitions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*Amyloid beta-Protein Precursor/chemistry/metabolism/genetics",
+      "*Nerve Tissue Proteins/chemistry/metabolism/genetics",
+      "*Nuclear Proteins/chemistry/metabolism",
+      "Protein Binding",
+      "Humans",
+      "Protein Domains",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mandal, Nabanita",
+        "Skepo, Marie"
+      ],
+      "short_names": [
+        "Mandal N",
+        "Skepo M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8639-9993"
+      ],
+      "affiliations": [
+        "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, P.O. Box 124, 221 00Lund, Sweden.",
+        "NanoLund, Lund University, Box 118, 221 00Lund, Sweden.",
+        "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, P.O. Box 124, 221 00Lund, Sweden.",
+        "NanoLund, Lund University, Box 118, 221 00Lund, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mandal, Nabanita",
+        "short_name": "Mandal N",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, P.O. Box 124, 221 00Lund, Sweden.",
+          "NanoLund, Lund University, Box 118, 221 00Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Skepö, Marie",
+        "short_name": "Skepö M",
+        "identifiers": [
+          "0000-0002-8639-9993"
+        ],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, P.O. Box 124, 221 00Lund, Sweden.",
+          "NanoLund, Lund University, Box 118, 221 00Lund, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Nov 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/05 11:46",
+    "fetched_at": "2026-11-08 08:44:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42986073"
+    ],
+    "review": [
+      "42986073"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.6c04695",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}
